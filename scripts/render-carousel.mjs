@@ -11,18 +11,19 @@ await fs.mkdir(outDir,{recursive:true});
 const COLORS={AI:'#7d5cff','AI AGENT':'#7d5cff','DEV TOOLS':'#7d5cff','CODING':'#7d5cff','HARDWARE':'#2f79ff','ROBOTICS':'#ff784b','GAME':'#ff4d5f','GAME AI':'#ff4d5f','VALORANT':'#ff4d5f','SCIENCE':'#2fc98f','CLOUD':'#39a6ff','AI SEARCH':'#8a67ff'};
 const esc=s=>String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&apos;'}[m]));
 const clip=(s,n)=>[...String(s??'')].slice(0,n).join('');
-const split=(text,max)=>{const chars=[...String(text??'')],lines=[];let line='';for(const ch of chars){if(ch==='\n'||[...line].length>=max){if(line.trim())lines.push(line.trim());line=ch==='\n'?'':ch}else line+=ch}if(line.trim())lines.push(line.trim());return lines};
-const tspans=(text,x,y,max,size,lh,weight=700)=>split(text,max).map((l,i)=>`<tspan x="${x}" y="${y+i*lh}" font-size="${size}" font-weight="${weight}">${esc(l)}</tspan>`).join('');
+const wrap=(text,max)=>{const paras=String(text??'').split('\n'),lines=[];for(const para of paras){const words=para.trim().split(/\s+/).filter(Boolean);let line='';for(const word of words){const next=line?`${line} ${word}`:word;if([...next].length<=max){line=next;continue}if(line)lines.push(line);if([...word].length<=max){line=word;continue}let chunk='';for(const ch of [...word]){if([...chunk].length>=max){lines.push(chunk);chunk=''}chunk+=ch}line=chunk}if(line)lines.push(line)}return lines};
+const tspans=(text,x,y,max,size,lh,weight=700)=>wrap(text,max).map((l,i)=>`<tspan x="${x}" y="${y+i*lh}" font-size="${size}" font-weight="${weight}">${esc(l)}</tspan>`).join('');
 const sent=(text,n=130)=>{const s=String(text??'').replace(/\s+/g,' ').trim();return clip(s,n)+(s.length>n?'…':'')};
+const firstSentence=text=>{const s=String(text??'').replace(/\s+/g,' ').trim();const m=s.match(/^.*?[.!?](?:\s|$)/);return sent(m?m[0].trim():s,72)};
 const accent=s=>COLORS[s?.category]||'#7d5cff';
 const handle=issue.handle||'@daily_tech_magazine';
 
 const card=s=>({
   stat:s.card?.stat||s.card?.keyword||s.category,
   headline:s.card?.headline||s.headline,
-  what:s.card?.what||sent(s.facts,145),
-  why:s.card?.why||sent(s.whyItMatters,105),
-  next:s.card?.next||sent(s.outlook,110),
+  what:sent(s.card?.what||s.facts,112),
+  why:sent(s.card?.why||s.whyItMatters,88),
+  next:sent(s.card?.next||s.outlook,92),
   hook:s.card?.hook||s.card?.headline||s.headline
 });
 
@@ -74,7 +75,7 @@ for(let i=0;i<3;i++){
   await save(i+2,frame(body),v);
 }
 
-// 5 — visual recap, no source wall
+// 5 — visual recap, no source wall or text wall
 {
   const thumbW=360,thumbH=540;
   const base=sharp({create:{width:W,height:H,channels:3,background:'#080a10'}});
@@ -84,7 +85,9 @@ for(let i=0;i<3;i++){
     if(img) comps.push({input:img,left:i*thumbW,top:0});
   }
   const montage=await base.composite(comps).png().toBuffer();
-  const body=frame(`<rect width="1080" height="1350" fill="url(#deep)"/><rect x="0" y="500" width="1080" height="850" fill="#07080d" fill-opacity=".88"/><text x="70" y="640" font-size="18" font-weight="800" fill="#fff" fill-opacity=".66" letter-spacing="3">TODAY IN ONE LINE</text><text>${tspans(issue.dailyAnalysis,70,760,18,55,68,900)}</text><line x1="70" y1="1115" x2="1010" y2="1115" stroke="#fff" stroke-opacity=".14"/><text x="70" y="1190" font-size="21" font-weight="700" fill="#fff" fill-opacity=".72">저장해두고 내일도 보기</text><text x="70" y="1262" font-size="38" font-weight="900">${esc(handle)}</text><text x="1010" y="1262" text-anchor="end" font-size="15" fill="#fff" fill-opacity=".45">상세 출처 · 이미지 라이선스는 캡션</text>${wm()}`);
+  const recap=issue.recap||issue.cover?.recap||firstSentence(issue.dailyAnalysis);
+  const chips=topStories.map((s,i)=>`<g transform="translate(${70+i*310} 1060)"><rect width="270" height="42" rx="21" fill="#fff" fill-opacity=".08"/><text x="135" y="28" text-anchor="middle" font-size="15" font-weight="800" fill="#fff" fill-opacity=".76">0${i+1} · ${esc(s.category)}</text></g>`).join('');
+  const body=frame(`<rect width="1080" height="1350" fill="url(#deep)"/><rect x="0" y="500" width="1080" height="850" fill="#07080d" fill-opacity=".88"/><text x="70" y="640" font-size="18" font-weight="800" fill="#fff" fill-opacity=".66" letter-spacing="3">TODAY IN ONE LINE</text><text>${tspans(recap,70,755,16,58,72,900)}</text>${chips}<line x1="70" y1="1155" x2="1010" y2="1155" stroke="#fff" stroke-opacity=".14"/><text x="70" y="1210" font-size="19" font-weight="700" fill="#fff" fill-opacity=".66">저장해두고 내일도 보기</text><text x="70" y="1272" font-size="34" font-weight="900">${esc(handle)}</text><text x="1010" y="1272" text-anchor="end" font-size="14" fill="#fff" fill-opacity=".42">상세 출처 · 이미지 라이선스는 캡션</text>${wm()}`);
   const file=path.join(outDir,'slide-05.jpg');
   await sharp(montage).composite([{input:Buffer.from(body)}]).jpeg({quality:93,mozjpeg:true}).toFile(file);
   console.log(file);
@@ -96,7 +99,7 @@ const caption=[
   `[${issue.date}] 오늘 볼 만한 AI·테크 뉴스 TOP 3`,
   '',
   ...topStories.flatMap((s,i)=>{const c=card(s);return [`${i+1}. ${c.headline}`,`무슨 일? ${c.what}`,`왜 중요? ${c.why}`,`다음엔? ${c.next}`,''];}),
-  `오늘 한 줄: ${issue.dailyAnalysis}`,
+  `오늘 한 줄: ${issue.recap||firstSentence(issue.dailyAnalysis)}`,
   '',
   '출처',...sourceLines,
   ...(visualLines.length?['','이미지 출처',...visualLines]:[]),
