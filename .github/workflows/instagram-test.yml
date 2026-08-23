@@ -7,16 +7,31 @@ on:
         required: true
         default: false
         type: boolean
+permissions:
+  contents: write
 jobs:
   test:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: 22
+      - run: sudo apt-get update && sudo apt-get install -y fonts-noto-cjk
       - run: npm install
+      - name: Render current carousel
+        run: |
+          npm run validate
+          npm run render
+          npm run verify-output
+      - name: Commit public carousel files
+        run: |
+          git config user.name "daily-tech-instagram-test"
+          git config user.email "daily-tech-instagram-test@users.noreply.github.com"
+          git add public/output
+          git diff --cached --quiet || git commit -m "render: prepare current Instagram test carousel"
+          git push
       - name: Check Instagram connection
         env:
           INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
