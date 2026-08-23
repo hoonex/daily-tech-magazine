@@ -1,0 +1,1 @@
+Reusable visuals are optional. The automated editor should attach them only when the license is explicitly verified and stored with credit, license, source URL, and `reuseAllowed: true`. Otherwise the renderer falls back to an original graphical background.
