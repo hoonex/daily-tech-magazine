@@ -17,3 +17,9 @@ jobs:
       - run: npm run validate
       - run: npm run render
       - run: npm run verify-output
+      - name: Upload carousel preview
+        uses: actions/upload-artifact@v4
+        with:
+          name: carousel-preview
+          path: public/output/
+          retention-days: 3

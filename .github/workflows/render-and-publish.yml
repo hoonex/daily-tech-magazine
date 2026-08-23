@@ -4,6 +4,11 @@ on:
     branches: [main]
     paths:
       - 'content/**.json'
+  schedule:
+    # 07:20 Asia/Seoul = 22:20 UTC on the previous day.
+    # This is the reliable fallback when a connector-authored content commit
+    # does not emit a push-triggered workflow run.
+    - cron: '20 22 * * *'
   workflow_dispatch:
 permissions:
   contents: write
