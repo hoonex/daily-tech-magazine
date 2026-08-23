@@ -1,0 +1,19 @@
+name: CI
+on:
+  pull_request:
+  workflow_dispatch:
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: sudo apt-get update && sudo apt-get install -y fonts-noto-cjk
+      - run: npm install
+      - run: npm run check
+      - run: npm run validate
+      - run: npm run render
+      - run: npm run verify-output
