@@ -1,0 +1,11 @@
+const token=process.env.INSTAGRAM_ACCESS_TOKEN;
+const userId=process.env.INSTAGRAM_USER_ID;
+const version=process.env.INSTAGRAM_API_VERSION;
+const host=process.env.INSTAGRAM_GRAPH_HOST||'graph.instagram.com';
+if(!token||!userId||!version) throw new Error('Set INSTAGRAM_ACCESS_TOKEN, INSTAGRAM_USER_ID and INSTAGRAM_API_VERSION');
+const q=new URLSearchParams({fields:'id,username',access_token:token});
+const url=`https://${host}/${version}/${userId}?${q}`;
+const r=await fetch(url,{headers:{'user-agent':'DailyTechMagazine/1.0'}});
+const j=await r.json();
+if(!r.ok||j.error) throw new Error(`Instagram connection failed: ${j.error?.message||r.status}`);
+console.log(`Instagram connection OK: @${j.username||'unknown'} (${j.id||userId}) via ${host}/${version}`);
