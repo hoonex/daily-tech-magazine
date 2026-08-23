@@ -12,6 +12,13 @@ for(const [i,s] of issue.stories.entries()){
   if(!['confirmed','unconfirmed'].includes(s.status)) fail(`invalid status for ${s.id}`);
   if(!Array.isArray(s.sources)||s.sources.length<1) fail(`${s.id} needs at least one source`);
   for(const src of s.sources){if(!src.name||!/^https:\/\//.test(src.url||'')) fail(`${s.id} has invalid source`)}
+  if(s.visual!==undefined){
+    const v=s.visual;
+    if(v===null||typeof v!=='object') fail(`${s.id}.visual must be an object`);
+    for(const key of ['url','credit','license','sourceUrl']) if(!String(v[key]??'').trim()) fail(`${s.id}.visual.${key} is required`);
+    if(!/^https:\/\//.test(v.url)||!/^https:\/\//.test(v.sourceUrl)) fail(`${s.id} visual URLs must be HTTPS`);
+    if(v.reuseAllowed!==true) fail(`${s.id}.visual.reuseAllowed must be true; otherwise omit visual`);
+  }
 }
 for(const id of issue.top3) if(!ids.has(id)) fail(`top3 id not found: ${id}`);
 if(!String(issue.dailyAnalysis??'').trim()) fail('dailyAnalysis is required');
