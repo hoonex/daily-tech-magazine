@@ -1,0 +1,19 @@
+{
+  "name": "daily-tech-magazine",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "node --check app.js && node --check scripts/render-carousel.mjs && node --check scripts/publish-instagram.mjs && node --check scripts/validate-content.mjs",
+    "validate": "node scripts/validate-content.mjs content/latest.json",
+    "render": "node scripts/render-carousel.mjs content/latest.json",
+    "publish": "node scripts/publish-instagram.mjs content/latest.json",
+    "verify-output": "node scripts/verify-output.mjs content/latest.json"
+  },
+  "dependencies": {
+    "sharp": "^0.34.3"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
