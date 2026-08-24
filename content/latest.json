@@ -1,228 +1,228 @@
 {
-  "date": "2026-08-24",
-  "edition": 2,
+  "date": "2026-08-25",
+  "edition": 3,
   "brand": "DAILY TECH",
   "handle": "@daily_tech_magazine",
-  "deckTitle": "돈·보안·칩까지 AI 판이 다시 흔들렸다",
-  "deckSubtitle": "AI · 개발도구 · 하드웨어 · 게임 · 로봇",
+  "deckTitle": "코딩 비용은 내려가고, 로봇·칩은 더 커졌다",
+  "deckSubtitle": "AI · 개발도구 · 로봇 · 칩 · 게임 · 퀀텀",
   "top3": [
-    "nvidia-poolside-open-models",
-    "anthropic-mythos5-defense",
-    "google-marvell-custom-chips"
+    "gpt56-kiro-cost",
+    "xpeng-robotics-record-round",
+    "xiaomi-xring-o3"
   ],
-  "dailyAnalysis": "오늘은 AI 경쟁이 모델 성능만의 싸움이 아니라 자본, 보안, 전용 칩, 개발 워크플로까지 동시에 확장되고 있다는 점이 두드러진다. NVIDIA는 오픈웨이트 모델 생태계에 더 깊이 들어가고, Anthropic은 최상급 사이버 역량을 방어 용도로 제한 배포하며, Google은 자체 AI 칩 공급망에 거액의 선택권을 얹었다. 동시에 Codex·Claude 플랫폼은 실제 업무 표면을 넓히고 있다.",
-  "recap": "AI 경쟁이 모델에서 자본·보안·전용칩 생태계로 확장 중",
+  "dailyAnalysis": "오늘은 AI 경쟁이 ‘더 큰 모델’ 하나로 설명되지 않는다. 개발도구에서는 같은 프런티어 모델을 더 싸고 안정적으로 굴리는 구조가 중요해지고, 로봇에서는 대규모 자본과 양산 목표가 붙기 시작했으며, 스마트폰 회사들은 자체 AI 칩으로 공급망과 제품 차별화를 직접 통제하려 한다. 동시에 메인프레임·우주 데이터센터·양자 냉각처럼 AI 주변 인프라도 빠르게 재설계되고 있다.",
+  "recap": "AI 경쟁이 모델 성능에서 비용·양산·자체칩 설계로 이동 중",
   "cover": {
-    "stat": "$6B",
-    "title": "NVIDIA가 모델 회사까지\n직접 키우기 시작했다",
-    "subtitle": "오늘 가장 큰 AI · 보안 · 칩 뉴스 TOP 3"
+    "stat": "82% ↓비용",
+    "title": "GPT‑5.6 코딩 비용을\nKiro가 크게 줄였다",
+    "subtitle": "오늘 가장 흥미로운 개발도구 · 로봇 · 칩 뉴스 TOP 3"
   },
   "stories": [
     {
-      "id": "nvidia-poolside-open-models",
-      "category": "AI MODELS",
-      "headline": "NVIDIA, Poolside에 60억달러 걸고 오픈웨이트 모델 전쟁 가속",
-      "facts": "월스트리트저널은 NVIDIA가 AI 코딩 스타트업 Poolside의 기술을 라이선스하고 엔지니어를 영입하는 데 약 60억달러를 투입한다고 보도했다. 100명 넘는 Poolside 엔지니어가 NVIDIA의 Nemotron 계열 모델 개발에 합류할 것으로 전해졌다. 목표는 DeepSeek·Kimi 같은 강력한 중국계 오픈웨이트 모델에 맞설 미국산 대안을 키우는 것이다.",
-      "whyItMatters": "GPU 판매사가 모델 생태계까지 직접 끌어안으면 NVIDIA는 칩뿐 아니라 오픈 모델·도구·런타임까지 수직 통합할 수 있다.",
-      "analysis": "NVIDIA가 고객인 OpenAI·Anthropic과 정면 경쟁하기보다, 오픈웨이트 생태계를 키워 자사 하드웨어 수요를 넓히는 전략으로 보인다.",
-      "outlook": "향후 6~24개월은 Nemotron과 Poolside 기술이 실제 코딩 에이전트 품질에서 DeepSeek·Kimi 계열과 얼마나 격차를 줄이는지가 핵심이다.",
+      "id": "gpt56-kiro-cost",
+      "category": "CODING AGENT",
+      "headline": "GPT‑5.6가 Kiro에 들어갔다…OpenAI·AWS 테스트서 성공 과제 비용 약 82% 절감",
+      "facts": "OpenAI는 8월 24일 GPT‑5.6 Sol·Terra·Luna가 AWS의 소프트웨어 개발 에이전트 Kiro에서 제공된다고 발표했다. Kiro는 요구사항을 기술 설계와 실행 가능한 작업으로 구조화하는 spec-driven 개발 방식을 쓴다. OpenAI와 AWS의 Terminal-Bench 2.1 테스트에서 GPT‑5.6 Terra는 Kiro 환경의 성공 과제 비용을 약 82% 줄였다고 밝혔다. 모델 선택을 개발 단계별로 달리해 지능·속도·비용을 맞추는 구조도 강조됐다.",
+      "whyItMatters": "코딩 에이전트 경쟁이 단순 벤치마크 점수보다 ‘성공한 작업 하나를 얼마에 끝내느냐’로 이동하고 있다는 구체적인 사례다.",
+      "analysis": "같은 모델이라도 요구사항 구조화, 테스트, 체크포인트 같은 하네스 설계가 토큰 낭비와 재시도를 크게 줄일 수 있다는 점을 보여준다.",
+      "outlook": "6~24개월 동안 Codex·Claude Code·Kiro·Copilot이 모델 성능뿐 아니라 성공 과제당 비용과 장기 작업 완주율을 핵심 지표로 내세울 가능성이 높다.",
       "status": "confirmed",
       "sources": [
         {
-          "name": "Wall Street Journal",
-          "url": "https://www.wsj.com/tech/ai/nvidia-is-spending-6-billion-to-build-a-powerful-u-s-alternative-to-chinese-ai-c51c38cc"
+          "name": "OpenAI",
+          "url": "https://openai.com/index/gpt-5-6-in-kiro/"
         }
       ],
       "card": {
-        "stat": "$6B",
-        "headline": "NVIDIA가 모델 회사까지 키운다",
-        "what": "NVIDIA가 Poolside 기술 라이선스와 인력 영입에 약 60억달러를 투입해 강력한 오픈웨이트 모델 개발을 밀어붙인다.",
-        "why": "칩 회사가 모델·도구 생태계까지 직접 장악하려는 움직임이다.",
-        "next": "Nemotron 계열이 DeepSeek·Kimi급 오픈 모델과 실제 코딩 에이전트에서 경쟁할지 주목.",
-        "hook": "GPU 회사가 이제 모델 전쟁에도 60억달러를 건다"
+        "stat": "82% ↓비용",
+        "headline": "같은 GPT‑5.6, 비용이 크게 줄었다",
+        "what": "GPT‑5.6 Sol·Terra·Luna가 Kiro에 들어갔고, Terra는 Terminal-Bench 2.1 성공 과제 비용을 약 82% 줄였다.",
+        "why": "이제 코딩 에이전트 경쟁은 모델 IQ뿐 아니라 성공 작업당 비용 싸움이다.",
+        "next": "Codex·Claude Code·Kiro가 하네스 최적화로 비용과 완주율을 얼마나 더 줄일지 주목.",
+        "hook": "코딩 AI 경쟁, 이제 ‘얼마나 싸게 끝내느냐’가 중요해졌다"
       },
       "visual": {
-        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/NVIDIA_GPU.jpg",
-        "credit": "Mickael Courtiade",
-        "license": "CC BY 2.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:NVIDIA_GPU.jpg",
-        "reuseAllowed": true,
-        "modified": "cropped and darkened"
-      }
-    },
-    {
-      "id": "anthropic-mythos5-defense",
-      "category": "AI SECURITY",
-      "headline": "Anthropic, Mythos 5를 방어팀에 풀고 오픈소스 보안에 3500만달러",
-      "facts": "Anthropic은 8월 21일 Claude Mythos 5를 Claude Security 스캔에 적용하고 사이버 방어 파트너 도구로 확대한다고 발표했다. Enterprise 고객은 Mythos 5로 코드베이스 취약점을 스캔하고 수정안을 받을 수 있다. 동시에 오픈소스 보안을 위한 Defender Advantage Fund에 3500만달러 상당의 크레딧을 배정했다.",
-      "whyItMatters": "강한 사이버 능력을 모델 자체로 공개하기보다 취약점 탐지·패치 같은 제한된 출력으로 제공하는 새로운 배포 방식이다.",
-      "analysis": "프런티어 모델의 사이버 능력이 커질수록 '모델 접근권'과 '방어 결과 접근권'을 분리하는 제품 구조가 늘어날 가능성이 높다.",
-      "outlook": "향후 6~24개월은 보안 스캐너·CI/CD·코드 리뷰에 초고성능 모델이 뒤에서 제한적으로 붙는 형태가 표준화되는지 볼 만하다.",
-      "status": "confirmed",
-      "sources": [
-        {
-          "name": "Anthropic",
-          "url": "https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders"
-        }
-      ],
-      "card": {
-        "stat": "$35M",
-        "headline": "최강급 Claude를 보안에 먼저 푼다",
-        "what": "Anthropic이 Mythos 5를 Claude Security에 적용하고 오픈소스 보안을 위해 3500만달러 규모의 크레딧 펀드도 만들었다.",
-        "why": "강한 사이버 능력을 원본 모델 대신 방어 결과 형태로 제한 배포한다는 점이 핵심이다.",
-        "next": "AI 보안 도구가 취약점 탐지뿐 아니라 패치 생성·검증까지 자동화하는지 주목.",
-        "hook": "최강급 Claude는 먼저 '방어용'으로 풀렸다"
-      },
-      "visual": {
-        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Anthropic.png",
-        "credit": "Anthropic",
-        "license": "Public Domain",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Anthropic.png",
-        "reuseAllowed": true,
-        "modified": "cropped and darkened"
-      }
-    },
-    {
-      "id": "google-marvell-custom-chips",
-      "category": "AI HARDWARE",
-      "headline": "Google, Marvell에 최대 122억달러 지분 선택권…자체 AI칩 공급망 확대",
-      "facts": "Reuters에 따르면 Marvell은 Google의 맞춤형 AI 칩 개발을 지원하며 Google에 최대 5897만주를 주당 206.58달러에 살 수 있는 워런트를 제공했다. 전량 행사 시 약 122억달러 규모다. 계약은 조건 충족 시 Marvell에 2033회계연도까지 최대 약 1200억달러 매출 기회를 줄 수 있다.",
-      "whyItMatters": "Google이 TPU와 관련 인프라 공급망을 Broadcom 한 곳에 덜 의존하고 자체 AI 컴퓨팅의 비용·공급 통제력을 높이는 신호다.",
-      "analysis": "빅테크가 NVIDIA GPU만 사는 시대에서 벗어나 맞춤형 ASIC, 네트워크, 메모리까지 직접 설계·조달하는 방향이 더 강해지고 있다.",
-      "outlook": "향후 6~24개월은 Google TPU 공급망에서 Marvell 비중이 실제로 커지는지, Broadcom과의 역할 분담이 어떻게 바뀌는지가 관전 포인트다.",
-      "status": "confirmed",
-      "sources": [
-        {
-          "name": "Reuters",
-          "url": "https://www.reuters.com/technology/marvell-grants-google-122-billion-stock-warrant-custom-chip-deal-2026-08-19/"
-        }
-      ],
-      "card": {
-        "stat": "$12.2B",
-        "headline": "Google이 AI칩 공급망을 다시 짠다",
-        "what": "Google이 Marvell에 최대 122억달러 규모 지분 선택권을 주는 맞춤형 AI 칩 계약을 맺었다.",
-        "why": "TPU 공급망을 다변화해 NVIDIA·Broadcom 의존과 비용 압박을 줄이려는 움직임이다.",
-        "next": "Marvell이 Google TPU·네트워크·스토리지 쪽에서 얼마나 큰 비중을 가져갈지 주목.",
-        "hook": "AI칩 한 계약에 걸린 지분 선택권이 122억달러"
-      },
-      "visual": {
-        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Front_of_server_racks_at_NERSC.jpg",
-        "credit": "Derrick Coetzee",
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/RustCodeOnScreen.jpg",
+        "credit": "Slashme",
         "license": "CC0 1.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Front_of_server_racks_at_NERSC.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:RustCodeOnScreen.jpg",
         "reuseAllowed": true,
         "modified": "cropped and darkened"
       }
     },
     {
-      "id": "openai-cyber-pacing",
-      "category": "OPENAI",
-      "headline": "OpenAI, 사이버 위험 때문에 최신 모델 RL 스케일링을 2주 늦췄다",
-      "facts": "OpenAI는 8월 18일 최근 보안 사건과 차기 모델 Astra의 사이버 능력 평가를 이유로 최신 배포 예정 모델의 강화학습 스케일링을 2주간 일시 중단했다고 밝혔다. 연구 환경의 모니터링·정렬·격리 방어를 강화하고 레드팀 범위를 늘리는 데 시간을 썼다. OpenAI는 고성능 모델 개발 속도 자체를 보안 준비도에 맞춰 조절하겠다는 입장이다.",
-      "whyItMatters": "프런티어 모델 개발에서 '더 빨리 학습'보다 내부 보안·격리 능력이 실제 출시 일정을 좌우하는 단계에 들어갔다는 신호다.",
-      "analysis": "사이버 임계 능력을 넘는 모델은 앞으로 단순 API 정책이 아니라 학습 인프라와 연구자 권한까지 포함한 통제가 필요해질 가능성이 크다.",
-      "outlook": "향후 6~24개월은 주요 AI 연구소가 모델 출시 전 사이버 능력 평가와 학습 중단 기준을 더 구체적으로 공개하는지 주목할 만하다.",
-      "status": "confirmed",
-      "sources": [
-        {
-          "name": "OpenAI",
-          "url": "https://openai.com/index/pacing-model-development-cyber-capabilities/"
-        }
-      ]
-    },
-    {
-      "id": "codex-gitlab-beta",
-      "category": "CODEX",
-      "headline": "Codex cloud가 GitLab까지 들어갔다",
-      "facts": "OpenAI는 8월 19일 Codex cloud의 GitLab 지원을 베타로 공개했다. GitLab 프로젝트를 연결해 이슈나 머지리퀘스트에서 @codex로 작업을 시작하고 일회성 또는 자동 MR 리뷰를 요청할 수 있다. 모든 ChatGPT 플랜에서 베타로 제공되며 관리형 워크스페이스에서는 관리자가 연결을 제어할 수 있다.",
-      "whyItMatters": "Codex가 GitHub 중심 도구에서 GitLab의 이슈·MR 워크플로까지 확장되면서 실제 기업 개발 환경 진입 범위가 넓어졌다.",
-      "analysis": "코딩 에이전트 경쟁은 IDE 기능보다 GitHub/GitLab/Jira 같은 업무 시스템에 얼마나 자연스럽게 붙는지가 더 중요해질 수 있다.",
-      "outlook": "향후 6~24개월은 GitLab CI/CD와 Codex 작업이 얼마나 긴밀하게 연결되고 자동 리뷰의 신뢰도가 어느 수준까지 올라가는지가 핵심이다.",
-      "status": "confirmed",
-      "sources": [
-        {
-          "name": "OpenAI",
-          "url": "https://openai.com/products/release-notes/"
-        }
-      ]
-    },
-    {
-      "id": "claude-agent-apis-ga",
-      "category": "CLAUDE PLATFORM",
-      "headline": "Claude computer use·Skills·Files API 정식 출시",
-      "facts": "Anthropic은 8월 20일 computer use, Skills API, Files API를 Claude Platform에서 정식 제공한다고 발표했다. computer use에는 웹앱의 구조를 읽고 특정 필드나 버튼을 직접 조작하는 browser use 도구도 추가됐다. 개발자는 파일을 유지하고 팀별 전문 지식을 Skill로 묶어 에이전트에 적용할 수 있다.",
-      "whyItMatters": "에이전트가 단순 채팅을 넘어 실제 웹·파일·업무 소프트웨어를 조작하는 데 필요한 기본 부품이 플랫폼 기능으로 굳어지고 있다.",
-      "analysis": "MCP와 별개로 각 모델사가 자체 '에이전트 런타임 표준'을 강화하면서 플랫폼 락인 경쟁도 커질 가능성이 있다.",
-      "outlook": "향후 6~24개월은 브라우저 조작 정확도, 비용, 장기 실행 안정성이 기업 자동화 도입의 승부처가 될 것이다.",
-      "status": "confirmed",
-      "sources": [
-        {
-          "name": "Anthropic",
-          "url": "https://claude.com/blog/computer-use-skills-api-files-api"
-        }
-      ]
-    },
-    {
-      "id": "amd-cpu-share-record",
-      "category": "PC HARDWARE",
-      "headline": "AMD, x86 클라이언트 CPU 점유율 첫 30% 돌파",
-      "facts": "Mercury Research 자료를 인용한 Tom's Hardware에 따르면 AMD의 2026년 2분기 x86 클라이언트 CPU 출하 점유율은 30.3%로 사상 최고치를 기록했다. 데스크톱은 34.9%, 모바일은 28.9%였다. 전체 x86 시장에서도 AMD는 30.7%까지 올라갔다.",
-      "whyItMatters": "Intel이 여전히 과반을 차지하지만 노트북·데스크톱 모두에서 AMD가 장기적으로 점유율을 빼앗고 있다는 흐름이 명확하다.",
-      "analysis": "제품 경쟁력뿐 아니라 OEM 채택, 서버 EPYC 성장, Intel 공급 회복 이후에도 AMD가 점유율을 유지하는지가 중요하다.",
-      "outlook": "향후 6~24개월은 차세대 Ryzen 모바일과 서버 EPYC가 30%대 점유율을 일시적 기록이 아니라 구조적 수준으로 만드는지 볼 만하다.",
-      "status": "confirmed",
-      "sources": [
-        {
-          "name": "Tom's Hardware",
-          "url": "https://www.tomshardware.com/pc-components/cpus/desktop-cpu-shipments-crater-20-percent-amid-high-component-costs-but-amd-gains-record-share-despite-ugly-desktop-processor-market-intel-floods-laptop-market-with-millions-of-cpus-but-amd-still-sets-all-time-share-records"
-        }
-      ]
-    },
-    {
-      "id": "physical-games-record-low",
-      "category": "GAMING",
-      "headline": "미국 실물 게임 지출, 집계 시작한 1995년 이후 최저",
-      "facts": "Circana 자료를 인용한 Tom's Hardware에 따르면 미국의 신작 실물 게임 지출은 2026년 7월 8500만달러로 집계 이래 최저치를 기록했다. 콘솔 판매량은 전년 동월 대비 39% 줄었고 평균 구매 가격은 16% 오른 542달러였다. 하드웨어 매출도 29% 감소한 2억8200만달러였다.",
-      "whyItMatters": "디지털 전환과 동시에 메모리·부품 비용 상승이 콘솔 가격을 밀어 올리면서 게임 하드웨어 시장의 진입 장벽도 높아지고 있다.",
-      "analysis": "GTA VI 같은 초대형 신작이 단기 반등을 만들 수는 있어도 실물 미디어와 콘솔 판매의 구조적 하락을 되돌리기는 어려울 수 있다.",
-      "outlook": "향후 6~24개월은 콘솔 가격 인상과 디지털 전용 유통이 더 확대되는지, GTA VI가 하드웨어 교체 수요를 얼마나 끌어내는지 주목할 만하다.",
-      "status": "confirmed",
-      "sources": [
-        {
-          "name": "Tom's Hardware",
-          "url": "https://www.tomshardware.com/video-games/console-gaming/us-console-sales-fall-39-percent-in-july-as-memory-costs-push-average-price-to-542"
-        }
-      ]
-    },
-    {
-      "id": "gta6-leak-subpoenas",
-      "category": "GAME DEV",
-      "headline": "GTA VI 유출 추적에 Microsoft·Discord 소환장",
-      "facts": "Take-Two는 GTA VI 영상 유출자를 특정하기 위해 Microsoft와 Discord에 사용자 기록을 요구하는 DMCA 소환장을 신청했다. Game Developer에 따르면 제출 기한은 9월 4일이며 유출 주체로 알려진 CyberLeek 관련 정보를 찾는 것이 목적이다. 최근 유출은 플레이 가능한 빌드에 접근했을 가능성까지 제기하고 있다.",
-      "whyItMatters": "대형 게임의 빌드·영상 유출이 단순 커뮤니티 문제를 넘어 클라우드 계정·협업도구·개발 인프라 보안 문제로 확대되고 있다.",
-      "analysis": "대형 스튜디오는 앞으로 테스트 빌드에 더 강한 워터마킹, 접근 추적, 최소 권한 원칙을 적용할 가능성이 높다.",
-      "outlook": "향후 6~24개월은 게임 개발사의 내부 빌드 보안과 협력사 계정 통제가 강화되고 유출 추적에 디바이스 식별자가 더 자주 쓰이는지 주목해야 한다.",
-      "status": "confirmed",
-      "sources": [
-        {
-          "name": "Game Developer",
-          "url": "https://www.gamedeveloper.com/business/rockstar-subpoenas-microsoft-and-discord-in-bid-to-halt-extensive-grand-theft-auto-vi-leak"
-        }
-      ]
-    },
-    {
-      "id": "aimoga-robot-ipo",
+      "id": "xpeng-robotics-record-round",
       "category": "ROBOTICS",
-      "headline": "Chery 로봇 계열사 AiMOGA, IPO 준비…내년 1만대 목표",
-      "facts": "Reuters에 따르면 Chery 계열 AiMOGA Robotics는 기술 투자와 성장 자금을 위해 IPO를 준비 중이며 복수의 상장 장소를 논의하고 있다. 2025년 설립 이후 3000대가 넘는 로봇을 공급했고 이 중 약 2000대가 해외에 배치됐다. 회사는 내년 전 세계 1만대 공급을 목표로 하고 있다.",
-      "whyItMatters": "중국 휴머노이드 산업이 시연 단계에서 실제 출하·해외 매출·상장 자금 조달 단계로 빠르게 넘어가고 있다는 사례다.",
-      "analysis": "자동차 업체가 EV에서 쌓은 공급망·제조 역량을 로봇에 재활용하면서 중국 로봇의 가격 경쟁력이 더 빨리 커질 수 있다.",
-      "outlook": "향후 6~24개월은 AiMOGA·Unitree 같은 업체의 실제 반복 주문과 해외 규제 대응이 상용화 속도를 가를 가능성이 높다.",
+      "headline": "XPeng 로봇 사업, 첫 투자 라운드서 9억달러 이상…기업가치 63억달러 돌파",
+      "facts": "Reuters에 따르면 XPeng의 로봇 사업부는 첫 외부 투자 라운드에서 9억달러 이상을 조달했다. 투자 후 기업가치는 63억달러 이상으로 평가됐으며 IDG Capital이 라운드를 이끌고 Tencent와 Alibaba 등도 참여했다. 자금은 로봇 하드웨어·소프트웨어, physical AI 모델, 데이터 수집, 양산 시설과 해외 확장에 쓰일 예정이다. XPeng은 2026년 말 IRON 휴머노이드를 월 1,000대 생산하는 목표도 제시했다.",
+      "whyItMatters": "휴머노이드 산업이 데모 경쟁을 넘어 수십억달러 기업가치와 월 단위 양산 목표를 가진 제조업 단계로 이동하고 있다.",
+      "analysis": "자동차 업체는 배터리·모터·공급망·공장 자동화 경험을 로봇에 재사용할 수 있어 순수 로봇 스타트업보다 양산 전환에서 유리할 수 있다.",
+      "outlook": "2027년 실제 상업 판매가 시작될 때 월 1,000대 생산 목표가 유지되는지, 산업·리테일 현장에서 반복 구매가 발생하는지가 핵심이다.",
       "status": "confirmed",
       "sources": [
         {
           "name": "Reuters",
-          "url": "https://www.reuters.com/business/autos-transportation/cherys-robot-affiliate-aimoga-eyes-ipo-targets-overseas-2026-08-21/"
+          "url": "https://www.reuters.com/business/retail-consumer/xpeng-says-its-robotics-business-raised-over-900-million-first-funding-round-2026-08-24/"
+        }
+      ],
+      "card": {
+        "stat": "$900M+",
+        "headline": "휴머노이드에 9억달러가 몰렸다",
+        "what": "XPeng 로봇 사업이 첫 투자 라운드에서 9억달러 이상을 조달했고 기업가치는 63억달러를 넘겼다.",
+        "why": "로봇 경쟁이 영상 데모에서 실제 공장·양산 자본 경쟁으로 넘어가는 신호다.",
+        "next": "2026년 말 월 1,000대 IRON 생산 목표와 2027년 상업 판매가 실제로 이어질지 주목.",
+        "hook": "휴머노이드 한 사업부 가치가 벌써 63억달러"
+      },
+      "visual": {
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Humanoid_robot_is_being_programmed.jpg",
+        "credit": "ZhanatKappassov",
+        "license": "CC0 1.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Humanoid_robot_is_being_programmed.jpg",
+        "reuseAllowed": true,
+        "modified": "cropped and darkened"
+      }
+    },
+    {
+      "id": "xiaomi-xring-o3",
+      "category": "MOBILE CHIP",
+      "headline": "샤오미, 3nm 자체 칩 Xring O3 공개…AI NPU와 자율주행 칩도 개발 중",
+      "facts": "Reuters에 따르면 샤오미는 8월 24일 자체 스마트폰 프로세서 Xring O3를 공개했다. 소식통들은 TSMC의 3나노 공정으로 생산되며 차기 플래그십 폴더블폰에 탑재될 예정이라고 전했다. 예상 출하량은 20만~30만개 수준이다. 샤오미는 MiMo AI 모델용 NPU Xring O100과 자율주행용 D100도 TSMC와 개발 중이며 칩 개발에 누적 200억위안 이상을 투자했다.",
+      "whyItMatters": "스마트폰 제조사가 Qualcomm·MediaTek 의존을 줄이고 AI 연산·카메라·전력관리까지 자체 제품 전략에 맞춰 통제하려는 흐름이 더 강해졌다.",
+      "analysis": "Xring이 스마트폰 SoC를 넘어 NPU와 자동차 칩으로 확장되면 샤오미의 폰·태블릿·EV를 하나의 자체 실리콘 생태계로 묶을 수 있다.",
+      "outlook": "6~24개월은 O3의 실제 전력효율과 수율, O100·D100이 상용 제품에 들어가는 시점, Qualcomm 플래그십 채택 비중이 줄어드는지가 관전 포인트다.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/world/china/xiaomi-launches-new-xring-chip-partners-with-tsmc-production-sources-say-2026-08-24/"
+        }
+      ],
+      "card": {
+        "stat": "3nm",
+        "headline": "샤오미가 자체 칩을 더 밀어붙인다",
+        "what": "샤오미가 Xring O3를 공개했다. TSMC 3nm 생산이 예상되며 차기 플래그십 폴더블폰 탑재가 거론된다.",
+        "why": "폰·AI·자동차까지 자체 실리콘으로 묶으면 Qualcomm 의존과 제품 차별화 문제가 동시에 바뀐다.",
+        "next": "MiMo용 O100 NPU와 자율주행 D100까지 실제 제품에 들어가는지 주목.",
+        "hook": "폰 회사가 이제 AI·자동차 칩까지 직접 만든다"
+      },
+      "visual": {
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Silicon_wafers.jpg",
+        "credit": "ArticCynda",
+        "license": "CC0 1.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Silicon_wafers.jpg",
+        "reuseAllowed": true,
+        "modified": "cropped and darkened"
+      }
+    },
+    {
+      "id": "ibm-dual-arch-mainframe",
+      "category": "ENTERPRISE CHIP",
+      "headline": "IBM, 한 코어에서 IBM Z와 Arm 명령을 함께 실행하는 2nm 메인프레임 프로세서 공개",
+      "facts": "IBM은 Hot Chips에서 향후 IBM Z와 LinuxONE용 첫 dual-architecture 프로세서를 발표했다. 2나노 공정 설계로 5.7GHz 이상 11개 고성능 코어를 갖추며 각 코어가 IBM Z 계열과 Arm 명령을 네이티브로 실행하도록 설계됐다. AI 추론 가속기와 전용 I/O 데이터처리 장치도 칩에 포함된다. 목표는 기존 메인프레임의 보안·신뢰성을 유지하면서 Arm 네이티브 Linux·AI 소프트웨어 생태계를 끌어오는 것이다.",
+      "whyItMatters": "클라우드·엣지에서 커진 Arm 생태계가 은행·정부 같은 메인프레임 핵심 업무까지 들어가는 구조적 변화다.",
+      "analysis": "서로 다른 ISA를 별도 코어가 아니라 같은 코어에서 지원하려는 접근은 오래된 엔터프라이즈 플랫폼과 현대 AI 소프트웨어의 경계를 크게 낮출 수 있다.",
+      "outlook": "실제 Z/LinuxONE 제품 출시 뒤 Arm 워크로드의 성능·호환성과 기존 z/OS 업무와의 동시 운영 효율이 핵심 평가 포인트다.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "IBM",
+          "url": "https://newsroom.ibm.com/2026-08-24-ibm-unveils-next-generation-dual-architecture-processor-for-ibm-z-and-linuxone"
+        }
+      ]
+    },
+    {
+      "id": "perplexity-nvidia-funding-talks",
+      "category": "AI SEARCH",
+      "headline": "미확정: NVIDIA, Perplexity에 투자 논의…기업가치 300억달러 이상 거론",
+      "facts": "Reuters는 The Information을 인용해 NVIDIA가 Perplexity의 신규 투자 라운드 참여를 논의 중이라고 보도했다. 논의되는 기업가치는 300억달러 이상으로, 약 1년 전 200억달러 평가보다 50% 이상 높다. 보도에 따르면 Perplexity의 연환산 매출은 연초 2억5천만달러 미만에서 7억5천만달러 이상으로 증가했다. 아직 투자와 조건은 확정되지 않았다.",
+      "whyItMatters": "검색형 AI가 단순 챗봇에서 클라우드 작업 에이전트로 확장되면서 자본시장에서 다시 높은 프리미엄을 받고 있다는 신호다.",
+      "analysis": "NVIDIA는 모델·데이터센터·응용 서비스에 폭넓게 투자해 GPU 수요가 발생하는 생태계 자체를 키우는 전략을 이어가는 것으로 보인다.",
+      "outlook": "실제 라운드 성사 여부와 Perplexity Computer가 매출 성장의 주력 제품으로 자리잡는지, 2028년 IPO 계획이 유지되는지가 관전 포인트다.",
+      "status": "unconfirmed",
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/technology/nvidia-discusses-perplexity-investment-30-billion-plus-valuation-information-2026-08-24/"
+        }
+      ]
+    },
+    {
+      "id": "riot-2xko-dev-ends",
+      "category": "GAMING",
+      "headline": "Riot, 2XKO 적극 개발을 12월 종료…서버는 계속 유지",
+      "facts": "Riot Games는 2XKO의 active development를 2026년 12월 종료한다고 공식 발표했다. 9월에는 대부분의 캐릭터 콘텐츠를 무료로 열고 Battle Pass·KO Points·시즌·이벤트를 제거하며 Ranked도 비활성화할 예정이다. 10월의 Samira가 마지막 챔피언이자 마지막 주요 콘텐츠 패치가 된다. 서버와 무료 다운로드는 PC·PS5·Xbox Series X|S에서 계속 유지된다.",
+      "whyItMatters": "Riot가 오랫동안 개발한 대형 신규 장르 프로젝트도 라이브 서비스 규모를 유지하지 못했다는 점에서 게임 개발·운영 측면에서 의미가 크다.",
+      "analysis": "게임 자체 실패만의 문제라기보다 라이브 서비스는 콘텐츠 생산비, 매칭 풀, e스포츠 유지비까지 동시에 만족해야 한다는 현실을 보여준다.",
+      "outlook": "Riot가 2XKO에서 얻은 기술·FGC 운영 경험을 다음 R&D 장르에 어떻게 재사용하는지, 서버 유지 기간과 커뮤니티 대회가 얼마나 살아남는지 볼 만하다.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Riot Games",
+          "url": "https://www.riotgames.com/en/news/2xko-active-development-ends-december-2026"
+        }
+      ]
+    },
+    {
+      "id": "uipath-maestro-flow",
+      "category": "DEV TOOLS",
+      "headline": "UiPath, 어떤 코딩 에이전트든 실제 업무 프로세스로 연결하는 Maestro Flow 공개",
+      "facts": "UiPath는 8월 19일 개발자 중심 오케스트레이션 도구 Maestro Flow를 발표했다. 지원되는 코딩 에이전트가 하나의 .flow 아티팩트로 사람 승인, RPA, API, 문서 처리, 다른 에이전트를 연결하고 실행·관찰·관리할 수 있다. 코딩 에이전트가 만든 프로토타입을 별도 재작성 없이 실제 장기 실행 업무 프로세스로 옮기는 것이 핵심이다. 경량 사용을 위한 Maestro Lite도 제공된다.",
+      "whyItMatters": "에이전트가 코드를 잘 만드는 것과 기업 업무를 며칠간 안전하게 실행하는 것은 다른 문제인데, UiPath는 그 사이의 durable orchestration을 제품으로 잡고 있다.",
+      "analysis": "향후 에이전트 플랫폼 경쟁에서 모델보다 상태 저장, 승인, 재시도, 감사로그, 사람 개입 같은 워크플로 엔진이 더 중요한 차별점이 될 수 있다.",
+      "outlook": "6~24개월은 Claude Code·Codex·Copilot 같은 에이전트가 이런 외부 오케스트레이션 레이어와 얼마나 표준적으로 연결되는지가 중요하다.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "UiPath",
+          "url": "https://www.uipath.com/newsroom/uipath-launches-maestro-flow"
+        }
+      ]
+    },
+    {
+      "id": "starcloud-orbital-datacenter",
+      "category": "SPACE AI",
+      "headline": "우주 AI 데이터센터 스타트업 Starcloud, 2억5천만달러 추가 조달",
+      "facts": "TechCrunch에 따르면 Starcloud는 기존 Series A에 2억5천만달러를 추가해 기업가치 23억달러를 인정받았다. 회사는 궤도에서 AI 추론을 수행하는 위성과 대형 Starcloud-3 데이터센터 우주선을 개발 중이다. 새 자금은 제조시설 확대와 Starship 발사 준비에 쓰이며, 회사는 향후 필요한 대규모 발사 슬롯을 미리 확보하려 한다. 우주 데이터센터는 태양광 전력과 열 방출, 지상 전력망 제약을 피하려는 장기 아이디어다.",
+      "whyItMatters": "AI 전력·부지 문제가 커지면서 데이터센터 위치를 지상이 아닌 궤도까지 확장하려는 자본 투자가 실제 규모로 커지고 있다.",
+      "analysis": "경제성은 발사비·수리 가능성·통신 지연·방사선 내구성에 달려 있어 아직 위험이 크지만, Starship급 대형 발사가 안정화되면 계산식이 달라질 수 있다.",
+      "outlook": "6~24개월은 Starcloud-3 실제 발사 일정과 궤도 AI 추론의 비용/와트, 지상 데이터센터 대비 네트워크 병목을 확인해야 한다.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/21/starcloud-raises-200-million-for-orbital-data-centers-as-launch-options-dry-up/"
+        }
+      ]
+    },
+    {
+      "id": "ibm-modular-quantum-fridge",
+      "category": "QUANTUM",
+      "headline": "IBM, 양자칩 수백개 연결용 모듈형 초저온 시스템 첫 결합",
+      "facts": "IBM은 두 개의 모듈형 극저온 시스템을 하나의 환경으로 연결하고 15밀리켈빈 이하까지 냉각하는 데 성공했다고 발표했다. 각 모듈은 기존 IBM 양자 시스템보다 최대 12배 많은 배선 공간을 제공해 칩 간 연결을 늘린다. IBM은 2027년 여러 프로세서를 연결해 최소 1,000개의 programmable qubit을 지원하는 시스템을 목표로 한다. 최종적으로 2029년 fault-tolerant 시스템 Starling으로 이어지는 로드맵의 일부다.",
+      "whyItMatters": "양자컴퓨터 확장의 병목은 큐비트 수뿐 아니라 수천 개의 신호선을 극저온에서 안정적으로 연결하는 시스템 엔지니어링이다.",
+      "analysis": "이번 발표는 알고리즘이나 단일 칩보다 ‘냉장고와 배선’을 모듈화해 실제 대형 시스템으로 확장하려는 단계라는 점이 중요하다.",
+      "outlook": "2027년 1,000 programmable qubit 연결과 Nighthawk 프로세서 테스트가 계획대로 진행되는지, 오류정정 오버헤드가 얼마나 줄어드는지가 관전 포인트다.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "IBM",
+          "url": "https://newsroom.ibm.com/2026-08-19-ibm-connects-its-first-modular-cryogenic-systems-in-milestone-toward-fault-tolerant-quantum-computing"
+        }
+      ]
+    },
+    {
+      "id": "texas-ai-datacenter-backlash",
+      "category": "AI INFRA",
+      "headline": "AI 데이터센터 반발이 증시에까지 번졌다…텍사스 전력망·지역사회가 새 변수",
+      "facts": "Reuters는 8월 24일 미국 기술주 약세 요인 중 하나로 AI 데이터센터에 대한 정치적 반발을 지목했다. 텍사스 주지사 Greg Abbott는 데이터센터 업계가 지역사회 지지를 얻지 못해 반발을 자초했다는 강한 비판을 내놨다고 Reuters가 Axios 보도를 인용해 전했다. AI 데이터센터의 막대한 전력 수요와 전력망 안정성, 지역 비용 부담이 점점 정치 이슈가 되고 있다. NVIDIA 실적과 함께 이런 인프라 반발도 AI 투자 심리에 영향을 주기 시작했다.",
+      "whyItMatters": "AI 확장의 병목이 GPU 공급에서 전력·송전망·지역 허가와 주민 수용성으로 이동하면 데이터센터 건설 속도가 모델 출시 속도까지 제한할 수 있다.",
+      "analysis": "앞으로 AI 인프라 업체는 칩 효율뿐 아니라 자체 발전, 장기 전력계약, 지역사회 보상 같은 비기술 요소까지 경쟁력이 될 가능성이 높다.",
+      "outlook": "6~24개월은 텍사스 등 주요 데이터센터 지역에서 신규 허가·전력요금·계통 접속 규칙이 강화되는지와 프로젝트 지연이 실제로 늘어나는지를 봐야 한다.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/business/sp-nasdaq-futures-slip-markets-await-iran-sanctions-nvidia-results-2026-08-24/"
         }
       ]
     }
