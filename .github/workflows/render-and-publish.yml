@@ -34,8 +34,11 @@ jobs:
           git config user.name "daily-tech-renderer"
           git config user.email "daily-tech-renderer@users.noreply.github.com"
           git add public/output
-          git diff --cached --quiet || git commit -m "render: carousel $(node -p \"require('./content/latest.json').date\")"
-          git push
+          if ! git diff --cached --quiet; then
+            issue_date="$(node -p "require('./content/latest.json').date")"
+            git commit -m "render: carousel ${issue_date}"
+            git push
+          fi
       - name: Publish Instagram carousel
         env:
           INSTAGRAM_AUTO_PUBLISH: ${{ vars.INSTAGRAM_AUTO_PUBLISH }}
