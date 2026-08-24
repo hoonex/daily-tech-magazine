@@ -1,0 +1,37 @@
+[2026-08-25] 오늘 볼 만한 AI·테크 뉴스 TOP 3
+
+1. 같은 GPT‑5.6, 비용이 크게 줄었다
+무슨 일? GPT‑5.6 Sol·Terra·Luna가 Kiro에 들어갔고, Terra는 Terminal-Bench 2.1 성공 과제 비용을 약 82% 줄였다.
+왜 중요? 이제 코딩 에이전트 경쟁은 모델 IQ뿐 아니라 성공 작업당 비용 싸움이다.
+다음엔? Codex·Claude Code·Kiro가 하네스 최적화로 비용과 완주율을 얼마나 더 줄일지 주목.
+
+2. 휴머노이드에 9억달러가 몰렸다
+무슨 일? XPeng 로봇 사업이 첫 투자 라운드에서 9억달러 이상을 조달했고 기업가치는 63억달러를 넘겼다.
+왜 중요? 로봇 경쟁이 영상 데모에서 실제 공장·양산 자본 경쟁으로 넘어가는 신호다.
+다음엔? 2026년 말 월 1,000대 IRON 생산 목표와 2027년 상업 판매가 실제로 이어질지 주목.
+
+3. 샤오미가 자체 칩을 더 밀어붙인다
+무슨 일? 샤오미가 Xring O3를 공개했다. TSMC 3nm 생산이 예상되며 차기 플래그십 폴더블폰 탑재가 거론된다.
+왜 중요? 폰·AI·자동차까지 자체 실리콘으로 묶으면 Qualcomm 의존과 제품 차별화 문제가 동시에 바뀐다.
+다음엔? MiMo용 O100 NPU와 자율주행 D100까지 실제 제품에 들어가는지 주목.
+
+오늘 한 줄: AI 경쟁이 모델 성능에서 비용·양산·자체칩 설계로 이동 중
+
+출처
+- OpenAI: https://openai.com/index/gpt-5-6-in-kiro/
+- Reuters: https://www.reuters.com/business/retail-consumer/xpeng-says-its-robotics-business-raised-over-900-million-first-funding-round-2026-08-24/
+- Reuters: https://www.reuters.com/world/china/xiaomi-launches-new-xring-chip-partners-with-tsmc-production-sources-say-2026-08-24/
+- IBM: https://newsroom.ibm.com/2026-08-24-ibm-unveils-next-generation-dual-architecture-processor-for-ibm-z-and-linuxone
+- Reuters: https://www.reuters.com/technology/nvidia-discusses-perplexity-investment-30-billion-plus-valuation-information-2026-08-24/
+- Riot Games: https://www.riotgames.com/en/news/2xko-active-development-ends-december-2026
+- UiPath: https://www.uipath.com/newsroom/uipath-launches-maestro-flow
+- TechCrunch: https://techcrunch.com/2026/08/21/starcloud-raises-200-million-for-orbital-data-centers-as-launch-options-dry-up/
+- IBM: https://newsroom.ibm.com/2026-08-19-ibm-connects-its-first-modular-cryogenic-systems-in-milestone-toward-fault-tolerant-quantum-computing
+- Reuters: https://www.reuters.com/business/sp-nasdaq-futures-slip-markets-await-iran-sanctions-nvidia-results-2026-08-24/
+
+이미지 출처
+- Slide 1/2: Slashme · CC0 1.0 · https://commons.wikimedia.org/wiki/File:RustCodeOnScreen.jpg · cropped and darkened
+- Slide 2/3: ZhanatKappassov · CC0 1.0 · https://commons.wikimedia.org/wiki/File:Humanoid_robot_is_being_programmed.jpg · cropped and darkened
+- Slide 3/4: ArticCynda · CC0 1.0 · https://commons.wikimedia.org/wiki/File:Silicon_wafers.jpg · cropped and darkened
+
+@daily_tech_magazine · 무단 재업로드/재배포 금지
