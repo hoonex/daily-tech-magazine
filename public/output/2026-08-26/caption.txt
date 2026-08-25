@@ -1,0 +1,38 @@
+[2026-08-26] 오늘 볼 만한 AI·테크 뉴스 TOP 3
+
+1. OpenAI 자체 칩이 실측을 공개했다
+무슨 일? Jalapeño는 공개 모델 3종에서 와트당 처리량이 최대 1.9배 높고 종단 간 지연은 최대 3.6배 낮았다고 OpenAI가 밝혔다.
+왜 중요? AI 회사가 모델뿐 아니라 칩까지 직접 설계하면 추론 원가와 응답속도를 동시에 바꿀 수 있다.
+다음엔? 연말 실제 배치 이후 서비스 비용·지연 개선 폭과 Gen 2·3 로드맵을 주목.
+
+2. 한 프롬프트에 5조 데이터
+무슨 일? Accelerated Understanding은 테스트에서 단일 질의로 5조 개의 데이터 조각을 다루는 과학 AI 모델을 공개했다.
+왜 중요? LLM이 텍스트를 넘어 칩·에너지·물리 시뮬레이션 같은 초대형 과학 데이터로 확장될 수 있다.
+다음엔? 독립 재현과 실제 산업 고객에서 같은 규모·정확도가 나오는지 확인해야 한다.
+
+3. Mac 한 대에 통합메모리 512GB
+무슨 일? Apple이 2nm M6와 최대 512GB 통합메모리·1.2TB/s 대역폭의 M5 Ultra를 공개했다.
+왜 중요? 로컬에서 매우 큰 AI 모델을 돌릴 수 있는 데스크톱 메모리 한계가 크게 올라간다.
+다음엔? 실제 LLM 속도와 가격, CUDA 기반 워크스테이션 대비 효율이 관전 포인트다.
+
+오늘 한 줄: AI 경쟁이 모델에서 칩·메모리·시스템 전체 설계로 확장 중
+
+출처
+- OpenAI: https://openai.com/index/jalapeno-first-results/
+- Reuters: https://www.reuters.com/business/ai-founders-who-walked-away-bezos-backed-prometheus-model-universe-2026-08-25/
+- Apple: https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute/
+- Tom's Hardware: https://www.tomshardware.com/pc-components/dram/hot-chips-2026-samsung-makes-lpddr5x-smart-with-logic-unit-in-memory-lpddr5x-pim-is-3-01x-faster-than-lpddr5x-in-ai-inference-with-8x-the-bandwidth
+- Tom's Hardware: https://www.tomshardware.com/pc-components/cpus/hot-chips-2026-nvidia-breaks-down-88-core-vera-cpu-spatial-multithreading-benchmarked-1-2-tb-s-socamm2-memory-agentic-workloads-detailed-and-more
+- Tom's Hardware: https://www.tomshardware.com/pc-components/gpus/hot-chips-2026-intel-dives-deep-on-crescent-island-ai-accelerator-larger-caches-and-deeper-xmx-engines-target-maximum-ai-flops-per-watt
+- Tom's Hardware: https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-coder-gets-doom-running-on-a-custom-cpu-designed-by-gpt-5-6-sol-game-viewport-is-overlaid-on-a-pulsing-schematic-of-the-cpu-in-turing-completes-sandbox-environment
+- Reuters: https://www.reuters.com/technology/
+- Emerald AI / Business Wire: https://venturebeat.com/business/emerald-ai-raises-150-million-series-a-at-105-billion-valuation-to-scale-power-flexible-ai-data-centers
+- Reuters: https://www.reuters.com/world/asia-pacific/ai-chipmaker-enflame-sets-subscription-date-near-900-million-shanghai-ipo-2026-08-25/
+- Anthropic: https://www.anthropic.com/news/wellbeing-research-grants
+
+이미지 출처
+- Slide 1/2: ArticCynda · CC0 1.0 · https://commons.wikimedia.org/wiki/File:Silicon_wafers.jpg · cropped and darkened
+- Slide 2/3: NASA · Public Domain · https://commons.wikimedia.org/wiki/File:RCW_7_Nebula.webp · cropped and darkened
+- Slide 3/4: Inductiveload · Public Domain · https://commons.wikimedia.org/wiki/File:Silicon_wafer.jpg · cropped and darkened
+
+@daily_tech_magazine · 무단 재업로드/재배포 금지
