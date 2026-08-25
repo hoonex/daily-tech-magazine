@@ -23,9 +23,7 @@
       "analysis": "추론 비용이 AI 서비스의 핵심 원가가 되는 상황에서 모델과 칩을 함께 설계하면 NVIDIA 같은 범용 가속기보다 특정 워크로드의 지연·전력 효율을 더 공격적으로 최적화할 수 있다.",
       "outlook": "6~24개월 동안 Jalapeño Gen 2·3가 실제 대규모 서비스에 들어가며 토큰 단가와 응답 지연을 얼마나 줄이는지, NVIDIA 사용 비중을 어디까지 대체하는지가 핵심이다.",
       "status": "confirmed",
-      "sources": [
-        {"name": "OpenAI", "url": "https://openai.com/index/jalapeno-first-results/"}
-      ],
+      "sources": [{"name": "OpenAI", "url": "https://openai.com/index/jalapeno-first-results/"}],
       "card": {
         "stat": "1.9×/W",
         "headline": "OpenAI 자체 칩이 실측을 공개했다",
@@ -52,9 +50,7 @@
       "analysis": "과학 AI의 다음 경쟁은 챗봇 성능이 아니라 시뮬레이션·센서·물리장처럼 거대한 연속 데이터를 얼마나 효율적으로 표현하고 추론하느냐에 달릴 수 있다.",
       "outlook": "6~24개월 동안 독립 벤치마크와 실제 칩·에너지 고객 사례가 공개되는지, 5조 데이터 처리 주장이 재현되는지가 가장 중요한 검증 포인트다.",
       "status": "confirmed",
-      "sources": [
-        {"name": "Reuters", "url": "https://www.reuters.com/business/ai-founders-who-walked-away-bezos-backed-prometheus-model-universe-2026-08-25/"}
-      ],
+      "sources": [{"name": "Reuters", "url": "https://www.reuters.com/business/ai-founders-who-walked-away-bezos-backed-prometheus-model-universe-2026-08-25/"}],
       "card": {
         "stat": "5조",
         "headline": "한 프롬프트에 5조 데이터",
@@ -81,9 +77,7 @@
       "analysis": "Apple의 강점은 CPU·GPU·NPU가 같은 메모리를 공유한다는 점이라, VRAM 용량 때문에 막히는 로컬 AI 개발자에게 특히 매력적일 수 있다.",
       "outlook": "6~24개월 동안 실제 LLM tokens/s, 전력 효율, M5 Ultra 512GB 모델의 가격 대비 성능과 CUDA 생태계 대체 가능성이 핵심이다.",
       "status": "confirmed",
-      "sources": [
-        {"name": "Apple", "url": "https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute/"}
-      ],
+      "sources": [{"name": "Apple", "url": "https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute/"}],
       "card": {
         "stat": "512GB",
         "headline": "Mac 한 대에 통합메모리 512GB",
@@ -110,9 +104,7 @@
       "analysis": "HBM 가격과 공급 압박이 계속되면 저전력 메모리에 작은 연산 기능을 붙이는 PIM이 비용 대비 성능의 새로운 축이 될 수 있다.",
       "outlook": "JEDEC 표준화와 실제 모바일 SoC·엣지 가속기 채택 여부, 소프트웨어 툴체인이 얼마나 쉽게 PIM을 활용하는지가 핵심이다.",
       "status": "confirmed",
-      "sources": [
-        {"name": "Tom's Hardware", "url": "https://www.tomshardware.com/pc-components/dram/hot-chips-2026-samsung-makes-lpddr5x-smart-with-logic-unit-in-memory-lpddr5x-pim-is-3-01x-faster-than-lpddr5x-in-ai-inference-with-8x-the-bandwidth"}
-      ]
+      "sources": [{"name": "Tom's Hardware", "url": "https://www.tomshardware.com/pc-components/dram/hot-chips-2026-samsung-makes-lpddr5x-smart-with-logic-unit-in-memory-lpddr5x-pim-is-3-01x-faster-than-lpddr5x-in-ai-inference-with-8x-the-bandwidth"}]
     },
     {
       "id": "nvidia-vera-88-core",
@@ -123,9 +115,7 @@
       "analysis": "NVIDIA가 GPU·CPU·네트워크·메모리를 한 시스템으로 최적화하면 개별 부품 성능보다 전체 랙 효율로 경쟁하는 흐름이 더 강해진다.",
       "outlook": "Vera Rubin 실제 출하 뒤 AMD Venice·Intel과 비교한 CPU 병목 감소, 전력 효율, 에이전트 워크로드 성능이 중요하다.",
       "status": "confirmed",
-      "sources": [
-        {"name": "Tom's Hardware", "url": "https://www.tomshardware.com/pc-components/cpus/hot-chips-2026-nvidia-breaks-down-88-core-vera-cpu-spatial-multithreading-benchmarked-1-2-tb-s-socamm2-memory-agentic-workloads-detailed-and-more"}
-      ]
+      "sources": [{"name": "Tom's Hardware", "url": "https://www.tomshardware.com/pc-components/cpus/hot-chips-2026-nvidia-breaks-down-88-core-vera-cpu-spatial-multithreading-benchmarked-1-2-tb-s-socamm2-memory-agentic-workloads-detailed-and-more"}]
     },
     {
       "id": "intel-crescent-island",
@@ -136,9 +126,7 @@
       "analysis": "AI 추론이 학습보다 더 큰 시장으로 커지면 최고 절대 성능보다 전력당 처리량과 소프트웨어 호환성이 구매 결정에 더 중요해진다.",
       "outlook": "실제 양산 제품의 가격·전력·성능과 oneAPI 생태계, 대형 클라우드 고객 확보가 6~24개월 내 성패를 결정할 것이다.",
       "status": "confirmed",
-      "sources": [
-        {"name": "Tom's Hardware", "url": "https://www.tomshardware.com/pc-components/gpus/hot-chips-2026-intel-dives-deep-on-crescent-island-ai-accelerator-larger-caches-and-deeper-xmx-engines-target-maximum-ai-flops-per-watt"}
-      ]
+      "sources": [{"name": "Tom's Hardware", "url": "https://www.tomshardware.com/pc-components/gpus/hot-chips-2026-intel-dives-deep-on-crescent-island-ai-accelerator-larger-caches-and-deeper-xmx-engines-target-maximum-ai-flops-per-watt"}]
     },
     {
       "id": "gpt56-doom-custom-cpu",
@@ -149,9 +137,7 @@
       "analysis": "앞으로 에이전트가 HDL 작성→시뮬레이션→검증→펌웨어 실행을 하나의 루프로 묶으면 FPGA·ASIC 프로토타이핑 속도가 크게 빨라질 수 있다.",
       "outlook": "6~24개월 동안 Verilog/VHDL 실제 프로젝트와 FPGA 검증에서 사람 개입 없이 얼마나 복잡한 설계를 완주하는지가 관전 포인트다.",
       "status": "confirmed",
-      "sources": [
-        {"name": "Tom's Hardware", "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-coder-gets-doom-running-on-a-custom-cpu-designed-by-gpt-5-6-sol-game-viewport-is-overlaid-on-a-pulsing-schematic-of-the-cpu-in-turing-completes-sandbox-environment"}
-      ]
+      "sources": [{"name": "Tom's Hardware", "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-coder-gets-doom-running-on-a-custom-cpu-designed-by-gpt-5-6-sol-game-viewport-is-overlaid-on-a-pulsing-schematic-of-the-cpu-in-turing-completes-sandbox-environment"}]
     },
     {
       "id": "emerald-ai-grid-flex",
@@ -176,9 +162,7 @@
       "analysis": "자금 조달 자체보다 실제 칩 성능·수율·소프트웨어 생태계가 중요하지만, 상장으로 장기 R&D 자금 확보가 쉬워진다는 점은 크다.",
       "outlook": "향후 6~24개월 동안 Enflame 5·6세대 제품의 대형 클라우드 채택과 CUDA 대체 소프트웨어 완성도가 핵심이다.",
       "status": "confirmed",
-      "sources": [
-        {"name": "Reuters", "url": "https://www.reuters.com/world/asia-pacific/ai-chipmaker-enflame-sets-subscription-date-near-900-million-shanghai-ipo-2026-08-25/"}
-      ]
+      "sources": [{"name": "Reuters", "url": "https://www.reuters.com/world/asia-pacific/ai-chipmaker-enflame-sets-subscription-date-near-900-million-shanghai-ipo-2026-08-25/"}]
     },
     {
       "id": "anthropic-wellbeing-grants",
@@ -189,9 +173,7 @@
       "analysis": "독립 연구자가 공통 평가셋을 만들면 회사별 자체 주장보다 비교 가능한 사용자 영향 지표가 생길 가능성이 있다.",
       "outlook": "6~24개월 동안 wellbeing 벤치마크가 실제 모델 출시 기준이나 앱스토어·규제 지침에 반영되는지 지켜볼 만하다.",
       "status": "confirmed",
-      "sources": [
-        {"name": "Anthropic", "url": "https://www.anthropic.com/news/wellbeing-research-grants"}
-      ]
+      "sources": [{"name": "Anthropic", "url": "https://www.anthropic.com/news/wellbeing-research-grants"}]
     }
   ]
 }
