@@ -1,109 +1,36 @@
 {
-  "date": "2026-08-25",
-  "edition": 3,
+  "date": "2026-08-26",
+  "edition": 4,
   "brand": "DAILY TECH",
   "handle": "@daily_tech_magazine",
-  "deckTitle": "코딩 비용은 내려가고, 로봇·칩은 더 커졌다",
-  "deckSubtitle": "AI · 개발도구 · 로봇 · 칩 · 게임 · 퀀텀",
-  "top3": [
-    "gpt56-kiro-cost",
-    "xpeng-robotics-record-round",
-    "xiaomi-xring-o3"
-  ],
-  "dailyAnalysis": "오늘은 AI 경쟁이 ‘더 큰 모델’ 하나로 설명되지 않는다. 개발도구에서는 같은 프런티어 모델을 더 싸고 안정적으로 굴리는 구조가 중요해지고, 로봇에서는 대규모 자본과 양산 목표가 붙기 시작했으며, 스마트폰 회사들은 자체 AI 칩으로 공급망과 제품 차별화를 직접 통제하려 한다. 동시에 메인프레임·우주 데이터센터·양자 냉각처럼 AI 주변 인프라도 빠르게 재설계되고 있다.",
-  "recap": "AI 경쟁이 모델 성능에서 비용·양산·자체칩 설계로 이동 중",
+  "deckTitle": "AI가 칩·메모리·과학 모델까지 직접 바꾼 날",
+  "deckSubtitle": "AI 칩 · 과학 AI · Apple Silicon · 메모리 · CPU · 게임개발",
+  "top3": ["openai-jalapeno-results", "accelerated-understanding-5t", "apple-m6-m5-ultra"],
+  "dailyAnalysis": "오늘은 모델 자체보다 AI를 실제로 굴리는 하드웨어와 시스템이 전면에 나왔다. OpenAI는 자체 추론 칩의 실측 결과를 공개했고, 별도의 과학 AI 스타트업은 단일 프롬프트에서 수조 단위 데이터를 다루는 새로운 모델 구조를 내세웠다. Apple·NVIDIA·Intel·Samsung도 각각 CPU, 메모리, AI 가속기 설계를 다시 짜고 있다. 코딩 쪽에서는 GPT-5.6 Sol이 아예 CPU를 설계해 Doom을 돌리는 실험까지 나왔다.",
+  "recap": "AI 경쟁이 모델에서 칩·메모리·시스템 전체 설계로 확장 중",
   "cover": {
-    "stat": "82% ↓비용",
-    "title": "GPT‑5.6 코딩 비용을\nKiro가 크게 줄였다",
-    "subtitle": "오늘 가장 흥미로운 개발도구 · 로봇 · 칩 뉴스 TOP 3"
+    "stat": "1.9×/W",
+    "title": "OpenAI 자체 칩이\n실측 성능을 공개했다",
+    "subtitle": "오늘 가장 흥미로운 AI 칩 · 과학 AI · Apple Silicon 뉴스 TOP 3"
   },
   "stories": [
     {
-      "id": "gpt56-kiro-cost",
-      "category": "CODING AGENT",
-      "headline": "GPT‑5.6가 Kiro에 들어갔다…OpenAI·AWS 테스트서 성공 과제 비용 약 82% 절감",
-      "facts": "OpenAI는 8월 24일 GPT‑5.6 Sol·Terra·Luna가 AWS의 소프트웨어 개발 에이전트 Kiro에서 제공된다고 발표했다. Kiro는 요구사항을 기술 설계와 실행 가능한 작업으로 구조화하는 spec-driven 개발 방식을 쓴다. OpenAI와 AWS의 Terminal-Bench 2.1 테스트에서 GPT‑5.6 Terra는 Kiro 환경의 성공 과제 비용을 약 82% 줄였다고 밝혔다. 모델 선택을 개발 단계별로 달리해 지능·속도·비용을 맞추는 구조도 강조됐다.",
-      "whyItMatters": "코딩 에이전트 경쟁이 단순 벤치마크 점수보다 ‘성공한 작업 하나를 얼마에 끝내느냐’로 이동하고 있다는 구체적인 사례다.",
-      "analysis": "같은 모델이라도 요구사항 구조화, 테스트, 체크포인트 같은 하네스 설계가 토큰 낭비와 재시도를 크게 줄일 수 있다는 점을 보여준다.",
-      "outlook": "6~24개월 동안 Codex·Claude Code·Kiro·Copilot이 모델 성능뿐 아니라 성공 과제당 비용과 장기 작업 완주율을 핵심 지표로 내세울 가능성이 높다.",
+      "id": "openai-jalapeno-results",
+      "category": "AI CHIP",
+      "headline": "OpenAI, 자체 추론 칩 Jalapeño 첫 실측 공개…와트당 최대 1.9배·지연 최대 3.6배 개선",
+      "facts": "OpenAI는 8월 25일 자체 추론 칩 Jalapeño의 첫 공개 벤치마크 결과를 발표했다. GPT-OSS 120B, DeepSeek R1 670B, Kimi K2.5 1T에서 비교 시스템 대비 최고 처리량 기준 와트당 AI 작업량이 1.5~1.9배 높았고 종단 간 지연은 1.7~3.6배 낮았다고 밝혔다. 고대화형 워크로드에서는 2.1~4.1배 높은 성능을 기록했다. Jalapeño는 정격 700W지만 테스트 중 지속 소비전력은 550W 이하였으며 OpenAI는 연말까지 자체 인프라에 배치할 계획이다.",
+      "whyItMatters": "OpenAI가 모델 회사에서 칩·네트워크·서빙 소프트웨어까지 직접 설계하는 풀스택 AI 인프라 회사로 이동하고 있다는 가장 구체적인 증거다.",
+      "analysis": "추론 비용이 AI 서비스의 핵심 원가가 되는 상황에서 모델과 칩을 함께 설계하면 NVIDIA 같은 범용 가속기보다 특정 워크로드의 지연·전력 효율을 더 공격적으로 최적화할 수 있다.",
+      "outlook": "6~24개월 동안 Jalapeño Gen 2·3가 실제 대규모 서비스에 들어가며 토큰 단가와 응답 지연을 얼마나 줄이는지, NVIDIA 사용 비중을 어디까지 대체하는지가 핵심이다.",
       "status": "confirmed",
-      "sources": [
-        {
-          "name": "OpenAI",
-          "url": "https://openai.com/index/gpt-5-6-in-kiro/"
-        }
-      ],
+      "sources": [{"name": "OpenAI", "url": "https://openai.com/index/jalapeno-first-results/"}],
       "card": {
-        "stat": "82% ↓비용",
-        "headline": "같은 GPT‑5.6, 비용이 크게 줄었다",
-        "what": "GPT‑5.6 Sol·Terra·Luna가 Kiro에 들어갔고, Terra는 Terminal-Bench 2.1 성공 과제 비용을 약 82% 줄였다.",
-        "why": "이제 코딩 에이전트 경쟁은 모델 IQ뿐 아니라 성공 작업당 비용 싸움이다.",
-        "next": "Codex·Claude Code·Kiro가 하네스 최적화로 비용과 완주율을 얼마나 더 줄일지 주목.",
-        "hook": "코딩 AI 경쟁, 이제 ‘얼마나 싸게 끝내느냐’가 중요해졌다"
-      },
-      "visual": {
-        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/RustCodeOnScreen.jpg",
-        "credit": "Slashme",
-        "license": "CC0 1.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:RustCodeOnScreen.jpg",
-        "reuseAllowed": true,
-        "modified": "cropped and darkened"
-      }
-    },
-    {
-      "id": "xpeng-robotics-record-round",
-      "category": "ROBOTICS",
-      "headline": "XPeng 로봇 사업, 첫 투자 라운드서 9억달러 이상…기업가치 63억달러 돌파",
-      "facts": "Reuters에 따르면 XPeng의 로봇 사업부는 첫 외부 투자 라운드에서 9억달러 이상을 조달했다. 투자 후 기업가치는 63억달러 이상으로 평가됐으며 IDG Capital이 라운드를 이끌고 Tencent와 Alibaba 등도 참여했다. 자금은 로봇 하드웨어·소프트웨어, physical AI 모델, 데이터 수집, 양산 시설과 해외 확장에 쓰일 예정이다. XPeng은 2026년 말 IRON 휴머노이드를 월 1,000대 생산하는 목표도 제시했다.",
-      "whyItMatters": "휴머노이드 산업이 데모 경쟁을 넘어 수십억달러 기업가치와 월 단위 양산 목표를 가진 제조업 단계로 이동하고 있다.",
-      "analysis": "자동차 업체는 배터리·모터·공급망·공장 자동화 경험을 로봇에 재사용할 수 있어 순수 로봇 스타트업보다 양산 전환에서 유리할 수 있다.",
-      "outlook": "2027년 실제 상업 판매가 시작될 때 월 1,000대 생산 목표가 유지되는지, 산업·리테일 현장에서 반복 구매가 발생하는지가 핵심이다.",
-      "status": "confirmed",
-      "sources": [
-        {
-          "name": "Reuters",
-          "url": "https://www.reuters.com/business/retail-consumer/xpeng-says-its-robotics-business-raised-over-900-million-first-funding-round-2026-08-24/"
-        }
-      ],
-      "card": {
-        "stat": "$900M+",
-        "headline": "휴머노이드에 9억달러가 몰렸다",
-        "what": "XPeng 로봇 사업이 첫 투자 라운드에서 9억달러 이상을 조달했고 기업가치는 63억달러를 넘겼다.",
-        "why": "로봇 경쟁이 영상 데모에서 실제 공장·양산 자본 경쟁으로 넘어가는 신호다.",
-        "next": "2026년 말 월 1,000대 IRON 생산 목표와 2027년 상업 판매가 실제로 이어질지 주목.",
-        "hook": "휴머노이드 한 사업부 가치가 벌써 63억달러"
-      },
-      "visual": {
-        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Humanoid_robot_is_being_programmed.jpg",
-        "credit": "ZhanatKappassov",
-        "license": "CC0 1.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Humanoid_robot_is_being_programmed.jpg",
-        "reuseAllowed": true,
-        "modified": "cropped and darkened"
-      }
-    },
-    {
-      "id": "xiaomi-xring-o3",
-      "category": "MOBILE CHIP",
-      "headline": "샤오미, 3nm 자체 칩 Xring O3 공개…AI NPU와 자율주행 칩도 개발 중",
-      "facts": "Reuters에 따르면 샤오미는 8월 24일 자체 스마트폰 프로세서 Xring O3를 공개했다. 소식통들은 TSMC의 3나노 공정으로 생산되며 차기 플래그십 폴더블폰에 탑재될 예정이라고 전했다. 예상 출하량은 20만~30만개 수준이다. 샤오미는 MiMo AI 모델용 NPU Xring O100과 자율주행용 D100도 TSMC와 개발 중이며 칩 개발에 누적 200억위안 이상을 투자했다.",
-      "whyItMatters": "스마트폰 제조사가 Qualcomm·MediaTek 의존을 줄이고 AI 연산·카메라·전력관리까지 자체 제품 전략에 맞춰 통제하려는 흐름이 더 강해졌다.",
-      "analysis": "Xring이 스마트폰 SoC를 넘어 NPU와 자동차 칩으로 확장되면 샤오미의 폰·태블릿·EV를 하나의 자체 실리콘 생태계로 묶을 수 있다.",
-      "outlook": "6~24개월은 O3의 실제 전력효율과 수율, O100·D100이 상용 제품에 들어가는 시점, Qualcomm 플래그십 채택 비중이 줄어드는지가 관전 포인트다.",
-      "status": "confirmed",
-      "sources": [
-        {
-          "name": "Reuters",
-          "url": "https://www.reuters.com/world/china/xiaomi-launches-new-xring-chip-partners-with-tsmc-production-sources-say-2026-08-24/"
-        }
-      ],
-      "card": {
-        "stat": "3nm",
-        "headline": "샤오미가 자체 칩을 더 밀어붙인다",
-        "what": "샤오미가 Xring O3를 공개했다. TSMC 3nm 생산이 예상되며 차기 플래그십 폴더블폰 탑재가 거론된다.",
-        "why": "폰·AI·자동차까지 자체 실리콘으로 묶으면 Qualcomm 의존과 제품 차별화 문제가 동시에 바뀐다.",
-        "next": "MiMo용 O100 NPU와 자율주행 D100까지 실제 제품에 들어가는지 주목.",
-        "hook": "폰 회사가 이제 AI·자동차 칩까지 직접 만든다"
+        "stat": "1.9×/W",
+        "headline": "OpenAI 자체 칩이 실측을 공개했다",
+        "what": "Jalapeño는 공개 모델 3종에서 와트당 처리량이 최대 1.9배 높고 종단 간 지연은 최대 3.6배 낮았다고 OpenAI가 밝혔다.",
+        "why": "AI 회사가 모델뿐 아니라 칩까지 직접 설계하면 추론 원가와 응답속도를 동시에 바꿀 수 있다.",
+        "next": "연말 실제 배치 이후 서비스 비용·지연 개선 폭과 Gen 2·3 로드맵을 주목.",
+        "hook": "OpenAI가 이제 칩 성능까지 직접 증명하기 시작했다"
       },
       "visual": {
         "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Silicon_wafers.jpg",
@@ -115,116 +42,138 @@
       }
     },
     {
-      "id": "ibm-dual-arch-mainframe",
-      "category": "ENTERPRISE CHIP",
-      "headline": "IBM, 한 코어에서 IBM Z와 Arm 명령을 함께 실행하는 2nm 메인프레임 프로세서 공개",
-      "facts": "IBM은 Hot Chips에서 향후 IBM Z와 LinuxONE용 첫 dual-architecture 프로세서를 발표했다. 2나노 공정 설계로 5.7GHz 이상 11개 고성능 코어를 갖추며 각 코어가 IBM Z 계열과 Arm 명령을 네이티브로 실행하도록 설계됐다. AI 추론 가속기와 전용 I/O 데이터처리 장치도 칩에 포함된다. 목표는 기존 메인프레임의 보안·신뢰성을 유지하면서 Arm 네이티브 Linux·AI 소프트웨어 생태계를 끌어오는 것이다.",
-      "whyItMatters": "클라우드·엣지에서 커진 Arm 생태계가 은행·정부 같은 메인프레임 핵심 업무까지 들어가는 구조적 변화다.",
-      "analysis": "서로 다른 ISA를 별도 코어가 아니라 같은 코어에서 지원하려는 접근은 오래된 엔터프라이즈 플랫폼과 현대 AI 소프트웨어의 경계를 크게 낮출 수 있다.",
-      "outlook": "실제 Z/LinuxONE 제품 출시 뒤 Arm 워크로드의 성능·호환성과 기존 z/OS 업무와의 동시 운영 효율이 핵심 평가 포인트다.",
+      "id": "accelerated-understanding-5t",
+      "category": "SCIENCE AI",
+      "headline": "5조 개 데이터 조각을 한 프롬프트에…‘우주를 모델링’하려는 새 AI 스타트업 공개",
+      "facts": "Reuters는 8월 25일 Caltech 교수 아니마 아난드쿠마르와 연구자들이 설립한 Accelerated Understanding이 새로운 물리·과학 AI 모델을 공개했다고 보도했다. 회사는 테스트에서 단일 질의로 5조 개의 데이터 조각을 처리했다고 주장하며, 이는 일반적인 프런티어 모델 컨텍스트보다 수백만 배 큰 규모라고 설명했다. 이들은 Jeff Bezos가 후원하는 Project Prometheus를 이끌 제안을 받았지만 독립적으로 회사를 세웠다. 회사는 칩 설계와 에너지 산업 같은 초대형 과학 문제를 주요 응용처로 보고 있다.",
+      "whyItMatters": "텍스트 토큰 중심 LLM과 다른 방식으로 거대한 과학 데이터를 직접 다루는 모델이 실제 산업 도구로 등장할 가능성을 보여준다.",
+      "analysis": "과학 AI의 다음 경쟁은 챗봇 성능이 아니라 시뮬레이션·센서·물리장처럼 거대한 연속 데이터를 얼마나 효율적으로 표현하고 추론하느냐에 달릴 수 있다.",
+      "outlook": "6~24개월 동안 독립 벤치마크와 실제 칩·에너지 고객 사례가 공개되는지, 5조 데이터 처리 주장이 재현되는지가 가장 중요한 검증 포인트다.",
       "status": "confirmed",
-      "sources": [
-        {
-          "name": "IBM",
-          "url": "https://newsroom.ibm.com/2026-08-24-ibm-unveils-next-generation-dual-architecture-processor-for-ibm-z-and-linuxone"
-        }
-      ]
+      "sources": [{"name": "Reuters", "url": "https://www.reuters.com/business/ai-founders-who-walked-away-bezos-backed-prometheus-model-universe-2026-08-25/"}],
+      "card": {
+        "stat": "5조",
+        "headline": "한 프롬프트에 5조 데이터",
+        "what": "Accelerated Understanding은 테스트에서 단일 질의로 5조 개의 데이터 조각을 다루는 과학 AI 모델을 공개했다.",
+        "why": "LLM이 텍스트를 넘어 칩·에너지·물리 시뮬레이션 같은 초대형 과학 데이터로 확장될 수 있다.",
+        "next": "독립 재현과 실제 산업 고객에서 같은 규모·정확도가 나오는지 확인해야 한다.",
+        "hook": "AI가 이제 ‘문서’가 아니라 우주 규모 데이터를 읽으려 한다"
+      },
+      "visual": {
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/RCW_7_Nebula.webp",
+        "credit": "NASA",
+        "license": "Public Domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:RCW_7_Nebula.webp",
+        "reuseAllowed": true,
+        "modified": "cropped and darkened"
+      }
     },
     {
-      "id": "perplexity-nvidia-funding-talks",
-      "category": "AI SEARCH",
-      "headline": "미확정: NVIDIA, Perplexity에 투자 논의…기업가치 300억달러 이상 거론",
-      "facts": "Reuters는 The Information을 인용해 NVIDIA가 Perplexity의 신규 투자 라운드 참여를 논의 중이라고 보도했다. 논의되는 기업가치는 300억달러 이상으로, 약 1년 전 200억달러 평가보다 50% 이상 높다. 보도에 따르면 Perplexity의 연환산 매출은 연초 2억5천만달러 미만에서 7억5천만달러 이상으로 증가했다. 아직 투자와 조건은 확정되지 않았다.",
-      "whyItMatters": "검색형 AI가 단순 챗봇에서 클라우드 작업 에이전트로 확장되면서 자본시장에서 다시 높은 프리미엄을 받고 있다는 신호다.",
-      "analysis": "NVIDIA는 모델·데이터센터·응용 서비스에 폭넓게 투자해 GPU 수요가 발생하는 생태계 자체를 키우는 전략을 이어가는 것으로 보인다.",
-      "outlook": "실제 라운드 성사 여부와 Perplexity Computer가 매출 성장의 주력 제품으로 자리잡는지, 2028년 IPO 계획이 유지되는지가 관전 포인트다.",
-      "status": "unconfirmed",
-      "sources": [
-        {
-          "name": "Reuters",
-          "url": "https://www.reuters.com/technology/nvidia-discusses-perplexity-investment-30-billion-plus-valuation-information-2026-08-24/"
-        }
-      ]
-    },
-    {
-      "id": "riot-2xko-dev-ends",
-      "category": "GAMING",
-      "headline": "Riot, 2XKO 적극 개발을 12월 종료…서버는 계속 유지",
-      "facts": "Riot Games는 2XKO의 active development를 2026년 12월 종료한다고 공식 발표했다. 9월에는 대부분의 캐릭터 콘텐츠를 무료로 열고 Battle Pass·KO Points·시즌·이벤트를 제거하며 Ranked도 비활성화할 예정이다. 10월의 Samira가 마지막 챔피언이자 마지막 주요 콘텐츠 패치가 된다. 서버와 무료 다운로드는 PC·PS5·Xbox Series X|S에서 계속 유지된다.",
-      "whyItMatters": "Riot가 오랫동안 개발한 대형 신규 장르 프로젝트도 라이브 서비스 규모를 유지하지 못했다는 점에서 게임 개발·운영 측면에서 의미가 크다.",
-      "analysis": "게임 자체 실패만의 문제라기보다 라이브 서비스는 콘텐츠 생산비, 매칭 풀, e스포츠 유지비까지 동시에 만족해야 한다는 현실을 보여준다.",
-      "outlook": "Riot가 2XKO에서 얻은 기술·FGC 운영 경험을 다음 R&D 장르에 어떻게 재사용하는지, 서버 유지 기간과 커뮤니티 대회가 얼마나 살아남는지 볼 만하다.",
+      "id": "apple-m6-m5-ultra",
+      "category": "APPLE SILICON",
+      "headline": "Apple M6·M5 Ultra 공개…2nm M6와 512GB 통합메모리 M5 Ultra로 로컬 AI 강화",
+      "facts": "Apple은 8월 25일 새 Mac mini용 M6와 Mac Studio용 M5 Ultra를 공개했다. M6는 Apple의 첫 2nm 칩으로 12코어 CPU, 12코어 GPU, 듀얼 16코어 Neural Engine과 최대 170GB/s 통합메모리 대역폭을 제공한다. M5 Ultra는 Apple Silicon 최초의 쿼드다이 구조로 최대 36코어 CPU, 80코어 GPU, 512GB 통합메모리와 1.2TB/s 대역폭을 지원한다. Apple은 M5 Ultra가 수백억~수천억 파라미터급 대형 모델을 로컬에서 구동하는 용도를 강조했다.",
+      "whyItMatters": "개인용 데스크톱에서도 거대한 통합메모리를 이용해 대형 모델·3D·시뮬레이션을 클라우드 없이 실행할 수 있는 범위가 크게 넓어진다.",
+      "analysis": "Apple의 강점은 CPU·GPU·NPU가 같은 메모리를 공유한다는 점이라, VRAM 용량 때문에 막히는 로컬 AI 개발자에게 특히 매력적일 수 있다.",
+      "outlook": "6~24개월 동안 실제 LLM tokens/s, 전력 효율, M5 Ultra 512GB 모델의 가격 대비 성능과 CUDA 생태계 대체 가능성이 핵심이다.",
       "status": "confirmed",
-      "sources": [
-        {
-          "name": "Riot Games",
-          "url": "https://www.riotgames.com/en/news/2xko-active-development-ends-december-2026"
-        }
-      ]
+      "sources": [{"name": "Apple", "url": "https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute/"}],
+      "card": {
+        "stat": "512GB",
+        "headline": "Mac 한 대에 통합메모리 512GB",
+        "what": "Apple이 2nm M6와 최대 512GB 통합메모리·1.2TB/s 대역폭의 M5 Ultra를 공개했다.",
+        "why": "로컬에서 매우 큰 AI 모델을 돌릴 수 있는 데스크톱 메모리 한계가 크게 올라간다.",
+        "next": "실제 LLM 속도와 가격, CUDA 기반 워크스테이션 대비 효율이 관전 포인트다.",
+        "hook": "로컬 AI용 Mac이 메모리 512GB까지 올라갔다"
+      },
+      "visual": {
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Silicon_wafer.jpg",
+        "credit": "Inductiveload",
+        "license": "Public Domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Silicon_wafer.jpg",
+        "reuseAllowed": true,
+        "modified": "cropped and darkened"
+      }
     },
     {
-      "id": "uipath-maestro-flow",
-      "category": "DEV TOOLS",
-      "headline": "UiPath, 어떤 코딩 에이전트든 실제 업무 프로세스로 연결하는 Maestro Flow 공개",
-      "facts": "UiPath는 8월 19일 개발자 중심 오케스트레이션 도구 Maestro Flow를 발표했다. 지원되는 코딩 에이전트가 하나의 .flow 아티팩트로 사람 승인, RPA, API, 문서 처리, 다른 에이전트를 연결하고 실행·관찰·관리할 수 있다. 코딩 에이전트가 만든 프로토타입을 별도 재작성 없이 실제 장기 실행 업무 프로세스로 옮기는 것이 핵심이다. 경량 사용을 위한 Maestro Lite도 제공된다.",
-      "whyItMatters": "에이전트가 코드를 잘 만드는 것과 기업 업무를 며칠간 안전하게 실행하는 것은 다른 문제인데, UiPath는 그 사이의 durable orchestration을 제품으로 잡고 있다.",
-      "analysis": "향후 에이전트 플랫폼 경쟁에서 모델보다 상태 저장, 승인, 재시도, 감사로그, 사람 개입 같은 워크플로 엔진이 더 중요한 차별점이 될 수 있다.",
-      "outlook": "6~24개월은 Claude Code·Codex·Copilot 같은 에이전트가 이런 외부 오케스트레이션 레이어와 얼마나 표준적으로 연결되는지가 중요하다.",
+      "id": "samsung-lpddr5x-pim",
+      "category": "MEMORY",
+      "headline": "Samsung, 연산을 메모리 안으로…LPDDR5X-PIM으로 AI 추론 최대 3배대 가속",
+      "facts": "Samsung은 Hot Chips 2026에서 LPDDR5X에 연산 로직을 직접 넣는 PIM 기술의 세부 결과를 공개했다. Tom's Hardware 보도에 따르면 일반 LPDDR5X 대비 AI 추론에서 2.28배 빠른 결과를 제시했고 일부 구성에서는 3.01배 성능과 8배 수준의 유효 대역폭을 보였다. 목적은 CPU·GPU와 메모리 사이의 데이터 이동을 줄여 전력과 병목을 동시에 낮추는 것이다. Samsung은 LPDDR6X-PIM도 준비 중이다.",
+      "whyItMatters": "AI에서 가장 비싸고 전력 소모가 큰 병목 중 하나인 메모리 이동 자체를 줄이는 접근이라 모바일·엣지 AI에 특히 큰 영향을 줄 수 있다.",
+      "analysis": "HBM 가격과 공급 압박이 계속되면 저전력 메모리에 작은 연산 기능을 붙이는 PIM이 비용 대비 성능의 새로운 축이 될 수 있다.",
+      "outlook": "JEDEC 표준화와 실제 모바일 SoC·엣지 가속기 채택 여부, 소프트웨어 툴체인이 얼마나 쉽게 PIM을 활용하는지가 핵심이다.",
       "status": "confirmed",
-      "sources": [
-        {
-          "name": "UiPath",
-          "url": "https://www.uipath.com/newsroom/uipath-launches-maestro-flow"
-        }
-      ]
+      "sources": [{"name": "Tom's Hardware", "url": "https://www.tomshardware.com/pc-components/dram/hot-chips-2026-samsung-makes-lpddr5x-smart-with-logic-unit-in-memory-lpddr5x-pim-is-3-01x-faster-than-lpddr5x-in-ai-inference-with-8x-the-bandwidth"}]
     },
     {
-      "id": "starcloud-orbital-datacenter",
-      "category": "SPACE AI",
-      "headline": "우주 AI 데이터센터 스타트업 Starcloud, 2억5천만달러 추가 조달",
-      "facts": "TechCrunch에 따르면 Starcloud는 기존 Series A에 2억5천만달러를 추가해 기업가치 23억달러를 인정받았다. 회사는 궤도에서 AI 추론을 수행하는 위성과 대형 Starcloud-3 데이터센터 우주선을 개발 중이다. 새 자금은 제조시설 확대와 Starship 발사 준비에 쓰이며, 회사는 향후 필요한 대규모 발사 슬롯을 미리 확보하려 한다. 우주 데이터센터는 태양광 전력과 열 방출, 지상 전력망 제약을 피하려는 장기 아이디어다.",
-      "whyItMatters": "AI 전력·부지 문제가 커지면서 데이터센터 위치를 지상이 아닌 궤도까지 확장하려는 자본 투자가 실제 규모로 커지고 있다.",
-      "analysis": "경제성은 발사비·수리 가능성·통신 지연·방사선 내구성에 달려 있어 아직 위험이 크지만, Starship급 대형 발사가 안정화되면 계산식이 달라질 수 있다.",
-      "outlook": "6~24개월은 Starcloud-3 실제 발사 일정과 궤도 AI 추론의 비용/와트, 지상 데이터센터 대비 네트워크 병목을 확인해야 한다.",
+      "id": "nvidia-vera-88-core",
+      "category": "CPU",
+      "headline": "NVIDIA Vera CPU 공개 심화…88코어·1.2TB/s 메모리로 ‘에이전트 데이터센터’ 겨냥",
+      "facts": "NVIDIA는 Hot Chips 2026에서 차세대 Vera CPU의 구조를 더 자세히 공개했다. Vera는 NVIDIA가 자체 설계한 첫 CPU 코어를 쓰며 88코어 단일 SKU와 spatial multithreading 구조를 채택한다. SOCAMM2 기반 LPDDR5X 메모리 시스템은 약 1.2TB/s 대역폭을 목표로 하며 대규모 agentic workload의 CPU 병목을 줄이는 데 초점을 맞췄다. 기존 Grace의 범용 Arm 코어에서 한 단계 더 나아간 설계다.",
+      "whyItMatters": "AI 서버에서 GPU만 빨라져도 에이전트 오케스트레이션·데이터 처리·툴 호출을 담당하는 CPU가 병목이 될 수 있기 때문에 CPU 자체가 AI 전용으로 바뀌기 시작했다.",
+      "analysis": "NVIDIA가 GPU·CPU·네트워크·메모리를 한 시스템으로 최적화하면 개별 부품 성능보다 전체 랙 효율로 경쟁하는 흐름이 더 강해진다.",
+      "outlook": "Vera Rubin 실제 출하 뒤 AMD Venice·Intel과 비교한 CPU 병목 감소, 전력 효율, 에이전트 워크로드 성능이 중요하다.",
       "status": "confirmed",
-      "sources": [
-        {
-          "name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/08/21/starcloud-raises-200-million-for-orbital-data-centers-as-launch-options-dry-up/"
-        }
-      ]
+      "sources": [{"name": "Tom's Hardware", "url": "https://www.tomshardware.com/pc-components/cpus/hot-chips-2026-nvidia-breaks-down-88-core-vera-cpu-spatial-multithreading-benchmarked-1-2-tb-s-socamm2-memory-agentic-workloads-detailed-and-more"}]
     },
     {
-      "id": "ibm-modular-quantum-fridge",
-      "category": "QUANTUM",
-      "headline": "IBM, 양자칩 수백개 연결용 모듈형 초저온 시스템 첫 결합",
-      "facts": "IBM은 두 개의 모듈형 극저온 시스템을 하나의 환경으로 연결하고 15밀리켈빈 이하까지 냉각하는 데 성공했다고 발표했다. 각 모듈은 기존 IBM 양자 시스템보다 최대 12배 많은 배선 공간을 제공해 칩 간 연결을 늘린다. IBM은 2027년 여러 프로세서를 연결해 최소 1,000개의 programmable qubit을 지원하는 시스템을 목표로 한다. 최종적으로 2029년 fault-tolerant 시스템 Starling으로 이어지는 로드맵의 일부다.",
-      "whyItMatters": "양자컴퓨터 확장의 병목은 큐비트 수뿐 아니라 수천 개의 신호선을 극저온에서 안정적으로 연결하는 시스템 엔지니어링이다.",
-      "analysis": "이번 발표는 알고리즘이나 단일 칩보다 ‘냉장고와 배선’을 모듈화해 실제 대형 시스템으로 확장하려는 단계라는 점이 중요하다.",
-      "outlook": "2027년 1,000 programmable qubit 연결과 Nighthawk 프로세서 테스트가 계획대로 진행되는지, 오류정정 오버헤드가 얼마나 줄어드는지가 관전 포인트다.",
+      "id": "intel-crescent-island",
+      "category": "AI ACCELERATOR",
+      "headline": "Intel Crescent Island, Xe3P 기반으로 AI 추론 FLOPS/W 극대화 노린다",
+      "facts": "Intel은 Hot Chips 2026에서 Crescent Island AI 가속기의 세부 구조를 공개했다. Xe3P 아키텍처를 기반으로 더 큰 캐시와 강화된 XMX 행렬 연산 엔진을 넣어 특히 추론의 계산 집약 구간에서 와트당 AI 성능을 높이는 것이 목표다. Intel은 범용 GPU보다 AI 추론 효율에 더 초점을 둔 설계를 강조했다. 이는 NVIDIA·AMD뿐 아니라 맞춤형 ASIC과도 경쟁하려는 전략이다.",
+      "whyItMatters": "Intel이 AI 가속기 시장에서 단순 GPU 복귀가 아니라 추론 전용 효율을 전면에 내세워 데이터센터 시장을 다시 공략하고 있다.",
+      "analysis": "AI 추론이 학습보다 더 큰 시장으로 커지면 최고 절대 성능보다 전력당 처리량과 소프트웨어 호환성이 구매 결정에 더 중요해진다.",
+      "outlook": "실제 양산 제품의 가격·전력·성능과 oneAPI 생태계, 대형 클라우드 고객 확보가 6~24개월 내 성패를 결정할 것이다.",
       "status": "confirmed",
-      "sources": [
-        {
-          "name": "IBM",
-          "url": "https://newsroom.ibm.com/2026-08-19-ibm-connects-its-first-modular-cryogenic-systems-in-milestone-toward-fault-tolerant-quantum-computing"
-        }
-      ]
+      "sources": [{"name": "Tom's Hardware", "url": "https://www.tomshardware.com/pc-components/gpus/hot-chips-2026-intel-dives-deep-on-crescent-island-ai-accelerator-larger-caches-and-deeper-xmx-engines-target-maximum-ai-flops-per-watt"}]
     },
     {
-      "id": "texas-ai-datacenter-backlash",
+      "id": "gpt56-doom-custom-cpu",
+      "category": "CODING EXPERIMENT",
+      "headline": "GPT-5.6 Sol이 CPU를 직접 설계하고 Doom까지 실행했다",
+      "facts": "Tom's Hardware는 8월 25일 GPT-5.6 Sol을 이용한 AI 코딩 실험에서 커스텀 CPU 설계와 Doom 실행까지 성공한 사례를 소개했다. 실험은 Turing Complete 샌드박스 환경에서 진행됐고 게임 화면과 CPU 회로 동작을 동시에 보여줬다. 단순 코딩 문제가 아니라 명령어 처리, 하드웨어 구조, 소프트웨어 실행을 함께 맞춰야 하는 복합 작업이다. 실제 실리콘이 아니라 시뮬레이션 환경이라는 점은 구분해야 한다.",
+      "whyItMatters": "코딩 에이전트가 웹앱을 넘어 디지털 회로·CPU 설계처럼 구조적 추론이 필요한 하드웨어 영역까지 확장되는 흥미로운 사례다.",
+      "analysis": "앞으로 에이전트가 HDL 작성→시뮬레이션→검증→펌웨어 실행을 하나의 루프로 묶으면 FPGA·ASIC 프로토타이핑 속도가 크게 빨라질 수 있다.",
+      "outlook": "6~24개월 동안 Verilog/VHDL 실제 프로젝트와 FPGA 검증에서 사람 개입 없이 얼마나 복잡한 설계를 완주하는지가 관전 포인트다.",
+      "status": "confirmed",
+      "sources": [{"name": "Tom's Hardware", "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-coder-gets-doom-running-on-a-custom-cpu-designed-by-gpt-5-6-sol-game-viewport-is-overlaid-on-a-pulsing-schematic-of-the-cpu-in-turing-completes-sandbox-environment"}]
+    },
+    {
+      "id": "emerald-ai-grid-flex",
       "category": "AI INFRA",
-      "headline": "AI 데이터센터 반발이 증시에까지 번졌다…텍사스 전력망·지역사회가 새 변수",
-      "facts": "Reuters는 8월 24일 미국 기술주 약세 요인 중 하나로 AI 데이터센터에 대한 정치적 반발을 지목했다. 텍사스 주지사 Greg Abbott는 데이터센터 업계가 지역사회 지지를 얻지 못해 반발을 자초했다는 강한 비판을 내놨다고 Reuters가 Axios 보도를 인용해 전했다. AI 데이터센터의 막대한 전력 수요와 전력망 안정성, 지역 비용 부담이 점점 정치 이슈가 되고 있다. NVIDIA 실적과 함께 이런 인프라 반발도 AI 투자 심리에 영향을 주기 시작했다.",
-      "whyItMatters": "AI 확장의 병목이 GPU 공급에서 전력·송전망·지역 허가와 주민 수용성으로 이동하면 데이터센터 건설 속도가 모델 출시 속도까지 제한할 수 있다.",
-      "analysis": "앞으로 AI 인프라 업체는 칩 효율뿐 아니라 자체 발전, 장기 전력계약, 지역사회 보상 같은 비기술 요소까지 경쟁력이 될 가능성이 높다.",
-      "outlook": "6~24개월은 텍사스 등 주요 데이터센터 지역에서 신규 허가·전력요금·계통 접속 규칙이 강화되는지와 프로젝트 지연이 실제로 늘어나는지를 봐야 한다.",
+      "headline": "AI 데이터센터가 전력망에 맞춰 스스로 전력 사용을 줄인다…Emerald AI 10억달러 가치",
+      "facts": "Emerald AI는 8월 25일 1억5천만달러 Series A를 조달해 기업가치 10억5천만달러를 인정받았다. 이 회사는 전력망이 불안정할 때 AI 데이터센터의 작업을 줄이거나 다른 시간대로 이동시키는 소프트웨어를 만든다. 회사는 이미 다중 메가와트 규모 데이터센터에서 상용 배치를 시작했다고 밝혔다. 총 조달액은 2억2천만달러를 넘겼다.",
+      "whyItMatters": "AI 확장의 가장 현실적인 병목인 전력 부족을 발전소 추가 건설만이 아니라 소프트웨어 스케줄링으로 완화하려는 접근이다.",
+      "analysis": "추론·학습 작업 중 일부는 몇 분~몇 시간 미뤄도 되기 때문에 데이터센터가 전력망의 수요반응 자원처럼 작동할 가능성이 있다.",
+      "outlook": "6~24개월 동안 실제 hyperscaler 도입과 전력 피크 감축량, SLA를 깨지 않고 워크로드를 이동시키는 능력이 핵심이다.",
       "status": "confirmed",
       "sources": [
-        {
-          "name": "Reuters",
-          "url": "https://www.reuters.com/business/sp-nasdaq-futures-slip-markets-await-iran-sanctions-nvidia-results-2026-08-24/"
-        }
+        {"name": "Reuters", "url": "https://www.reuters.com/technology/"},
+        {"name": "Emerald AI / Business Wire", "url": "https://venturebeat.com/business/emerald-ai-raises-150-million-series-a-at-105-billion-valuation-to-scale-power-flexible-ai-data-centers"}
       ]
+    },
+    {
+      "id": "enflame-ipo-892m",
+      "category": "CHINA AI CHIP",
+      "headline": "중국 GPU ‘4대 작은 용’ Enflame, 약 8.9억달러 상하이 IPO 추진",
+      "facts": "Reuters에 따르면 중국 AI 칩 업체 Enflame Technology는 9월 2일 상하이 STAR Market에서 약 60억위안, 8억9천만달러 규모 IPO 청약을 시작한다. Tencent가 투자한 Enflame은 상장 후 지분의 약 10%에 해당하는 4,304만주를 신주로 발행한다. 조달금은 5·6세대 AI 칩과 소프트웨어·하드웨어 공동 혁신 프로젝트에 투입될 예정이다. Moore Threads, MetaX, Biren과 함께 중국의 ‘4대 GPU 스타트업’으로 불린다.",
+      "whyItMatters": "미중 기술 경쟁 속에서 중국이 자체 GPU·AI 가속기 기업을 자본시장까지 연결해 NVIDIA 의존을 줄이려는 흐름이 빨라지고 있다.",
+      "analysis": "자금 조달 자체보다 실제 칩 성능·수율·소프트웨어 생태계가 중요하지만, 상장으로 장기 R&D 자금 확보가 쉬워진다는 점은 크다.",
+      "outlook": "향후 6~24개월 동안 Enflame 5·6세대 제품의 대형 클라우드 채택과 CUDA 대체 소프트웨어 완성도가 핵심이다.",
+      "status": "confirmed",
+      "sources": [{"name": "Reuters", "url": "https://www.reuters.com/world/asia-pacific/ai-chipmaker-enflame-sets-subscription-date-near-900-million-shanghai-ipo-2026-08-25/"}]
+    },
+    {
+      "id": "anthropic-wellbeing-grants",
+      "category": "AI SAFETY",
+      "headline": "Anthropic, AI가 사람에게 미치는 영향을 독립 평가하는 500만달러 연구기금 출범",
+      "facts": "Anthropic은 8월 25일 AI가 사용자 wellbeing에 미치는 영향을 평가하는 독립 연구를 위해 500만달러 규모 보조금 프로그램을 시작했다. 선정 연구팀에는 자금뿐 아니라 Claude 모델 접근과 기술 지원도 제공한다. 결과물은 오픈소스 평가 도구로 공개돼 다른 개발자도 사용할 수 있게 할 계획이다. 특히 AI 동반자·정서적 지원·정신건강 위기 같은 대화 상황의 평가 기준을 중요한 연구 영역으로 제시했다.",
+      "whyItMatters": "AI 안전 평가가 모델의 해킹·거짓말뿐 아니라 장기간 사용하는 사람의 행동과 정서에 미치는 영향까지 넓어지고 있다.",
+      "analysis": "독립 연구자가 공통 평가셋을 만들면 회사별 자체 주장보다 비교 가능한 사용자 영향 지표가 생길 가능성이 있다.",
+      "outlook": "6~24개월 동안 wellbeing 벤치마크가 실제 모델 출시 기준이나 앱스토어·규제 지침에 반영되는지 지켜볼 만하다.",
+      "status": "confirmed",
+      "sources": [{"name": "Anthropic", "url": "https://www.anthropic.com/news/wellbeing-research-grants"}]
     }
   ]
 }
