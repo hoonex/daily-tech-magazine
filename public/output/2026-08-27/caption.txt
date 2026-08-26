@@ -1,0 +1,37 @@
+[2026-08-27] 오늘 볼 만한 AI·테크 뉴스 TOP 3
+
+1. Claude가 데이터센터를 통째로 빌린다
+무슨 일? Anthropic이 Nscale의 AI 컴퓨팅을 6년간 빌리는 데 450억달러를 쓰기로 했다. 약 460MW 규모다.
+왜 중요? Claude Code 같은 에이전트의 병목이 이제 GPU·전력·컴퓨팅 확보가 되고 있다.
+다음엔? Vera Rubin 투입 뒤 추론 단가와 실제 Claude Code 수요를 주목.
+
+2. NVIDIA 매출이 또 예상치를 넘었다
+무슨 일? NVIDIA 2분기 매출은 962억2천만달러, 다음 분기는 약 1080억달러를 전망했다.
+왜 중요? 자체 AI 칩 경쟁이 커져도 프런티어 AI 인프라의 GPU 수요가 아직 강하다는 신호다.
+다음엔? Vera Rubin 공급과 AWS 200만 GPU 계획의 실제 배치 속도를 주목.
+
+3. 음성 AI가 받아쓰기부터 달라졌다
+무슨 일? Google이 잡음·전문용어·말버릇까지 처리해 음성을 바로 정돈된 텍스트로 만드는 Gemini 3.5 Transcribe를 공개했다.
+왜 중요? 전사 후 다시 LLM으로 고치는 단계가 줄면 실시간 음성 에이전트가 더 빨라진다.
+다음엔? 화자 분리·요약·액션 아이템까지 한 모델에서 처리하는지 주목.
+
+오늘 한 줄: AI 경쟁이 모델에서 컴퓨팅·도구·현실 작업 전체로 확장 중
+
+출처
+- Reuters: https://www.reuters.com/business/anthropic-rent-ai-computing-power-nscale-45-billion-source-says-2026-08-26/
+- Reuters: https://www.reuters.com/business/media-telecom/nvidia-forecasts-quarterly-revenue-above-estimates-2026-08-26/
+- Google: https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5-transcribe/
+- Unity: https://discussions.unity.com/t/announcing-the-unity-cli-a-new-way-to-connect-your-tools-and-agents/
+- Epic Games: https://forums.unrealengine.com/t/fortnite-ecosystem-v42-00/
+- Reuters: https://www.reuters.com/sports/robot-olympics-ends-with-humanoids-864-second-100m-nearly-second-faster-than-2026-08-26/
+- NVIDIA: https://www.nvidia.com/en-us/geforce/news/gamescom-2026-nvidia-geforce-rtx-dlss-4-5-announcements/
+- Thomson Reuters: https://www.thomsonreuters.com/en/press-releases/2026/august/thomson-reuters-leverages-its-world-class-data-assets-to-launch-its-own-frontier-model
+- GenBio AI: https://genbio.ai/aido-cell-simulator/
+- Business Wire: https://finance.yahoo.com/technology/ai/articles/agentrys-raises-24-5-million-140000815.html
+
+이미지 출처
+- Slide 1/2: Carl Lender · CC BY 2.0 · https://commons.wikimedia.org/wiki/File:Datacenter_Server_Racks_(22370909788).jpg · cropped and darkened
+- Slide 2/3: Wikideas1 · CC0 1.0 · https://commons.wikimedia.org/wiki/File:NVIDIA_GPU_workstation.webp · cropped and darkened
+- Slide 3/4: Pérot · Public Domain · https://commons.wikimedia.org/wiki/File:Microphone.png · cropped and darkened
+
+@daily_tech_magazine · 무단 재업로드/재배포 금지
