@@ -1,0 +1,40 @@
+[2026-08-28] 오늘 볼 만한 AI·테크 뉴스 TOP 3
+
+1. NVIDIA가 Hugging Face를 품는다?
+무슨 일? Reuters는 NVIDIA가 Hugging Face를 129억달러에 인수하기로 합의했다는 보도를 전했다. 공식 발표 전이라 미확정이다.
+왜 중요? 오픈소스 모델의 유통망까지 NVIDIA 생태계에 들어갈 수 있는 초대형 변화다.
+다음엔? 거래 성사 여부와 Hugging Face의 플랫폼 중립성 유지가 핵심.
+
+2. HBM 부족이 2030년까지?
+무슨 일? SK hynix가 미국 인디애나 HBM 생산기지를 착공하고 2029년 차세대 HBM 양산을 준비한다.
+왜 중요? AI 서버의 진짜 병목이 GPU뿐 아니라 HBM·패키징까지 번지고 있다.
+다음엔? HBM4E 공급과 삼성·Micron의 증설 속도가 AI 서버 가격을 좌우할 수 있다.
+
+3. 코딩 에이전트가 기본 도구가 됐다
+무슨 일? 전문 개발자 90%가 주 1회 이상 AI 코딩 에이전트를 쓰고 Claude Code 업무 사용률은 39%로 조사됐다.
+왜 중요? 에이전트 코딩이 일부 실험이 아니라 개발 현장의 주류 워크플로가 되고 있다.
+다음엔? Codex의 5배 성장세와 Copilot의 에이전트 전환 속도를 주목.
+
+오늘 한 줄: AI 경쟁이 모델에서 생태계·HBM·에이전트 실행력으로 이동 중
+
+출처
+- Reuters: https://www.reuters.com/technology/nvidia-talks-acquire-hugging-face-13-billion-deal-business-insider-reports-2026-08-27/
+- SK hynix: https://news.skhynix.com/en/groundbreaking-ceremony-in-indiana/
+- Reuters: https://www.reuters.com/world/asia-pacific/sk-hynix-holds-groundbreaking-ceremony-4-billion-indiana-ai-chip-packaging-2026-08-27/
+- JetBrains Research: https://blog.jetbrains.com/research/2026/08/ai-coding-agent-adoption-2026/
+- JetBrains Research: https://blog.jetbrains.com/research/2026/08/how-much-code-do-developers-really-let-agents-write/
+- Reuters: https://www.reuters.com/business/retail-consumer/chinas-moonshot-talks-with-microsoft-amazon-google-over-k3-revenue-sharing-2026-08-26/
+- Wired: https://www.wired.com/story/openai-is-developing-a-persistent-ai-agent
+- Reuters: https://www.reuters.com/legal/litigation/major-tech-companies-call-defensive-surge-defeat-ai-driven-hacks-2026-08-27/
+- Reuters: https://www.reuters.com/technology/anthropic-unveils-new-framework-allowing-ai-agents-operate-physical-devices-2026-08-27/
+- Reuters: https://www.reuters.com/investigations/chinas-humanoid-robots-arent-smart-enough-take-your-job-yet-2026-08-27/
+- Reuters: https://www.reuters.com/business/meta-reaches-18-billion-settlements-over-childrens-social-media-addiction-2026-08-26/
+- QuEra: https://www.quera.com/press-releases/quera-computing-uses-ai-to-automate-a-critical-quantum-computer-subsystem-enabling-the-acceleration-of-commercial-grade-quantum-computing-deployments-from-quera
+- Reuters: https://www.reuters.com/technology/anthropic-unveils-new-framework-allowing-ai-agents-operate-physical-devices-2026-08-27/
+
+이미지 출처
+- Slide 1/2: Jernej Furman · CC BY 2.0 · https://commons.wikimedia.org/wiki/File:Homepage_of_HUGGING_FACE_Website_magnified_on_logo_with_magnifying_glass_(53146954891).jpg · cropped and darkened
+- Slide 2/3: NASA Glenn Research Center · Public Domain · https://commons.wikimedia.org/wiki/File:Clean_room.jpg · cropped and darkened
+- Slide 3/4: Lorenzo Cafaro · CC0 · https://commons.wikimedia.org/wiki/File:Programming.jpg · cropped and darkened
+
+@daily_tech_magazine · 무단 재업로드/재배포 금지
