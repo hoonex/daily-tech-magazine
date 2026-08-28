@@ -1,0 +1,36 @@
+[2026-08-29] 오늘 볼 만한 AI·테크 뉴스 TOP 3
+
+1. Tencent가 770B 코딩 AI를 풀었다
+무슨 일? Tencent가 코딩·연구·금융 분석용 오픈소스 Hy4 preview를 공개했다. 전체 770B 중 요청당 약 49B만 활성화된다.
+왜 중요? 코딩 에이전트 경쟁에 초대형 오픈소스 모델이 다시 강하게 들어온다.
+다음엔? 실제 코딩 성능과 장기 작업 안정성, 배포 비용이 핵심.
+
+2. Anthropic도 자체 AI 칩을 노린다
+무슨 일? Anthropic은 MatX를 약 70억달러에 사는 방안을 검토했고, 지금은 파트너십 등 여러 칩 전략을 논의 중이다.
+왜 중요? Claude 비용과 공급을 직접 통제하려면 모델뿐 아니라 실리콘까지 최적화해야 한다.
+다음엔? 실제 칩 설계 방향과 첫 tape-out 일정이 다음 핵심.
+
+3. AI 영상이 이제 ‘편집’에 가까워졌다
+무슨 일? Omni 1.1 Flash는 장면을 누적 40초까지 확장하고 시작·끝 프레임 지정, 저가 360p 초안, 4K 업스케일을 지원한다.
+왜 중요? 생성형 영상이 단발 클립에서 실제 제작 워크플로로 이동하는 변화다.
+다음엔? 긴 장면의 일관성과 편집툴 통합 속도를 주목.
+
+오늘 한 줄: AI 경쟁이 모델에서 칩·오픈소스·물리 인프라로 확장 중
+
+출처
+- Reuters: https://www.reuters.com/world/asia-pacific/chinas-tencent-releases-new-open-source-ai-model-coding-research-tasks-2026-08-28/
+- Reuters: https://www.reuters.com/business/finance/anthropic-planned-then-abandoned-7-billion-purchase-matx-sources-say-2026-08-27/
+- Google DeepMind: https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/
+- Reuters: https://www.reuters.com/business/frances-quantum-computer-maker-pasqal-surges-nasdaq-debut-2026-08-28/
+- Reuters: https://www.reuters.com/world/americas/canada-loan-quantum-startup-xanadu-140-million-build-manufacturing-plant-2026-08-28/
+- The Wall Street Journal: https://www.wsj.com/finance/investing/andreessen-horowitz-hardware-fund-ai-supply-chain-887774c5
+- Wired: https://www.wired.com/story/inside-metas-experiments-with-data-center-robots
+- NVIDIA: https://blogs.nvidia.com/blog/geforce-now-thursday-gamescom-2026/
+- Reuters: https://www.reuters.com/legal/government/us-judge-blocks-pentagons-anthropic-blacklisting-2026-08-28/
+- Washington State University / ScienceDaily: https://www.sciencedaily.com/releases/2026/08/260827010504.htm
+
+이미지 출처
+- Slide 1/2: DrHughManning · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Semiconductor_Wafer_of_Microelectronics.jpg · cropped and darkened
+- Slide 2/3: Cubical quad · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:Hitachi_camera_SK-H5000_of_NHK.jpg · cropped and darkened
+
+@daily_tech_magazine · 무단 재업로드/재배포 금지
