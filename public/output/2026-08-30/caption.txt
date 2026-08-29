@@ -1,0 +1,40 @@
+[2026-08-30] 오늘 볼 만한 AI·테크 뉴스 TOP 3
+
+1. Cursor에서 OpenAI가 빠진다
+무슨 일? OpenAI는 SpaceX 소유 Cursor에 모델 공급을 11월 12일 종료할 계획이라고 밝혔다. Cursor는 해결을 위한 대화를 계속 중이다.
+왜 중요? 코딩 에이전트도 모델 공급 계약과 정책 갈등에 직접 영향을 받는다.
+다음엔? Claude·자체 모델·멀티모델 라우팅이 얼마나 빨리 빈자리를 채우는지가 핵심.
+
+2. 중국 메모리가 플래그십에 들어간다
+무슨 일? CXMT가 Xiaomi 18 Fold에 LPDDR6를 공급한다. Xiaomi는 자체 3nm Xring O3와 함께 사용할 예정이다.
+왜 중요? 중국의 모바일 AP·메모리 자립이 동시에 빨라지고 있다.
+다음엔? LPDDR6 수율과 실제 전력효율, 다른 제조사 채택이 다음 체크포인트.
+
+3. Hubble보다 100배 넓게 본다
+무슨 일? NASA Roman이 오늘 Falcon Heavy로 발사될 예정이다. 2.4m 주경과 300MP 카메라로 거대한 우주 지도를 만든다.
+왜 중요? 암흑에너지·외계행성을 대규모 통계로 연구할 새 관측 플랫폼이다.
+다음엔? 2027년 첫 과학 데이터와 실제 외계행성 발견량을 주목.
+
+오늘 한 줄: AI 경쟁이 모델에서 공급망·메모리·장기기억으로 이동 중
+
+출처
+- Reuters: https://www.reuters.com/business/media-telecom/openai-end-partnership-with-spacexs-cursor-2026-08-29/
+- Reuters: https://www.reuters.com/world/asia-pacific/chinas-cxmt-supply-memory-chip-xiaomis-upcoming-folding-phone-2026-08-29/
+- NASA: https://science.nasa.gov/mission/roman-space-telescope/
+- NASA Roman Blog: https://science.nasa.gov/blogs/roman/2026/08/28/nasas-roman-space-telescope-go-for-launch/
+- arXiv: https://arxiv.org/abs/2608.27454
+- Telnyx: https://telnyx.com/release-notes/glm-5-3-flash-inference
+- Business Insider: https://www.businessinsider.com/ox-alpha-zai-chinese-internet-celebrate-weibo-glm53-flash-2026-8
+- Reuters: https://www.reuters.com/business/retail-consumer/alibabas-qwen-launches-qwen38-flash-ai-model-with-lower-training-costs-2026-08-26/
+- Qwen: https://qwen.ai/blog?id=qwen3.8-flash-next
+- Axios: https://www.axios.com/2026/08/29/anthropic-sony-warner-music-copyright
+- Wall Street Journal: https://www.wsj.com/tech/ai/nvidia-wants-to-run-the-worlds-robots-china-is-an-eager-customer-bdf46169
+- The Guardian: https://www.theguardian.com/technology/2026/aug/29/sharp-rise-in-incidents-of-ai-escaping-users-control-research-finds
+- Tom's Hardware: https://www.tomshardware.com/tech-industry/artificial-intelligence/claude-nukes-a-developers-700-gb-home-directory-while-testing-a-script-to-ensure-it-wouldnt-do-so-automatic-model-downgrade-may-have-contributed-to-the-screw-up
+
+이미지 출처
+- Slide 1/2: Markus Spiske · CC0 1.0 · https://commons.wikimedia.org/wiki/File:Colorful_lines_of_code_(Unsplash).jpg · cropped and darkened
+- Slide 2/3: ArnoldReinhold · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:64K_memory_chips.agr.jpg · cropped and darkened
+- Slide 3/4: NASA · Public Domain (NASA) · https://science.nasa.gov/blogs/roman/2026/06/03/hello-world-nasa-shares-new-home-for-roman-space-telescope-updates/ · cropped and darkened
+
+@daily_tech_magazine · 무단 재업로드/재배포 금지
