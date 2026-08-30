@@ -1,0 +1,36 @@
+[2026-08-31] 오늘 볼 만한 AI·테크 뉴스 TOP 3
+
+1. NVIDIA의 AI 돈줄에 제동
+무슨 일? NVIDIA가 소형 AI 클라우드에 신용을 제공하고 매출 일부를 받는 새 금융 프로그램의 일부 계약을 중단했다.
+왜 중요? 칩 판매사가 금융·수요 창출까지 장악하는 구조가 규제와 투자자 감시를 받기 시작했다.
+다음엔? 프로그램 재설계와 소형 AI 클라우드의 새 자금조달 방식이 핵심.
+
+2. 399달러로 physical AI 실험
+무슨 일? Hugging Face의 Microduck은 걷고 넘어졌다 일어나며, 사용자가 시뮬레이션에서 새 행동을 학습시켜 실제 로봇에 배포할 수 있다.
+왜 중요? 로봇 강화학습과 sim-to-real 실험의 진입비용을 크게 낮춘다.
+다음엔? 커뮤니티가 공유하는 행동 정책과 교육·연구 채택률을 주목.
+
+3. 코딩 컨텍스트를 4분의 1로
+무슨 일? Paritok-4B는 SWE-bench Lite에서 에이전트 컨텍스트를 25.7%까지 줄이면서 해결 품질의 86.5%를 유지했다.
+왜 중요? 장기 코딩 에이전트의 토큰 비용을 작은 보조 모델로 크게 줄일 수 있다.
+다음엔? 상용 코딩 에이전트의 로컬 압축·캐시 계층 채택이 관전 포인트.
+
+오늘 한 줄: AI 경쟁이 모델에서 비용·도구·실행구조로 이동 중
+
+출처
+- Reuters: https://www.reuters.com/business/nvidia-pauses-revenue-sharing-deals-with-ai-cloud-companies-wsj-reports-2026-08-27/
+- TechCrunch: https://techcrunch.com/2026/08/27/hugging-face-is-selling-a-cute-399-open-source-duck-robot-microduck/
+- arXiv: https://arxiv.org/abs/2608.24188
+- Reuters: https://www.reuters.com/business/thinking-machines-lab-co-founder-barret-zoph-joins-google-2026-08-27/
+- Stability AI: https://stability.ai/news-updates/stability-ai-latest-funding-backed-by-entertainment-industry-biggest-names
+- arXiv: https://arxiv.org/abs/2608.25202
+- arXiv: https://arxiv.org/abs/2608.26991
+- arXiv: https://arxiv.org/abs/2608.25518
+- arXiv: https://arxiv.org/abs/2608.23383
+- arXiv: https://arxiv.org/abs/2608.26867
+
+이미지 출처
+- Slide 1/2: Mickael Courtiade · CC BY 2.0 · https://commons.wikimedia.org/wiki/File:NVIDIA_GPU.jpg · cropped and darkened
+- Slide 2/3: Slashme · CC0 1.0 · https://commons.wikimedia.org/wiki/File:RustCodeOnScreen.jpg · cropped and darkened
+
+@daily_tech_magazine · 무단 재업로드/재배포 금지
