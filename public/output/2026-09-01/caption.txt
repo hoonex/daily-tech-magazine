@@ -1,0 +1,37 @@
+[2026-09-01] 오늘 볼 만한 AI·테크 뉴스 TOP 3
+
+1. NVIDIA, MediaTek에 35억달러
+무슨 일? NVIDIA가 MediaTek에 35억달러를 투자하고 NVLink Fusion으로 맞춤형 AI 칩·PC·차량 협력을 넓힌다.
+왜 중요? GPU만이 아니라 다른 회사의 칩까지 NVIDIA 연결 생태계 안에 넣는 전략이다.
+다음엔? MediaTek 데이터센터 AI 칩과 NVLink Fusion 실제 고객이 핵심.
+
+2. 유럽, AI 컴퓨팅을 직접 산다
+무슨 일? EU가 AMD·IBM·Nokia 기반 LUMI-AI에 약 4.49억달러를 투입한다. 2027년 하반기 핀란드에서 가동 예정이다.
+왜 중요? AI 컴퓨팅 수요가 공급을 넘어 신청이 거절될 정도로 부족해졌기 때문이다.
+다음엔? 19개 AI Factory가 실제 스타트업·연구자 병목을 줄이는지가 관전 포인트.
+
+3. 공식 문서가 공급망 공격 통로로
+무슨 일? 120개 기업 llms.txt가 등록되지 않은 패키지·도메인을 가리켰고, Claude·Codex 등 에이전트가 실제 설치를 수행했다.
+왜 중요? 에이전트에게 문서는 곧 실행 가능한 입력이 될 수 있다.
+다음엔? 패키지 provenance 검사·설치 승인·sandbox가 기본화되는지가 핵심.
+
+오늘 한 줄: AI 경쟁이 칩 동맹·컴퓨팅·에이전트 신뢰경계로 확장
+
+출처
+- Reuters: https://www.reuters.com/world/asia-pacific/nvidia-invests-35-billion-mediatek-convertible-bonds-2026-08-31/
+- Reuters: https://www.reuters.com/world/europe/europe-expands-ai-computing-network-with-390-million-order-frances-bull-2026-08-31/
+- Ars Technica: https://arstechnica.com/security/2026/08/claude-codex-and-hermes-installed-unowned-code-inside-corporate-networks/
+- Reuters: https://www.reuters.com/business/retail-consumer/zhipu-ai-first-half-revenue-grows-400-2026-08-31/
+- Reuters: https://www.reuters.com/world/asia-pacific/soitec-locks-customers-into-multi-year-deals-ai-wafer-demand-surges-2026-08-31/
+- Reuters: https://www.reuters.com/world/asia-pacific/huawei-h1-profit-drop-quickens-36-rising-costs-rd-spending-2026-08-31/
+- The Guardian: https://www.theguardian.com/technology/2026/aug/31/superhuman-ai-tool-spots-heart-disease
+- China Daily Hong Kong: https://www.chinadailyhk.com/hk/article/638790
+- Reuters: https://www.reuters.com/legal/litigation/ai-driven-cyber-risk-is-top-concern-global-financial-stability-watchdog-says-2026-08-31/
+- Busan Metropolitan City: https://www.busan.go.kr/eng/ai-translated-press-releases/1751358
+- VALORANT Esports: https://valorantesports.com/en-PH/news/audrey-nuna-to-perform-live-at-vct-pacific-stage-2-finals-busan
+
+이미지 출처
+- Slide 1/2: Mickael Courtiade · CC BY 2.0 · https://commons.wikimedia.org/wiki/File:NVIDIA_GPU.jpg · cropped and darkened
+- Slide 2/3: Slashme · CC0 1.0 · https://commons.wikimedia.org/wiki/File:RustCodeOnScreen.jpg · cropped and darkened
+
+@daily_tech_magazine · 무단 재업로드/재배포 금지
