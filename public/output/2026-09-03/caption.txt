@@ -1,0 +1,37 @@
+[2026-09-03] 오늘 볼 만한 AI·테크 뉴스 TOP 3
+
+1. Claude 5.1, 더 싸고 더 강해졌다
+무슨 일? Fable 5.1은 일반 제공, Mythos 5.1은 trusted access로 제공된다. 고에이전트 작업 비용은 최대 약 45% 절감된다고 Anthropic이 밝혔다.
+왜 중요? 코딩 AI 경쟁이 모델 점수에서 장기 작업 비용·보호 체계까지 확장됐다.
+다음엔? Claude Code 실사용 비용과 Mythos 접근 확대, EFS 도입이 다음 포인트.
+
+2. Gemini Flash가 장기 코딩까지
+무슨 일? 3.8 Flash는 입력 100만 토큰당 0.75달러를 유지하면서 장기 코딩·에이전트 성능을 높였다. Cyber 버전은 신뢰된 방어자에게 제한 제공된다.
+왜 중요? 저가 모델도 복잡한 장기 작업을 맡는 단계로 올라왔다.
+다음엔? 작업당 실제 토큰 비용과 Flash Cyber의 취약점 탐지·패치 성과를 확인해야 한다.
+
+3. Astra, ‘실전 사이버’ 임계치 도달
+무슨 일? OpenAI는 Astra가 첫 Critical 사이버 모델이라고 밝혔다. 내부 평가에서 exploit chain 중 zero-day 두 개를 찾아 사용한 사례도 보고했다.
+왜 중요? 프런티어 모델 출시가 실제 공격 능력과 통제 체계에 의해 결정되는 단계다.
+다음엔? 정식 출시와 제한 접근 정책, 독립 평가에서 결과가 재현되는지가 핵심.
+
+오늘 한 줄: 에이전트 경쟁이 코딩·사이버·전력 인프라까지 확장
+
+출처
+- Anthropic: https://www.anthropic.com/claude-fable-and-mythos-5-1
+- Google: https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/
+- OpenAI: https://openai.com/index/path-to-astra/
+- Meta AI Research: https://research.meta.ai/blog/introducing-muse-spark-1-3
+- Reuters: https://www.reuters.com/legal/litigation/openai-is-building-automated-shutdown-capabilities-ai-tools-letter-lawmakers-2026-09-02/
+- Reuters: https://www.reuters.com/business/broadcom-forecasts-quarterly-revenue-below-estimates-2026-09-02/
+- Reuters: https://www.reuters.com/legal/transactional/vertiv-strikes-145-billion-deal-microgrid-firm-utility-innovation-group-2026-09-02/
+- Reuters: https://www.reuters.com/business/hpe-raises-annual-forecasts-ai-networking-demand-lifts-quarterly-revenue-2026-09-02/
+- Riot Games: https://playvalorant.com/en-us/news/game-updates/valorant-patch-notes-13-05/
+- Reuters: https://www.reuters.com/business/snowflake-lifts-annual-product-revenue-forecast-demand-cloud-data-platform-2026-09-02/
+
+이미지 출처
+- Slide 1/2: Claude Logo Symbol / Anthropic · CC0 1.0 · https://commons.wikimedia.org/wiki/File:Claude_AI_symbol.svg · cropped and darkened
+- Slide 2/3: Google LLC · Public Domain · https://commons.wikimedia.org/wiki/File:Google_Gemini_logo_2025.svg · cropped and darkened
+- Slide 3/4: OpenAI · Public Domain · https://commons.wikimedia.org/wiki/File:OpenAI_logo_2025_(wordmark).svg · cropped and darkened
+
+@daily_tech_magazine · 무단 재업로드/재배포 금지
