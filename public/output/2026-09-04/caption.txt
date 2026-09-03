@@ -1,0 +1,40 @@
+[2026-09-04] 오늘 볼 만한 AI·테크 뉴스 TOP 3
+
+1. NVIDIA, Hugging Face를 샀다
+무슨 일? NVIDIA가 Hugging Face를 129.3억달러에 인수한다. 1,800만 개발자가 쓰는 오픈 AI 허브는 멀티클라우드·멀티가속기 지원을 유지한다고 밝혔다.
+왜 중요? GPU 회사가 모델 유통·배포 레이어까지 직접 확보했다.
+다음엔? 플랫폼 중립성 유지와 규제 심사, NIM·Nemotron 통합 속도가 핵심.
+
+2. 집의 RTX PC를 하나로 묶는다
+무슨 일? NVIDIA PAIR가 여러 RTX PC에 로컬 AI 추론을 분산한다. llama.cpp·vLLM 최적화는 최대 1.9배 향상됐고 RTX Spark PC는 10월 나온다.
+왜 중요? 개인 AI가 단일 PC를 넘어 ‘집 안의 작은 AI 클러스터’로 갈 수 있다.
+다음엔? 멀티PC 효율, Linux 지원, RTX Spark의 실제 가격·120B 모델 성능을 확인해야 한다.
+
+3. AI 날씨가 매시간 다시 계산된다
+무슨 일? WeatherNext 3는 실시간 위성 데이터를 쓰고 매시간 예측을 갱신한다. Google은 이전 세대보다 공간 해상도가 5배 높아졌다고 밝혔다.
+왜 중요? AI 예보가 Search·Gemini·Maps와 산업 운영에 바로 연결된다.
+다음엔? 집중호우·허리케인 독립 검증과 전력·농업 현장 채택이 다음 관전 포인트.
+
+오늘 한 줄: AI 경쟁이 오픈 생태계·로컬 PC·물리 세계로 내려갔다
+
+출처
+- NVIDIA: https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/
+- Reuters: https://www.reuters.com/business/nvidia-buy-hugging-face-nearly-13-billion-big-bet-open-ai-models-2026-09-03/
+- NVIDIA: https://blogs.nvidia.com/blog/local-ai-ifa-next-gen-agents-nv-pair-rtx-spark/
+- Reuters: https://www.reuters.com/world/china/nvidia-sets-october-launch-rtx-spark-ai-pcs-2026-09-03/
+- Google DeepMind: https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-weathernext-3/
+- Manifold Security: https://www.manifold.security/blog/ai-coding-agents-git-hijack
+- Reuters: https://www.reuters.com/technology/ai-cloud-firm-nscale-commits-compute-worth-35-billion-figures-robotics-ambitions-2026-09-03/
+- Reuters: https://www.reuters.com/technology/crusoe-signs-13-billion-ai-cloud-deal-with-jane-street-bloomberg-news-reports-2026-09-03/
+- Reuters: https://www.reuters.com/business/retail-consumer/anthropic-launches-ai-agent-blueprints-retailers-ahead-holiday-shopping-season-2026-09-02/
+- DigitalToday: https://www.digitaltoday.co.kr/en/view/100012/samsung-sds-holds-rx-art-in-us-to-test-robot-use-at-samsung-affiliates-manufacturing-sites
+- The Verge: https://www.theverge.com/tech/988882/lenovo-project-aeroblade-concept-frore-airjet-silent-cooling
+- CrowdStrike: https://www.crowdstrike.com/en-us/press-releases/crowdstrike-launches-frontier-models-for-cybersecurity-with-nvidia/
+- NVIDIA: https://blogs.nvidia.com/blog/nvidia-crowdstrike-fal-con-2026/
+
+이미지 출처
+- Slide 1/2: Victor / Hugging Face · Apache License 2.0 · https://commons.wikimedia.org/wiki/File:Hf-logo-with-title.svg · cropped and darkened
+- Slide 2/3: NVIDIA · Apache License 2.0 · https://commons.wikimedia.org/wiki/File:NVIDIA_logo.svg · cropped and darkened
+- Slide 3/4: NASA · Public Domain · https://commons.wikimedia.org/wiki/File:Nimbus-A,_Weather_Satellite_-_GPN-2003-00034.jpg · cropped and darkened
+
+@daily_tech_magazine · 무단 재업로드/재배포 금지
