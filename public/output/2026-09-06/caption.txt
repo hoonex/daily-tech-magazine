@@ -1,0 +1,38 @@
+[2026-09-06] 오늘 볼 만한 AI·테크 뉴스 TOP 3
+
+1. 인도에 1GW AI 캠퍼스
+무슨 일? TCS 계열 HyperVault가 하이데라바드에 최대 74억달러를 투입해 1GW급 AI 데이터센터를 단계적으로 건설한다.
+왜 중요? AI 경쟁의 단위가 GPU 몇 장이 아니라 전력망 하나를 통째로 쓰는 국가급 인프라로 커졌다.
+다음엔? 착공 속도와 가속기 공급사, hyperscaler 입주 고객이 실제 성패를 가른다.
+
+2. 한국 수출의 41%가 반도체
+무슨 일? 올해 누적 수출이 벌써 작년 연간 기록을 넘었다. 1~8월 반도체 수출은 169.6% 늘어 2810억달러를 기록했다.
+왜 중요? AI 칩 수요가 기업 실적을 넘어 한국 전체 무역 구조를 바꾸고 있다.
+다음엔? HBM4E·DRAM 가격과 1조달러 연간 수출 달성 여부를 봐야 한다.
+
+3. AI 때문에 RAM이 5배 뛰었다
+무슨 일? AI 서버가 HBM·DRAM 생산능력을 빨아들이며 일반 메모리 가격까지 급등했다. 일부 소비자 기기는 가격을 최대 20% 올렸다.
+왜 중요? AI 데이터센터 비용이 이제 게이밍 PC·노트북·콘솔 구매자에게 직접 넘어오고 있다.
+다음엔? 신규 팹이 풀리는 2027년 전까지 DDR5·노트북 가격이 얼마나 버틸지가 관건이다.
+
+오늘 한 줄: AI 붐의 진짜 병목이 전력·메모리·공장·자본으로 번졌다
+
+출처
+- Reuters: https://www.reuters.com/world/india/indias-tcs-unit-invest-up-74-billion-ai-data-center-campus-2026-09-05/
+- Reuters: https://www.reuters.com/world/asia-pacific/south-korea-exports-surpass-full-year-record-hit-7094-billion-ytd-2026-09-05/
+- Financial Times: https://www.ft.com/content/ea9a9dcc-b1df-49b0-b80c-f320161b9efa
+- Reuters: https://www.reuters.com/world/asia-pacific/foxconn-says-third-quarter-outperform-market-expectations-ai-strength-2026-09-05/
+- Reuters: https://www.reuters.com/world/anthropic-ipo-launch-shifts-toward-mid-october-sources-say-2026-09-04/
+- Reuters: https://www.reuters.com/business/media-telecom/german-space-rocket-lifts-off-norway-base-2026-09-05/
+- OpenAI Help Center: https://help.openai.com/en/articles/20001498-how-banked-codex-resets-work
+- Pudu Robotics / PR Newswire: https://www.prnewswire.com/news-releases/pudu-robotics-makes-its-ifa-debut-bringing-its-full-robotics-portfolio-to-europe-302870497.html
+- Google: https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-agentic-video-in-gemini/
+- University of Oxford: https://www.physics.ox.ac.uk/news/scientists-observe-einsteins-gravity-quantum-world
+- Science Advances DOI: https://doi.org/10.1126/sciadv.aec8045
+
+이미지 출처
+- Slide 1/2: ESO · CC BY 4.0 · https://commons.wikimedia.org/wiki/File:ESO_data_center_(eso-data-centre-9101).jpg · cropped and darkened
+- Slide 2/3: GTV 경기도청방송국 · CC BY 3.0 · https://commons.wikimedia.org/wiki/File:Semiconductor_Packaging_Trend_Forum_in_Suwon_Convention_Center_20240828_(03).jpg · cropped and darkened
+- Slide 3/4: ElooKoN · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:RAM_Module_(SDRAM-DDR4).jpg · cropped and darkened
+
+@daily_tech_magazine · 무단 재업로드/재배포 금지
