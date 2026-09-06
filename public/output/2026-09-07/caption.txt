@@ -1,0 +1,36 @@
+[2026-09-07] 오늘 볼 만한 AI·테크 뉴스 TOP 3
+
+1. Claude가 11일간 수학을 형식화
+무슨 일? 수십 개 Claude 에이전트가 1,300만 줄 Lean을 작성해 페르마의 마지막 정리의 완전한 컴퓨터 검증 형식화를 만들었다.
+왜 중요? AI가 만든 과학 결과를 사람이 믿는 대신 proof assistant가 다시 검증하는 구조가 현실화됐다.
+다음엔? 정형검증 비용과 속도가 내려가면 수학·칩 설계·소프트웨어 검증 전체로 확산될 수 있다.
+
+2. 모델 만드는 과정까지 전부 공개
+무슨 일? K2 Horizon은 가중치만이 아니라 학습 데이터·코드·방법론·개발 체크포인트까지 공개한 6개 모델 계열이다.
+왜 중요? 오픈소스 AI의 기준이 '가중치 공개'에서 '훈련 전체 재현'으로 올라갈 수 있다.
+다음엔? 다른 연구소가 데이터·체크포인트 공개를 따라올지가 다음 경쟁 포인트다.
+
+3. 양자-고전 격차를 직접 시험했다
+무슨 일? Quantinuum H2에서 최대 55큐비트·수천 회로를 실행해 고전 전략과 지수적으로 갈리는 complement-sampling 게임을 검증했다.
+왜 중요? 양자 우위 주장을 복잡도 가정 없이 검증할 수 있는 더 강한 실험 기준이 생겼다.
+다음엔? 더 큰 큐비트 수와 다른 양자 하드웨어에서 같은 결과가 재현되는지가 핵심이다.
+
+오늘 한 줄: AI가 증명·칩·양자까지 ‘검증 가능한 실행’로 내려갔다
+
+출처
+- Anthropic: https://www.anthropic.com/research/formalizing-fermats-last-theorem
+- Reuters: https://www.reuters.com/world/middle-east/abu-dhabi-ai-institute-releases-fully-open-source-models-with-training-data-code-2026-09-03/
+- Nature Communications: https://www.nature.com/articles/s41467-026-77413-3
+- MLCAD 2026: https://mlcad.org/symposium/2026/program/
+- NVIDIA NGC: https://catalog.ngc.nvidia.com/orgs/nvidia/ai-dynamo/collections/ai-dynamo/-
+- NIPA / EQS News: https://www.prnewswire.com/de/pressemitteilungen/k-ai-semiconductor-pavilion-brings-koreas-next-generation-ai-semiconductor-technologies-to-ifa-2026-302864675.html
+- Financial Times: https://www.ft.com/content/8a708224-3a37-4d23-9f5c-158a73216018
+- TechCrunch: https://techcrunch.com/2026/09/06/travis-kalanicks-atoms-might-be-getting-into-the-robotaxi-business/
+- Riot Games: https://www.riotgames.com/en/news/2xko-active-development-ends-december-2026
+- Reuters: https://www.reuters.com/world/asia-pacific/meta-put-ai-chip-into-production-september-it-looks-double-computing-capacity-2026-07-09/
+- OpenAI: https://openai.com/index/an-alien-mind/
+
+이미지 출처
+- Slide 1/2: Unknown author · Public Domain · https://commons.wikimedia.org/wiki/File:Pierre_de_Fermat.jpg · cropped and darkened
+
+@daily_tech_magazine · 무단 재업로드/재배포 금지
