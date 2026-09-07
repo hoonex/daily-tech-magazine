@@ -1,0 +1,37 @@
+[2026-09-08] 오늘 볼 만한 AI·테크 뉴스 TOP 3
+
+1. 연구자 1명 옆에 AI 3명
+무슨 일? OpenAI 연구조직은 인간 1일당 3.1 agent-workdays를 사용 중이다. 중간값 연구자도 하루 600달러 이상을 에이전트 추론에 쓴다.
+왜 중요? 코딩 에이전트가 보조도구가 아니라 연구조직의 실제 병렬 노동력으로 바뀌고 있다.
+다음엔? 에이전트 수보다 연구 성과 대비 비용과 장기 작업 안정성이 다음 핵심 지표다.
+
+2. 휴머노이드가 전장으로 간다
+무슨 일? 중국은 상업 휴머노이드 기술을 정찰·물류·위험작업·도시전 지원 시나리오로 시험 중이다.
+왜 중요? Physical AI가 데모를 넘어 실제 국가 안보 인프라로 이동하는 신호다.
+다음엔? 완전자율보다 원격조종형부터 먼저 실전 배치되는지가 핵심이다.
+
+3. 중국 폴더블, 칩까지 자체화
+무슨 일? Huawei는 tri-fold Mate XT2, Xiaomi는 자체 XRing O3와 중국산 DRAM을 넣은 18 Fold를 공개했다.
+왜 중요? 폼팩터 경쟁이 자체 AP·메모리까지 포함한 공급망 경쟁으로 커지고 있다.
+다음엔? Apple 폴더블과 자체칩 전력효율이 다음 승부처다.
+
+오늘 한 줄: AI가 이제 연구실·전장·스마트폰·전력망까지 파고든다
+
+출처
+- OpenAI: https://openai.com/index/research-acceleration-view-inside-openai/
+- Reuters: https://www.reuters.com/world/china/dance-floor-war-china-readies-humanoid-robots-combat-2026-09-07/
+- Reuters: https://www.reuters.com/technology/huawei-launches-new-foldable-smartphone-competition-with-xiaomi-apple-heats-up-2026-09-07/
+- Reuters: https://www.reuters.com/world/asia-pacific/cathay-pacific-google-expand-ai-trials-cut-climate-warming-aircraft-contrails-2026-09-07/
+- Reuters: https://www.reuters.com/business/energy/tech-companies-look-argentinas-windswept-patagonia-build-massive-data-centers-2026-09-07/
+- Reuters: https://www.reuters.com/world/asia-pacific/taiwans-wistron-launches-up-15-billion-gds-sale-term-sheet-shows-2026-09-07/
+- arXiv: https://arxiv.org/abs/2609.04611
+- Reuters: https://www.reuters.com/world/china/taiwan-flexes-chip-diplomacy-muscles-it-faces-pressure-share-ai-wealth-with-2026-09-07/
+- Reuters: https://www.reuters.com/world/china/belgium-detains-chinese-man-suspicion-semiconductor-espionage-2026-09-07/
+- Reuters: https://www.reuters.com/science/isro-seeks-calm-nerves-over-indias-space-privatisation-push-2026-09-07/
+
+이미지 출처
+- Slide 1/2: OpenAI · Public Domain · https://commons.wikimedia.org/wiki/File:OpenAI_logo_2025.svg · cropped and darkened
+- Slide 2/3: Nicholas-halodi · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Halodi_Robotics%27_Perception_Engineer_With_a_Humanoid_Collaborative_Robot.jpg · cropped and darkened
+- Slide 3/4: Phablets · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Foldable_smartphone_(Android_Jelly_Bean).jpg · cropped and darkened
+
+@daily_tech_magazine · 무단 재업로드/재배포 금지
