@@ -1,0 +1,40 @@
+[2026-09-09] 오늘 볼 만한 AI·테크 뉴스 TOP 3
+
+1. AI가 대신 결제한다
+무슨 일? Meta Muse는 전용 Secure VM에서 이메일·예약·양식·구매를 대신하고 앱을 닫아도 장기 작업을 계속한다.
+왜 중요? 챗봇이 실제 계정과 결제권한을 가진 소비자용 실행 에이전트로 넘어갔다.
+다음엔? 미국 밖 확장과 보안사고율, AI 안경 통합이 다음 승부처다.
+
+2. Qualcomm이 AI 서버로 간다
+무슨 일? Amazon과 여러 세대의 커스텀 AI 칩·1.6T 광연결을 공동 개발하며 최대 600억달러 구매 프레임에 들어갔다.
+왜 중요? Qualcomm이 모바일을 넘어 hyperscaler용 AI 실리콘 경쟁에 본격 진입했다.
+다음엔? 첫 칩의 성능/와트와 Amazon 실제 구매량이 핵심이다.
+
+3. 휴머노이드가 공장에서 나온다
+무슨 일? XPENG은 IRON 전용 생산라인을 가동했고 생산을 마친 로봇이 스스로 걸어 나왔다. 핵심 공정 자동화율은 80% 이상이다.
+왜 중요? 휴머노이드 경쟁이 시제품에서 실제 제조·원가·품질 경쟁으로 넘어갔다.
+다음엔? 월 생산량과 상업 배치 단가·고장률이 진짜 시험대다.
+
+오늘 한 줄: AI 경쟁이 모델에서 실행권한·칩·공장·전력으로 번졌다
+
+출처
+- Meta: https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/
+- Reuters: https://www.reuters.com/business/meta-launches-ai-agent-that-can-access-other-apps-send-emails-make-payments-2026-09-08/
+- Qualcomm: https://www.qualcomm.com/news/releases/2026/09/qualcomm-announces-multi-generational-product-collaboration-with
+- Reuters: https://www.reuters.com/technology/qualcomm-amazon-develop-custom-chips-ai-data-centers-2026-09-08/
+- XPENG: https://www.xpeng.com/news/01a080371029a057bc8e8a02a2c6012b
+- Reuters: https://www.reuters.com/world/europe/french-ai-company-mistral-hits-24-billion-valuation-funding-round-2026-09-08/
+- Firmus: https://firmus.co/newsroom/firmus-surpasses-900-mw-contracted-capacity-adds-openai-as-anchor-customer-and-expands-into-malaysia
+- Reuters: https://www.reuters.com/world/asia-pacific/nvidia-backed-firmus-signs-deal-with-openai-malaysia-data-centre-capacity-2026-09-08/
+- Arm: https://newsroom.arm.com/news/arm-css-for-mobile-2-agentic-ai-mobile-graphics
+- Reuters: https://www.reuters.com/technology/us-accuses-chinese-ai-firms-industrial-scale-theft-ai-technology-2026-09-08/
+- Reuters: https://www.reuters.com/science/indian-space-startup-galaxeye-wins-us-patent-satellite-imaging-technology-2026-09-08/
+- Gloo: https://investors.gloo.com/news-releases/news-release-details/gloo-launches-gloo-code-agentic-coding-and-optimized-agents-make
+- Reuters: https://www.reuters.com/business/wall-st-futures-slip-oil-surge-puts-markets-edge-2026-09-08/
+
+이미지 출처
+- Slide 1/2: Meta Platforms · Public Domain · https://commons.wikimedia.org/wiki/File:Meta_Platforms_logo.svg · cropped and darkened
+- Slide 2/3: Victorgrigas · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:Wikimedia_Foundation_Servers-8055_08.jpg · cropped and darkened
+- Slide 3/4: Pratyush Agrawal · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Humanoid_robot_(biped).png · cropped and darkened
+
+@daily_tech_magazine · 무단 재업로드/재배포 금지
