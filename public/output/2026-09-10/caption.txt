@@ -1,0 +1,40 @@
+[2026-09-10] 오늘 볼 만한 AI·테크 뉴스 TOP 3
+
+1. AI가 밀레니엄 문제를 풀었나
+무슨 일? OpenAI는 대규모 에이전트가 Navier–Stokes 해법을 88시간 만에 찾았고 GPT-6 Astra로 Lean 검증까지 했다고 밝혔다.
+왜 중요? 맞다면 AI가 최전선 수학 연구를 직접 수행한 가장 강한 사례 중 하나다.
+다음엔? 외부 수학자 검토와 정식 출판·수년간의 검증이 진짜 시험대다.
+
+2. AI가 원전 수명까지 늘린다
+무슨 일? Google은 핀란드 AI 인프라에 130억유로를 투자하고 Fortum과 22년 원전 연계 전력계약을 체결했다.
+왜 중요? AI의 병목이 GPU에서 수십 년짜리 안정적 전력 확보로 이동했다.
+다음엔? 신규 데이터센터 착공과 유럽 내 추가 원전 장기계약을 볼 필요가 있다.
+
+3. 코딩 에이전트가 480억달러
+무슨 일? Devin 개발사 Cognition이 20억달러를 조달해 기업가치 480억달러에 도달했고 매출 run-rate는 약 9억달러로 전해졌다.
+왜 중요? 코딩 에이전트가 보조 기능이 아니라 거대한 독립 소프트웨어 시장이 됐다.
+다음엔? 실제 ARR·추론 마진과 Codex·Claude Code와의 가격전쟁이 다음 시험대다.
+
+오늘 한 줄: AI가 수학·전력·코딩·칩의 병목을 동시에 바꾸기 시작했다
+
+출처
+- OpenAI: https://openai.com/index/navier-stokes-solution/
+- Clay Mathematics Institute: https://www.claymath.org/millennium-problems/rules/
+- Google: https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/google-ai-commitment-to-finland/
+- Reuters: https://www.reuters.com/business/media-telecom/google-invest-15-billion-ai-infrastructure-finland-2026-09-09/
+- Reuters: https://www.reuters.com/technology/cognition-ai-raises-2-billion-48-billion-valuation-2026-09-08/
+- Reuters: https://www.reuters.com/world/asia-pacific/openai-says-working-with-samsung-next-generation-chips-deepening-cooperation-2026-09-09/
+- GitHub: https://github.blog/changelog/2026-09-09-remediate-code-quality-findings-with-agentic-autofix/
+- Analog Devices: https://www.analog.com/en/newsroom/press-releases/2026/9-9-2026-adi-to-acquire-alif-semiconductor.html
+- Reuters: https://www.reuters.com/technology/analog-devices-buy-alif-semiconductor-135-billion-2026-09-09/
+- Reuters: https://www.reuters.com/world/asia-pacific/tencent-backed-enflame-debut-shanghai-friday-912-million-ipo-2026-09-09/
+- Reuters: https://www.reuters.com/business/media-telecom/ororatech-partners-with-eutelsat-infrared-satellite-monitoring-space-2026-09-09/
+- Reuters: https://www.reuters.com/world/middle-east/elbit-systems-launches-ai-based-autonomous-defence-tech-unit-2026-09-09/
+- GitHub: https://github.blog/changelog/2026-09-09-block-pull-requests-with-exposed-secrets-from-merging/
+
+이미지 출처
+- Slide 1/2: Mohit Dubey · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Kolmogorov_Scaled_Scalar_Transport.webm · cropped and darkened
+- Slide 2/3: Wirby Village · CC BY 2.0 · https://commons.wikimedia.org/wiki/File:Loviisa_nuclear_plant.jpg · cropped and darkened
+- Slide 3/4: Free-Photos / Pixabay · CC0 1.0 · https://commons.wikimedia.org/wiki/File:ComputerProgrammer.jpg · cropped and darkened
+
+@daily_tech_magazine · 무단 재업로드/재배포 금지
