@@ -1,0 +1,37 @@
+[2026-09-11] 오늘 볼 만한 AI·테크 뉴스 TOP 3
+
+1. Claude Code가 Unity 에디터를 만진다
+무슨 일? Unity가 Claude Code 공식 플러그인을 공개해 Unity CLI·MCP·엔진 스킬을 한 번에 연결했다.
+왜 중요? AI가 코드만 쓰는 게 아니라 씬과 에디터까지 공식 경로로 조작한다.
+다음엔? 자동 테스트·빌드·프로파일링까지 엔드투엔드로 이어지는지가 핵심이다.
+
+2. AI에게 결제 신분증을 준다
+무슨 일? 인도 NPCI가 UPI 결제를 수행하는 AI 에이전트를 인증·추적하는 공식 레지스트리를 준비 중이다.
+왜 중요? 에이전트가 실제 돈을 쓰면 신원·권한·책임을 결제망 수준에서 관리해야 한다.
+다음엔? 소액 결제에서 시작해 조건부 구매·투자까지 확대될지가 관전 포인트다.
+
+3. 16조 파라미터용 추론칩
+무슨 일? Positron이 8.75억달러를 조달해 Asimov 칩과 4~8칩 Titan 서버를 2027년 생산 목표로 밀고 있다.
+왜 중요? 에이전트 시대엔 연산보다 메모리 용량·대역폭이 추론 병목이 될 수 있다.
+다음엔? 실제 토큰 처리량·전력효율과 2027년 양산 성공 여부가 시험대다.
+
+오늘 한 줄: 에이전트가 코드 밖으로 나와 결제·엔진·보안망을 직접 움직인다
+
+출처
+- Unity: https://unity.com/blog/unity-plugin-for-claude-code
+- Reuters: https://www.reuters.com/world/india/india-plans-ai-registry-it-looks-roll-out-agentic-payments-sources-say-2026-09-10/
+- Reuters: https://www.reuters.com/business/ai-chip-startup-positrons-valuation-skyrockets-latest-funding-round-2026-09-10/
+- Reuters: https://www.reuters.com/technology/eus-cybersecurity-agency-granted-access-mythos-5-ai-model-commission-says-2026-09-10/
+- Reuters: https://www.reuters.com/business/openai-launches-chatgpt-financial-services-industry-2026-09-10/
+- Reuters: https://www.reuters.com/business/media-telecom/chip-startup-d-matrix-use-nvidia-chip-linking-tech-ai-servers-2026-09-10/
+- Reuters: https://www.reuters.com/science/ibm-nasa-launch-ai-model-help-map-ice-craters-moon-2026-09-10/
+- Nature Communications: https://www.nature.com/articles/s41467-026-77661-3
+- Le Monde: https://www.lemonde.fr/en/economy/article/2026/09/09/uae-commits-1-billion-to-french-space-ai-project_6757342_19.html
+- Reuters: https://www.reuters.com/world/asia-pacific/nvidia-teams-up-with-australian-partners-build-ai-factory-capacity-2026-09-10/
+
+이미지 출처
+- Slide 1/2: TechEquity · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Playing-video-game-on-laptop-coding.jpg · cropped and darkened
+- Slide 2/3: Bamboofirdaus · CC0 1.0 · https://commons.wikimedia.org/wiki/File:Integrated_QR_Code_Payment_Systems_in_Asia.svg · cropped and darkened
+- Slide 3/4: Le hollandais volant · CC BY 4.0 · https://commons.wikimedia.org/wiki/File:Silicon_die.jpg · cropped and darkened
+
+@daily_tech_magazine · 무단 재업로드/재배포 금지
