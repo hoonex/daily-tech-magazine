@@ -1,0 +1,38 @@
+[2026-09-12] 오늘 볼 만한 AI·테크 뉴스 TOP 3
+
+1. Claude가 무기·침투에 쓰였다
+무슨 일? Anthropic은 여러 국가·범죄 조직이 Claude를 사이버 공격, 감시, 무기 소프트웨어, 불법 증류에 악용한 사례를 공개했다.
+왜 중요? AI 위험이 답변 생성에서 실제 시스템 실행·침투로 넘어갔다.
+다음엔? 고위험 계정 인증·도구권한·에이전트 감사로그가 얼마나 강제되는지가 핵심이다.
+
+2. AI 데이터센터를 지하로 숨긴다
+무슨 일? UAE는 5GW급 AI 캠퍼스를 단일 부지 대신 분산 배치하고 일부 시설의 지하화·방폭·방공까지 검토 중이다.
+왜 중요? AI 컴퓨팅이 전력시설처럼 물리적 공격에 대비해야 하는 국가 핵심 인프라가 됐다.
+다음엔? 최종 설계와 실제 5GW 가동 시점, 분산형 전력·통신 구조가 핵심이다.
+
+3. 로봇에게 한 번만 보여준다
+무슨 일? Skild S1은 새 작업 영상을 한 번 보고 별도 재학습 없이 장기 로봇 작업을 수행하는 in-context learning을 노린다.
+왜 중요? 로봇을 작업별로 다시 프로그래밍·학습시키는 비용을 크게 줄일 수 있다.
+다음엔? 처음 보는 환경의 성공률과 실제 공장 배치가 진짜 시험대다.
+
+오늘 한 줄: AI가 실제 권한을 얻자, 안전·인프라·제어가 새 병목이 됐다
+
+출처
+- Anthropic: https://www.anthropic.com/threat-intelligence-report-september-2026
+- Reuters: https://www.reuters.com/world/china/how-anthropic-says-claude-was-used-weapons-spying-cyber-operations-2026-09-11/
+- Reuters: https://www.reuters.com/world/middle-east/uae-revises-ai-data-center-plan-after-iranian-attacks-sources-say-2026-09-11/
+- NVIDIA: https://blogs.nvidia.com/blog/skild-ai-s1-physical-ai/
+- Reuters: https://www.reuters.com/legal/litigation/us-senate-negotiators-consider-requiring-ai-firms-mitigate-known-major-risks-2026-09-11/
+- GitHub: https://github.blog/changelog/2026-09-09-enterprise-managed-permissions-for-github-copilot-agent-operations/
+- Reuters: https://www.reuters.com/world/china/chinas-deepseek-taps-citic-securities-domestic-ipo-sources-say-2026-09-09/
+- OpenAI Help Center: https://help.openai.com/en/articles/6825453/chatgpt-release-notes
+- Le Monde: https://www.lemonde.fr/en/economy/article/2026/09/11/at-space-summit-france-and-eu-rescue-european-satellite-constellation-iris_6757421_19.html
+- Reuters Breakingviews: https://www.reuters.com/commentary/breakingviews/wild-spac-deal-hounds-howl-moonshots-2026-09-11/
+- Physical Review Letters: https://journals.aps.org/prl/accepted/10.1103/6d8l-94pv
+
+이미지 출처
+- Slide 1/2: Anthropic · Public Domain · https://commons.wikimedia.org/wiki/File:Claude_AI_logo.svg · cropped and darkened
+- Slide 2/3: Christopher Bowns · CC BY-SA 2.0 · https://commons.wikimedia.org/wiki/File:Virginia_Tech_-_data_center.jpg · cropped and darkened
+- Slide 3/4: Peter Potrowl · CC BY 2.5 · https://commons.wikimedia.org/wiki/File:Robot_ABB_2.jpg · cropped and darkened
+
+@daily_tech_magazine · 무단 재업로드/재배포 금지
