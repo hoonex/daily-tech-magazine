@@ -1,0 +1,38 @@
+[2026-09-14] 오늘 볼 만한 AI·테크 뉴스 TOP 3
+
+1. 현대차, NVIDIA를 징검다리로
+무슨 일? 자체 ADAS는 2029년 말로 늦추고, NVIDIA Hyperion 10 기반 L2+·2++ 차량을 2028년부터 투입한다.
+왜 중요? NVIDIA로 먼저 주행 데이터를 모은 뒤 자체 Atria를 키우는 전략이다.
+다음엔? Hyperion 양산차와 Atria 전환 속도, Level 3 라이다 채택 여부가 핵심이다.
+
+2. 로봇 하나의 두뇌로 64개 작업
+무슨 일? 6B UnifoLM-WLA-1.0은 약 2,500시간 실제 로봇 데이터로 학습돼 64개 작업과 여러 손 형태를 다룬다.
+왜 중요? 작업마다 모델을 따로 만드는 방식에서 범용 로봇 두뇌로 이동하는 신호다.
+다음엔? 전체 모델 공개와 타사 로봇·실제 공장 환경에서의 독립 검증을 봐야 한다.
+
+3. 말하는 AI가 동시에 듣는다
+무슨 일? GPT-Live-1은 음성을 동시에 듣고 말하며, 깊은 추론·도구 호출은 Astra나 Codex 같은 백엔드에 위임할 수 있다.
+왜 중요? 음성 챗봇이 실제 행동하는 실시간 에이전트 인터페이스로 바뀐다.
+다음엔? 전화 상담·Codex 음성 제어에서 실제 지연시간과 작업 성공률을 봐야 한다.
+
+오늘 한 줄: AI의 승부처가 모델에서 실제 실행·권한·하드웨어로 내려왔다
+
+출처
+- Reuters: https://www.reuters.com/business/autos-transportation/hyundai-motor-roll-out-in-house-driver-assist-system-2029-2026-09-13/
+- Unitree Robotics GitHub: https://github.com/unitreerobotics/unifolm-wla
+- OpenAI: https://openai.com/index/introducing-gpt-live-1-in-the-api/
+- Reuters: https://www.reuters.com/world/china/south-koreas-expanded-espionage-law-takes-effect-amid-push-protect-chip-2026-09-13/
+- Atlassian: https://www.atlassian.com/blog/jira/governed-agent-loops
+- Qualcomm: https://www.qualcomm.com/news/onq/2026/09/hexagon-npu-agentic-ai-architecture
+- Reuters: https://www.reuters.com/technology/pentagon-talks-lend-5-billion-ai-cloud-startup-fluidstack-wsj-reports-2026-09-10/
+- Reuters: https://www.reuters.com/world/silver-lake-intel-backed-altera-prepares-ipo-that-could-raise-over-2-billion-2026-09-10/
+- VALORANT Esports: https://valorantesports.com/en-US/news/champions-shanghai-everything-you-need-to-know
+- VALORANT Esports: https://valorantesports.com/en-US/news/champions-shanghai-pickems-powered-by-aws
+- NVIDIA: https://www.nvidia.com/en-us/geforce/news/wardogs-aniimo-007-first-light-path-tracing-geforce-game-ready-driver/
+
+이미지 출처
+- Slide 1/2: Alexander Migl · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Hyundai_Ioniq_5_Leonberg_2022_1X7A0510.jpg · cropped and darkened
+- Slide 2/3: Sayanesy · CC0 1.0 · https://commons.wikimedia.org/wiki/File:Unitree_G1.jpg · cropped and darkened
+- Slide 3/4: OpenAI · Public Domain · https://commons.wikimedia.org/wiki/File:OpenAI_logo_2025_(wordmark).svg · cropped and darkened
+
+@daily_tech_magazine · 무단 재업로드/재배포 금지
