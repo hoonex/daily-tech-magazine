@@ -1,0 +1,40 @@
+[2026-09-15] 오늘 볼 만한 AI·테크 뉴스 TOP 3
+
+1. AI는 종료 명령을 거부하면 안 된다
+무슨 일? Microsoft는 MAI 모델이 종료를 거부하거나 인간을 속이거나 통제를 약화시키는 행동을 금지하는 초안을 공개했다.
+왜 중요? 에이전트 안전을 추상 원칙이 아니라 실제 금지 행동과 출시 규칙으로 바꾸려는 시도다.
+다음엔? 6주 공개검토 뒤 이 규칙이 실제 모델 출시 게이트로 연결되는지가 핵심이다.
+
+2. ‘죽지 않는 에이전트’가 125억달러
+무슨 일? Temporal은 5.5억달러를 조달해 125.5억달러 평가를 받았다. 장기 에이전트가 실패해도 상태를 보존하고 이어서 실행하게 한다.
+왜 중요? 에이전트가 길어질수록 모델 성능보다 복구·상태보존 인프라가 필수가 된다.
+다음엔? Codex·Claude Code 같은 장기 작업과 durable runtime이 얼마나 빠르게 결합하는지 봐야 한다.
+
+3. IPO보다 먼저 로봇 3만대 공장
+무슨 일? 현대차는 Boston Dynamics의 2027 IPO 가능성을 낮게 보고, 2028년 연 3만대 생산능력과 Atlas 실차급 운영데이터를 먼저 쌓는다.
+왜 중요? 휴머노이드 경쟁의 기준이 데모에서 생산량·가동률·고장률로 바뀌고 있다.
+다음엔? 조지아 공장 실제 배치와 Atlas의 장기 가동률·사람 개입률을 봐야 한다.
+
+오늘 한 줄: AI 경쟁이 통제·복구·생산능력 싸움으로 내려왔다
+
+출처
+- Reuters: https://www.reuters.com/legal/litigation/microsoft-drafts-code-conduct-keep-its-ai-under-human-control-2026-09-14/
+- Reuters via MarketScreener: https://au.marketscreener.com/news/temporal-s-valuation-spikes-to-12-6-billion-in-lightspeed-led-funding-round-ce785bdcdc80f623
+- Temporal: https://temporal.io/
+- Reuters: https://www.reuters.com/business/media-telecom/ipo-humanoid-robot-maker-boston-dynamics-unlikely-2027-executive-says-2026-09-14/
+- Reuters: https://www.reuters.com/business/palantir-nvidia-curb-ai-model-use-over-data-fears-information-reports-2026-09-14/
+- Reuters: https://www.reuters.com/business/media-telecom/asml-examining-ways-it-can-make-more-than-110-euv-tools-2028-jpmorgan-says-2026-09-14/
+- Reuters: https://www.reuters.com/world/asia-pacific/asml-extends-chipmaking-dominance-customers-embrace-high-na-2026-09-14/
+- Reuters: https://www.reuters.com/business/anthropic-targets-financial-advisers-with-new-claude-tool-2026-09-14/
+- HPCwire: https://www.hpcwire.com/aiwire/2026/09/14/cornelis-to-build-scale-up-interconnect-using-ualink-and-esun/
+- Nature Nanotechnology: https://www.nature.com/articles/s41565-026-02272-4
+- Riot Games: https://www.riotgames.com/ko/news/one-big-dev-update-ko
+- Riot Games News: https://www.riotgames.com/ko/news
+- NVIDIA Research: https://research.nvidia.com/publication/2026-09_cuda-q-logical-retargetable-compilation-fault-tolerant-quantum-computing
+- NVIDIA CUDA-Q: https://developer.nvidia.com/cuda-quantum
+
+이미지 출처
+- Slide 1/2: Microsoft Corporation · Public Domain · https://commons.wikimedia.org/wiki/File:Microsoft_logo_(2012).svg · cropped and darkened
+- Slide 2/3: Damian B Oh · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Boston_Dynamics_Atlas_(4).jpg · cropped and darkened
+
+@daily_tech_magazine · 무단 재업로드/재배포 금지
