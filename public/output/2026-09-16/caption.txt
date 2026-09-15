@@ -1,0 +1,37 @@
+[2026-09-16] 오늘 볼 만한 AI·테크 뉴스 TOP 3
+
+1. 코딩 에이전트가 50억달러 회사로
+무슨 일? Factory가 2억달러를 새로 조달하며 기업가치 50억달러를 인정받았다. 직전 평가액에서 수개월 만에 3배 이상 뛰었다.
+왜 중요? 코딩 에이전트가 AI의 부가기능이 아니라 독립적인 대형 소프트웨어 시장으로 커지고 있다.
+다음엔? Codex·Claude Code와 실제 기업 개발시간·비용을 얼마나 줄이는지가 다음 승부다.
+
+2. 스마트폰 AI가 2nm로 내려왔다
+무슨 일? MediaTek이 TSMC 2nm 기반 Dimensity 9600 Pro를 공개했다. 온디바이스 생성형 AI 성능은 전작 대비 51% 향상을 주장한다.
+왜 중요? 더 큰 AI 모델을 클라우드가 아닌 휴대폰 자체에서 돌릴 수 있는 전력 여유가 커진다.
+다음엔? 실제 폰의 발열·배터리·tokens/s와 Qualcomm·Apple의 2nm 대응이 핵심이다.
+
+3. 유럽산 AI칩이 공장에 들어간다
+무슨 일? Axelera가 2세대 Europa 추론칩과 AI Factory 공급계약을 공개했다. Dell·Supermicro 서버에도 통합된다.
+왜 중요? NVIDIA 밖의 추론칩이 실제 대형 시스템 공급망에 들어가는 중요한 시험대다.
+다음엔? 실제 설치량과 전력당 tokens/s, 후속 Titania가 데이터센터까지 확장하는지 봐야 한다.
+
+오늘 한 줄: AI 경쟁이 코드·2nm·데이터 이동까지 전 스택으로 번졌다
+
+출처
+- Reuters: https://www.reuters.com/business/ai-coding-agent-startup-factory-triples-valuation-5-billion-latest-funding-round-2026-09-15/
+- MediaTek: https://www.mediatek.com/press-room/mediatek-dimensity-9600-pro-sets-new-standard-for-flagship-smartphone-chips
+- Reuters: https://www.reuters.com/business/media-telecom/mediatek-launches-new-mobile-chip-using-tsmcs-most-advanced-technology-2026-09-15/
+- Reuters: https://www.reuters.com/business/european-chip-startup-axelera-wins-ai-factory-supply-deals-launches-second-chip-2026-09-15/
+- Reuters: https://www.reuters.com/business/delos-data-chip-startup-founded-by-intel-veterans-raises-100-million-ai-networks-2026-09-15/
+- Reuters: https://www.reuters.com/business/chipmaker-altera-confidentially-files-us-ipo-2026-09-15/
+- Reuters: https://www.reuters.com/technology/openai-is-working-with-anthropic-google-ai-safety-bloomberg-news-reports-2026-09-15/
+- GitHub: https://github.blog/changelog/2026-09-14-configure-cost-and-quality-in-copilot-auto-model-selection/
+- Reuters: https://www.reuters.com/business/world-at-work/micron-taiwan-union-presses-profit-sharing-demand-keeps-strike-preparations-alive-2026-09-15/
+- Reuters: https://www.reuters.com/business/energy/sb-energy-sell-up-500-million-shares-japan-investors-part-us-ipo-2026-09-15/
+- NVIDIA: https://www.nvidia.com/en-us/geforce/news/007-first-light-path-tracing-dlss-4-5-ray-reconstruction-update-out-now/
+
+이미지 출처
+- Slide 1/2: Lorenzo Cafaro · CC0 1.0 · https://commons.wikimedia.org/wiki/File:Programming.jpg · cropped and darkened
+- Slide 2/3: MediaTek Inc. · Public Domain · https://commons.wikimedia.org/wiki/File:MediaTek_logo.svg · cropped and darkened
+
+@daily_tech_magazine · 무단 재업로드/재배포 금지
