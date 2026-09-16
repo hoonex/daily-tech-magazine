@@ -1,0 +1,41 @@
+[2026-09-17] 오늘 볼 만한 AI·테크 뉴스 TOP 3
+
+1. 광고가 AI 에이전트가 됐다
+무슨 일? OpenAI가 ChatGPT에서 광고를 누르면 기업 후원 에이전트와 별도 대화를 시작하는 Sponsored Agents를 테스트한다.
+왜 중요? 광고가 링크에서 질문·상담을 처리하는 대화형 판매 에이전트로 바뀌는 시작점이다.
+다음엔? 예약·견적·구매 실행까지 확장되는지와 일반 답변과의 분리가 핵심이다.
+
+2. SK하이닉스가 Intel 공장으로?
+무슨 일? SK하이닉스와 Intel이 오하이오 공장 임차 또는 클라우드사 포함 합작으로 미국 메모리 생산을 논의 중이다.
+왜 중요? 성사되면 한국 중심 AI 메모리 생산망이 미국으로 처음 크게 확장될 수 있다.
+다음엔? DRAM·HBM 중 무엇을 만들지, 한국 기술보호 심사와 실제 계약 여부가 핵심이다.
+
+3. Cohere·Aleph Alpha 합친다
+무슨 일? 캐나다 Cohere와 독일 Aleph Alpha가 최종 합병계약을 맺고 토론토·베를린 기반의 주권 AI 회사를 만든다.
+왜 중요? 프런티어 API 밖에서 온프레미스·규제준수 AI를 원하는 기업과 정부 시장을 정면 공략한다.
+다음엔? 규제 승인과 독일 10만 AI칩 인프라, 실제 유럽 정부·기업 계약을 봐야 한다.
+
+오늘 한 줄: 에이전트가 광고·공장·기업 인프라의 구조까지 바꾼다
+
+출처
+- Reuters: https://www.reuters.com/business/media-telecom/openai-tests-advertiser-sponsored-agents-expands-ai-tools-chatgpt-ads-2026-09-16/
+- Reuters: https://www.reuters.com/world/asia-pacific/sk-hynix-talks-with-intel-about-deal-make-memory-chips-us-first-time-sources-say-2026-09-16/
+- Reuters: https://www.reuters.com/legal/transactional/cohere-aleph-alpha-combine-target-enterprise-ai-market-2026-09-16/
+- Cohere / Aleph Alpha: https://www.prnewswire.co.uk/news-releases/cohere-and-aleph-alpha-sign-agreement-to-become-the-first-transatlantic-sovereign-ai-solution-302880758.html
+- Reuters: https://www.reuters.com/legal/litigation/openais-rogue-agents-probed-hugging-face-weaknesses-two-months-before-major-hack-2026-09-16/
+- Reuters: https://www.reuters.com/world/asia-pacific/anthropic-signs-first-australia-data-centre-agreement-2026-09-16/
+- Huawei: https://www.huawei.com/en/news/2026/9/hc-intelligent-world-2035
+- Reuters: https://www.reuters.com/legal/litigation/chinas-huawei-forecasts-billions-agents-will-dominate-ai-traffic-by-2035-2026-09-16/
+- Novo Nordisk: https://www.globenewswire.com/news-release/2026/09/16/3363106/0/en/novo-and-anthropic-will-collaborate-to-advance-drug-discovery-with-claude.html
+- Reuters: https://www.reuters.com/legal/litigation/novo-partners-with-anthropic-speed-up-drug-development-with-claude-2026-09-16/
+- Impulse Space: https://www.impulsespace.com/updates/impulse-space-announces-308-million-series-d-extension-to-meet-increasing-demand-for-in-space-mobility
+- Reuters: https://www.reuters.com/legal/transactional/impulse-spaces-series-d-round-grows-808-million-backlog-expands-2026-09-16/
+- Arcee AI: https://finance.yahoo.com/technology/ai/articles/arcee-ai-reaches-1b-valuation-140000923.html
+- GitHub: https://github.blog/changelog/2026-09-16-copilot-budget-increase-requests-are-generally-available/
+
+이미지 출처
+- Slide 1/2: OpenAI · Public Domain · https://commons.wikimedia.org/wiki/File:OpenAI_logo_2025_(wordmark).svg · cropped and darkened
+- Slide 2/3: SK Hynix Inc. · Public Domain · https://commons.wikimedia.org/wiki/File:SK_Hynix.svg · cropped and darkened
+- Slide 3/4: Ayub MK09 · CC0 1.0 · https://commons.wikimedia.org/wiki/File:Cohere-Logo.png · cropped and darkened
+
+@daily_tech_magazine · 무단 재업로드/재배포 금지
