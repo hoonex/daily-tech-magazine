@@ -1,0 +1,37 @@
+[2026-09-18] 오늘 볼 만한 AI·테크 뉴스 TOP 3
+
+1. Claude Code가 프로젝트를 기억한다
+무슨 일? Projects가 장기 목표와 공유 메모리를 유지하고 여러 Claude Code 작업 thread를 병렬로 만들고 조율한다.
+왜 중요? 코딩 AI가 일회성 세션에서 지속적으로 프로젝트를 관리하는 coordinator로 바뀐다.
+다음엔? Git·CI 연결, worker 충돌 조정과 장기 작업의 실제 성공률을 봐야 한다.
+
+2. AI칩 100만 개를 하나처럼
+무슨 일? Huawei가 960DT 출시를 앞당기고 최대 100만 프로세서를 연결하는 Peerium 아키텍처를 공개했다.
+왜 중요? 개별 칩 열세를 초대형 클러스터와 연결 기술로 뒤집으려는 전략이다.
+다음엔? 2027년 960DT 출하와 4,096칩 supernode의 실제 효율이 첫 시험대다.
+
+3. AI 이상 행동도 사고보고한다
+무슨 일? OpenAI가 최근 6개월의 오정렬 사례 6건과 함께 상시 추적·조사·공개 프레임워크를 시작했다.
+왜 중요? 자율 에이전트 시대에는 실패를 숨기지 않고 반복 가능한 사고보고 체계로 다루는 게 중요하다.
+다음엔? 업계 공통 사고분류와 독립 감사로 이어지는지가 다음 단계다.
+
+오늘 한 줄: AI는 더 오래 일하고, 더 크게 연결되고, 더 엄격히 감시된다
+
+출처
+- VentureBeat: https://venturebeat.com/orchestration/anthropic-launches-claude-code-projects-an-always-on-conversation-that-remembers-and-delegates-your-long-running-dev-work
+- Reuters: https://www.reuters.com/world/asia-pacific/chinas-huawei-launch-two-new-ai-chips-2027-2026-09-17/
+- OpenAI: https://openai.com/index/model-misalignment-reporting-framework/
+- Reuters: https://www.reuters.com/technology/nebius-hikes-ai-cloud-prices-again-demand-computing-power-soars-2026-09-17/
+- Reuters: https://www.reuters.com/business/globalfoundries-marvell-expand-chip-capacity-deal-ai-data-center-connectivity-2026-09-17/
+- MIT News: https://news.mit.edu/2026/robotic-lab-runs-optics-experiments-on-demand-0917
+- Reuters: https://www.reuters.com/business/autos-transportation/chinas-xpeng-plans-offer-tech-solutions-foreign-automakers-2026-09-17/
+- TechCrunch: https://techcrunch.com/2026/09/17/un-turns-to-google-to-make-its-global-data-ready-for-ai-agents/
+- Reuters: https://www.reuters.com/world/asia-pacific/applied-materials-invest-5-billion-india-modis-flagship-chip-event-kicks-off-2026-09-17/
+- Anthropic: https://www.anthropic.com/news/life-sciences-verification-program
+
+이미지 출처
+- Slide 1/2: Anthropic / Commons contributor · CC0 1.0 · https://commons.wikimedia.org/wiki/File:Claude_AI_symbol.svg · cropped and darkened
+- Slide 2/3: Huawei · Public Domain · https://commons.wikimedia.org/wiki/File:Huawei_wordmark.svg · cropped and darkened
+- Slide 3/4: OpenAI · Public Domain · https://commons.wikimedia.org/wiki/File:OpenAI_logo_2025_(wordmark).svg · cropped and darkened
+
+@daily_tech_magazine · 무단 재업로드/재배포 금지
