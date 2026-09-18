@@ -1,0 +1,37 @@
+[2026-09-19] 오늘 볼 만한 AI·테크 뉴스 TOP 3
+
+1. Claude가 진짜 실험실로 간다
+무슨 일? Anthropic이 실제 생물학 실험실을 마련했다. 목표 중 하나는 Claude가 로봇 장비를 지휘하며 물리 실험을 수행하게 하는 것이다.
+왜 중요? AI가 논문·시뮬레이션을 넘어 현실 실험을 반복하는 자동과학 단계로 들어간다.
+다음엔? 로봇 실험 자율성, 실제 연구시간 단축과 바이오 안전 통제가 첫 시험대다.
+
+2. 로봇의 ChatGPT 순간은 2027?
+무슨 일? Spirit AI는 단순 작업 약 90% 성공률과 실제 공장 배치를 바탕으로 2027년 범용 로봇 두뇌의 큰 도약을 목표로 한다.
+왜 중요? 휴머노이드 승부가 운동 성능에서 자연어 이해와 새로운 작업 일반화로 이동한다.
+다음엔? 처음 보는 작업 성공률과 사람 개입률, 공장 장기 가동 데이터를 봐야 한다.
+
+3. CXMT가 플래시까지 노린다
+무슨 일? DRAM으로 성장한 중국 CXMT가 글로벌 메모리 부족 속 NAND 플래시 진출을 준비한다고 Reuters가 보도했다.
+왜 중요? 중국 메모리 경쟁이 DRAM 한 축에서 Samsung·SK hynix·Micron과 겹치는 전면전으로 넓어진다.
+다음엔? 공식 양산 계획, 공정·수율과 기존 NAND 업체의 가격 대응을 확인해야 한다.
+
+오늘 한 줄: AI가 화면을 벗어나 실험실·공장·반도체 공급망으로 들어간다
+
+출처
+- Reuters: https://www.reuters.com/world/anthropic-quietly-sets-up-biology-lab-it-ramps-ai-drug-program-2026-09-18/
+- Reuters: https://www.reuters.com/world/asia-pacific/founder-chinese-startup-spirit-ai-says-robot-brains-set-2027-breakthrough-2026-09-18/
+- Reuters: https://www.reuters.com/world/asia-pacific/chinas-cxmt-eyes-flash-memory-push-amid-global-shortage-firm-take-samsung-ymtc-2026-09-18/
+- GitHub: https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot/
+- The Verge: https://www.theverge.com/ai-artificial-intelligence/997444/openai-hack-claude-heif-heist
+- The Guardian: https://www.theguardian.com/technology/2026/sep/18/openai-hacked-anthropic-claude-chatbot
+- Reuters: https://www.reuters.com/technology/ai-startup-mantic-raises-25-million-superhuman-forecasting-2026-09-18/
+- Reuters: https://www.reuters.com/technology/ai-cloud-firm-nscale-files-us-ipo-2026-09-18/
+- Reuters: https://www.reuters.com/world/asia-pacific/sk-hynixs-solidigm-unit-is-weighing-nand-memory-chip-factory-us-sources-say-2026-09-18/
+- Reuters: https://www.reuters.com/business/silicon-valley-ai-data-center-boom-meets-local-resistance-2026-09-17/
+- Riot Games: https://www.riotgames.com/en/news/vanguard-anti-boost
+
+이미지 출처
+- Slide 1/2: Anthropic / Commons contributor · CC0 1.0 · https://commons.wikimedia.org/wiki/File:Claude_AI_symbol.svg · cropped and darkened
+- Slide 2/3: Wikimedia Commons contributor · CC0 1.0 · https://commons.wikimedia.org/wiki/File:Micro-chips_wafer_(59614).jpg · cropped and darkened
+
+@daily_tech_magazine · 무단 재업로드/재배포 금지
