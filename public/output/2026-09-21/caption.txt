@@ -1,0 +1,36 @@
+[2026-09-21] 오늘 볼 만한 AI·테크 뉴스 TOP 3
+
+1. Unity가 Codex를 공식 지원한다
+무슨 일? Unity 엔지니어가 만든 31개 skill이 Codex에 들어왔다. Unity 6+, 멀티플레이·URP·물리·Web까지 공식 절차로 다룬다.
+왜 중요? AI가 낡은 포럼 글을 추측하는 대신 엔진 제작사가 직접 관리하는 지식을 쓰게 된다.
+다음엔? Editor 직접 조작·자동 테스트가 안정화되면 게임개발 에이전트의 실용성이 크게 올라갈 수 있다.
+
+2. 중국 DRAM이 양산 단계로 올라왔다
+무슨 일? CXMT 5세대 플랫폼이 양산에 들어갔다. 24Gb LPDDR5X도 생산 중이며 웨이퍼당 gross die가 최소 50% 늘었다.
+왜 중요? 미국 장비 규제 속에서도 중국 DRAM의 기술·원가 경쟁력이 실제 제품 단계에서 올라오고 있다.
+다음엔? 수율·전력·스마트폰 채택과 HBM 진입 여부가 삼성·SK하이닉스와의 실제 격차를 보여줄 것이다.
+
+3. 물 한 방울 속 DNA가 계산한다
+무슨 일? DNA 분자가 스스로 결합하며 계산하는 SDC가 10개 프로그램·700회 이상 계산과 100비트 연산을 실증했다.
+왜 중요? 전기를 스위칭하는 실리콘과 완전히 다른 방식의 재사용 가능한 분자컴퓨터가 실제로 작동했다.
+다음엔? DNA 저장·세포 내부 센싱과 계산을 한 시스템으로 묶을 수 있는지가 다음 단계다.
+
+오늘 한 줄: AI 경쟁이 게임엔진·메모리·분자컴퓨팅까지 번졌다
+
+출처
+- Unity: https://unity.com/blog/unity-plugin-codex
+- Reuters: https://www.reuters.com/world/asia-pacific/chinas-cxmt-says-new-memory-chip-platform-enters-mass-production-2026-09-20/
+- Nature: https://www.nature.com/articles/s41586-026-10996-5
+- AWS: https://aws.amazon.com/about-aws/whats-new/2026/09/new-agentcore-runtime-generally-available/
+- PC Gamer: https://www.pcgamer.com/gaming-industry/events-conferences/everything-announced-at-the-pc-gaming-show-tokyo-direct-2026/
+- AMD Newsroom: https://newsroom.amd.com/news/amd-epyc-cpus-deliver-every-layer-agentic-ai-stack/
+- Reuters: https://www.reuters.com/business/finance/us-treasurys-bessent-chinas-he-launch-talks-ai-trade-critical-minerals-2026-09-20/
+- Yonhap News Agency: https://en.yna.co.kr/view/AEN20260920002500320
+- OpenAI: https://openai.com/index/astra-for-law/
+- Riot Games: https://www.riotgames.com/en/news/vanguard-anti-boost
+
+이미지 출처
+- Slide 1/2: Unity Technologies / Wikimedia Commons · Public Domain · https://commons.wikimedia.org/wiki/File:Unity_2021.svg · cropped and darkened
+- Slide 2/3: Jerome Walker / Wikimedia Commons · Public Domain · https://commons.wikimedia.org/wiki/File:DNA_double_helix_horizontal.png · cropped and darkened
+
+@daily_tech_magazine · 무단 재업로드/재배포 금지
