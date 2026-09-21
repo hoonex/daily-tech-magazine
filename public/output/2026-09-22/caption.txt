@@ -1,0 +1,38 @@
+[2026-09-22] 오늘 볼 만한 AI·테크 뉴스 TOP 3
+
+1. AI가 수학 난제 100개를 풀었다
+무슨 일? OpenAI는 새 내부 모델이 Navier–Stokes에 이어 장기 미해결 수학 문제 100개 이상을 해결했다고 밝혔다.
+왜 중요? 검증된다면 AI가 연구 보조를 넘어 새로운 수학 결과를 대량 생산하는 단계로 넘어가는 신호다.
+다음엔? 각 해법의 독립 검증과 형식증명 공개, 다른 과학 분야로의 확장이 핵심이다.
+
+2. 구글이 다시 노트북을 만든다
+무슨 일? Gemini 중심의 Googlebook이 $899부터 예약판매에 들어갔다. 5개 PC 제조사가 Intel·Qualcomm 모델을 출시한다.
+왜 중요? Android와 PC를 하나의 AI 생태계로 묶어 Windows·Mac에 직접 도전하는 새 프리미엄 플랫폼이다.
+다음엔? 앱 호환성·판매량과 Gemini 전용 기능이 새 노트북을 살 이유가 되는지가 관건이다.
+
+3. AI가 국가 감시망 개발에 쓰였다
+무슨 일? Anthropic은 Claude가 약 2,500만 SIM을 다루는 말리 국가 감시 플랫폼 개발의 핵심 엔지니어링 도구로 악용됐다고 밝혔다.
+왜 중요? 코딩 에이전트의 생산성 향상이 공격자·감시기관에도 그대로 적용된다는 실제 사례다.
+다음엔? 검증 사용자·리셀러 통제와 모델 회사 간 위협정보 공유가 얼마나 강화되는지 봐야 한다.
+
+오늘 한 줄: AI가 연구·PC·국가 인프라까지 직접 움직이기 시작했다
+
+출처
+- OpenAI: https://openai.com/index/advisory-group-on-mathematics-and-ai/
+- Google: https://blog.google/products-and-platforms/devices/googlebook/pre-order-googlebook/
+- Reuters: https://www.reuters.com/business/retail-consumer/google-opens-pre-orders-899-googlebook-laptops-built-around-gemini-ai-2026-09-21/
+- Anthropic: https://www.anthropic.com/threat-intelligence-report-september-2026
+- Reuters: https://www.reuters.com/business/amd-becomes-latest-chipmaker-reach-1-trillion-valuation-ai-demand-2026-09-21/
+- Reuters: https://www.reuters.com/business/environment/eu-require-data-centres-disclose-energy-water-efficiency-2026-09-21/
+- GitHub: https://github.blog/changelog/2026-09-21-grok-4-7-is-now-available-in-github-copilot/
+- Reuters: https://www.reuters.com/technology/faa-begins-use-ai-tool-bid-reduce-flight-delays-2026-09-21/
+- Reuters: https://www.reuters.com/legal/litigation/nvidia-qia-backed-iambic-therapeutics-files-us-ipo-biotech-boom-rolls-2026-09-21/
+- Reuters (syndicated): https://www.aol.com/articles/china-slows-humanoid-robot-ipo-030518000.html
+- Simbe Robotics: https://www.simberobotics.com/about/newsroom/simbe-surpasses-3-000-units-marking-the-largest-autonomous-shelf-intelligence-fleet-in-retail
+
+이미지 출처
+- Slide 1/2: OpenAI / Wikimedia Commons · Public Domain · https://commons.wikimedia.org/wiki/File:OpenAI_logo_2025.svg · cropped and darkened
+- Slide 2/3: Google LLC / Wikimedia Commons · Public Domain · https://commons.wikimedia.org/wiki/File:Google_%22G%22_Logo.svg · cropped and darkened
+- Slide 3/4: Anthropic / Wikimedia Commons · CC0 1.0 · https://commons.wikimedia.org/wiki/File:Claude_AI_symbol.svg · cropped and darkened
+
+@daily_tech_magazine · 무단 재업로드/재배포 금지
