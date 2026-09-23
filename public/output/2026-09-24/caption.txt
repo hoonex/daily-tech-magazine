@@ -1,0 +1,38 @@
+[2026-09-24] 오늘 볼 만한 AI·테크 뉴스 TOP 3
+
+1. Claude가 새 효소 시스템을 찾았다
+무슨 일? Claude가 DNA 데이터에서 반복 배열과 효소를 연결해 CRISPR를 연상시키는 새 시스템 ART를 찾아냈고 Anthropic이 실험으로 추적했다.
+왜 중요? AI가 논문을 읽는 단계를 넘어 실제로 실험할 새로운 생물학적 가설을 만드는 사례다.
+다음엔? ART의 기능과 독립 재현, AI가 낸 후보의 실험 성공률이 진짜 과학적 가치를 결정한다.
+
+2. Copilot에 로컬 격리벽이 생겼다
+무슨 일? Copilot app이 파일·네트워크·Git 자격증명 접근을 프로젝트별로 제한하는 로컬 sandbox를 public preview로 추가했다.
+왜 중요? 에이전트가 실수해도 모델 판단과 별개로 OS 계층에서 피해 범위를 제한할 수 있다.
+다음엔? 기본 활성화와 cloud·CLI 정책 통합이 이 구조를 실질적인 표준으로 만들지 지켜봐야 한다.
+
+3. Qualcomm이 로봇의 움직임을 산다
+무슨 일? Qualcomm이 MoveIt 핵심 관리사 PickNik 인수에 합의했다. MoveIt은 계속 오픈소스로 유지하며 Dragonwing·Arduino 연동을 강화한다.
+왜 중요? AI칩 회사가 로봇 조작 소프트웨어까지 확보하면서 Physical AI 풀스택 경쟁이 빨라진다.
+다음엔? MoveIt의 중립성이 유지되는지와 Qualcomm 하드웨어 최적화가 실제 로봇 채택으로 이어지는지가 핵심이다.
+
+오늘 한 줄: AI가 발견을 만들고 에이전트·로봇은 안전한 실행층을 얻는다
+
+출처
+- Anthropic: https://www.anthropic.com/news/claude-discovers-novel-enzyme-system
+- Reuters: https://www.reuters.com/technology/artificial-intelligence/anthropic-says-claude-ai-helped-discover-novel-enzyme-system-2026-09-23/
+- GitHub Changelog: https://github.blog/changelog/2026-09-23-local-sandboxing-in-the-github-copilot-app
+- Qualcomm: https://www.qualcomm.com/news/releases/2026/09/qualcomm-to-acquire-picknik-to-advance-the-future-of-open-roboti
+- Reuters via Yahoo Finance: https://finance.yahoo.com/technology/ai/articles/apple-takes-aim-nvidia-ai-193250242.html
+- Reuters via Investing.com: https://www.investing.com/news/stock-market-news/microsoft-plans-10-billionplus-gulf-investment-with-focus-on-resilience-4913619
+- IonQ: https://www.ionq.com/news/ionq-to-advance-quantum-supercomputing-by-bringing-first-qpu-to-nvidia-accelerated-quantum-research-center
+- GitHub Changelog: https://github.blog/changelog/2026-09-22-opentelemetry-in-the-github-copilot-app/
+- Yonhap News Agency: https://en.yna.co.kr/view/AEN20260923012100315
+- Reuters: https://www.reuters.com/business/ai-leaders-brief-un-amid-warnings-technology-could-slip-beyond-human-control-2026-09-23/
+- GitHub Changelog: https://github.blog/changelog/2026-09-23-copilot-code-review-more-ways-to-request-and-configure-reviews/
+
+이미지 출처
+- Slide 1/2: Anthropic / Wikimedia Commons · CC0 1.0 · https://commons.wikimedia.org/wiki/File:Claude_AI_symbol.svg · cropped and darkened
+- Slide 2/3: GitHub / Wikimedia Commons · Public Domain · https://commons.wikimedia.org/wiki/File:GitHub_Copilot_(2025).svg · cropped and darkened
+- Slide 3/4: Qualcomm / Wikimedia Commons · Public Domain · https://commons.wikimedia.org/wiki/File:Qualcomm-2018.jpg · cropped and darkened
+
+@daily_tech_magazine · 무단 재업로드/재배포 금지
