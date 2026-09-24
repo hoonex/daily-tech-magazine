@@ -1,0 +1,41 @@
+[2026-09-25] 오늘 볼 만한 AI·테크 뉴스 TOP 3
+
+1. VR이 안경 무게로 내려왔다
+무슨 일? Meta VR Glasses는 얼굴 위 무게를 약 100g까지 줄이고 5K micro-OLED·손동작·AI를 넣었다. 2027년 봄 $1,299.99 출시다.
+왜 중요? VR의 고질적인 무게 문제를 연산·배터리 분리 구조로 정면 돌파했다.
+다음엔? 실제 착용감·시야각·발열과 외부 puck의 불편함이 새 폼팩터의 성패를 가른다.
+
+2. Codex·Claude를 한 정책으로
+무슨 일? Unity Gateway CLI가 모델·MCP·skills·예산을 중앙 관리하고 승인된 코딩 에이전트를 같은 진입점에서 실행한다.
+왜 중요? 멀티에이전트 시대의 병목은 모델보다 권한·비용·감사·도구 통합이다.
+다음엔? Smart Routing 비용절감이 실제 대규모 개발팀에서도 유지되는지와 지원 agent 확대를 보자.
+
+3. Gemini가 얼굴을 얻었다
+무슨 일? Gemini 3.8 Live가 음성과 저지연 스트리밍 영상을 결합해 대화 중 실시간으로 반응하는 시각적 아바타를 생성한다.
+왜 중요? AI 상담·교육·NPC가 텍스트창을 넘어 사람처럼 보이는 실시간 인터페이스로 이동한다.
+다음엔? 지연·비용·얼굴 일관성과 deepfake 표시 정책이 실제 상용화 속도를 결정한다.
+
+오늘 한 줄: AI가 화면을 벗어나 안경·개발환경·로봇의 실행층으로 내려온다
+
+출처
+- Meta: https://about.fb.com/news/2026/09/introducing-meta-vr-glasses-3d-movies-immersive-live-sports-100-grams/
+- Unity: https://unity.com/blog/build-for-meta-vr-glasses-with-unity
+- Databricks: https://www.databricks.com/blog/deploy-and-manage-coding-agents-scale-unity-gateway-cli
+- Google: https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-with-live-avatar/
+- Nature: https://doi.org/10.1038/s41586-026-11102-5
+- Nature Portfolio: https://www.natureasia.com/en/info/press-releases/detail/9447
+- Reuters via MarketScreener: https://www.marketscreener.com/news/oracle-cites-force-majeure-to-shield-itself-on-data-center-bloomberg-news-reports-ce785adede8cfe2d
+- Cadence: https://newsroom.cadence.com/press-releases/press-release-details/2026/Cadence-Collaborates-With-TSMC-to-Deliver-Certified-Tool-Solutions-and-Industry-Leading-Silicon-Proven-UALink-IP-on-TSMC-Advanced-Processes/default.aspx
+- Unity: https://unity.com/blog/build-for-meta-vr-glasses-with-unity
+- Meta: https://about.fb.com/news/2026/09/introducing-meta-vr-glasses-3d-movies-immersive-live-sports-100-grams/
+- VALORANT Esports: https://valorantesports.com/en-US
+- Riot Games: https://www.riotgames.com/en
+- OpenAI: https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense/
+- PYMNTS citing The Information: https://www.pymnts.com/news/artificial-intelligence/2026/openai-google-and-anthropic-join-forces-to-set-ai-safety-standards/
+
+이미지 출처
+- Slide 1/2: Meta / Wikimedia Commons · CC0 1.0 · https://commons.wikimedia.org/wiki/File:Meta_Quest_logo.svg · cropped and darkened
+- Slide 2/3: Agrawroh / Wikimedia Commons · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Databricks_Logo.png · cropped and darkened
+- Slide 3/4: Google / Wikimedia Commons · Public Domain · https://commons.wikimedia.org/wiki/File:Google_Gemini_icon_2025.svg · cropped and darkened
+
+@daily_tech_magazine · 무단 재업로드/재배포 금지
