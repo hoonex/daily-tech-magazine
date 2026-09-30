@@ -1,0 +1,39 @@
+[2026-10-01] 오늘 볼 만한 AI·테크 뉴스 TOP 3
+
+1. AI가 칩 설계툴을 직접 잡는다
+무슨 일? OpenAI와 Synopsys가 EDA 도구를 직접 조작하며 설계·검증을 반복하는 반도체 전용 GPT-Synopsys를 공동 개발한다.
+왜 중요? 코딩 에이전트의 실행 범위가 소프트웨어에서 실제 실리콘 설계로 넘어간다.
+다음엔? 실제 tape-out 시간·PPA 개선과 sign-off 통과율이 전용 AI 엔지니어의 가치를 가른다.
+
+2. 차세대 NVIDIA가 실전에 투입
+무슨 일? CoreWeave가 Vera Rubin NVL72를 제공하기 시작했고 Devin 개발사 Cognition이 첫 production workload를 돌리고 있다.
+왜 중요? AI 인프라 경쟁이 GPU 추론에서 에이전트용 CPU·네트워크·실행환경 전체로 넓어진다.
+다음엔? Vera의 agent 작업당 비용과 Rubin 공급량, x86 대비 실제 효율이 다음 검증 포인트다.
+
+3. 로봇의 진짜 장벽은 가격
+무슨 일? 현재 로봇은 물리 업무의 74%를 일부 환경에서 수행할 수 있지만 사람보다 싼 작업은 전체의 0.3%뿐이라는 분석이 나왔다.
+왜 중요? 화려한 데모와 대규모 자동화 사이에 비용이라는 거대한 간극이 있음을 정량화했다.
+다음엔? 물류·운전부터 실제 배치율과 가격 하락, 손 조작 능력이 얼마나 빨리 개선되는지 보자.
+
+오늘 한 줄: AI가 코드 밖으로 나와 칩·로봇·보안의 실행층을 장악한다
+
+출처
+- Synopsys: https://news.synopsys.com/2026-09-30-OpenAI-and-Synopsys-Announce-GPT-Synopsys-Frontier-Intelligence-to-Revolutionize-Chip-Design
+- Reuters: https://www.reuters.com/business/synopsys-openai-strike-deal-develop-ai-model-chip-design-work-2026-09-30/
+- NVIDIA: https://blogs.nvidia.com/blog/coreweave-agentic-ai-vera-rubin/
+- Anthropic: https://www.anthropic.com/research/what-work-can-robots-do
+- Micron: https://investors.micron.com/news/press-release/2026/Micron-Technology-Inc--Reports-Record-Fiscal-Fourth-Quarter-and-Full-Year-2026-Results/default.aspx
+- Reuters: https://www.reuters.com/world/asia-pacific/deepseek-partners-with-huawei-develop-chip-programming-tools-reducing-reliance-2026-09-30/
+- AP: https://apnews.com/article/89ac416717adbfb1d72f2d85e6ce83d1
+- OpenAI: https://openai.com/index/devday-2026-recap/
+- OpenAI Help: https://help.openai.com/en/articles/20001107-codex-security
+- KAIST via Mirage News: https://www.miragenews.com/kaist-develops-flytrap-inspired-material-that-1752176/
+- Reuters: https://www.reuters.com/legal/transactional/elevenlabs-valuation-doubles-22-billion-surging-ai-voice-agent-demand-2026-09-30/
+- VALORANT Esports: https://valorantesports.com/en-US/
+- Insider Gaming: https://insider-gaming.com/team-vitality-reach-valorant-champions-shanghai-playoffs/
+
+이미지 출처
+- Slide 1/2: Synopsys / Wikimedia Commons · Public Domain · https://commons.wikimedia.org/wiki/File:Synopsys_Logo.svg · cropped and darkened
+- Slide 2/3: NVIDIA / Wikimedia Commons · Public Domain · https://commons.wikimedia.org/wiki/File:Nvidia_logo.svg · cropped and darkened
+
+@daily_tech_magazine · 무단 재업로드/재배포 금지
