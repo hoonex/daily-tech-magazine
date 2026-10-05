@@ -1,0 +1,40 @@
+[2026-10-06] 오늘 볼 만한 AI·테크 뉴스 TOP 3
+
+1. 미국 오픈모델, 다시 커졌다
+무슨 일? Reflection이 501B MoE Beam을 공개했다. 작업당 23B만 활성화하며 코딩·에이전트 작업을 겨냥한다.
+왜 중요? 중국 open-weight 강세에 맞설 미국계 대형 공개모델 후보가 생겼다.
+다음엔? weights 공개 뒤 독립 benchmark와 실제 VRAM·추론비용이 진짜 시험대다.
+
+2. AI 코드리뷰, 진짜 PR로 시험
+무슨 일? GitHub가 1억390만 PR 분포를 반영한 ReviewBench를 공개했다. 실제 평가는 19개 언어 219개 공개 PR을 쓴다.
+왜 중요? AI reviewer의 실력을 toy benchmark가 아니라 실제 개발 흐름에 가깝게 비교할 수 있다.
+다음엔? Copilot·Codex·Claude 계열 reviewer의 precision과 치명적 버그 탐지율을 보자.
+
+3. 공장 로봇도 유니콘이 됐다
+무슨 일? RobCo가 10억달러 가치에 도달했다. 2027년 3월에는 두 팔 self-learning 산업로봇 Alfie를 출시한다.
+왜 중요? Physical AI 자금이 실제 제조현장용 자율 조작으로 빠르게 이동하고 있다.
+다음엔? Alfie의 uptime·cycle time·ROI가 화려한 로봇 데모를 실제 사업으로 바꿀지 보자.
+
+오늘 한 줄: AI 경쟁이 모델 점수에서 실제 검증·로봇·현실 규칙으로 내려온다
+
+출처
+- Reflection AI: https://reflection.ai/blog/introducing-beam
+- Reuters: https://www.reuters.com/technology/nvidia-backed-reflection-unveils-first-ai-model-take-chinese-open-models-2026-10-05/
+- GitHub: https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review/
+- Reuters: https://www.reuters.com/legal/transactional/german-robot-startup-robco-hits-1-billion-valuation-ceo-moves-us-2026-10-05/
+- Deutsche Telekom: https://www.telekom.com/en/newsroom/latest-updates/media-information/2026/10/deutsche-telekom-boosts-growth-efficiency-and-quality-through-t
+- Reuters: https://www.reuters.com/business/media-telecom/deutsche-telekom-sees-25-billion-savings-ai-automation-by-2030-2026-10-05/
+- Reuters: https://www.reuters.com/technology/norway-propose-temporary-ban-ai-glasses-some-public-places-2026-10-05/
+- StepSecurity: https://www.stepsecurity.io/blog/subql-ecosystem-compromised
+- AMD: https://newsroom.amd.com/press-kits/press-kit-agentic-pcs/
+- NIST: https://www.nist.gov/news-events/news/2026/10/physicist-jun-ye-wins-wolf-prize-physics
+- Reuters via WSAU: https://wsau.com/2026/10/05/australias-firmus-to-allocate-half-of-up-to-5-5-billion-ipo-to-existing-investors-sources-say/
+- Reuters: https://www.reuters.com/world/australias-firmus-launch-5-billion-ipo-october-6-term-sheet-shows-2026-09-21/
+- Reuters: https://www.reuters.com/technology/italy-pm-meloni-seeks-eu-trademark-her-voice-amid-ai-deepfake-risks-2026-10-05/
+
+이미지 출처
+- Slide 1/2: Reflection AI / Wikimedia Commons · Public Domain · https://commons.wikimedia.org/wiki/File:Reflection_AI_logo.svg · cropped and darkened
+- Slide 2/3: GitHub / Wikimedia Commons · Public Domain · https://commons.wikimedia.org/wiki/File:GitHub_logo_2013.svg · cropped and darkened
+- Slide 3/4: Universal Robots / Wikimedia Commons contributor · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:UR16e_robot_arm.png · cropped and darkened
+
+@daily_tech_magazine · 무단 재업로드/재배포 금지
