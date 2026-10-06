@@ -1,0 +1,43 @@
+[2026-10-07] 오늘 볼 만한 AI·테크 뉴스 TOP 3
+
+1. 유럽 오픈모델, 1T 돌파
+무슨 일? Mistral Large 4는 1조 파라미터 MoE지만 추론 시 49B만 활성화한다. weights는 10월 26일 공개된다.
+왜 중요? 미·중 중심 open-weight 경쟁에 유럽 자체 인프라로 학습한 초대형 모델이 들어왔다.
+다음엔? weights 공개 뒤 실제 VRAM·속도·독립 coding/agent benchmark가 진짜 시험대다.
+
+2. Claude의 사이버 제한을 푼다
+무슨 일? 검증된 보안팀은 더 적은 차단으로 Claude 최신 모델을 쓴다. Glasswing 파트너는 최소 12.9만 취약점을 확인했다.
+왜 중요? 강력한 AI 능력을 전면 차단하지 않고 신뢰된 방어자에게 단계적으로 여는 모델이다.
+다음엔? 실제 패치율과 오용 없이 verified access를 확장할 수 있는지가 핵심이다.
+
+3. 양자칩도 '공장 생산'으로
+무슨 일? Xanadu의 광자칩·단일광자 검출기를 GlobalFoundries 300mm 라인에서 산업화한다.
+왜 중요? 양자컴퓨터가 연구실 prototype에서 반복 가능한 반도체 제조로 넘어가려는 단계다.
+다음엔? 수율·광손실·검출효율과 fault-tolerant demonstrator 탑재가 핵심이다.
+
+오늘 한 줄: AI 경쟁이 오픈모델에서 보안·칩·광자 양산까지 산업화된다
+
+출처
+- Mistral: https://mistral.ai/news/mistral-large-4/
+- Reuters: https://www.reuters.com/world/china/mistral-ceo-says-new-ai-model-beats-chinese-ones-some-areas-2026-10-06/
+- Anthropic: https://www.anthropic.com/news/cyber-verification-program
+- Reuters: https://www.reuters.com/legal/litigation/anthropic-opens-its-most-powerful-ai-models-more-security-teams-2026-10-06/
+- Xanadu: https://investors.xanadu.ai/news-releases/news-release-details/xanadu-and-globalfoundries-announce-strategic-partnership
+- Reuters: https://www.reuters.com/world/asia-pacific/amd-plans-substantially-increase-supply-2027-ceo-says-2026-10-06/
+- Reuters: https://www.reuters.com/business/marvell-raises-2028-revenue-forecast-strong-ai-data-center-demand-2026-10-06/
+- Marvell Investor Day: https://investor.marvell.com/news-events/ir-calendar/detail/20261006-marvell-investor-day-2026
+- Together AI: https://www.together.ai/link
+- Bridge Neurotech: https://www.bridgeneurotech.com/
+- Butterfly Network: https://english.butterflynetwork.com/press-releases/bridge-neurotech-partnership
+- WIRED: https://www.wired.com/story/bridge-neurotech-startup-rival-sam-altman-merge-labs/
+- Business Wire: https://finance.yahoo.com/healthcare/articles/multiply-labs-raises-75-million-182600943.html
+- Photonics Spectra: https://www.photonics.com/Articles/JEDEC-Publishes-Reliability-Standard-for-Silicon/p6/a72639
+- VLR.gg: https://www.vlr.gg/event/2766/valorant-champions-2026/playoffs
+- Esports.gg: https://esports.gg/guides/valorant/champions-shanghai-2026-hub/
+
+이미지 출처
+- Slide 1/2: Mistral AI / Wikimedia Commons · Public Domain · https://commons.wikimedia.org/wiki/File:Mistral_AI_logo_(2025%E2%80%93).svg · cropped and darkened
+- Slide 2/3: Claude / Wikimedia Commons · CC0 1.0 · https://commons.wikimedia.org/wiki/File:Claude_AI_symbol.svg · cropped and darkened
+- Slide 3/4: Tal b2 / Wikimedia Commons · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Photonic_chip.png · cropped and darkened
+
+@daily_tech_magazine · 무단 재업로드/재배포 금지
