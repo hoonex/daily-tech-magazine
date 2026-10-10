@@ -1,0 +1,43 @@
+[2026-10-11] 오늘 볼 만한 AI·테크 뉴스 TOP 3
+
+1. 엔비디아, AI 모델 회사까지?
+무슨 일? FT·Reuters: NVIDIA가 오픈웨이트 모델 Beam 개발사 Reflection AI 인수 또는 추가 투자를 초기 논의 중이다.
+왜 중요? GPU 공급사가 코딩 AI 모델까지 확보하면 칩·모델 생태계의 결합이 강해진다.
+다음엔? 거래 성사 여부는 미확정. 공식 발표와 규제·모델 개방성 변화를 확인해야 한다.
+
+2. 제품도 없는데 25억달러?
+무슨 일? Reuters: Nuvacore가 약 25억달러 가치로 투자유치를 협의 중이다. Apple·Nuvia 출신 CPU 설계진이 이끈다.
+왜 중요? AI 에이전트와 GPU 서버를 뒷받침할 데이터센터 CPU 수요가 급증하고 있다.
+다음엔? 조달은 미확정. 첫 칩 성능·전력효율과 실제 고객이 승부처다.
+
+3. 칩을 더 작게 찍는 다음 장비
+무슨 일? ASML·Zeiss가 Hyper NA EUV 설계 논문을 발표했다. 기존 0.55보다 큰 NA 0.75 이상을 목표로 한다.
+왜 중요? 미래 AI 칩의 미세 패턴과 전력효율을 결정할 핵심 제조기술 후보이다.
+다음엔? 아직 연구 개념. 광학 검증·수율·양산 결정까지 장기 관찰이 필요하다.
+
+오늘 한 줄: AI 경쟁이 모델을 넘어 CPU·광학·현실 인프라로 번진다
+
+출처
+- Reuters: https://www.reuters.com/business/nvidia-talks-invest-further-reflection-ai-or-buy-it-ft-reports-2026-10-10/
+- Financial Times: https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a
+- Reuters: https://www.reuters.com/legal/transactional/sequoia-backed-chip-startup-nuvacore-raising-funds-about-25-billion-valuation-2026-10-09/
+- NUVACORE: https://nuvacore.ai/
+- Journal of Micro/Nanopatterning, Materials, and Metrology: https://doi.org/10.1117/1.JMM.25.4.041807
+- Reuters: https://www.reuters.com/business/asml-zeiss-say-next-generation-chipmaking-technology-may-be-ready-10-years-2026-10-08/
+- Reuters: https://www.reuters.com/business/nvidia-backed-upscale-ai-launches-platform-connect-chips-rival-suppliers-2026-10-08/
+- Elastic nightshift announcement: https://ir.elastic.co/News--Events/news/news-details/2026/Elastic-Introduces-Elastic-nightshift-AI-SRE-to-Investigate-with-the-Full-Context-Others-Cant-Afford-to-Keep/default.aspx
+- Elastic AlertZero announcement: https://ir.elastic.co/News--Events/news/news-details/2026/Elastic-Announces-AlertZero-a-Team-of-Specialized-AI-Agents-for-the-Security-Operations-Lifecycle/default.aspx
+- VLR.gg: https://www.vlr.gg/event/2766/valorant-champions-2026
+- Bo3.gg: https://bo3.gg/valorant/tournaments/valorant-champions-2026/results
+- EGamersWorld: https://egamersworld.com/valorant/news/37745/loud-snap-nrgs-record-win-streak-and-reach-the-val-89OCg83HM
+- Reuters: https://www.reuters.com/business/autos-transportation/tesla-renames-full-self-driving-assisted-driving-europe-it-chases-clearance-2026-10-09/
+- Financial Times: https://www.ft.com/content/e5fd2655-f95f-4183-9dd9-b3c1ebe67a6b
+- Reuters: https://www.reuters.com/world/india/modi-wants-india-power-ai-age-residents-are-pushing-back-2026-10-09/
+- Reuters: https://www.reuters.com/legal/government/super-micro-contractor-pleads-guilty-scheme-divert-ai-servers-with-nvidia-chips-2026-10-09/
+
+이미지 출처
+- Slide 1/2: NVIDIA / Wikimedia Commons · Public Domain (text-only logo; trademark restrictions apply) · https://commons.wikimedia.org/wiki/File:Nvidia_logo.svg · cropped and darkened
+- Slide 2/3: ArticCynda / Wikimedia Commons (illustrative wafers) · CC0 1.0 · https://commons.wikimedia.org/wiki/File:Silicon_wafers.jpg · cropped and darkened
+- Slide 3/4: ASML / Wikimedia Commons · Public Domain (text logo; trademark restrictions apply) · https://commons.wikimedia.org/wiki/File:ASML_Logo.svg · cropped and darkened
+
+@daily_tech_magazine · 무단 재업로드/재배포 금지
