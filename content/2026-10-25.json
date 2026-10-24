@@ -1,0 +1,234 @@
+{
+  "date": "2026-10-25",
+  "edition": 42,
+  "brand": "DAILY TECH",
+  "handle": "@daily_tech_magazine",
+  "deckTitle": "AI는 해킹 성능을 낮추고, 클라우드는 2027년까지 예약됐다",
+  "deckSubtitle": "Kimi 안전 조정 · AWS 공급 병목 · 빛으로 움직이는 로봇팔 · 코딩 에이전트",
+  "top3": [
+    "kimi-k31-pro-cyber-risk-filter",
+    "aws-capacity-booked-through-2027",
+    "delft-algae-light-powered-soft-arm"
+  ],
+  "dailyAnalysis": "AI 산업의 핵심 과제가 모델 성능만이 아니라 위험 조절, 인프라 공급, 실제 세계에서의 작동으로 확장됐다. Moonshot은 오픈웨이트 모델의 공격적 사이버 역량을 낮추려 했고, AWS는 2027년 대형 클라우드 용량 대부분이 이미 예약됐다고 밝혔다. 델프트공대의 미세조류 로봇팔은 살아 있는 재료를 제어하는 또 다른 경로를 보여준다. GitHub는 OpenCode·Codex·Claude Code를 아우르는 사용량 측정과 Teams 기반 코딩, 유출 자격증명 모니터링을 강화했다. 6~24개월에는 독립 안전 평가, 데이터센터 증설의 실제 수익성, 생체 로봇의 내구성과 에이전트 실행의 품질이 중요해진다.",
+  "recap": "AI는 위험을 낮추고, 클라우드는 꽉 찼으며, 로봇은 빛으로 움직인다.",
+  "cover": {
+    "stat": "2027 / 2cm",
+    "title": "AI 서버는 품절,\n로봇은 빛으로 움직인다",
+    "subtitle": "Kimi 보안 조정 · AWS 용량 예약 · 해조류 로봇팔"
+  },
+  "stories": [
+    {
+      "id": "kimi-k31-pro-cyber-risk-filter",
+      "category": "AI MODELS / OPEN WEIGHTS",
+      "headline": "Kimi K3.1 Pro, 해킹 성능 낮추고 공개 가중치 배포 예고",
+      "facts": "Moonshot AI는 10월 24일 새 오픈웨이트 모델 Kimi K3.1 Pro에서 공격적 사이버 역량을 의도적으로 낮췄다고 밝혔다. 학습 자료와 강화학습 환경에서 사이버 공격 관련 데이터를 줄였으며 모델 가중치는 11월 4일까지 공개할 계획이다. 회사 내부 평가에서 취약점 발견·악용 점수는 미조정 버전 90.5%에서 81.0%로 낮아졌지만, 외부 검증은 없다. 100만 토큰 컨텍스트와 속도가 2~3배 빠르다는 Highspeed 변형도 소개했다.",
+      "whyItMatters": "오픈웨이트 모델은 배포 뒤 사용을 중앙에서 통제하기 어려워, 공개 전에 위험 역량을 조정하는 시도가 중요하다.",
+      "analysis": "81.0%라는 숫자는 위험이 사라졌다는 뜻이 아니며 기업이 정한 벤치마크에서의 상대 결과다. 일반 코딩 성능을 유지하면서 특정 오남용 역량을 낮출 수 있는지 독립 평가가 필요하다.",
+      "outlook": "6~24개월: 11월 4일 가중치 공개 여부, 제3자 사이버 평가, 개발자 채택과 위험 완화의 재현성을 보자.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/technology/moonshot-curbs-hacking-ability-new-kimi-model-fears-grow-over-ai-powered-2026-10-24/"
+        }
+      ],
+      "card": {
+        "stat": "81.0% vs 90.5%",
+        "headline": "Kimi, 해킹 성능을 일부러 낮췄다",
+        "what": "Moonshot은 Kimi K3.1 Pro의 공격적 사이버 능력을 줄였다. 내부 평가 90.5%→81.0%, 가중치 공개 목표는 11월 4일.",
+        "why": "오픈웨이트 AI는 배포 후 통제가 어려워 공개 전 위험 조절이 핵심이다.",
+        "next": "독립 평가로 실제 위험 감소와 코딩 성능 유지가 확인될까?",
+        "hook": "AI를 더 안전하게 만들려고 성능을 낮췄다"
+      },
+      "visual": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Silicon_wafers.jpg",
+        "credit": "ArticCynda / Wikimedia Commons (반도체 상징 이미지)",
+        "license": "CC0 1.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Silicon_wafers.jpg",
+        "reuseAllowed": true,
+        "modified": "cropped and darkened"
+      }
+    },
+    {
+      "id": "aws-capacity-booked-through-2027",
+      "category": "AI INFRA / CLOUD",
+      "headline": "AWS, 대형 클라우드 용량 2027년까지 대부분 예약",
+      "facts": "Amazon CEO 앤디 재시는 10월 23일 팟캐스트에서 AWS의 2026년 대형 클라우드 용량이 이미 판매됐다고 밝혔다. 2027년 용량도 대부분 예약됐고 2028년까지 고객 약정이 이어진다고 말했다. AI 연구소와 기업 고객의 수요가 빠르게 늘어 인프라 확장이 이를 따라잡기 어렵다는 설명이다. 다만 EC2 온디맨드와 Bedrock 등 서비스를 위한 일부 여유 용량은 유지한다고 명시했다.",
+      "whyItMatters": "GPU와 데이터센터를 실제로 확보할 수 있는지가 AI 서비스의 확장 속도를 제한할 수 있다.",
+      "analysis": "예약된 대형 계약과 모든 신규 고객의 이용 불가는 다르다. 공급 부족은 장기 약정과 대규모 선투자를 유도하지만 향후 과잉설비 위험도 만든다.",
+      "outlook": "6~24개월: 10월 29일 실적, 2027년 신규 용량 증설, 고객별 가격과 약정 이행률을 확인하자.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/business/retail-consumer/amazon-cloud-capacity-sold-out-through-2027-ceo-jassy-says-2026-10-23/"
+        }
+      ],
+      "card": {
+        "stat": "2027",
+        "headline": "AWS 용량, 2027년까지 거의 예약",
+        "what": "Amazon CEO는 대형 클라우드 용량이 2026년 이미 판매됐고 2027년에도 대부분 예약됐다고 밝혔다. 일부 온디맨드 여유는 남긴다.",
+        "why": "AI 인프라의 병목이 GPU 확보를 넘어 실제 클라우드 공급량으로 확대된다.",
+        "next": "10월 29일 실적과 증설 속도, 장기 계약의 실제 수익성을 확인.",
+        "hook": "AI 서버, 돈이 있어도 바로 못 구한다"
+      },
+      "visual": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Front_of_server_racks_at_NERSC.jpg",
+        "credit": "Derrick Coetzee / Wikimedia Commons (일반 서버실 상징 이미지)",
+        "license": "CC0 1.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Front_of_server_racks_at_NERSC.jpg",
+        "reuseAllowed": true,
+        "modified": "cropped and darkened"
+      }
+    },
+    {
+      "id": "delft-algae-light-powered-soft-arm",
+      "category": "ROBOTICS / BIOTECH",
+      "headline": "빛만으로 움직이는 2cm 해조류 로봇팔",
+      "facts": "델프트공대 연구진은 10월 22일 살아 있는 미세조류를 이용한 부드러운 로봇 구동기를 공개했다. 약 2cm 길이와 1mm 두께의 두 겹 하이드로겔에 조류가 자라며, 빛에 따른 대사 변화가 pH와 팽창 정도를 바꿔 구조를 굽힌다. 연구팀은 수중에서 고무 고리를 들어 올리고 작은 금속 구슬을 집는 동작을 시연했다. Nature Communications에 발표된 초기 실험으로 범용 로봇이 완성된 것은 아니다.",
+      "whyItMatters": "모터와 복잡한 전자구동 없이 살아 있는 세포의 대사를 움직임으로 바꾸는 새로운 설계다.",
+      "analysis": "전날 다룬 근육 기반 생체 로봇과 달리 이번 장치는 조류의 광합성·화학적 변화가 구동 원리다. 반응 속도, 지속성, 실용 하중은 아직 제한적이다.",
+      "outlook": "6~24개월: 수중 장시간 작동, 빛 제어 속도, 물체 조작 정확도와 반복 수명을 지켜보자.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "TU Delft",
+          "url": "https://www.tudelft.nl/en/2026/tnw/soft-robot-arm-powered-by-algae"
+        }
+      ],
+      "card": {
+        "stat": "2 cm",
+        "headline": "살아 있는 조류가 로봇팔을 움직인다",
+        "what": "델프트공대는 미세조류와 하이드로겔로 만든 2cm 로봇팔이 빛에 반응해 구부러지고 물체를 집는 모습을 보였다.",
+        "why": "전통적인 모터 없이 세포 대사를 기계적 움직임으로 바꿨다.",
+        "next": "반응 속도·내구성·조작 하중을 높여 실제 작업에 쓸 수 있을까?",
+        "hook": "빛을 비추면 살아 움직이는 로봇팔"
+      },
+      "visual": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Green_algae.png",
+        "credit": "Snoteleks / Wikimedia Commons (녹조류 상징 콜라주)",
+        "license": "CC0 1.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Green_algae.png",
+        "reuseAllowed": true,
+        "modified": "cropped and darkened"
+      }
+    },
+    {
+      "id": "uk-ai-biosecurity-600m-funding",
+      "category": "AI POLICY / BIOSECURITY",
+      "headline": "영국, AI 안전·생물보안에 6억 파운드 투입",
+      "facts": "영국 정부는 10월 24일 AI 관련 보건·보안 위협 대응을 중심으로 약 6억 파운드의 투자 계획을 발표했다. 생물학적 위협을 탐지하는 AI Biosecurity Lab 설립에 1억 파운드, 병원체 대응 수단 개발에 6,500만 파운드를 배정한다. OpenAI와 Anthropic은 해당 생물보안 사업에 최대 2억 파운드의 모델 이용 크레딧을 제공할 계획이다. 기존 AI Security Institute에는 1억2,000만 파운드가 추가로 지원된다.",
+      "whyItMatters": "AI의 안전 문제가 단순한 모델 테스트에서 실험실·보건·핵심 인프라를 포함하는 국가 차원의 사업으로 확대됐다.",
+      "analysis": "정부 지원액과 기업의 모델 크레딧은 서로 다른 형태의 자원이다. 계획 발표만으로 실제 탐지 성능이나 보건 성과가 검증된 것은 아니다.",
+      "outlook": "6~24개월: 연구소 설립, 위험 평가 체계, 실제 조기탐지 성과와 예산 집행을 확인하자.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/world/uk/uk-government-sets-out-800-million-ai-security-funding-2026-10-23/"
+        }
+      ]
+    },
+    {
+      "id": "github-opencode-copilot-metrics",
+      "category": "CODING AGENTS / OPENCODE",
+      "headline": "GitHub, OpenCode·Codex·Claude Code 사용량까지 집계",
+      "facts": "GitHub는 10월 23일 Copilot 사용량 API에 클라이언트별 집계인 totals_by_client를 추가했다. OpenCode, Claude Code, Codex, Zed, VS Code 등 Copilot을 모델 제공자로 사용하는 도구별 요청 수·세션 수·토큰 사용량을 볼 수 있다. 일간 및 28일 기업·조직 보고서에 적용되며 모델별 자동 선택 여부도 구분한다. 요청 수는 사용자가 입력한 프롬프트 수와 같지 않고 클라이언트 식별도 최선의 추정이다.",
+      "whyItMatters": "하나의 AI 모델 계정을 여러 코딩 에이전트에서 쓰는 팀이 실제 비용과 사용 패턴을 비교할 수 있다.",
+      "analysis": "도구 간 이동이 늘어나는 환경에서 서버 측 사용량 측정은 유용하지만 생산성이나 코드 품질을 직접 측정하는 지표는 아니다.",
+      "outlook": "6~24개월: 사용량 데이터의 정확도, 팀별 비용 배분, 모델·도구 선택 정책의 변화가 관건이다.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "GitHub Changelog",
+          "url": "https://github.blog/changelog/2026-10-23-usage-metrics-api-adds-usage-from-tools-like-opencode/"
+        }
+      ]
+    },
+    {
+      "id": "github-copilot-teams-issue-to-pr",
+      "category": "CODING AGENTS / COLLABORATION",
+      "headline": "Teams에서 @GitHub 한 번으로 이슈 수정·PR 생성",
+      "facts": "GitHub는 10월 23일 Microsoft Teams용 통합 GitHub 앱을 발표했다. 채널·그룹·개인 대화에 도착한 이슈 알림에 @GitHub를 멘션하면 Copilot이 이슈 조사, 버그 수정, 테스트, Pull Request 작성을 도울 수 있다. 연결된 이슈와 대화 맥락을 작업 지시로 활용하며 결과는 사람이 검토하고 병합한다. 기존 레거시 GitHub 앱은 11월 16일 종료될 예정이다.",
+      "whyItMatters": "개발자가 IDE를 열기 전 협업 대화에서 코딩 작업을 시작할 수 있다.",
+      "analysis": "대화 맥락이 코드 변경으로 이어지는 것은 편리하지만 권한 오용과 불완전한 수정 방지를 위한 리뷰·테스트는 필수다.",
+      "outlook": "6~24개월: 팀별 사용률, 자동 PR의 품질과 Teams 밖의 협업 플랫폼 지원을 살펴보자.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "GitHub Changelog",
+          "url": "https://github.blog/changelog/2026-10-23-turn-notifications-into-code-with-github-copilot-in-teams/"
+        }
+      ]
+    },
+    {
+      "id": "openai-legacy-api-snapshots-shutdown-oct23",
+      "category": "DEVELOPER API / MIGRATION",
+      "headline": "OpenAI, GPT-4·o1 등 오래된 API 스냅샷 종료",
+      "facts": "OpenAI 공식 API 폐기 목록에 따르면 10월 23일 gpt-4-0613, gpt-4-turbo-2024-04-09, o1-2024-12-17, o3-mini-2025-01-31 등 여러 오래된 모델 스냅샷의 접근이 종료됐다. gpt-3.5-turbo-0125와 gpt-image-1도 종료 목록에 포함됐다. 문서는 모델별 권장 대체 모델을 제시한다. 이는 개발자 API의 특정 모델 식별자에 관한 변경이며 일반 ChatGPT 서비스 전체 종료를 뜻하지 않는다.",
+      "whyItMatters": "모델 이름을 코드에 고정한 앱은 호출 오류나 출력 동작 변화를 겪을 수 있다.",
+      "analysis": "모델 교체 시 응답 형식·비용·지연·안전 정책이 달라질 수 있으므로 단순 문자열 변경 대신 회귀 테스트가 필요하다.",
+      "outlook": "6~24개월: 지원 모델 수명, 마이그레이션 자동화, 앱별 품질 테스트를 준비해야 한다.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "OpenAI API Docs",
+          "url": "https://developers.openai.com/api/docs/deprecations"
+        }
+      ]
+    },
+    {
+      "id": "github-public-secret-monitoring-alerts",
+      "category": "DEVSECOPS / GITHUB",
+      "headline": "GitHub, 공개 저장소 유출 토큰의 유효성 자동 확인",
+      "facts": "GitHub는 10월 23일 Public Monitoring에 경고 분류·이력·필터와 API·웹훅을 추가했다. 지원되는 비밀정보 유형에 대해 토큰이 현재 활성 상태인지 지속적으로 확인한다. 기업은 공개 커밋에서 발견된 유출을 자체 사고대응 파이프라인으로 연결할 수 있다. 경고를 닫아도 실제 토큰이 폐기되거나 공개 코드에서 삭제되는 것은 아니다.",
+      "whyItMatters": "AI 코딩과 자동 배포가 늘어날수록 실수로 노출된 자격증명을 빠르게 찾아 무효화하는 능력이 중요하다.",
+      "analysis": "탐지와 토큰 회수는 별도 작업이다. 이 기능은 엔터프라이즈용 보안 라이선스 조건에서 제공되는 프리뷰이므로 일반 개인 계정에 자동 적용된다고 볼 수 없다.",
+      "outlook": "6~24개월: 지원 토큰 유형 확대, 유출 감지에서 자동 폐기까지의 연동과 오탐률을 보자.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "GitHub Changelog",
+          "url": "https://github.blog/changelog/2026-10-23-public-monitoring-adds-triage-validity-api-and-webhooks/"
+        }
+      ]
+    },
+    {
+      "id": "rayneo-mw4-gt-max-display-glasses",
+      "category": "GAMING / DISPLAY HARDWARE",
+      "headline": "120Hz 게임용 안경, 콜 오브 듀티 한정판 공개",
+      "facts": "RayNeo는 10월 22일 Call of Duty: Modern Warfare 4와 협업한 GT Max 한정판 디스플레이 안경을 공개했다. 마이크로 OLED 기반으로 최대 120Hz 주사율과 59도 시야각, 가상 267인치 화면을 내세운다. 무게는 78g이며 PC·콘솔과 USB-C로 연결해 화면을 표시하는 방식이다. 일반 판매는 11월 19일 예정이며 한정판 가격은 발표 당시 공개되지 않았다.",
+      "whyItMatters": "휴대용 고주사율 디스플레이가 FPS 게임과 이동형 PC의 새로운 주변기기 선택지로 등장했다.",
+      "analysis": "267인치는 실제 물리 화면 크기가 아니라 가상 화면에 대한 제조사 표현이다. 지연시간·시야 가장자리 선명도·착용감은 독립 실측이 필요하다.",
+      "outlook": "6~24개월: 입력 지연, 120Hz 지속성, 안경형 디스플레이의 실제 게임 이용률을 확인하자.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "GamesBeat",
+          "url": "https://gamesbeat.com/rayneo-unveils-call-of-duty-modern-warfare-4-limited-edition-gaming-glasses/"
+        },
+        {
+          "name": "RayNeo coverage / MacSources",
+          "url": "https://macsources.com/rayneo-unveils-cod-modern-warfare-4-smart-glasses/"
+        }
+      ]
+    },
+    {
+      "id": "houston-smec-container-carbon-capture",
+      "category": "ENERGY / AI DATACENTERS",
+      "headline": "컨테이너 20개로 발전소 탄소 98% 포집 가능할까",
+      "facts": "휴스턴대는 10월 13일 전기화학 방식의 모듈형 탄소 포집 시스템 SMEC를 발표했다. 40피트 운송 컨테이너에 들어가는 설계를 제안했고 모사 배기가스 실험에서는 최적 조건에서 약 90% 포집 효율을 보였다. 연구진은 300회 순환·50시간 동안 안정성을 시험했다. 360MW 발전소에 컨테이너형 약 20개를 적용하면 배출량의 98%를 포집할 수 있다는 수치는 실증 결과가 아니라 모델링 추정이다.",
+      "whyItMatters": "AI 데이터센터 전력 수요가 증가하는 상황에서 기존 발전소의 배출을 줄일 수 있는 분산형 기술이다.",
+      "analysis": "실험실 효율과 대형 발전소 실증 성능은 다르다. 포집 전력 비용·운영 수명·CO₂ 저장과 처리까지 포함해야 경제성을 평가할 수 있다.",
+      "outlook": "6~24개월: 파일럿 규모 확대, 장시간 실증, 전력 소모와 톤당 포집 비용을 확인하자.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "University of Houston",
+          "url": "https://m.uh.edu/news-events/stories/2026/october/10132026-carbon-capture-data-centers.php"
+        }
+      ]
+    }
+  ]
+}
