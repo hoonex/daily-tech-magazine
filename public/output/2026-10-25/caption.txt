@@ -1,0 +1,38 @@
+[2026-10-25] 오늘 볼 만한 AI·테크 뉴스 TOP 3
+
+1. Kimi, 해킹 성능을 일부러 낮췄다
+무슨 일? Moonshot은 Kimi K3.1 Pro의 공격적 사이버 능력을 줄였다. 내부 평가 90.5%→81.0%, 가중치 공개 목표는 11월 4일.
+왜 중요? 오픈웨이트 AI는 배포 후 통제가 어려워 공개 전 위험 조절이 핵심이다.
+다음엔? 독립 평가로 실제 위험 감소와 코딩 성능 유지가 확인될까?
+
+2. AWS 용량, 2027년까지 거의 예약
+무슨 일? Amazon CEO는 대형 클라우드 용량이 2026년 이미 판매됐고 2027년에도 대부분 예약됐다고 밝혔다. 일부 온디맨드 여유는 남긴다.
+왜 중요? AI 인프라의 병목이 GPU 확보를 넘어 실제 클라우드 공급량으로 확대된다.
+다음엔? 10월 29일 실적과 증설 속도, 장기 계약의 실제 수익성을 확인.
+
+3. 살아 있는 조류가 로봇팔을 움직인다
+무슨 일? 델프트공대는 미세조류와 하이드로겔로 만든 2cm 로봇팔이 빛에 반응해 구부러지고 물체를 집는 모습을 보였다.
+왜 중요? 전통적인 모터 없이 세포 대사를 기계적 움직임으로 바꿨다.
+다음엔? 반응 속도·내구성·조작 하중을 높여 실제 작업에 쓸 수 있을까?
+
+오늘 한 줄: AI는 위험을 낮추고, 클라우드는 꽉 찼으며, 로봇은 빛으로 움직인다.
+
+출처
+- Reuters: https://www.reuters.com/technology/moonshot-curbs-hacking-ability-new-kimi-model-fears-grow-over-ai-powered-2026-10-24/
+- Reuters: https://www.reuters.com/business/retail-consumer/amazon-cloud-capacity-sold-out-through-2027-ceo-jassy-says-2026-10-23/
+- TU Delft: https://www.tudelft.nl/en/2026/tnw/soft-robot-arm-powered-by-algae
+- Reuters: https://www.reuters.com/world/uk/uk-government-sets-out-800-million-ai-security-funding-2026-10-23/
+- GitHub Changelog: https://github.blog/changelog/2026-10-23-usage-metrics-api-adds-usage-from-tools-like-opencode/
+- GitHub Changelog: https://github.blog/changelog/2026-10-23-turn-notifications-into-code-with-github-copilot-in-teams/
+- OpenAI API Docs: https://developers.openai.com/api/docs/deprecations
+- GitHub Changelog: https://github.blog/changelog/2026-10-23-public-monitoring-adds-triage-validity-api-and-webhooks/
+- GamesBeat: https://gamesbeat.com/rayneo-unveils-call-of-duty-modern-warfare-4-limited-edition-gaming-glasses/
+- RayNeo coverage / MacSources: https://macsources.com/rayneo-unveils-cod-modern-warfare-4-smart-glasses/
+- University of Houston: https://m.uh.edu/news-events/stories/2026/october/10132026-carbon-capture-data-centers.php
+
+이미지 출처
+- Slide 1/2: ArticCynda / Wikimedia Commons (반도체 상징 이미지) · CC0 1.0 · https://commons.wikimedia.org/wiki/File:Silicon_wafers.jpg · cropped and darkened
+- Slide 2/3: Derrick Coetzee / Wikimedia Commons (일반 서버실 상징 이미지) · CC0 1.0 · https://commons.wikimedia.org/wiki/File:Front_of_server_racks_at_NERSC.jpg · cropped and darkened
+- Slide 3/4: Snoteleks / Wikimedia Commons (녹조류 상징 콜라주) · CC0 1.0 · https://commons.wikimedia.org/wiki/File:Green_algae.png · cropped and darkened
+
+@daily_tech_magazine · 무단 재업로드/재배포 금지
