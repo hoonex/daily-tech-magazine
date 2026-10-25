@@ -1,0 +1,38 @@
+[2026-10-26] 오늘 볼 만한 AI·테크 뉴스 TOP 3
+
+1. SpaceX, GPU에 400억 달러 베팅
+무슨 일? 머스크는 SpaceX가 NVIDIA 중심 AI GPU 구매를 위해 400억 달러의 부채 자금을 확보했다고 밝혔다. 인도 목표는 2027년 상반기.
+왜 중요? AI 경쟁이 모델 성능에서 칩 조달·전력·자본력 경쟁으로 확장된다.
+다음엔? 실제 GPU 인도와 가동률, 투자 대비 AI 매출을 확인.
+
+2. 게임잼에 AI 팀원은 무제한
+무슨 일? 에픽은 11월 12~15일 Unreal·UEFN 게임잼을 연다. 사람 최대 5명과 AI 에이전트 무제한으로 플레이 가능한 게임을 제작한다.
+왜 중요? AI 코딩·아트·레벨 제작이 실제 게임 완성도로 이어지는지 시험한다.
+다음엔? 출품작의 플레이 품질과 저작권·개발 비용, Unreal MCP 안정성을 보자.
+
+3. AI가 실험실에서 직접 일한다
+무슨 일? 전 OpenAI 과학 책임자가 Warp Sciences를 창업하고 2억1500만 달러를 조달했다. 인간 화학자의 동작을 학습해 로봇 실험을 자동화할 계획이다.
+왜 중요? AI 연구가 문서 생성에서 실제 물질 합성·검증으로 확장된다.
+다음엔? 실험 재현성·로봇 오류율과 상용 연구실 도입을 확인.
+
+오늘 한 줄: GPU에는 거액의 자본이, 게임엔 AI 팀원이, 실험실엔 로봇이 들어온다.
+
+출처
+- Reuters: https://www.reuters.com/business/media-telecom/musk-says-spacex-raised-40-billion-debt-gpus-2026-10-25/
+- Epic Games: https://www.unrealengine.com/news/2026-epic-ai-megajam
+- Epic Developer Community: https://forums.unrealengine.com/t/vibe-your-way-to-50k-the-2026-epic-ai-megajam-is-coming/2843973
+- TechCrunch: https://techcrunch.com/2026/10/22/former-openai-science-lead-launches-warp-science-to-automate-wet-labs-with-robots/
+- Reuters: https://www.reuters.com/business/autos-transportation/tesla-aims-sell-cybercab-robotaxis-by-end-year-despite-federal-probe-2026-10-22/
+- VALORANT Esports: https://valorantesports.com/en-PH/news/introducing-the-vct-2027-partner-teams
+- GitHub Changelog: https://github.blog/changelog/2026-10-22-github-copilot-in-visual-studio-september-update-2/
+- GitHub Changelog: https://github.blog/changelog/2026-10-23-enterprise-installations-for-github-apps-generally-available/
+- NVIDIA Investor News: https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Advances-Isaac-Platform-for-General-Purpose-Robotics-With-New-Reference-Humanoid-Frameworks-Simulation-Pipelines-and-Data/default.aspx
+- Reuters: https://www.reuters.com/technology/epic-games-fortnite-returns-apple-app-store-australia-2026-10-22/
+- Business Insider: https://www.businessinsider.com/apollo-ai-zero-financial-payoff-corporate-america-economic-analysis-2026-10
+
+이미지 출처
+- Slide 1/2: Don Miller / Wikimedia Commons (2016년 Falcon 9 상징 사진) · CC BY 2.0 · https://commons.wikimedia.org/wiki/File:SpaceX_Falcon_9_(28684019370).jpg · cropped and darkened
+- Slide 2/3: superanton / Wikimedia Commons (게임패드 상징 사진) · CC0 1.0 · https://commons.wikimedia.org/wiki/File:Video-games-1557358.jpg · cropped and darkened
+- Slide 3/4: MicrobiologyMarcus / Wikimedia Commons (실험실 상징 사진) · CC0 1.0 · https://commons.wikimedia.org/wiki/File:Pipetter_and_serological_pipette.jpg · cropped and darkened
+
+@daily_tech_magazine · 무단 재업로드/재배포 금지
