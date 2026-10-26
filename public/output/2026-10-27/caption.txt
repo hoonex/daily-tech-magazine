@@ -1,0 +1,38 @@
+[2026-10-27] 오늘 볼 만한 AI·테크 뉴스 TOP 3
+
+1. Claude 회사, 증시 문을 두드리다
+무슨 일? Anthropic이 미국 IPO 서류를 공개했다. 2분기 매출은 전년 동기 대비 1,368% 증가했지만 대규모 비용과 위험도 드러났다.
+왜 중요? 최첨단 AI 모델 기업의 가치를 공개시장이 직접 평가할 첫 주요 시험대다.
+다음엔? 공모가, 영업현금흐름과 상장 후 투자자의 평가를 확인.
+
+2. 칩 설계도 AI 에이전트에게
+무슨 일? Cadence Maestro는 NVIDIA Nemotron 기반의 칩 설계 AI 모델이다. 기업 내부 서버에서도 실행하고 기밀 설계로 미세조정할 수 있다.
+왜 중요? 반도체 설계 자동화와 기업의 지식재산 보호를 동시에 노린다.
+다음엔? 초기 고객의 실제 설계 성능·비용·검증 결과를 확인.
+
+3. 우주 탄생 뒤 20억 년을 계산
+무슨 일? MIT의 Lumina가 5,000억 계산 요소로 초기 우주의 암흑물질·가스·별·빛의 진화를 재현했다. Frontier 슈퍼컴퓨터를 사용했다.
+왜 중요? 초기 은하 형성 이론을 실제 우주 관측과 비교할 새로운 실험장이다.
+다음엔? 제임스 웹 우주망원경 관측과 시뮬레이션 예측을 대조.
+
+오늘 한 줄: AI 기업은 증시로, 칩 설계는 에이전트로, 우주는 슈퍼컴퓨터로 향한다.
+
+출처
+- Reuters: https://www.reuters.com/legal/transactional/anthropic-opens-books-ais-explosive-growth-staggering-costs-2026-10-26/
+- Reuters: https://www.reuters.com/business/cadence-unveils-nvidia-backed-ai-models-that-chipmakers-can-run-in-house-2026-10-26/
+- MIT News: https://news.mit.edu/2026/watch-universe-emerge-from-dark-ages-with-lumina-1026
+- Reuters: https://www.reuters.com/legal/transactional/meta-launches-35-billion-stock-offering-fund-ai-expansion-2026-10-26/
+- Reuters: https://www.reuters.com/legal/litigation/anthropic-discloses-month-long-training-pause-ai-security-breaches-ipo-filing-2026-10-26/
+- Reuters: https://www.reuters.com/business/unconventional-ai-buys-israeli-chip-startup-neureality-speed-product-development-2026-10-26/
+- AMD Release Notes: https://www.amd.com/en/resources/support-articles/release-notes/RN-RAD-WIN-26-10-1.html
+- Tom's Hardware: https://www.tomshardware.com/pc-components/gpu-drivers/amds-fsr-4-1-now-works-on-radeon-rx-6000-gpus-xbox-series-x-and-s-and-ryzen-ai-max-ai-9-and-z2-socs-new-release-brings-cutting-edge-tech-to-older-hardware-with-a-small-performance-cost
+- Microsoft Command Line: https://commandline.microsoft.com/agentic-software-engineering-large-scale-code-migration-language-modernization-spec-driven-development/
+- MIT News: https://news.mit.edu/2026/implantable-device-uses-ultrasound-improve-drug-delivery-brain-1026
+- Reuters: https://www.reuters.com/business/media-telecom/apple-says-it-will-replace-iphone-duo-units-showing-screen-problems-2026-10-26/
+
+이미지 출처
+- Slide 1/2: Derrick Coetzee / Wikimedia Commons (상징적 서버실 사진) · CC0 1.0 · https://commons.wikimedia.org/wiki/File:Front_of_server_racks_at_NERSC.jpg · cropped and darkened
+- Slide 2/3: ArticCynda / Wikimedia Commons (반도체 웨이퍼 상징 사진) · CC0 1.0 · https://commons.wikimedia.org/wiki/File:Silicon_wafers.jpg · cropped and darkened
+- Slide 3/4: ESA/Hubble & NASA, M. J. Koss, A. J. Barth (실제 은하 IC 486 상징 사진; Lumina 결과 아님) · CC0 1.0 · https://commons.wikimedia.org/wiki/File:Hubble_Spies_an_Active_Spiral_-_Flickr_-_NASA_Hubble.jpg · cropped and darkened
+
+@daily_tech_magazine · 무단 재업로드/재배포 금지
