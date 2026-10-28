@@ -1,0 +1,230 @@
+{
+  "date": "2026-10-29",
+  "edition": 46,
+  "brand": "DAILY TECH",
+  "handle": "@daily_tech_magazine",
+  "deckTitle": "코딩 AI가 모델을 고른다",
+  "deckSubtitle": "Copilot Fusion · NVIDIA 모델 허브 인수 심사 · HBM 기록",
+  "top3": [
+    "copilot-fusion-multimodel-ga",
+    "nvidia-huggingface-doj-inquiry",
+    "sk-hynix-record-q3-2026-hbm-soldout"
+  ],
+  "dailyAnalysis": "오늘의 핵심은 AI의 성능 경쟁이 소프트웨어 조율, 유통 플랫폼 지배력, 메모리 공급, 투자 회수라는 네 영역으로 동시에 확장되고 있다는 점이다. Copilot Fusion은 여러 모델을 작업별로 조합하며, NVIDIA의 Hugging Face 인수에 대한 경쟁당국 질의는 개방형 모델 유통의 중립성을 문제 삼는다. SK하이닉스는 기록적인 실적과 장기 매진을 발표했지만 중국 CXMT는 낮은 수율에도 HBM3E 진입을 추진하고 있다. OpenAI의 구글 TPU 구매 계획은 아직 미확정이며, Microsoft와 Alphabet의 상반된 잉여현금흐름은 AI 인프라 투자의 현금화 속도를 보여준다. 개발 현장에서는 Copilot Projects가 다중 저장소 작업을 묶고, OpenAI의 수학적 주장과 Steam 체험판 분석은 AI 결과의 검증과 창작물의 발견 가능성 문제를 드러낸다. 향후 6~24개월에는 실제 에이전트 작업 성공률, 플랫폼 중립성, HBM 수율, 투자수익률, 독립 학술 검증을 함께 확인해야 한다.",
+  "recap": "코딩 AI는 모델을 조합하고, AI 패권은 유통·메모리·현금흐름으로 번진다.",
+  "cover": {
+    "stat": "60점 / $12.93B / 83.3조",
+    "title": "AI가 코딩 모델을 고른다\n모델 허브와 메모리도 격변",
+    "subtitle": "Copilot Fusion · NVIDIA 인수 심사 · SK하이닉스 기록"
+  },
+  "stories": [
+    {
+      "id": "copilot-fusion-multimodel-ga",
+      "category": "CODING / AI AGENTS",
+      "headline": "Copilot Fusion 정식 출시…AI가 코딩 모델을 직접 조합한다",
+      "facts": "GitHub가 10월 28일 Copilot Fusion을 정식 출시했다. 개발자가 모델 하나를 지정하는 대신 시스템이 작업별로 모델을 선택하거나 여러 모델을 조합한다. 실행 방식은 Single·Cascade·Critique 세 가지이며 Standard·High·Max 노력 수준을 선택할 수 있다. GitHub가 공개한 Artificial Analysis Coding Agent Index 결과에서 Fusion Max는 60점을 얻어 Opus 5.5 Max보다 2점 낮았고, 작업당 평균 API 비용은 약 절반이었다.",
+      "whyItMatters": "코딩 에이전트 사용자가 매번 모델을 고르지 않아도 성능과 비용을 조정할 수 있는 선택지가 생겼다.",
+      "analysis": "60점과 비용 절감은 GitHub가 인용한 특정 벤치마크 결과로 모든 프로젝트에서 동일하게 재현되는 것은 아니다. 실제 청구는 사용된 각 모델의 요금에 따라 달라진다.",
+      "outlook": "6~24개월: 실제 저장소별 PR 성공률·수정 횟수·최종 비용과 모델 라우팅의 투명성을 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "GitHub Changelog · 2026-10-28",
+          "url": "https://github.blog/changelog/2026-10-28-route-and-orchestrate-models-with-github-copilot-fusion/"
+        }
+      ],
+      "card": {
+        "stat": "60점 / 비용 약 ½",
+        "headline": "코딩 AI, 모델을 스스로 고른다",
+        "what": "GitHub Copilot Fusion이 정식 출시됐다. 작업에 맞춰 모델을 선택하고 필요하면 초안·검토·수정에 여러 모델을 조합한다.",
+        "why": "벤치마크에서 강력한 모델과 비슷한 점수를 더 낮은 비용으로 달성했다고 발표했다.",
+        "next": "실제 PR 성공률, 모델별 비용과 프로젝트별 성능 차이를 검증.",
+        "hook": "모델 선택을 AI에 맡긴다"
+      },
+      "visual": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/RustCodeOnScreen.jpg",
+        "credit": "Slashme / Wikimedia Commons (Rust 코드 상징 사진, Copilot 화면 아님)",
+        "license": "CC0 1.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:RustCodeOnScreen.jpg",
+        "reuseAllowed": true,
+        "modified": "cropped and darkened"
+      }
+    },
+    {
+      "id": "nvidia-huggingface-doj-inquiry",
+      "category": "AI PLATFORMS / ANTITRUST",
+      "headline": "엔비디아의 129억 달러 Hugging Face 인수, 미 법무부가 경쟁 영향 질의",
+      "facts": "Reuters는 10월 28일 미국 법무부가 NVIDIA의 Hugging Face 인수에 대해 AI 시장 경쟁 영향을 질의했다고 보도했다. 거래 규모는 약 129억3,000만 달러이며 인수 완료 목표는 2027년 상반기다. 당국은 모델 배포의 핵심 경로가 한 반도체 기업에 집중될 가능성을 살피는 것으로 전해졌다. 법무부의 질문은 위법 확정이나 인수 차단 결정을 의미하지 않는다.",
+      "whyItMatters": "AI 모델을 배포하는 개방형 플랫폼과 GPU 공급사의 결합이 개발자 생태계 전체의 선택권에 영향을 줄 수 있다.",
+      "analysis": "조사 범위와 향후 조치는 익명 관계자 보도에 기반해 미확정이다. 인수가 성사돼도 다른 칩·클라우드 업체에 대한 중립성을 실제로 유지하는지가 중요하다.",
+      "outlook": "6~24개월: 반독점 당국의 공식 조치, 거래 종결 여부, 플랫폼의 모델·하드웨어 중립성을 확인.",
+      "status": "unconfirmed",
+      "sources": [
+        {
+          "name": "Reuters 독점 · 2026-10-28",
+          "url": "https://www.reuters.com/world/us-doj-is-inquiring-about-nvidias-purchase-hugging-face-sources-say-2026-10-28/"
+        }
+      ],
+      "card": {
+        "stat": "$12.93B",
+        "headline": "GPU 왕국, 모델 허브까지?",
+        "what": "NVIDIA의 Hugging Face 인수에 대해 미 법무부가 AI 경쟁 영향을 질의했다고 Reuters가 보도했다. 거래 규모는 129억3,000만 달러다.",
+        "why": "GPU 공급사가 AI 모델 배포의 핵심 플랫폼까지 소유할 때 경쟁 중립성이 쟁점이 된다.",
+        "next": "규제 당국의 공식 조치와 2027년 상반기 거래 종결 여부를 확인.",
+        "hook": "AI 모델 유통의 관문은 누구 것인가"
+      },
+      "visual": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/%E3%83%9E%E3%82%A4%E3%82%AF%E3%83%AD%E3%83%87%E3%83%BC%E3%82%BF%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC%28DX_edge_ZellaPro25%29.jpg",
+        "credit": "Muromurot / Wikimedia Commons (일반 마이크로 데이터센터 상징 사진, NVIDIA 시설 아님)",
+        "license": "CC0 1.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E3%83%9E%E3%82%A4%E3%82%AF%E3%83%AD%E3%83%87%E3%83%BC%E3%82%BF%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC(DX_edge_ZellaPro25).jpg",
+        "reuseAllowed": true,
+        "modified": "cropped and darkened"
+      }
+    },
+    {
+      "id": "sk-hynix-record-q3-2026-hbm-soldout",
+      "category": "SEMICONDUCTORS / KOREA",
+      "headline": "SK하이닉스 영업이익 83.3조 원…HBM·DRAM 2029년까지 매진",
+      "facts": "SK하이닉스는 10월 28일 2026년 3분기 영업이익 83.3조 원과 매출 104.6조 원을 발표했다. 영업이익은 전년 동기 11.4조 원 대비 7배 넘게 증가했다. 회사는 HBM과 DRAM 물량이 2029년까지 매진됐으며 HBM 수요가 공급 가능량의 두 배라고 설명했다. 올해 주주환원 정책 규모는 약 100조 원으로 제시됐다.",
+      "whyItMatters": "AI 메모리 공급 부족이 실제 기업 실적과 장기 계약에 얼마나 강하게 반영되는지 보여준다.",
+      "analysis": "회사의 수요 전망은 현재 주문과 계약에 기반하지만 2030년까지 가격 상승이 확정된 것은 아니다. 설비 증설과 경쟁사 공급 증가가 변수다.",
+      "outlook": "6~24개월: HBM4 수율·계약 이행, 증설 속도, DRAM 가격 및 AI 고객의 실수요를 점검.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Reuters · 2026-10-28",
+          "url": "https://www.reuters.com/world/asia-pacific/sk-hynix-q3-profit-jumps-more-than-7-fold-beats-forecasts-2026-10-27/"
+        }
+      ],
+      "card": {
+        "stat": "83.3조 원",
+        "headline": "HBM 매진, 이익은 83조",
+        "what": "SK하이닉스가 분기 영업이익 83.3조 원을 기록했다. 회사는 HBM·DRAM 물량이 2029년까지 매진됐다고 밝혔다.",
+        "why": "AI 데이터센터 투자가 메모리 기업의 수익과 장기 공급 계약으로 연결되고 있다.",
+        "next": "HBM4 양산·수율과 증설, 메모리 가격의 지속성을 확인.",
+        "hook": "AI 메모리의 기록적인 분기"
+      },
+      "visual": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Silicon_wafers.jpg",
+        "credit": "ArticCynda / Wikimedia Commons (실리콘 웨이퍼 전시 상징 사진, SK하이닉스 제품 아님)",
+        "license": "CC0 1.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Silicon_wafers.jpg",
+        "reuseAllowed": true,
+        "modified": "cropped and darkened"
+      }
+    },
+    {
+      "id": "cxmt-hbm3e-low-yield-plan",
+      "category": "SEMICONDUCTORS / CHINA",
+      "headline": "중국 CXMT, 수율 20~30%에도 HBM3E 생산 추진",
+      "facts": "Reuters는 10월 28일 중국 CXMT가 두 달 안에 HBM3E 제한 생산을 시작할 계획이라고 보도했다. 익명 관계자들에 따르면 현재 양품 수율은 20~30%로 SK하이닉스의 약 70%보다 낮다. CXMT는 중국 AI 칩 설계사들에 시제품을 전달했으며, 시험 성능은 경쟁사의 이전 세대 HBM3에 가까운 것으로 전해졌다. CXMT의 공식 확답은 없었고 생산 계획과 수율은 미확정이다.",
+      "whyItMatters": "AI 가속기 생산의 병목이 GPU 연산 코어만이 아니라 HBM 공급·패키징 기술에도 있다는 점을 보여준다.",
+      "analysis": "낮은 수율로 생산을 강행하면 공급량은 늘어도 원가와 성능 경쟁력이 떨어질 수 있다. 실사용 가능 물량은 아직 확인되지 않았다.",
+      "outlook": "6~24개월: 중국 HBM3E 양산 성공률, 고객사 채택, 한국 업체와의 성능·가격 격차를 확인.",
+      "status": "unconfirmed",
+      "sources": [
+        {
+          "name": "Reuters · 2026-10-28",
+          "url": "https://www.reuters.com/world/china/chinas-cxmt-start-advanced-ai-memory-production-despite-poor-yields-sources-say-2026-10-28/"
+        }
+      ]
+    },
+    {
+      "id": "openai-google-tpu-purchase-plan",
+      "category": "AI CHIPS / CLOUD",
+      "headline": "OpenAI, 경쟁사 구글 TPU 직접 구매 검토 보도",
+      "facts": "Reuters는 10월 28일 The Information을 인용해 OpenAI가 Google의 AI 가속기 TPU를 구매할 계획이라고 전했다. 거래 금액과 구체적인 공급 조건은 공개되지 않았다. OpenAI는 이미 2025년부터 Google TPU를 임대해 사용한 것으로 보도됐고, 최근 Google Cloud를 통한 모델 제공도 발표했다. OpenAI는 구매 계획에 대한 논평을 거부해 거래는 미확정 상태다.",
+      "whyItMatters": "AI 모델 개발사가 NVIDIA GPU뿐 아니라 자체 칩과 경쟁사 TPU를 동시에 확보하는 다중 공급 전략을 확대할 수 있다.",
+      "analysis": "임대 사용과 칩 직접 구매는 운영 통제와 비용 구조가 다르다. 실제 계약 여부와 규모가 확인되기 전에는 공급망 변화가 확정됐다고 볼 수 없다.",
+      "outlook": "6~24개월: 직접 구매 계약 발표, TPU 배치 규모, GPU 대비 실제 추론 비용을 확인.",
+      "status": "unconfirmed",
+      "sources": [
+        {
+          "name": "Reuters · 2026-10-28",
+          "url": "https://www.reuters.com/business/openai-plans-buy-googles-ai-chips-information-reports-2026-10-28/"
+        }
+      ]
+    },
+    {
+      "id": "github-copilot-projects-multirepo-preview",
+      "category": "CODING / AGENT WORKFLOWS",
+      "headline": "Copilot Projects, 여러 저장소를 AI 팀으로 병렬 작업",
+      "facts": "GitHub는 10월 28일 Copilot 앱에 Projects 공개 프리뷰를 도입했다. 사용자는 여러 저장소와 디자인 시안·회의 메모·외부 도구의 맥락을 하나의 프로젝트에 모을 수 있다. Copilot은 목표에 맞춰 복수의 에이전트를 병렬 실행하고 결과 PR을 검토하도록 제시한다. 반복 작업을 위한 프로젝트 자동화도 제공되지만 기능별 접근 권한과 비용은 설정에 따른다.",
+      "whyItMatters": "한 저장소의 파일 편집을 넘어 기획·디자인·개발을 연결하는 에이전트 작업 방식이 구체화되고 있다.",
+      "analysis": "다중 에이전트가 동시에 움직이면 변경 충돌과 컨텍스트 관리 비용도 늘 수 있다. 공개 프리뷰의 안정성을 상용 운영과 동일시할 수 없다.",
+      "outlook": "6~24개월: 여러 저장소의 작업 완결률, 병렬 충돌 해결과 비용·권한 통합을 검증.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "GitHub Changelog · 2026-10-28",
+          "url": "https://github.blog/changelog/2026-10-28-github-copilot-app-universe-releases/"
+        }
+      ]
+    },
+    {
+      "id": "microsoft-azure-q1-2027-fcf",
+      "category": "AI CLOUD / BUSINESS",
+      "headline": "MS Azure 매출 48% 증가…현금흐름은 186억 달러",
+      "facts": "Microsoft는 10월 28일 발표한 2027 회계연도 1분기 실적에서 Azure 매출 331억7,000만 달러를 기록했다. 이는 전년 동기 대비 48% 증가한 수치다. 분기 잉여현금흐름은 186억 달러로 시장 예상치를 크게 웃돌았다. 설비투자는 452억 달러였으며 회사는 예상보다 낮은 지출의 일부가 외부 설비 인도 지연 때문이라고 설명했다.",
+      "whyItMatters": "AI 투자 확대 속에서도 클라우드 매출과 현금흐름을 동시에 늘린 사례다.",
+      "analysis": "지출 감소가 효율 개선만을 의미하지는 않는다. 인도 지연된 설비 비용이 다음 분기로 넘어갈 가능성이 있다.",
+      "outlook": "6~24개월: Azure 성장률, 미인도 설비 가동, AI 서비스 이익률과 잉여현금흐름을 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Reuters · 2026-10-28",
+          "url": "https://www.reuters.com/business/retail-consumer/microsoft-beats-quarterly-cloud-revenue-estimates-2026-10-28/"
+        }
+      ]
+    },
+    {
+      "id": "alphabet-q3-2026-negative-fcf",
+      "category": "AI CLOUD / BUSINESS",
+      "headline": "구글 클라우드 성장에도 현금 90억 달러 순유출",
+      "facts": "Alphabet은 10월 28일 발표한 3분기 실적에서 매출 1,276억 달러를 기록해 시장 예상치 1,282억 달러에 못 미쳤다. 분기 잉여현금흐름은 마이너스 90억7,000만 달러였다. AI 연구와 클라우드 설비 확장이 현금 지출을 키웠고, 회사는 2027년 설비투자가 크게 늘어날 것으로 전망했다. 클라우드 매출 증가와 현금흐름 악화가 동시에 나타났다.",
+      "whyItMatters": "AI 인프라 확장이 성장의 원동력인 동시에 현금 유출 부담이 될 수 있음을 보여준다.",
+      "analysis": "분기 현금흐름만으로 장기 투자 실패를 단정할 수 없다. 신규 설비가 실제 매출과 마진으로 전환되는 시차가 중요하다.",
+      "outlook": "6~24개월: 클라우드 가동률, TPU 매출 인식, 2027년 설비투자와 잉여현금흐름 회복을 추적.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Reuters · 2026-10-28",
+          "url": "https://www.reuters.com/business/alphabets-google-cloud-unit-beats-quarterly-revenue-estimates-steady-ai-demand-2026-10-28/"
+        }
+      ]
+    },
+    {
+      "id": "openai-math-eth-kakeya-research-claims",
+      "category": "AI SCIENCE / MATHEMATICS",
+      "headline": "OpenAI, 카케야 난제·ETH 반례 주장…외부 검증 시작",
+      "facts": "OpenAI는 10월 26일 AI 모델이 조화해석의 카케야 추측 관련 증명과 계산복잡도 이론의 지수시간가설(ETH) 반례를 제시했다고 발표했다. 수학 결과는 자연어 설명과 Lean 형식화 자료를 공개했다. 컴퓨터과학 결과는 외부 연구자 그룹이 해석·검증하도록 협력체계를 만들었다. OpenAI 스스로 결과물을 확정된 학술 합의가 아닌 연구용 원자료로 취급한다고 밝혔다.",
+      "whyItMatters": "독립 검증을 통과한다면 AI가 단순 문헌 요약을 넘어 새로운 수학·이론 연구에 기여하는 중요한 사례가 된다.",
+      "analysis": "특히 ETH 반례는 매우 큰 주장으로 학계의 재현과 심사를 거치기 전까지 해결된 정리로 취급하면 안 된다. 공개 자료와 외부 검증 진행 상황을 구분해야 한다.",
+      "outlook": "6~24개월: Lean 증명 검증, 독립 수학자 평가, ETH 반례의 학술 출판·반박 여부를 확인.",
+      "status": "unconfirmed",
+      "sources": [
+        {
+          "name": "OpenAI 연구 발표 · 2026-10-26",
+          "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities/"
+        }
+      ]
+    },
+    {
+      "id": "steam-next-fest-8000-demos-ai-disclosure",
+      "category": "GAMING / INDIE DEVELOPMENT",
+      "headline": "Steam 체험판 8,000개 넘었다…상위 50개 중 AI 공개는 4개",
+      "facts": "PC Gamer는 10월 27일 Valve가 공개한 Steam Next Fest 인기 체험판 상위 50개를 분석했다. 행사에는 8,000개 이상의 데모가 참가했다. 상위 50개 가운데 생성형 AI 사용을 공개한 게임은 4개였고, 가벼운 협동 게임 15개와 점진적 성장 게임 7개가 포함됐다. 이 수치는 AI를 사용한 모든 게임의 수나 전체 행사 품질을 나타내지는 않는다.",
+      "whyItMatters": "소규모 개발사가 수천 개의 신작 사이에서 주목받는 일이 더 어려워졌고 게임의 발견 가능성이 중요해졌다.",
+      "analysis": "상위 50개만으로 플레이어가 AI 게임을 일괄 거부한다고 단정할 수 없다. 장르·마케팅·기존 팬층이 인기 순위에 영향을 준다.",
+      "outlook": "6~24개월: Steam 발견 알고리즘, AI 사용 공개 정책, 인디 게임의 데모→출시 전환율을 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "PC Gamer · 2026-10-27",
+          "url": "https://www.pcgamer.com/software/platforms/the-50-most-played-steam-next-fest-demos-include-7-incremental-games-4-ai-disclosures-and-only-one-instance-of-haystack-slop/"
+        }
+      ]
+    }
+  ]
+}
