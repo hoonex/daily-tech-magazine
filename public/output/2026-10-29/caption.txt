@@ -1,0 +1,37 @@
+[2026-10-29] 오늘 볼 만한 AI·테크 뉴스 TOP 3
+
+1. 코딩 AI, 모델을 스스로 고른다
+무슨 일? GitHub Copilot Fusion이 정식 출시됐다. 작업에 맞춰 모델을 선택하고 필요하면 초안·검토·수정에 여러 모델을 조합한다.
+왜 중요? 벤치마크에서 강력한 모델과 비슷한 점수를 더 낮은 비용으로 달성했다고 발표했다.
+다음엔? 실제 PR 성공률, 모델별 비용과 프로젝트별 성능 차이를 검증.
+
+2. GPU 왕국, 모델 허브까지?
+무슨 일? NVIDIA의 Hugging Face 인수에 대해 미 법무부가 AI 경쟁 영향을 질의했다고 Reuters가 보도했다. 거래 규모는 129억3,000만 달러다.
+왜 중요? GPU 공급사가 AI 모델 배포의 핵심 플랫폼까지 소유할 때 경쟁 중립성이 쟁점이 된다.
+다음엔? 규제 당국의 공식 조치와 2027년 상반기 거래 종결 여부를 확인.
+
+3. HBM 매진, 이익은 83조
+무슨 일? SK하이닉스가 분기 영업이익 83.3조 원을 기록했다. 회사는 HBM·DRAM 물량이 2029년까지 매진됐다고 밝혔다.
+왜 중요? AI 데이터센터 투자가 메모리 기업의 수익과 장기 공급 계약으로 연결되고 있다.
+다음엔? HBM4 양산·수율과 증설, 메모리 가격의 지속성을 확인.
+
+오늘 한 줄: 코딩 AI는 모델을 조합하고, AI 패권은 유통·메모리·현금흐름으로 번진다.
+
+출처
+- GitHub Changelog · 2026-10-28: https://github.blog/changelog/2026-10-28-route-and-orchestrate-models-with-github-copilot-fusion/
+- Reuters 독점 · 2026-10-28: https://www.reuters.com/world/us-doj-is-inquiring-about-nvidias-purchase-hugging-face-sources-say-2026-10-28/
+- Reuters · 2026-10-28: https://www.reuters.com/world/asia-pacific/sk-hynix-q3-profit-jumps-more-than-7-fold-beats-forecasts-2026-10-27/
+- Reuters · 2026-10-28: https://www.reuters.com/world/china/chinas-cxmt-start-advanced-ai-memory-production-despite-poor-yields-sources-say-2026-10-28/
+- Reuters · 2026-10-28: https://www.reuters.com/business/openai-plans-buy-googles-ai-chips-information-reports-2026-10-28/
+- GitHub Changelog · 2026-10-28: https://github.blog/changelog/2026-10-28-github-copilot-app-universe-releases/
+- Reuters · 2026-10-28: https://www.reuters.com/business/retail-consumer/microsoft-beats-quarterly-cloud-revenue-estimates-2026-10-28/
+- Reuters · 2026-10-28: https://www.reuters.com/business/alphabets-google-cloud-unit-beats-quarterly-revenue-estimates-steady-ai-demand-2026-10-28/
+- OpenAI 연구 발표 · 2026-10-26: https://openai.com/index/building-scientific-understanding-with-academic-communities/
+- PC Gamer · 2026-10-27: https://www.pcgamer.com/software/platforms/the-50-most-played-steam-next-fest-demos-include-7-incremental-games-4-ai-disclosures-and-only-one-instance-of-haystack-slop/
+
+이미지 출처
+- Slide 1/2: Slashme / Wikimedia Commons (Rust 코드 상징 사진, Copilot 화면 아님) · CC0 1.0 · https://commons.wikimedia.org/wiki/File:RustCodeOnScreen.jpg · cropped and darkened
+- Slide 2/3: Muromurot / Wikimedia Commons (일반 마이크로 데이터센터 상징 사진, NVIDIA 시설 아님) · CC0 1.0 · https://commons.wikimedia.org/wiki/File:%E3%83%9E%E3%82%A4%E3%82%AF%E3%83%AD%E3%83%87%E3%83%BC%E3%82%BF%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC(DX_edge_ZellaPro25).jpg · cropped and darkened
+- Slide 3/4: ArticCynda / Wikimedia Commons (실리콘 웨이퍼 전시 상징 사진, SK하이닉스 제품 아님) · CC0 1.0 · https://commons.wikimedia.org/wiki/File:Silicon_wafers.jpg · cropped and darkened
+
+@daily_tech_magazine · 무단 재업로드/재배포 금지
