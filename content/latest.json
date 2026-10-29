@@ -1,228 +1,236 @@
 {
-  "date": "2026-10-29",
-  "edition": 46,
+  "date": "2026-10-30",
+  "edition": 47,
   "brand": "DAILY TECH",
   "handle": "@daily_tech_magazine",
-  "deckTitle": "코딩 AI가 모델을 고른다",
-  "deckSubtitle": "Copilot Fusion · NVIDIA 모델 허브 인수 심사 · HBM 기록",
+  "deckTitle": "코딩 AI 보안에 경고등, 로컬 AI와 로봇은 전진",
+  "deckSubtitle": "EMBRACE 취약점 · RTX Spark 노트북 · Unitree 실적",
   "top3": [
-    "copilot-fusion-multimodel-ga",
-    "nvidia-huggingface-doj-inquiry",
-    "sk-hynix-record-q3-2026-hbm-soldout"
+    "embrace-ai-coding-embedded-browser-flaws",
+    "nvidia-rtx-spark-laptops-local-ai",
+    "unitree-q3-revenue-growth-profit-decline"
   ],
-  "dailyAnalysis": "오늘의 핵심은 AI의 성능 경쟁이 소프트웨어 조율, 유통 플랫폼 지배력, 메모리 공급, 투자 회수라는 네 영역으로 동시에 확장되고 있다는 점이다. Copilot Fusion은 여러 모델을 작업별로 조합하며, NVIDIA의 Hugging Face 인수에 대한 경쟁당국 질의는 개방형 모델 유통의 중립성을 문제 삼는다. SK하이닉스는 기록적인 실적과 장기 매진을 발표했지만 중국 CXMT는 낮은 수율에도 HBM3E 진입을 추진하고 있다. OpenAI의 구글 TPU 구매 계획은 아직 미확정이며, Microsoft와 Alphabet의 상반된 잉여현금흐름은 AI 인프라 투자의 현금화 속도를 보여준다. 개발 현장에서는 Copilot Projects가 다중 저장소 작업을 묶고, OpenAI의 수학적 주장과 Steam 체험판 분석은 AI 결과의 검증과 창작물의 발견 가능성 문제를 드러낸다. 향후 6~24개월에는 실제 에이전트 작업 성공률, 플랫폼 중립성, HBM 수율, 투자수익률, 독립 학술 검증을 함께 확인해야 한다.",
-  "recap": "코딩 AI는 모델을 조합하고, AI 패권은 유통·메모리·현금흐름으로 번진다.",
+  "dailyAnalysis": "오늘의 흐름은 AI가 실제 PC와 산업 현장으로 들어가면서 보안·하드웨어·사업성의 검증이 동시에 중요해지고 있다는 것이다. EMBRACE 연구는 코딩 에이전트의 내장 브라우저가 개발자 파일에 접근할 수 있는 위험을 드러냈다. NVIDIA RTX Spark 노트북은 로컬 에이전트와 대형 통합 메모리를 내세우지만 실제 배터리·추론 성능 검증이 필요하다. Unitree는 매출이 크게 늘었어도 연구개발 투자로 분기 이익이 감소해 로봇 상용화의 현실을 보여줬다. Intel의 생산시설 사고와 Amazon의 현금 유출은 첨단 기술 경쟁의 물리적·재무적 비용을 부각한다. 반면 MIT의 자석 기반 의족 인터페이스와 Social.Wiki는 실생활에 적용할 수 있는 새로운 연구 방향을 제시했다. 앞으로 6~24개월에는 에이전트 권한 격리, 로컬 AI의 실측 효율, 휴머노이드의 반복 매출과 첨단 인프라의 투자 회수율을 확인해야 한다.",
+  "recap": "코딩 AI 보안에 경고등, 로컬 AI는 노트북으로, 로봇은 실적으로 답한다.",
   "cover": {
-    "stat": "60점 / $12.93B / 83.3조",
-    "title": "AI가 코딩 모델을 고른다\n모델 허브와 메모리도 격변",
-    "subtitle": "Copilot Fusion · NVIDIA 인수 심사 · SK하이닉스 기록"
+    "stat": "5개 도구 · 128GB · +70%",
+    "title": "코딩 AI의 보안 구멍\n노트북과 로봇의 다음 경쟁",
+    "subtitle": "EMBRACE 취약점 · RTX Spark · Unitree의 첫 성적표"
   },
   "stories": [
     {
-      "id": "copilot-fusion-multimodel-ga",
-      "category": "CODING / AI AGENTS",
-      "headline": "Copilot Fusion 정식 출시…AI가 코딩 모델을 직접 조합한다",
-      "facts": "GitHub가 10월 28일 Copilot Fusion을 정식 출시했다. 개발자가 모델 하나를 지정하는 대신 시스템이 작업별로 모델을 선택하거나 여러 모델을 조합한다. 실행 방식은 Single·Cascade·Critique 세 가지이며 Standard·High·Max 노력 수준을 선택할 수 있다. GitHub가 공개한 Artificial Analysis Coding Agent Index 결과에서 Fusion Max는 60점을 얻어 Opus 5.5 Max보다 2점 낮았고, 작업당 평균 API 비용은 약 절반이었다.",
-      "whyItMatters": "코딩 에이전트 사용자가 매번 모델을 고르지 않아도 성능과 비용을 조정할 수 있는 선택지가 생겼다.",
-      "analysis": "60점과 비용 절감은 GitHub가 인용한 특정 벤치마크 결과로 모든 프로젝트에서 동일하게 재현되는 것은 아니다. 실제 청구는 사용된 각 모델의 요금에 따라 달라진다.",
-      "outlook": "6~24개월: 실제 저장소별 PR 성공률·수정 횟수·최종 비용과 모델 라우팅의 투명성을 확인.",
+      "id": "embrace-ai-coding-embedded-browser-flaws",
+      "category": "AI SECURITY / CODING AGENTS",
+      "headline": "Codex·VS Code 등 5개 AI 도구의 내장 브라우저 취약점 공개",
+      "facts": "보안 연구팀 Forever Security는 10월 29일 EMBRACE 연구를 공개하며 Cursor, GitHub Copilot, Codex, VS Code, Claude Desktop의 내장 브라우저에서 각각 보안 경계가 무너지는 공격을 재현했다. Cursor에서는 악성 페이지가 코드 실행을 유도했고, Copilot에서는 주소 표시를 위조할 수 있었다. Codex·VS Code·Claude Desktop에서는 로컬 HTML 파일을 통해 의도한 폴더 밖의 파일에 접근하는 사례를 시연했다. 연구진에 따르면 공개 시점에 Cursor와 Copilot의 문제는 수정됐으나 Codex와 VS Code의 관련 문제는 미수정 상태였다.",
+      "whyItMatters": "AI 코딩 도구의 미리보기 브라우저가 SSH 키·개발자 토큰을 보관한 실제 PC와 연결되면 단순 프로젝트 열기도 위험해질 수 있다.",
+      "analysis": "공격 재현은 연구진의 통제된 실험 결과이며 모든 사용자에게 침해가 발생했다는 뜻은 아니다. 패치 상태는 제품·버전별로 확인해야 한다.",
+      "outlook": "6~24개월: 각 공급사의 수정 배포, 브라우저 격리 강화, 신뢰하지 않는 프로젝트의 로컬 HTML 실행 제한을 관찰.",
       "status": "confirmed",
       "sources": [
         {
-          "name": "GitHub Changelog · 2026-10-28",
-          "url": "https://github.blog/changelog/2026-10-28-route-and-orchestrate-models-with-github-copilot-fusion/"
+          "name": "Forever Security 원문 연구 · 2026-10-29",
+          "url": "https://forever.security/blog/embrace-hacking-5-ai-assistants-embedded-browsers"
+        },
+        {
+          "name": "Help Net Security · 2026-10-29",
+          "url": "https://www.helpnetsecurity.com/2026/10/29/research-ai-assistant-browser-vulnerabilities/"
         }
       ],
       "card": {
-        "stat": "60점 / 비용 약 ½",
-        "headline": "코딩 AI, 모델을 스스로 고른다",
-        "what": "GitHub Copilot Fusion이 정식 출시됐다. 작업에 맞춰 모델을 선택하고 필요하면 초안·검토·수정에 여러 모델을 조합한다.",
-        "why": "벤치마크에서 강력한 모델과 비슷한 점수를 더 낮은 비용으로 달성했다고 발표했다.",
-        "next": "실제 PR 성공률, 모델별 비용과 프로젝트별 성능 차이를 검증.",
-        "hook": "모델 선택을 AI에 맡긴다"
+        "stat": "5개 AI 도구",
+        "headline": "코딩 AI의 브라우저가 뚫렸다",
+        "what": "연구진이 Codex·VS Code·Cursor·Copilot·Claude Desktop의 내장 브라우저 취약점을 재현했다. 공개 당시 2개 제품은 미수정.",
+        "why": "프로젝트 미리보기만으로 개발 PC의 민감 파일이 노출될 위험이 있다.",
+        "next": "Codex·VS Code 패치와 로컬 HTML 격리 정책을 확인.",
+        "hook": "에이전트의 눈이 공격 통로로"
       },
       "visual": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/RustCodeOnScreen.jpg",
-        "credit": "Slashme / Wikimedia Commons (Rust 코드 상징 사진, Copilot 화면 아님)",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Backlit_computer_keyboard_%2840623300100%29.jpg",
+        "credit": "freestocks.org / Wikimedia Commons (개발 환경 상징 사진, 사건 화면 아님)",
         "license": "CC0 1.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:RustCodeOnScreen.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Backlit_computer_keyboard_(40623300100).jpg",
         "reuseAllowed": true,
         "modified": "cropped and darkened"
       }
     },
     {
-      "id": "nvidia-huggingface-doj-inquiry",
-      "category": "AI PLATFORMS / ANTITRUST",
-      "headline": "엔비디아의 129억 달러 Hugging Face 인수, 미 법무부가 경쟁 영향 질의",
-      "facts": "Reuters는 10월 28일 미국 법무부가 NVIDIA의 Hugging Face 인수에 대해 AI 시장 경쟁 영향을 질의했다고 보도했다. 거래 규모는 약 129억3,000만 달러이며 인수 완료 목표는 2027년 상반기다. 당국은 모델 배포의 핵심 경로가 한 반도체 기업에 집중될 가능성을 살피는 것으로 전해졌다. 법무부의 질문은 위법 확정이나 인수 차단 결정을 의미하지 않는다.",
-      "whyItMatters": "AI 모델을 배포하는 개방형 플랫폼과 GPU 공급사의 결합이 개발자 생태계 전체의 선택권에 영향을 줄 수 있다.",
-      "analysis": "조사 범위와 향후 조치는 익명 관계자 보도에 기반해 미확정이다. 인수가 성사돼도 다른 칩·클라우드 업체에 대한 중립성을 실제로 유지하는지가 중요하다.",
-      "outlook": "6~24개월: 반독점 당국의 공식 조치, 거래 종결 여부, 플랫폼의 모델·하드웨어 중립성을 확인.",
-      "status": "unconfirmed",
+      "id": "nvidia-rtx-spark-laptops-local-ai",
+      "category": "PC HARDWARE / LOCAL AI",
+      "headline": "RTX Spark 노트북, 통합 메모리 최대 128GB로 로컬 AI 겨냥",
+      "facts": "NVIDIA는 10월 28일 RTX Spark 기반 Windows 노트북이 ASUS·Dell·HP·Lenovo·Microsoft·MSI에서 출시됐다고 밝혔다. Grace CPU와 Blackwell RTX GPU를 통합해 최대 128GB 통합 메모리와 최대 1페타플롭의 FP4 AI 성능을 내세운다. 새 Nemotron 3.5 Transcribe 음성 모델과 LFM3 계열을 지원하고, NVIDIA App에서 백그라운드 에이전트와 전면 앱 간 GPU 자원 우선순위를 조정할 수 있다. 다만 메모리·연산 성능은 상위 구성 기준이며 실제 제품별 사양은 다르다.",
+      "whyItMatters": "대형 모델·음성 인식·코딩 에이전트를 클라우드 대신 개인 노트북에서 실행할 선택지가 늘어난다.",
+      "analysis": "FP4 피크 연산량은 일반 게임 FPS나 모든 LLM의 실제 처리량을 뜻하지 않는다. 발열·배터리·가격과 메모리 대역폭을 실측해야 한다.",
+      "outlook": "6~24개월: 로컬 LLM 토큰 속도, 전력당 성능, 가격과 개발 도구 호환성을 확인.",
+      "status": "confirmed",
       "sources": [
         {
-          "name": "Reuters 독점 · 2026-10-28",
-          "url": "https://www.reuters.com/world/us-doj-is-inquiring-about-nvidias-purchase-hugging-face-sources-say-2026-10-28/"
+          "name": "NVIDIA 공식 블로그 · 2026-10-28",
+          "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-updates-models-agents-games/"
         }
       ],
       "card": {
-        "stat": "$12.93B",
-        "headline": "GPU 왕국, 모델 허브까지?",
-        "what": "NVIDIA의 Hugging Face 인수에 대해 미 법무부가 AI 경쟁 영향을 질의했다고 Reuters가 보도했다. 거래 규모는 129억3,000만 달러다.",
-        "why": "GPU 공급사가 AI 모델 배포의 핵심 플랫폼까지 소유할 때 경쟁 중립성이 쟁점이 된다.",
-        "next": "규제 당국의 공식 조치와 2027년 상반기 거래 종결 여부를 확인.",
-        "hook": "AI 모델 유통의 관문은 누구 것인가"
+        "stat": "최대 128GB",
+        "headline": "노트북에 개인 AI 슈퍼컴퓨터",
+        "what": "NVIDIA RTX Spark 노트북이 6개 제조사에서 출시됐다. Grace CPU·Blackwell RTX GPU와 최대 128GB 통합 메모리를 결합했다.",
+        "why": "로컬 AI 에이전트·음성 모델을 클라우드 의존 없이 돌릴 기반이 넓어진다.",
+        "next": "실제 LLM 속도·배터리·발열·가격과 소프트웨어 지원을 비교.",
+        "hook": "AI가 노트북 안으로"
       },
       "visual": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/%E3%83%9E%E3%82%A4%E3%82%AF%E3%83%AD%E3%83%87%E3%83%BC%E3%82%BF%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC%28DX_edge_ZellaPro25%29.jpg",
-        "credit": "Muromurot / Wikimedia Commons (일반 마이크로 데이터센터 상징 사진, NVIDIA 시설 아님)",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Laptop_on_a_desk.jpg",
+        "credit": "Radek Grzybowski / Wikimedia Commons (일반 노트북 상징 사진, RTX Spark 제품 아님)",
         "license": "CC0 1.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E3%83%9E%E3%82%A4%E3%82%AF%E3%83%AD%E3%83%87%E3%83%BC%E3%82%BF%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC(DX_edge_ZellaPro25).jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Laptop_on_a_desk.jpg",
         "reuseAllowed": true,
         "modified": "cropped and darkened"
       }
     },
     {
-      "id": "sk-hynix-record-q3-2026-hbm-soldout",
-      "category": "SEMICONDUCTORS / KOREA",
-      "headline": "SK하이닉스 영업이익 83.3조 원…HBM·DRAM 2029년까지 매진",
-      "facts": "SK하이닉스는 10월 28일 2026년 3분기 영업이익 83.3조 원과 매출 104.6조 원을 발표했다. 영업이익은 전년 동기 11.4조 원 대비 7배 넘게 증가했다. 회사는 HBM과 DRAM 물량이 2029년까지 매진됐으며 HBM 수요가 공급 가능량의 두 배라고 설명했다. 올해 주주환원 정책 규모는 약 100조 원으로 제시됐다.",
-      "whyItMatters": "AI 메모리 공급 부족이 실제 기업 실적과 장기 계약에 얼마나 강하게 반영되는지 보여준다.",
-      "analysis": "회사의 수요 전망은 현재 주문과 계약에 기반하지만 2030년까지 가격 상승이 확정된 것은 아니다. 설비 증설과 경쟁사 공급 증가가 변수다.",
-      "outlook": "6~24개월: HBM4 수율·계약 이행, 증설 속도, DRAM 가격 및 AI 고객의 실수요를 점검.",
+      "id": "unitree-q3-revenue-growth-profit-decline",
+      "category": "ROBOTICS / BUSINESS",
+      "headline": "유니트리 매출 70% 급증, 이익은 오히려 감소",
+      "facts": "중국 로봇 제조사 Unitree는 10월 28일 상장 이후 첫 분기 실적을 발표했다. 2026년 3분기 매출은 전년 대비 70% 증가한 6억6,500만 위안이었지만 순이익은 17.4% 감소한 1억1,270만 위안이었다. 연구개발비는 249.6% 증가한 1억2,700만 위안으로 매출의 19.1%에 달했다. 휴머노이드 상용성에 대한 관심이 커지는 가운데 회사는 로봇용 AI 모델과 컴퓨팅 투자를 확대하고 있다.",
+      "whyItMatters": "화려한 휴머노이드 시연을 넘어 로봇 기업이 실제로 매출과 이익을 창출할 수 있는지 확인할 초기 공개 지표다.",
+      "analysis": "매출 증가는 실제 사업 확장의 신호지만 연구개발비 증가와 수익성 저하는 상용화 비용도 크다는 뜻이다. 로봇 판매 구성과 반복 매출은 추가 확인이 필요하다.",
+      "outlook": "6~24개월: 산업 고객의 반복 구매, 휴머노이드 양산 원가, R&D 투자 대비 이익률을 추적.",
       "status": "confirmed",
       "sources": [
         {
           "name": "Reuters · 2026-10-28",
-          "url": "https://www.reuters.com/world/asia-pacific/sk-hynix-q3-profit-jumps-more-than-7-fold-beats-forecasts-2026-10-27/"
+          "url": "https://www.reuters.com/world/asia-pacific/unitrees-q3-profit-down-174-on-year-test-chinas-robotics-sector-2026-10-28/"
         }
       ],
       "card": {
-        "stat": "83.3조 원",
-        "headline": "HBM 매진, 이익은 83조",
-        "what": "SK하이닉스가 분기 영업이익 83.3조 원을 기록했다. 회사는 HBM·DRAM 물량이 2029년까지 매진됐다고 밝혔다.",
-        "why": "AI 데이터센터 투자가 메모리 기업의 수익과 장기 공급 계약으로 연결되고 있다.",
-        "next": "HBM4 양산·수율과 증설, 메모리 가격의 지속성을 확인.",
-        "hook": "AI 메모리의 기록적인 분기"
+        "stat": "매출 +70%",
+        "headline": "로봇은 팔리는데 이익은 줄었다",
+        "what": "Unitree의 3분기 매출은 6억6,500만 위안으로 70% 증가했지만 순이익은 17.4% 감소했다. 연구개발비는 249.6% 급증했다.",
+        "why": "휴머노이드의 화제성이 실제 사업성과로 이어지는지 확인할 시험대다.",
+        "next": "양산 원가, 산업 고객 재구매와 이익률 변화를 추적.",
+        "hook": "로봇의 상용화 성적표"
       },
       "visual": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Silicon_wafers.jpg",
-        "credit": "ArticCynda / Wikimedia Commons (실리콘 웨이퍼 전시 상징 사진, SK하이닉스 제품 아님)",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Humanoid_robot_is_being_programmed.jpg",
+        "credit": "ZhanatKappassov / Wikimedia Commons (타사 휴머노이드 상징 사진, Unitree 제품 아님)",
         "license": "CC0 1.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Silicon_wafers.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Humanoid_robot_is_being_programmed.jpg",
         "reuseAllowed": true,
         "modified": "cropped and darkened"
       }
     },
     {
-      "id": "cxmt-hbm3e-low-yield-plan",
-      "category": "SEMICONDUCTORS / CHINA",
-      "headline": "중국 CXMT, 수율 20~30%에도 HBM3E 생산 추진",
-      "facts": "Reuters는 10월 28일 중국 CXMT가 두 달 안에 HBM3E 제한 생산을 시작할 계획이라고 보도했다. 익명 관계자들에 따르면 현재 양품 수율은 20~30%로 SK하이닉스의 약 70%보다 낮다. CXMT는 중국 AI 칩 설계사들에 시제품을 전달했으며, 시험 성능은 경쟁사의 이전 세대 HBM3에 가까운 것으로 전해졌다. CXMT의 공식 확답은 없었고 생산 계획과 수율은 미확정이다.",
-      "whyItMatters": "AI 가속기 생산의 병목이 GPU 연산 코어만이 아니라 HBM 공급·패키징 기술에도 있다는 점을 보여준다.",
-      "analysis": "낮은 수율로 생산을 강행하면 공급량은 늘어도 원가와 성능 경쟁력이 떨어질 수 있다. 실사용 가능 물량은 아직 확인되지 않았다.",
-      "outlook": "6~24개월: 중국 HBM3E 양산 성공률, 고객사 채택, 한국 업체와의 성능·가격 격차를 확인.",
-      "status": "unconfirmed",
-      "sources": [
-        {
-          "name": "Reuters · 2026-10-28",
-          "url": "https://www.reuters.com/world/china/chinas-cxmt-start-advanced-ai-memory-production-despite-poor-yields-sources-say-2026-10-28/"
-        }
-      ]
-    },
-    {
-      "id": "openai-google-tpu-purchase-plan",
-      "category": "AI CHIPS / CLOUD",
-      "headline": "OpenAI, 경쟁사 구글 TPU 직접 구매 검토 보도",
-      "facts": "Reuters는 10월 28일 The Information을 인용해 OpenAI가 Google의 AI 가속기 TPU를 구매할 계획이라고 전했다. 거래 금액과 구체적인 공급 조건은 공개되지 않았다. OpenAI는 이미 2025년부터 Google TPU를 임대해 사용한 것으로 보도됐고, 최근 Google Cloud를 통한 모델 제공도 발표했다. OpenAI는 구매 계획에 대한 논평을 거부해 거래는 미확정 상태다.",
-      "whyItMatters": "AI 모델 개발사가 NVIDIA GPU뿐 아니라 자체 칩과 경쟁사 TPU를 동시에 확보하는 다중 공급 전략을 확대할 수 있다.",
-      "analysis": "임대 사용과 칩 직접 구매는 운영 통제와 비용 구조가 다르다. 실제 계약 여부와 규모가 확인되기 전에는 공급망 변화가 확정됐다고 볼 수 없다.",
-      "outlook": "6~24개월: 직접 구매 계약 발표, TPU 배치 규모, GPU 대비 실제 추론 비용을 확인.",
-      "status": "unconfirmed",
-      "sources": [
-        {
-          "name": "Reuters · 2026-10-28",
-          "url": "https://www.reuters.com/business/openai-plans-buy-googles-ai-chips-information-reports-2026-10-28/"
-        }
-      ]
-    },
-    {
-      "id": "github-copilot-projects-multirepo-preview",
-      "category": "CODING / AGENT WORKFLOWS",
-      "headline": "Copilot Projects, 여러 저장소를 AI 팀으로 병렬 작업",
-      "facts": "GitHub는 10월 28일 Copilot 앱에 Projects 공개 프리뷰를 도입했다. 사용자는 여러 저장소와 디자인 시안·회의 메모·외부 도구의 맥락을 하나의 프로젝트에 모을 수 있다. Copilot은 목표에 맞춰 복수의 에이전트를 병렬 실행하고 결과 PR을 검토하도록 제시한다. 반복 작업을 위한 프로젝트 자동화도 제공되지만 기능별 접근 권한과 비용은 설정에 따른다.",
-      "whyItMatters": "한 저장소의 파일 편집을 넘어 기획·디자인·개발을 연결하는 에이전트 작업 방식이 구체화되고 있다.",
-      "analysis": "다중 에이전트가 동시에 움직이면 변경 충돌과 컨텍스트 관리 비용도 늘 수 있다. 공개 프리뷰의 안정성을 상용 운영과 동일시할 수 없다.",
-      "outlook": "6~24개월: 여러 저장소의 작업 완결률, 병렬 충돌 해결과 비용·권한 통합을 검증.",
+      "id": "intel-israel-fab-explosion-pc-slowdown",
+      "category": "CPU / FOUNDRY",
+      "headline": "인텔 공장 폭발로 매출 6억 달러 영향, PC 수요도 약세",
+      "facts": "Intel은 10월 29일 실적 발표 후 이스라엘 키르야트가트 반도체 공장 폭발로 2개 분기에 걸쳐 매출 약 6억 달러가 감소할 수 있다고 설명했다. 공장은 약 2주 멈췄고 10월 말 생산 재개를 추진하고 있다. 4분기 매출 전망은 150억~160억 달러로 시장 기대치보다 낮았다. 메모리 가격 급등의 영향으로 PC용 칩 매출 약세가 적어도 2027년 상반기까지 이어질 수 있다고 경고했다.",
+      "whyItMatters": "AI 서버 수요가 강해도 제조시설 사고와 소비자 PC 시장 약세가 CPU 업체 실적에 직접 타격을 준다.",
+      "analysis": "6억 달러는 회사가 제시한 두 분기 영향 추정치로 확정 손실이 아니다. 손상 웨이퍼 회수 여부에 따라 실제 피해가 달라질 수 있다.",
+      "outlook": "6~24개월: 공장 정상화, 18A 파운드리 고객 확보, PC 수요와 메모리 가격 안정 여부를 확인.",
       "status": "confirmed",
       "sources": [
         {
-          "name": "GitHub Changelog · 2026-10-28",
-          "url": "https://github.blog/changelog/2026-10-28-github-copilot-app-universe-releases/"
+          "name": "Reuters · 2026-10-29",
+          "url": "https://www.reuters.com/business/intel-signals-slower-growth-pc-market-remains-under-pressure-2026-10-29/"
         }
       ]
     },
     {
-      "id": "microsoft-azure-q1-2027-fcf",
-      "category": "AI CLOUD / BUSINESS",
-      "headline": "MS Azure 매출 48% 증가…현금흐름은 186억 달러",
-      "facts": "Microsoft는 10월 28일 발표한 2027 회계연도 1분기 실적에서 Azure 매출 331억7,000만 달러를 기록했다. 이는 전년 동기 대비 48% 증가한 수치다. 분기 잉여현금흐름은 186억 달러로 시장 예상치를 크게 웃돌았다. 설비투자는 452억 달러였으며 회사는 예상보다 낮은 지출의 일부가 외부 설비 인도 지연 때문이라고 설명했다.",
-      "whyItMatters": "AI 투자 확대 속에서도 클라우드 매출과 현금흐름을 동시에 늘린 사례다.",
-      "analysis": "지출 감소가 효율 개선만을 의미하지는 않는다. 인도 지연된 설비 비용이 다음 분기로 넘어갈 가능성이 있다.",
-      "outlook": "6~24개월: Azure 성장률, 미인도 설비 가동, AI 서비스 이익률과 잉여현금흐름을 확인.",
+      "id": "amazon-aws-q3-2026-46b-cash-burn",
+      "category": "AI CLOUD / MARKETS",
+      "headline": "AWS 39% 성장에도 아마존 12개월 현금 유출 424억 달러",
+      "facts": "Amazon은 10월 29일 3분기 AWS 매출이 전년 대비 39% 증가한 460억 달러라고 발표했다. 반면 9월 말 기준 최근 12개월 잉여현금흐름은 마이너스 424억 달러로 집계됐다. 회사는 2026년 설비투자 전망을 약 2,200억 달러로 유지했으며 2027년에는 더 늘어날 것으로 내다봤다. 4분기 매출 전망 범위는 2,400억~2,470억 달러였다.",
+      "whyItMatters": "AI 클라우드의 고성장과 이를 뒷받침할 데이터센터 투자비용이 동시에 커지는 구조를 보여준다.",
+      "analysis": "AWS 매출 성장만으로 전체 AI 투자 회수율을 판단할 수 없다. 설비투자가 현금흐름을 얼마나 오래 압박할지가 핵심이다.",
+      "outlook": "6~24개월: AWS 영업이익률, 데이터센터 가동률, 설비투자와 잉여현금흐름의 회복을 관찰.",
       "status": "confirmed",
       "sources": [
         {
-          "name": "Reuters · 2026-10-28",
-          "url": "https://www.reuters.com/business/retail-consumer/microsoft-beats-quarterly-cloud-revenue-estimates-2026-10-28/"
+          "name": "Reuters · 2026-10-29",
+          "url": "https://www.reuters.com/business/retail-consumer/amazon-projects-fourth-quarter-sales-below-estimates-2026-10-29/"
         }
       ]
     },
     {
-      "id": "alphabet-q3-2026-negative-fcf",
-      "category": "AI CLOUD / BUSINESS",
-      "headline": "구글 클라우드 성장에도 현금 90억 달러 순유출",
-      "facts": "Alphabet은 10월 28일 발표한 3분기 실적에서 매출 1,276억 달러를 기록해 시장 예상치 1,282억 달러에 못 미쳤다. 분기 잉여현금흐름은 마이너스 90억7,000만 달러였다. AI 연구와 클라우드 설비 확장이 현금 지출을 키웠고, 회사는 2027년 설비투자가 크게 늘어날 것으로 전망했다. 클라우드 매출 증가와 현금흐름 악화가 동시에 나타났다.",
-      "whyItMatters": "AI 인프라 확장이 성장의 원동력인 동시에 현금 유출 부담이 될 수 있음을 보여준다.",
-      "analysis": "분기 현금흐름만으로 장기 투자 실패를 단정할 수 없다. 신규 설비가 실제 매출과 마진으로 전환되는 시차가 중요하다.",
-      "outlook": "6~24개월: 클라우드 가동률, TPU 매출 인식, 2027년 설비투자와 잉여현금흐름 회복을 추적.",
+      "id": "mit-magnetic-beads-prosthetic-control-humans",
+      "category": "ROBOTICS / BIOMEDICAL",
+      "headline": "근육 속 3mm 자석으로 의족 움직임을 읽는다",
+      "facts": "MIT 연구진은 10월 29일 근육에 작은 자석을 삽입해 근육 길이와 움직임을 무선 추적하는 연구를 발표했다. 무릎 아래 절단 경험자 3명이 참여했으며 직경 약 3mm 자석을 사용했다. 외부 센서는 피부에서 최대 6cm 깊이의 자석 신호를 감지했다. 실험에서는 실제 의족 보행이 아니라 근육 신호로 화면의 커서를 조작해 기존 전극 측정과 정확도를 비교했다.",
+      "whyItMatters": "기존 피부 전극보다 근육의 실제 움직임을 직접 측정해 로봇 의족을 더 정밀하게 제어할 가능성을 보여준다.",
+      "analysis": "사람 대상 초기 실험이지만 의족 보행 성능과 장기 안전성이 입증된 단계는 아니다. 참가자 수가 3명인 점도 고려해야 한다.",
+      "outlook": "6~24개월: 더 큰 참가자 연구, 실제 의족 제어, 자석 삽입 장기 안정성을 검증.",
       "status": "confirmed",
       "sources": [
         {
-          "name": "Reuters · 2026-10-28",
-          "url": "https://www.reuters.com/business/alphabets-google-cloud-unit-beats-quarterly-revenue-estimates-steady-ai-demand-2026-10-28/"
+          "name": "MIT News · 2026-10-29",
+          "url": "https://news.mit.edu/2026/magnetic-sensors-track-muscle-movement-better-prosthetic-limb-control-1029"
         }
       ]
     },
     {
-      "id": "openai-math-eth-kakeya-research-claims",
-      "category": "AI SCIENCE / MATHEMATICS",
-      "headline": "OpenAI, 카케야 난제·ETH 반례 주장…외부 검증 시작",
-      "facts": "OpenAI는 10월 26일 AI 모델이 조화해석의 카케야 추측 관련 증명과 계산복잡도 이론의 지수시간가설(ETH) 반례를 제시했다고 발표했다. 수학 결과는 자연어 설명과 Lean 형식화 자료를 공개했다. 컴퓨터과학 결과는 외부 연구자 그룹이 해석·검증하도록 협력체계를 만들었다. OpenAI 스스로 결과물을 확정된 학술 합의가 아닌 연구용 원자료로 취급한다고 밝혔다.",
-      "whyItMatters": "독립 검증을 통과한다면 AI가 단순 문헌 요약을 넘어 새로운 수학·이론 연구에 기여하는 중요한 사례가 된다.",
-      "analysis": "특히 ETH 반례는 매우 큰 주장으로 학계의 재현과 심사를 거치기 전까지 해결된 정리로 취급하면 안 된다. 공개 자료와 외부 검증 진행 상황을 구분해야 한다.",
-      "outlook": "6~24개월: Lean 증명 검증, 독립 수학자 평가, ETH 반례의 학술 출판·반박 여부를 확인.",
-      "status": "unconfirmed",
-      "sources": [
-        {
-          "name": "OpenAI 연구 발표 · 2026-10-26",
-          "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities/"
-        }
-      ]
-    },
-    {
-      "id": "steam-next-fest-8000-demos-ai-disclosure",
-      "category": "GAMING / INDIE DEVELOPMENT",
-      "headline": "Steam 체험판 8,000개 넘었다…상위 50개 중 AI 공개는 4개",
-      "facts": "PC Gamer는 10월 27일 Valve가 공개한 Steam Next Fest 인기 체험판 상위 50개를 분석했다. 행사에는 8,000개 이상의 데모가 참가했다. 상위 50개 가운데 생성형 AI 사용을 공개한 게임은 4개였고, 가벼운 협동 게임 15개와 점진적 성장 게임 7개가 포함됐다. 이 수치는 AI를 사용한 모든 게임의 수나 전체 행사 품질을 나타내지는 않는다.",
-      "whyItMatters": "소규모 개발사가 수천 개의 신작 사이에서 주목받는 일이 더 어려워졌고 게임의 발견 가능성이 중요해졌다.",
-      "analysis": "상위 50개만으로 플레이어가 AI 게임을 일괄 거부한다고 단정할 수 없다. 장르·마케팅·기존 팬층이 인기 순위에 영향을 준다.",
-      "outlook": "6~24개월: Steam 발견 알고리즘, AI 사용 공개 정책, 인디 게임의 데모→출시 전환율을 확인.",
+      "id": "phantom-blade-zero-launch-dlss45",
+      "category": "GAMING / PC GRAPHICS",
+      "headline": "팬텀 블레이드 제로 출시, 패스 트레이싱과 DLSS 4.5 탑재",
+      "facts": "S-GAME의 액션 RPG Phantom Blade Zero가 10월 28일 미국 태평양시간 오후 7시에 PC로 출시됐다. NVIDIA는 RTX PC와 RTX Spark에서 레이 트레이싱과 패스 트레이싱을 지원한다고 밝혔다. DLSS 4.5 Ray Reconstruction과 Dynamic Multi Frame Generation도 제공한다. GeForce NOW에도 출시 시점에 합류해 지원 기기에서 클라우드 스트리밍이 가능하다.",
+      "whyItMatters": "신작 게임이 최신 GPU의 광선 추적·AI 프레임 생성 기술을 실제로 보여주는 사례가 된다.",
+      "analysis": "프레임 생성 배율이 높아도 입력 지연과 기본 프레임레이트가 함께 개선되는 것은 아니다. 그래픽 품질과 실제 반응성의 균형이 중요하다.",
+      "outlook": "6~24개월: GPU별 프레임타임, 패스 트레이싱 최적화, 클라우드 스트리밍 지연과 게임 업데이트를 확인.",
       "status": "confirmed",
       "sources": [
         {
-          "name": "PC Gamer · 2026-10-27",
-          "url": "https://www.pcgamer.com/software/platforms/the-50-most-played-steam-next-fest-demos-include-7-incremental-games-4-ai-disclosures-and-only-one-instance-of-haystack-slop/"
+          "name": "NVIDIA GeForce 공식 발표 · 2026-10-28",
+          "url": "https://www.nvidia.com/en-us/geforce/news/phantom-blade-zero-path-tracing-dlss-4-5-ray-reconstruction/"
+        },
+        {
+          "name": "NVIDIA GeForce NOW · 2026-10-29",
+          "url": "https://blogs.nvidia.com/?p=99565"
+        }
+      ]
+    },
+    {
+      "id": "nvidia-tensor-core-molecular-simulation-1p7x",
+      "category": "SCIENCE / GPU COMPUTE",
+      "headline": "AI 분자 시뮬레이션, 재학습 없이 최대 1.7배 빨라졌다",
+      "facts": "NVIDIA는 10월 29일 머신러닝 원자간 퍼텐셜 모델의 연산 정밀도를 유지하며 텐서 코어를 활용하는 실험 결과를 공개했다. A100에서 TF32x3는 분자동역학 전체 계산 단계를 최대 1.5배 빠르게 했다. B300의 BF16x9는 주요 행렬곱을 최대 2.5배, 전체 단계를 최대 1.7배 가속했다. 모델 구조 변경이나 재학습 없이 구현했으며 연구진은 에너지 보존과 수치 안정성도 비교했다.",
+      "whyItMatters": "화학·재료 연구의 대규모 시뮬레이션을 같은 GPU 자원으로 더 많이 수행할 가능성이 생긴다.",
+      "analysis": "최대 가속 수치는 특정 모델·GPU·문제 크기의 실험 결과다. 작은 분자나 다른 모델에서 같은 이득을 보장하지 않는다.",
+      "outlook": "6~24개월: 다양한 재료 모델에서 재현, 수치 오차 검증, 과학 시뮬레이션 비용 절감 여부를 추적.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "NVIDIA Technical Blog · 2026-10-29",
+          "url": "https://developer.nvidia.com/blog/unlocking-tensor-core-performance-for-machine-learning-interatomic-potentials/"
+        }
+      ]
+    },
+    {
+      "id": "mit-social-wiki-user-editable-social-apps",
+      "category": "OPEN SOURCE / FUTURE WEB",
+      "headline": "SNS를 사용자 마음대로 고치는 Social.Wiki 등장",
+      "facts": "MIT 연구진은 10월 29일 이용자가 소셜 웹앱의 코드와 인터페이스를 직접 수정할 수 있는 Social.Wiki 연구를 소개했다. 코딩 경험이 없어도 AI 도우미에게 기능 수정을 요청할 수 있다. 분산형 구조에서 데이터는 앱과 분리해 보관되며 사용자는 신뢰하는 편집자의 수정만 표시하도록 규칙을 정할 수 있다. 연구진은 메시징·차량공유·마이크로블로그 시제품을 시험했으며 아직 초기 연구 단계다.",
+      "whyItMatters": "플랫폼 사업자가 정하는 화면·추천·기능을 사용자가 직접 바꿀 수 있다는 새로운 웹 서비스 모델을 제시한다.",
+      "analysis": "기술 시연과 대규모 서비스 운영은 다르다. 서로 다른 앱 버전의 호환성과 악성 수정 차단이 해결 과제다.",
+      "outlook": "6~24개월: 이용자 확대, 데이터 암호화, 권한·편집 검증과 실사용 서비스 등장 여부를 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "MIT News · 2026-10-29",
+          "url": "https://news.mit.edu/2026/new-system-gives-users-more-control-over-online-experience-1029"
+        }
+      ]
+    },
+    {
+      "id": "openai-model-spec-five-values-update",
+      "category": "AI POLICY / MODEL BEHAVIOR",
+      "headline": "OpenAI, 모델 행동 원칙을 5가지 핵심 가치로 재정비",
+      "facts": "OpenAI는 10월 29일 공개 Model Spec의 개정판을 발표했다. 사람의 의도에 대한 충실성, 피해 최소화, 정직성과 투명성, 인간의 주체성, 배려라는 다섯 가치를 중심으로 지침을 재구성했다. 맥락·감독·에이전트의 자율성에 대한 안내를 추가하고 일부 세부 스타일 규칙은 줄였다. 이는 공개 행동 지침의 개정으로 모든 제품 모델의 동작이 즉시 동일하게 바뀌었다는 뜻은 아니다.",
+      "whyItMatters": "에이전트가 복잡한 결정을 맡게 될수록 명령을 기계적으로 따르는 것 이상으로 감독과 사용자 의도 해석 기준이 중요해진다.",
+      "analysis": "원칙 문서의 개선과 실제 모델의 행동 변화는 별개다. 독립 평가에서 새 기준이 얼마나 일관되게 구현되는지 확인해야 한다.",
+      "outlook": "6~24개월: 에이전트 감독 기능, 실제 모델 행동 평가, 개발자·사용자 제어권 변화를 지켜볼 필요가 있다.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "OpenAI 공식 발표 · 2026-10-29",
+          "url": "https://openai.com/index/updated-model-spec/"
         }
       ]
     }
