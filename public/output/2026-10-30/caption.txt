@@ -1,0 +1,39 @@
+[2026-10-30] 오늘 볼 만한 AI·테크 뉴스 TOP 3
+
+1. 코딩 AI의 브라우저가 뚫렸다
+무슨 일? 연구진이 Codex·VS Code·Cursor·Copilot·Claude Desktop의 내장 브라우저 취약점을 재현했다. 공개 당시 2개 제품은 미수정.
+왜 중요? 프로젝트 미리보기만으로 개발 PC의 민감 파일이 노출될 위험이 있다.
+다음엔? Codex·VS Code 패치와 로컬 HTML 격리 정책을 확인.
+
+2. 노트북에 개인 AI 슈퍼컴퓨터
+무슨 일? NVIDIA RTX Spark 노트북이 6개 제조사에서 출시됐다. Grace CPU·Blackwell RTX GPU와 최대 128GB 통합 메모리를 결합했다.
+왜 중요? 로컬 AI 에이전트·음성 모델을 클라우드 의존 없이 돌릴 기반이 넓어진다.
+다음엔? 실제 LLM 속도·배터리·발열·가격과 소프트웨어 지원을 비교.
+
+3. 로봇은 팔리는데 이익은 줄었다
+무슨 일? Unitree의 3분기 매출은 6억6,500만 위안으로 70% 증가했지만 순이익은 17.4% 감소했다. 연구개발비는 249.6% 급증했다.
+왜 중요? 휴머노이드의 화제성이 실제 사업성과로 이어지는지 확인할 시험대다.
+다음엔? 양산 원가, 산업 고객 재구매와 이익률 변화를 추적.
+
+오늘 한 줄: 코딩 AI 보안에 경고등, 로컬 AI는 노트북으로, 로봇은 실적으로 답한다.
+
+출처
+- Forever Security 원문 연구 · 2026-10-29: https://forever.security/blog/embrace-hacking-5-ai-assistants-embedded-browsers
+- Help Net Security · 2026-10-29: https://www.helpnetsecurity.com/2026/10/29/research-ai-assistant-browser-vulnerabilities/
+- NVIDIA 공식 블로그 · 2026-10-28: https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-updates-models-agents-games/
+- Reuters · 2026-10-28: https://www.reuters.com/world/asia-pacific/unitrees-q3-profit-down-174-on-year-test-chinas-robotics-sector-2026-10-28/
+- Reuters · 2026-10-29: https://www.reuters.com/business/intel-signals-slower-growth-pc-market-remains-under-pressure-2026-10-29/
+- Reuters · 2026-10-29: https://www.reuters.com/business/retail-consumer/amazon-projects-fourth-quarter-sales-below-estimates-2026-10-29/
+- MIT News · 2026-10-29: https://news.mit.edu/2026/magnetic-sensors-track-muscle-movement-better-prosthetic-limb-control-1029
+- NVIDIA GeForce 공식 발표 · 2026-10-28: https://www.nvidia.com/en-us/geforce/news/phantom-blade-zero-path-tracing-dlss-4-5-ray-reconstruction/
+- NVIDIA GeForce NOW · 2026-10-29: https://blogs.nvidia.com/?p=99565
+- NVIDIA Technical Blog · 2026-10-29: https://developer.nvidia.com/blog/unlocking-tensor-core-performance-for-machine-learning-interatomic-potentials/
+- MIT News · 2026-10-29: https://news.mit.edu/2026/new-system-gives-users-more-control-over-online-experience-1029
+- OpenAI 공식 발표 · 2026-10-29: https://openai.com/index/updated-model-spec/
+
+이미지 출처
+- Slide 1/2: freestocks.org / Wikimedia Commons (개발 환경 상징 사진, 사건 화면 아님) · CC0 1.0 · https://commons.wikimedia.org/wiki/File:Backlit_computer_keyboard_(40623300100).jpg · cropped and darkened
+- Slide 2/3: Radek Grzybowski / Wikimedia Commons (일반 노트북 상징 사진, RTX Spark 제품 아님) · CC0 1.0 · https://commons.wikimedia.org/wiki/File:Laptop_on_a_desk.jpg · cropped and darkened
+- Slide 3/4: ZhanatKappassov / Wikimedia Commons (타사 휴머노이드 상징 사진, Unitree 제품 아님) · CC0 1.0 · https://commons.wikimedia.org/wiki/File:Humanoid_robot_is_being_programmed.jpg · cropped and darkened
+
+@daily_tech_magazine · 무단 재업로드/재배포 금지
