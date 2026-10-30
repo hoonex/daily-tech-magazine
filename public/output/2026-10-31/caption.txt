@@ -1,0 +1,39 @@
+[2026-10-31] 오늘 볼 만한 AI·테크 뉴스 TOP 3
+
+1. 코딩 AI, 재시도가 확 줄었다
+무슨 일? GitLab Orbit이 정식 출시됐다. 코드·PR·배포·보안 정보를 하나의 그래프로 연결해 Claude Code·Codex·OpenCode 등에 제공한다.
+왜 중요? GitLab 시험에서 에이전트 재시도가 최대 45배, 토큰 사용이 최대 4.5배 감소했다.
+다음엔? 실제 저장소에서 작업 성공률·비용과 권한 안전성을 검증.
+
+2. 월마트, 물류 로봇에 60억 달러
+무슨 일? 월마트가 Symbotic과 자동화 계약을 확대했다. 수년간 약 60억 달러를 투입하고 미국 물류센터 25곳에 추가 자동화 기능을 도입한다.
+왜 중요? 로봇이 대형 유통사의 실제 물류 인프라 투자로 확장되고 있다.
+다음엔? 센터별 가동률·처리량과 실제 투자 회수 성적을 확인.
+
+3. AI 서버 공장에 휴머노이드 출근
+무슨 일? 폭스콘은 텍사스 공장에서 휴머노이드 10대 이상을 내부 사용 중이라고 밝혔다. NVIDIA GR00T 기반 로봇 AI도 개발한다.
+왜 중요? AI 서버 생산과 로봇 자동화가 같은 제조 현장에서 맞물리기 시작했다.
+다음엔? 작업 성공률·비용과 텍사스 밖 공장 확대를 확인.
+
+오늘 한 줄: 코딩 AI는 맥락을 얻고, 물류·공장 로봇은 실제 현장으로 들어간다.
+
+출처
+- GitLab 공식 블로그 · 2026-10-29: https://about.gitlab.com/blog/gitlab-orbit-ga/
+- Reuters · 2026-10-29: https://www.reuters.com/technology/walmart-commits-6-billion-expand-symbotic-deal-2026-10-29/
+- Reuters · 2026-10-30: https://www.reuters.com/world/china/foxconn-working-new-tie-up-with-openai-says-there-is-no-ai-bubble-2026-10-30/
+- IETF 원문 초안 · 2026-10-30: https://datatracker.ietf.org/doc/draft-kelley-aipref-training-preference-signal/
+- OpenAI 공식 발표: https://openai.com/index/helping-websites-express-ai-training-preferences/
+- Reuters · 2026-10-30: https://www.reuters.com/world/asia-pacific/cxmt-turns-third-quarter-net-profit-544-billion-yuan-2026-10-30/
+- Bungie 한국어 공식 커뮤니티 업데이트 · 2026-10: https://www.bungie.net/7/ko/News/Article/bungiecommunityupdate_10_27
+- NASA ISS 공식 업데이트 · 2026-10-29: https://www.nasa.gov/blogs/spacestation/2026/10/29/spacewalkers-install-roll-out-solar-arrays-for-power-generation/
+- Astronomy & Astrophysics 원문 연구 · 2026: https://doi.org/10.1051/0004-6361/202659562
+- Live Science · 2026-10-29: https://www.livescience.com/space/cosmology/james-webb-telescope-discovers-most-distant-ring-galaxy-ever-hinting-at-an-ultra-rare-early-universe-collision
+- Reuters · 2026-10-30: https://www.reuters.com/science/long-distance-flights-can-interfere-with-internal-clocks-seabirds-2026-10-30/
+- PC Gamer · 2026-10-27, 28일 재게시 반영: https://www.pcgamer.com/gaming-industry/warhammer-40-000-boltgun-studio-announces-major-layoffs-then-quickly-deletes-the-announcement/
+
+이미지 출처
+- Slide 1/2: Lorenzo Cafaro / Wikimedia Commons (코드 상징 사진, GitLab 화면 아님) · CC0 1.0 · https://commons.wikimedia.org/wiki/File:Programming.jpg · cropped and darkened
+- Slide 2/3: Mike.dill01 / Wikimedia Commons (타사 물류창고 상징 사진, 월마트 시설 아님) · CC0 1.0 · https://commons.wikimedia.org/wiki/File:Ryder_managed_warehouse.jpg · cropped and darkened
+- Slide 3/4: Clemenspool / Wikimedia Commons (타사 산업용 로봇 상징 사진, 폭스콘 휴머노이드 아님) · CC0 1.0 · https://commons.wikimedia.org/wiki/File:Staeubli_Robots_line.jpg · cropped and darkened
+
+@daily_tech_magazine · 무단 재업로드/재배포 금지
