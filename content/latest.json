@@ -1,236 +1,236 @@
 {
-  "date": "2026-10-30",
-  "edition": 47,
+  "date": "2026-10-31",
+  "edition": 48,
   "brand": "DAILY TECH",
   "handle": "@daily_tech_magazine",
-  "deckTitle": "코딩 AI 보안에 경고등, 로컬 AI와 로봇은 전진",
-  "deckSubtitle": "EMBRACE 취약점 · RTX Spark 노트북 · Unitree 실적",
+  "deckTitle": "코딩 AI의 맥락 혁신, 물류·공장 로봇의 현실 투입",
+  "deckSubtitle": "GitLab Orbit 정식 출시 · 월마트 60억 달러 · 폭스콘 휴머노이드",
   "top3": [
-    "embrace-ai-coding-embedded-browser-flaws",
-    "nvidia-rtx-spark-laptops-local-ai",
-    "unitree-q3-revenue-growth-profit-decline"
+    "gitlab-orbit-ga-context-graph",
+    "walmart-symbotic-6b-warehouse-automation",
+    "foxconn-texas-humanoids-openai-talks"
   ],
-  "dailyAnalysis": "오늘의 흐름은 AI가 실제 PC와 산업 현장으로 들어가면서 보안·하드웨어·사업성의 검증이 동시에 중요해지고 있다는 것이다. EMBRACE 연구는 코딩 에이전트의 내장 브라우저가 개발자 파일에 접근할 수 있는 위험을 드러냈다. NVIDIA RTX Spark 노트북은 로컬 에이전트와 대형 통합 메모리를 내세우지만 실제 배터리·추론 성능 검증이 필요하다. Unitree는 매출이 크게 늘었어도 연구개발 투자로 분기 이익이 감소해 로봇 상용화의 현실을 보여줬다. Intel의 생산시설 사고와 Amazon의 현금 유출은 첨단 기술 경쟁의 물리적·재무적 비용을 부각한다. 반면 MIT의 자석 기반 의족 인터페이스와 Social.Wiki는 실생활에 적용할 수 있는 새로운 연구 방향을 제시했다. 앞으로 6~24개월에는 에이전트 권한 격리, 로컬 AI의 실측 효율, 휴머노이드의 반복 매출과 첨단 인프라의 투자 회수율을 확인해야 한다.",
-  "recap": "코딩 AI 보안에 경고등, 로컬 AI는 노트북으로, 로봇은 실적으로 답한다.",
+  "dailyAnalysis": "오늘의 기술 변화는 AI가 실제 업무의 맥락을 이해하고 물리적 현장에서 투자 성과를 증명하는 방향으로 움직인다. GitLab Orbit은 코딩 에이전트의 정보 부족을 그래프로 보완하며, 월마트는 25개 물류센터에 걸친 로봇 자동화에 수십억 달러를 약속했다. 폭스콘은 AI 서버를 만드는 텍사스 공장에 휴머노이드를 10대 넘게 배치했지만, 새로운 OpenAI 협력은 아직 논의 단계다. 한편 IETF의 AI 학습 거부 신호 초안은 웹 콘텐츠 통제권을 둘러싼 제도 경쟁을 보여준다. CXMT의 고성장은 메모리 공급 부족의 수혜가 확산되고 있음을 시사한다. 게임업계에서는 데스티니의 콘텐츠 복원과 볼트건 개발사의 구조조정이 장기 운영과 수익성의 어려움을 드러냈다. ISS 전력 확장과 JWST 은하 관측, 철새 항법 연구는 기술과 기초과학의 진전을 보여준다. 향후 6~24개월에는 에이전트의 독립 실측 품질, 로봇 도입 수익성, 웹 표준의 실제 준수와 메모리 사이클을 주목해야 한다.",
+  "recap": "코딩 AI는 맥락을 얻고, 물류·공장 로봇은 실제 현장으로 들어간다.",
   "cover": {
-    "stat": "5개 도구 · 128GB · +70%",
-    "title": "코딩 AI의 보안 구멍\n노트북과 로봇의 다음 경쟁",
-    "subtitle": "EMBRACE 취약점 · RTX Spark · Unitree의 첫 성적표"
+    "stat": "45배 · $6B · 10대+",
+    "title": "AI는 맥락을 배우고\n로봇은 공장으로 출근한다",
+    "subtitle": "GitLab Orbit · 월마트 자동화 · 폭스콘 휴머노이드"
   },
   "stories": [
     {
-      "id": "embrace-ai-coding-embedded-browser-flaws",
-      "category": "AI SECURITY / CODING AGENTS",
-      "headline": "Codex·VS Code 등 5개 AI 도구의 내장 브라우저 취약점 공개",
-      "facts": "보안 연구팀 Forever Security는 10월 29일 EMBRACE 연구를 공개하며 Cursor, GitHub Copilot, Codex, VS Code, Claude Desktop의 내장 브라우저에서 각각 보안 경계가 무너지는 공격을 재현했다. Cursor에서는 악성 페이지가 코드 실행을 유도했고, Copilot에서는 주소 표시를 위조할 수 있었다. Codex·VS Code·Claude Desktop에서는 로컬 HTML 파일을 통해 의도한 폴더 밖의 파일에 접근하는 사례를 시연했다. 연구진에 따르면 공개 시점에 Cursor와 Copilot의 문제는 수정됐으나 Codex와 VS Code의 관련 문제는 미수정 상태였다.",
-      "whyItMatters": "AI 코딩 도구의 미리보기 브라우저가 SSH 키·개발자 토큰을 보관한 실제 PC와 연결되면 단순 프로젝트 열기도 위험해질 수 있다.",
-      "analysis": "공격 재현은 연구진의 통제된 실험 결과이며 모든 사용자에게 침해가 발생했다는 뜻은 아니다. 패치 상태는 제품·버전별로 확인해야 한다.",
-      "outlook": "6~24개월: 각 공급사의 수정 배포, 브라우저 격리 강화, 신뢰하지 않는 프로젝트의 로컬 HTML 실행 제한을 관찰.",
+      "id": "gitlab-orbit-ga-context-graph",
+      "category": "CODING / AI AGENTS",
+      "headline": "GitLab Orbit 정식 출시, 코딩 에이전트 재시도 최대 45배 감소",
+      "facts": "GitLab은 10월 29일 소프트웨어 개발 전 과정의 관계를 연결하는 컨텍스트 그래프 Orbit을 정식 출시했다. 코드·머지리퀘스트·CI 파이프라인·보안 취약점·담당자를 한 번에 조회할 수 있다. Claude Code·Codex·Cursor·OpenCode가 MCP 또는 GitLab CLI로 연결할 수 있다. GitLab 자체 시험에서는 같은 모델과 작업에서 재시도가 최대 45배, 토큰 사용량이 최대 4.5배 줄었다.",
+      "whyItMatters": "모델을 더 크게 만들지 않아도 정확한 저장소 맥락을 제공해 에이전트의 헛작업을 줄일 수 있다.",
+      "analysis": "45배·4.5배는 공급사 자체 시험의 최대 개선치이며 모든 프로젝트에 보장되는 값이 아니다. 실제 PR 품질과 비용을 독립 검증해야 한다.",
+      "outlook": "6~24개월: 여러 저장소에서의 실제 PR 성공률, 그래프 최신성, 접근권한과 사용료를 검증.",
       "status": "confirmed",
       "sources": [
         {
-          "name": "Forever Security 원문 연구 · 2026-10-29",
-          "url": "https://forever.security/blog/embrace-hacking-5-ai-assistants-embedded-browsers"
-        },
-        {
-          "name": "Help Net Security · 2026-10-29",
-          "url": "https://www.helpnetsecurity.com/2026/10/29/research-ai-assistant-browser-vulnerabilities/"
+          "name": "GitLab 공식 블로그 · 2026-10-29",
+          "url": "https://about.gitlab.com/blog/gitlab-orbit-ga/"
         }
       ],
       "card": {
-        "stat": "5개 AI 도구",
-        "headline": "코딩 AI의 브라우저가 뚫렸다",
-        "what": "연구진이 Codex·VS Code·Cursor·Copilot·Claude Desktop의 내장 브라우저 취약점을 재현했다. 공개 당시 2개 제품은 미수정.",
-        "why": "프로젝트 미리보기만으로 개발 PC의 민감 파일이 노출될 위험이 있다.",
-        "next": "Codex·VS Code 패치와 로컬 HTML 격리 정책을 확인.",
-        "hook": "에이전트의 눈이 공격 통로로"
+        "stat": "최대 45배",
+        "headline": "코딩 AI, 재시도가 확 줄었다",
+        "what": "GitLab Orbit이 정식 출시됐다. 코드·PR·배포·보안 정보를 하나의 그래프로 연결해 Claude Code·Codex·OpenCode 등에 제공한다.",
+        "why": "GitLab 시험에서 에이전트 재시도가 최대 45배, 토큰 사용이 최대 4.5배 감소했다.",
+        "next": "실제 저장소에서 작업 성공률·비용과 권한 안전성을 검증.",
+        "hook": "모델보다 중요한 건 맥락"
       },
       "visual": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Backlit_computer_keyboard_%2840623300100%29.jpg",
-        "credit": "freestocks.org / Wikimedia Commons (개발 환경 상징 사진, 사건 화면 아님)",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Programming.jpg",
+        "credit": "Lorenzo Cafaro / Wikimedia Commons (코드 상징 사진, GitLab 화면 아님)",
         "license": "CC0 1.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Backlit_computer_keyboard_(40623300100).jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Programming.jpg",
         "reuseAllowed": true,
         "modified": "cropped and darkened"
       }
     },
     {
-      "id": "nvidia-rtx-spark-laptops-local-ai",
-      "category": "PC HARDWARE / LOCAL AI",
-      "headline": "RTX Spark 노트북, 통합 메모리 최대 128GB로 로컬 AI 겨냥",
-      "facts": "NVIDIA는 10월 28일 RTX Spark 기반 Windows 노트북이 ASUS·Dell·HP·Lenovo·Microsoft·MSI에서 출시됐다고 밝혔다. Grace CPU와 Blackwell RTX GPU를 통합해 최대 128GB 통합 메모리와 최대 1페타플롭의 FP4 AI 성능을 내세운다. 새 Nemotron 3.5 Transcribe 음성 모델과 LFM3 계열을 지원하고, NVIDIA App에서 백그라운드 에이전트와 전면 앱 간 GPU 자원 우선순위를 조정할 수 있다. 다만 메모리·연산 성능은 상위 구성 기준이며 실제 제품별 사양은 다르다.",
-      "whyItMatters": "대형 모델·음성 인식·코딩 에이전트를 클라우드 대신 개인 노트북에서 실행할 선택지가 늘어난다.",
-      "analysis": "FP4 피크 연산량은 일반 게임 FPS나 모든 LLM의 실제 처리량을 뜻하지 않는다. 발열·배터리·가격과 메모리 대역폭을 실측해야 한다.",
-      "outlook": "6~24개월: 로컬 LLM 토큰 속도, 전력당 성능, 가격과 개발 도구 호환성을 확인.",
-      "status": "confirmed",
-      "sources": [
-        {
-          "name": "NVIDIA 공식 블로그 · 2026-10-28",
-          "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-updates-models-agents-games/"
-        }
-      ],
-      "card": {
-        "stat": "최대 128GB",
-        "headline": "노트북에 개인 AI 슈퍼컴퓨터",
-        "what": "NVIDIA RTX Spark 노트북이 6개 제조사에서 출시됐다. Grace CPU·Blackwell RTX GPU와 최대 128GB 통합 메모리를 결합했다.",
-        "why": "로컬 AI 에이전트·음성 모델을 클라우드 의존 없이 돌릴 기반이 넓어진다.",
-        "next": "실제 LLM 속도·배터리·발열·가격과 소프트웨어 지원을 비교.",
-        "hook": "AI가 노트북 안으로"
-      },
-      "visual": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Laptop_on_a_desk.jpg",
-        "credit": "Radek Grzybowski / Wikimedia Commons (일반 노트북 상징 사진, RTX Spark 제품 아님)",
-        "license": "CC0 1.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Laptop_on_a_desk.jpg",
-        "reuseAllowed": true,
-        "modified": "cropped and darkened"
-      }
-    },
-    {
-      "id": "unitree-q3-revenue-growth-profit-decline",
-      "category": "ROBOTICS / BUSINESS",
-      "headline": "유니트리 매출 70% 급증, 이익은 오히려 감소",
-      "facts": "중국 로봇 제조사 Unitree는 10월 28일 상장 이후 첫 분기 실적을 발표했다. 2026년 3분기 매출은 전년 대비 70% 증가한 6억6,500만 위안이었지만 순이익은 17.4% 감소한 1억1,270만 위안이었다. 연구개발비는 249.6% 증가한 1억2,700만 위안으로 매출의 19.1%에 달했다. 휴머노이드 상용성에 대한 관심이 커지는 가운데 회사는 로봇용 AI 모델과 컴퓨팅 투자를 확대하고 있다.",
-      "whyItMatters": "화려한 휴머노이드 시연을 넘어 로봇 기업이 실제로 매출과 이익을 창출할 수 있는지 확인할 초기 공개 지표다.",
-      "analysis": "매출 증가는 실제 사업 확장의 신호지만 연구개발비 증가와 수익성 저하는 상용화 비용도 크다는 뜻이다. 로봇 판매 구성과 반복 매출은 추가 확인이 필요하다.",
-      "outlook": "6~24개월: 산업 고객의 반복 구매, 휴머노이드 양산 원가, R&D 투자 대비 이익률을 추적.",
-      "status": "confirmed",
-      "sources": [
-        {
-          "name": "Reuters · 2026-10-28",
-          "url": "https://www.reuters.com/world/asia-pacific/unitrees-q3-profit-down-174-on-year-test-chinas-robotics-sector-2026-10-28/"
-        }
-      ],
-      "card": {
-        "stat": "매출 +70%",
-        "headline": "로봇은 팔리는데 이익은 줄었다",
-        "what": "Unitree의 3분기 매출은 6억6,500만 위안으로 70% 증가했지만 순이익은 17.4% 감소했다. 연구개발비는 249.6% 급증했다.",
-        "why": "휴머노이드의 화제성이 실제 사업성과로 이어지는지 확인할 시험대다.",
-        "next": "양산 원가, 산업 고객 재구매와 이익률 변화를 추적.",
-        "hook": "로봇의 상용화 성적표"
-      },
-      "visual": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Humanoid_robot_is_being_programmed.jpg",
-        "credit": "ZhanatKappassov / Wikimedia Commons (타사 휴머노이드 상징 사진, Unitree 제품 아님)",
-        "license": "CC0 1.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Humanoid_robot_is_being_programmed.jpg",
-        "reuseAllowed": true,
-        "modified": "cropped and darkened"
-      }
-    },
-    {
-      "id": "intel-israel-fab-explosion-pc-slowdown",
-      "category": "CPU / FOUNDRY",
-      "headline": "인텔 공장 폭발로 매출 6억 달러 영향, PC 수요도 약세",
-      "facts": "Intel은 10월 29일 실적 발표 후 이스라엘 키르야트가트 반도체 공장 폭발로 2개 분기에 걸쳐 매출 약 6억 달러가 감소할 수 있다고 설명했다. 공장은 약 2주 멈췄고 10월 말 생산 재개를 추진하고 있다. 4분기 매출 전망은 150억~160억 달러로 시장 기대치보다 낮았다. 메모리 가격 급등의 영향으로 PC용 칩 매출 약세가 적어도 2027년 상반기까지 이어질 수 있다고 경고했다.",
-      "whyItMatters": "AI 서버 수요가 강해도 제조시설 사고와 소비자 PC 시장 약세가 CPU 업체 실적에 직접 타격을 준다.",
-      "analysis": "6억 달러는 회사가 제시한 두 분기 영향 추정치로 확정 손실이 아니다. 손상 웨이퍼 회수 여부에 따라 실제 피해가 달라질 수 있다.",
-      "outlook": "6~24개월: 공장 정상화, 18A 파운드리 고객 확보, PC 수요와 메모리 가격 안정 여부를 확인.",
+      "id": "walmart-symbotic-6b-warehouse-automation",
+      "category": "ROBOTICS / LOGISTICS",
+      "headline": "월마트, 물류 로봇 자동화에 약 60억 달러 추가 약속",
+      "facts": "10월 29일 Walmart는 Symbotic과의 물류 자동화 계약을 확대하고 수년에 걸쳐 약 60억 달러를 투입하겠다고 발표했다. Symbotic은 2017년부터 월마트 공급망 자동화를 지원해 왔다. 이번 확대는 미국 내 지역 물류센터 25곳에 추가 자동화 기능을 적용한다. 월마트는 보관 능력과 상품 이동 효율, 온라인 주문용 재고 운영을 개선하려 한다.",
+      "whyItMatters": "로봇 기술이 시연 단계가 아니라 대형 유통업체의 실질적인 물류 투자로 확대되고 있다.",
+      "analysis": "60억 달러는 여러 해에 걸친 약정 규모이며 이미 모두 지출된 금액이 아니다. 생산성 개선과 투자 회수는 추후 측정해야 한다.",
+      "outlook": "6~24개월: 25개 센터 도입 속도, 처리량, 비용 절감과 작업자 역할 변화를 추적.",
       "status": "confirmed",
       "sources": [
         {
           "name": "Reuters · 2026-10-29",
-          "url": "https://www.reuters.com/business/intel-signals-slower-growth-pc-market-remains-under-pressure-2026-10-29/"
+          "url": "https://www.reuters.com/technology/walmart-commits-6-billion-expand-symbotic-deal-2026-10-29/"
         }
-      ]
+      ],
+      "card": {
+        "stat": "약 $6B",
+        "headline": "월마트, 물류 로봇에 60억 달러",
+        "what": "월마트가 Symbotic과 자동화 계약을 확대했다. 수년간 약 60억 달러를 투입하고 미국 물류센터 25곳에 추가 자동화 기능을 도입한다.",
+        "why": "로봇이 대형 유통사의 실제 물류 인프라 투자로 확장되고 있다.",
+        "next": "센터별 가동률·처리량과 실제 투자 회수 성적을 확인.",
+        "hook": "로봇의 전장은 물류창고"
+      },
+      "visual": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Ryder_managed_warehouse.jpg",
+        "credit": "Mike.dill01 / Wikimedia Commons (타사 물류창고 상징 사진, 월마트 시설 아님)",
+        "license": "CC0 1.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ryder_managed_warehouse.jpg",
+        "reuseAllowed": true,
+        "modified": "cropped and darkened"
+      }
     },
     {
-      "id": "amazon-aws-q3-2026-46b-cash-burn",
-      "category": "AI CLOUD / MARKETS",
-      "headline": "AWS 39% 성장에도 아마존 12개월 현금 유출 424억 달러",
-      "facts": "Amazon은 10월 29일 3분기 AWS 매출이 전년 대비 39% 증가한 460억 달러라고 발표했다. 반면 9월 말 기준 최근 12개월 잉여현금흐름은 마이너스 424억 달러로 집계됐다. 회사는 2026년 설비투자 전망을 약 2,200억 달러로 유지했으며 2027년에는 더 늘어날 것으로 내다봤다. 4분기 매출 전망 범위는 2,400억~2,470억 달러였다.",
-      "whyItMatters": "AI 클라우드의 고성장과 이를 뒷받침할 데이터센터 투자비용이 동시에 커지는 구조를 보여준다.",
-      "analysis": "AWS 매출 성장만으로 전체 AI 투자 회수율을 판단할 수 없다. 설비투자가 현금흐름을 얼마나 오래 압박할지가 핵심이다.",
-      "outlook": "6~24개월: AWS 영업이익률, 데이터센터 가동률, 설비투자와 잉여현금흐름의 회복을 관찰.",
+      "id": "foxconn-texas-humanoids-openai-talks",
+      "category": "ROBOTICS / AI HARDWARE",
+      "headline": "폭스콘 텍사스 공장에 휴머노이드 10대 이상 투입",
+      "facts": "10월 30일 Foxconn Industrial Internet 측은 텍사스 시설에서 휴머노이드 로봇 10대 이상을 내부적으로 사용 중이라고 Reuters에 밝혔다. 회사는 텍사스 외 지역으로 배치를 확대할 계획이다. 폭스콘은 휴머노이드용 AI를 NVIDIA GR00T 기반으로 개발하고 있다. 별도로 회장은 OpenAI와 추가 협력을 논의 중이라고 밝혔지만 새 계약의 조건이나 체결 여부는 아직 발표되지 않았다.",
+      "whyItMatters": "AI 서버를 만드는 공장 자체에 로봇이 들어가며 AI 인프라 생산과 로봇 자동화가 연결되고 있다.",
+      "analysis": "10대 이상 배치는 회사 관계자가 밝힌 내부 사용 규모이지 대규모 상용화 증거는 아니다. OpenAI 추가 협력은 협의 단계로 확정 계약이 아니다.",
+      "outlook": "6~24개월: 로봇 작업 종류와 실제 생산성, 추가 공장 도입, OpenAI 협력의 공식 발표를 확인.",
       "status": "confirmed",
       "sources": [
         {
-          "name": "Reuters · 2026-10-29",
-          "url": "https://www.reuters.com/business/retail-consumer/amazon-projects-fourth-quarter-sales-below-estimates-2026-10-29/"
+          "name": "Reuters · 2026-10-30",
+          "url": "https://www.reuters.com/world/china/foxconn-working-new-tie-up-with-openai-says-there-is-no-ai-bubble-2026-10-30/"
         }
-      ]
+      ],
+      "card": {
+        "stat": "10대 이상",
+        "headline": "AI 서버 공장에 휴머노이드 출근",
+        "what": "폭스콘은 텍사스 공장에서 휴머노이드 10대 이상을 내부 사용 중이라고 밝혔다. NVIDIA GR00T 기반 로봇 AI도 개발한다.",
+        "why": "AI 서버 생산과 로봇 자동화가 같은 제조 현장에서 맞물리기 시작했다.",
+        "next": "작업 성공률·비용과 텍사스 밖 공장 확대를 확인.",
+        "hook": "AI를 만드는 로봇"
+      },
+      "visual": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Staeubli_Robots_line.jpg",
+        "credit": "Clemenspool / Wikimedia Commons (타사 산업용 로봇 상징 사진, 폭스콘 휴머노이드 아님)",
+        "license": "CC0 1.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Staeubli_Robots_line.jpg",
+        "reuseAllowed": true,
+        "modified": "cropped and darkened"
+      }
     },
     {
-      "id": "mit-magnetic-beads-prosthetic-control-humans",
-      "category": "ROBOTICS / BIOMEDICAL",
-      "headline": "근육 속 3mm 자석으로 의족 움직임을 읽는다",
-      "facts": "MIT 연구진은 10월 29일 근육에 작은 자석을 삽입해 근육 길이와 움직임을 무선 추적하는 연구를 발표했다. 무릎 아래 절단 경험자 3명이 참여했으며 직경 약 3mm 자석을 사용했다. 외부 센서는 피부에서 최대 6cm 깊이의 자석 신호를 감지했다. 실험에서는 실제 의족 보행이 아니라 근육 신호로 화면의 커서를 조작해 기존 전극 측정과 정확도를 비교했다.",
-      "whyItMatters": "기존 피부 전극보다 근육의 실제 움직임을 직접 측정해 로봇 의족을 더 정밀하게 제어할 가능성을 보여준다.",
-      "analysis": "사람 대상 초기 실험이지만 의족 보행 성능과 장기 안전성이 입증된 단계는 아니다. 참가자 수가 3명인 점도 고려해야 한다.",
-      "outlook": "6~24개월: 더 큰 참가자 연구, 실제 의족 제어, 자석 삽입 장기 안정성을 검증.",
+      "id": "ietf-ai-training-policy-token-draft",
+      "category": "AI POLICY / WEB",
+      "headline": "AI 학습 거부, robots.txt 한 번으로 여러 기업에 전달 추진",
+      "facts": "10월 30일 IETF에 AI 학습 선호도를 기계적으로 표시하는 인터넷 초안이 등록됐다. 사이트 운영자가 robots.txt에 공통 정책 토큰을 적어 특정 경로의 AI 학습 허용·거부 의사를 나타내는 방식이다. OpenAI·Google·Microsoft·Anthropic이 지원 의사를 밝혔으며 적용 시점은 기업마다 다르다. 현재는 IETF가 채택한 최종 표준이 아닌 개인 초안이다.",
+      "whyItMatters": "웹사이트 운영자가 AI 회사마다 별도 크롤러 규칙을 관리해야 하는 부담을 줄일 수 있다.",
+      "analysis": "정책 토큰은 의사 표시이며 기술적으로 모든 무단 수집을 막는 장벽은 아니다. 기업별 구현과 준수 여부가 중요하다.",
+      "outlook": "6~24개월: IETF 표준화 진행, 실제 크롤러 준수율, 검색 색인과 AI 학습의 분리 제어를 추적.",
       "status": "confirmed",
       "sources": [
         {
-          "name": "MIT News · 2026-10-29",
-          "url": "https://news.mit.edu/2026/magnetic-sensors-track-muscle-movement-better-prosthetic-limb-control-1029"
-        }
-      ]
-    },
-    {
-      "id": "phantom-blade-zero-launch-dlss45",
-      "category": "GAMING / PC GRAPHICS",
-      "headline": "팬텀 블레이드 제로 출시, 패스 트레이싱과 DLSS 4.5 탑재",
-      "facts": "S-GAME의 액션 RPG Phantom Blade Zero가 10월 28일 미국 태평양시간 오후 7시에 PC로 출시됐다. NVIDIA는 RTX PC와 RTX Spark에서 레이 트레이싱과 패스 트레이싱을 지원한다고 밝혔다. DLSS 4.5 Ray Reconstruction과 Dynamic Multi Frame Generation도 제공한다. GeForce NOW에도 출시 시점에 합류해 지원 기기에서 클라우드 스트리밍이 가능하다.",
-      "whyItMatters": "신작 게임이 최신 GPU의 광선 추적·AI 프레임 생성 기술을 실제로 보여주는 사례가 된다.",
-      "analysis": "프레임 생성 배율이 높아도 입력 지연과 기본 프레임레이트가 함께 개선되는 것은 아니다. 그래픽 품질과 실제 반응성의 균형이 중요하다.",
-      "outlook": "6~24개월: GPU별 프레임타임, 패스 트레이싱 최적화, 클라우드 스트리밍 지연과 게임 업데이트를 확인.",
-      "status": "confirmed",
-      "sources": [
-        {
-          "name": "NVIDIA GeForce 공식 발표 · 2026-10-28",
-          "url": "https://www.nvidia.com/en-us/geforce/news/phantom-blade-zero-path-tracing-dlss-4-5-ray-reconstruction/"
+          "name": "IETF 원문 초안 · 2026-10-30",
+          "url": "https://datatracker.ietf.org/doc/draft-kelley-aipref-training-preference-signal/"
         },
         {
-          "name": "NVIDIA GeForce NOW · 2026-10-29",
-          "url": "https://blogs.nvidia.com/?p=99565"
+          "name": "OpenAI 공식 발표",
+          "url": "https://openai.com/index/helping-websites-express-ai-training-preferences/"
         }
       ]
     },
     {
-      "id": "nvidia-tensor-core-molecular-simulation-1p7x",
-      "category": "SCIENCE / GPU COMPUTE",
-      "headline": "AI 분자 시뮬레이션, 재학습 없이 최대 1.7배 빨라졌다",
-      "facts": "NVIDIA는 10월 29일 머신러닝 원자간 퍼텐셜 모델의 연산 정밀도를 유지하며 텐서 코어를 활용하는 실험 결과를 공개했다. A100에서 TF32x3는 분자동역학 전체 계산 단계를 최대 1.5배 빠르게 했다. B300의 BF16x9는 주요 행렬곱을 최대 2.5배, 전체 단계를 최대 1.7배 가속했다. 모델 구조 변경이나 재학습 없이 구현했으며 연구진은 에너지 보존과 수치 안정성도 비교했다.",
-      "whyItMatters": "화학·재료 연구의 대규모 시뮬레이션을 같은 GPU 자원으로 더 많이 수행할 가능성이 생긴다.",
-      "analysis": "최대 가속 수치는 특정 모델·GPU·문제 크기의 실험 결과다. 작은 분자나 다른 모델에서 같은 이득을 보장하지 않는다.",
-      "outlook": "6~24개월: 다양한 재료 모델에서 재현, 수치 오차 검증, 과학 시뮬레이션 비용 절감 여부를 추적.",
+      "id": "cxmt-q3-2026-memory-profit",
+      "category": "MEMORY / AI MARKETS",
+      "headline": "중국 CXMT, 분기 매출 613% 급증·순이익 544억 위안",
+      "facts": "중국 메모리 업체 CXMT는 10월 30일 상장 후 첫 분기 실적을 발표했다. 3분기 매출은 1,187억1,000만 위안으로 전년 동기 대비 613.2% 증가했다. 지배주주 귀속 순이익은 544억 위안, 매출총이익률은 89.53%였다. 경쟁사들이 고부가 HBM에 집중하는 동안 범용 DRAM 수요와 가격 상승의 수혜를 받았다.",
+      "whyItMatters": "AI 메모리 공급난이 HBM 선두 업체뿐 아니라 중국 범용 메모리 업체에도 큰 이익을 주고 있다.",
+      "analysis": "이번 실적은 10월 28일 보도된 HBM3E 저수율 생산 계획과 별개인 확정 실적이다. 고마진이 장기간 유지될지는 메모리 가격 사이클에 달렸다.",
+      "outlook": "6~24개월: DRAM 가격·증설 속도, HBM 수율과 현금흐름 지속성을 확인.",
       "status": "confirmed",
       "sources": [
         {
-          "name": "NVIDIA Technical Blog · 2026-10-29",
-          "url": "https://developer.nvidia.com/blog/unlocking-tensor-core-performance-for-machine-learning-interatomic-potentials/"
+          "name": "Reuters · 2026-10-30",
+          "url": "https://www.reuters.com/world/asia-pacific/cxmt-turns-third-quarter-net-profit-544-billion-yuan-2026-10-30/"
         }
       ]
     },
     {
-      "id": "mit-social-wiki-user-editable-social-apps",
-      "category": "OPEN SOURCE / FUTURE WEB",
-      "headline": "SNS를 사용자 마음대로 고치는 Social.Wiki 등장",
-      "facts": "MIT 연구진은 10월 29일 이용자가 소셜 웹앱의 코드와 인터페이스를 직접 수정할 수 있는 Social.Wiki 연구를 소개했다. 코딩 경험이 없어도 AI 도우미에게 기능 수정을 요청할 수 있다. 분산형 구조에서 데이터는 앱과 분리해 보관되며 사용자는 신뢰하는 편집자의 수정만 표시하도록 규칙을 정할 수 있다. 연구진은 메시징·차량공유·마이크로블로그 시제품을 시험했으며 아직 초기 연구 단계다.",
-      "whyItMatters": "플랫폼 사업자가 정하는 화면·추천·기능을 사용자가 직접 바꿀 수 있다는 새로운 웹 서비스 모델을 제시한다.",
-      "analysis": "기술 시연과 대규모 서비스 운영은 다르다. 서로 다른 앱 버전의 호환성과 악성 수정 차단이 해결 과제다.",
-      "outlook": "6~24개월: 이용자 확대, 데이터 암호화, 권한·편집 검증과 실사용 서비스 등장 여부를 확인.",
+      "id": "bungie-destiny-2-unvaulting-plan",
+      "category": "GAMING / LIVE SERVICE",
+      "headline": "번지, 데스티니 2 삭제 콘텐츠 복원 계획 공개",
+      "facts": "번지는 10월 말 커뮤니티 업데이트에서 데스티니 2의 과거 캠페인·공격전·레이드 복원 계획을 구체화했다. 첫 대상에는 붉은 전쟁, 포세이큰, 오시리스의 저주, 전쟁지능 캠페인이 포함된다. 2027년 1~2월까지 사전제작·기술 검증을 거친 뒤 약 12개월의 본제작을 예상한다. 데스티니 'Legacy' 계획도 예고했지만 원작 PC판 출시를 확정 발표한 것은 아니다.",
+      "whyItMatters": "라이브 서비스 게임에서 삭제된 유료·스토리 콘텐츠를 되살려 플레이어 신뢰를 회복하려는 드문 사례다.",
+      "analysis": "복원 범위와 일정은 계획이며 실제 배포 시점은 확정되지 않았다. 과거 콘텐츠를 최신 시스템에 이식하는 비용이 관건이다.",
+      "outlook": "6~24개월: 2027년 초 개발 진행 보고, 복원 콘텐츠 테스트, 2028년 무렵 실제 제공 여부를 확인.",
       "status": "confirmed",
       "sources": [
         {
-          "name": "MIT News · 2026-10-29",
-          "url": "https://news.mit.edu/2026/new-system-gives-users-more-control-over-online-experience-1029"
+          "name": "Bungie 한국어 공식 커뮤니티 업데이트 · 2026-10",
+          "url": "https://www.bungie.net/7/ko/News/Article/bungiecommunityupdate_10_27"
         }
       ]
     },
     {
-      "id": "openai-model-spec-five-values-update",
-      "category": "AI POLICY / MODEL BEHAVIOR",
-      "headline": "OpenAI, 모델 행동 원칙을 5가지 핵심 가치로 재정비",
-      "facts": "OpenAI는 10월 29일 공개 Model Spec의 개정판을 발표했다. 사람의 의도에 대한 충실성, 피해 최소화, 정직성과 투명성, 인간의 주체성, 배려라는 다섯 가치를 중심으로 지침을 재구성했다. 맥락·감독·에이전트의 자율성에 대한 안내를 추가하고 일부 세부 스타일 규칙은 줄였다. 이는 공개 행동 지침의 개정으로 모든 제품 모델의 동작이 즉시 동일하게 바뀌었다는 뜻은 아니다.",
-      "whyItMatters": "에이전트가 복잡한 결정을 맡게 될수록 명령을 기계적으로 따르는 것 이상으로 감독과 사용자 의도 해석 기준이 중요해진다.",
-      "analysis": "원칙 문서의 개선과 실제 모델의 행동 변화는 별개다. 독립 평가에서 새 기준이 얼마나 일관되게 구현되는지 확인해야 한다.",
-      "outlook": "6~24개월: 에이전트 감독 기능, 실제 모델 행동 평가, 개발자·사용자 제어권 변화를 지켜볼 필요가 있다.",
+      "id": "iss-100th-us-spacewalk-seventh-solar-array",
+      "category": "SPACE / ENGINEERING",
+      "headline": "ISS 미국 100번째 우주유영, 7번째 태양광 패널 설치",
+      "facts": "NASA와 캐나다우주국 우주비행사 2명이 10월 29일 7시간 11분간 우주유영을 수행했다. 국제우주정거장(ISS)에 일곱 번째 롤아웃 태양광 패널을 설치하고 전력 채널 2A에 연결했다. 이번 활동은 ISS에서 진행한 미국의 100번째 우주유영이었다. 11월 5일 예정된 여덟 번째 패널 설치가 끝나면 전력 생산 능력은 약 160kW에서 215kW로 최대 30% 늘어날 예정이다.",
+      "whyItMatters": "노후화한 우주정거장의 전력 공급을 강화해 과학 실험과 안전한 운용 종료를 뒷받침한다.",
+      "analysis": "30%는 8개 패널 설치가 완료됐을 때의 목표 개선폭이며 일곱 번째 설치 직후 달성한 값이 아니다.",
+      "outlook": "6~24개월: 마지막 패널 설치와 전력 출력 실측, ISS 운영 종료 준비를 추적.",
       "status": "confirmed",
       "sources": [
         {
-          "name": "OpenAI 공식 발표 · 2026-10-29",
-          "url": "https://openai.com/index/updated-model-spec/"
+          "name": "NASA ISS 공식 업데이트 · 2026-10-29",
+          "url": "https://www.nasa.gov/blogs/spacestation/2026/10/29/spacewalkers-install-roll-out-solar-arrays-for-power-generation/"
+        }
+      ]
+    },
+    {
+      "id": "jwst-gs18660-early-ring-galaxy",
+      "category": "SPACE SCIENCE / JWST",
+      "headline": "웹 망원경, 빅뱅 21억 년 뒤의 고리 은하 관측",
+      "facts": "제임스 웹 우주망원경 관측을 분석한 연구진은 적색편이 3.076의 고리 은하 GS18660을 보고했다. 이 은하는 빅뱅 약 21억 년 뒤의 모습으로, 관측된 가장 먼 고리 은하 중 하나다. 은하 원반에서는 약 초속 200km의 바깥쪽 팽창 성분이 발견됐다. 주변 동반 은하와의 정면 충돌이 고리를 만들었을 가능성이 크지만 내부 막대 구조에 의한 다른 설명도 배제되지 않았다.",
+      "whyItMatters": "초기 우주에서 은하 충돌과 별 형성이 얼마나 빠르게 진행됐는지 연구할 실마리를 제공한다.",
+      "analysis": "은하 관측과 운동학적 측정은 연구 결과지만 고리 형성 원인에 대한 해석은 아직 가설 경쟁 중이다.",
+      "outlook": "6~24개월: 추가 JWST 분광 관측, 충돌 시뮬레이션과 유사 고리 은하 발견을 주목.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Astronomy & Astrophysics 원문 연구 · 2026",
+          "url": "https://doi.org/10.1051/0004-6361/202659562"
+        },
+        {
+          "name": "Live Science · 2026-10-29",
+          "url": "https://www.livescience.com/space/cosmology/james-webb-telescope-discovers-most-distant-ring-galaxy-ever-hinting-at-an-ultra-rare-early-universe-collision"
+        }
+      ]
+    },
+    {
+      "id": "seabirds-jetlag-sun-compass-study",
+      "category": "SCIENCE / BIOLOGY",
+      "headline": "새들도 시차 적응 실패? 대서양 비행 후 항로가 흔들렸다",
+      "facts": "10월 30일 보도된 연구는 맨섬슴새(Manx shearwater)의 장거리 비행과 체내 시계의 관계를 조사했다. 연구진은 번식 개체 1,045마리의 약 20년치 GPS 자료를 분석했다. 육지가 보이지 않는 귀환 비행 335건의 방향 오차가 체내 시계와 태양 위치의 불일치로 예측한 방향과 맞아떨어졌다. 연구진은 먹이활동과 휴식에도 영향이 있는지는 아직 확인하지 못했다.",
+      "whyItMatters": "생물의 항법이 GPS처럼 고정된 좌표 계산만이 아니라 내부 시간과 태양 나침반에 의존한다는 증거를 보탠다.",
+      "analysis": "항로 편차가 관측됐다고 사람과 동일한 건강상의 시차 증상이 발생한다는 뜻은 아니다.",
+      "outlook": "6~24개월: 다른 철새 종 재현, 먹이활동 변화와 내부 시계 보정 메커니즘을 검증.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Reuters · 2026-10-30",
+          "url": "https://www.reuters.com/science/long-distance-flights-can-interfere-with-internal-clocks-seabirds-2026-10-30/"
+        }
+      ]
+    },
+    {
+      "id": "auroch-boltgun-studio-quarter-layoffs",
+      "category": "GAME DEVELOPMENT / INDUSTRY",
+      "headline": "볼트건 개발사, 호평 속에도 직원 4분의 1 구조조정 절차",
+      "facts": "워해머 40,000: 볼트건 개발사 Auroch Digital은 10월 말 전체 직무 약 4분의 1에 영향을 주는 인력 감축 협의 절차를 시작했다고 밝혔다. 스튜디오는 시장 환경의 어려움을 이유로 들었다. 볼트건 2와 스타십 트루퍼스 관련 최근 작품에 대한 긍정적 반응에도 조직 개편을 추진한다. 회사는 볼트건 2의 사후 지원과 워해머 서바이버스 개발은 계속하겠다고 밝혔다.",
+      "whyItMatters": "게임의 호평과 개발사 재무 안정성이 반드시 일치하지 않는다는 현실을 보여준다.",
+      "analysis": "감축 협의 개시가 정확히 전체 인력 25%의 최종 해고를 뜻하지는 않는다. 실제 감원 규모와 프로젝트 일정은 변동 가능하다.",
+      "outlook": "6~24개월: 프로젝트 유지 여부, 스튜디오 인력 변화와 인디·중견 게임사 투자환경을 관찰.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "PC Gamer · 2026-10-27, 28일 재게시 반영",
+          "url": "https://www.pcgamer.com/gaming-industry/warhammer-40-000-boltgun-studio-announces-major-layoffs-then-quickly-deletes-the-announcement/"
         }
       ]
     }
