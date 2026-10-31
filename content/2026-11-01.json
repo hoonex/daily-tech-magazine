@@ -1,0 +1,238 @@
+{
+  "date": "2026-11-01",
+  "edition": 49,
+  "brand": "DAILY TECH",
+  "handle": "@daily_tech_magazine",
+  "deckTitle": "Claude Code 확장 백도어, AI가 연 PR 40%, 분자로 만드는 양자칩",
+  "deckSubtitle": "Cursor 공급망 보안 · GitHub Octoverse · NVision의 양자 하드웨어",
+  "top3": [
+    "cursor-claude-code-marketplace-trojan",
+    "github-octoverse-2026-agent-pr-forty-percent",
+    "nvision-organic-molecule-quantum-chip-nature"
+  ],
+  "dailyAnalysis": "오늘은 AI가 코드를 작성하는 단계에서 개발 생태계의 기본 인프라가 되는 단계로 넘어간 모습이 뚜렷하다. GitHub는 9월 PR의 40% 이상이 에이전트에서 시작됐다고 밝혔지만, Cursor 확장 마켓의 Claude Code 악성 배포 사고는 모델 외부의 공급망이 얼마나 중요한지를 보여준다. Epic은 Unreal Engine 6과 Fortnite 개발에 Codex·Claude Code를 적극 사용하며, Google은 보안 전문 Gemini 4 Carbon을 제한적으로 제공하기 시작했다. 게임개발에서는 Atelico가 로컬 추론과 NPC 기억을 결합한 엔진을 내놓았고, Intel Arc 기반 휴대용 PC의 시장 경쟁도 확대되고 있다. 하드웨어와 과학에서는 NVision의 유기 분자 양자칩 연구와 TESS 과거 영상에서 재발견된 해왕성 바깥 천체가 주목된다. 한편 Meta의 AI 투자 확대에 S&P가 현금흐름 우려를 제기했고, Meta·Fourier의 휴머노이드 협력은 아직 미확정 보도다. 향후 6~24개월에는 에이전트의 공급망 보안과 검증 가능한 코드 품질, 양자칩의 실측 성능, 로컬 AI의 전력·프레임 효율, AI 투자 회수율이 핵심이다.",
+  "recap": "코딩 AI가 개발을 주도하자 보안은 흔들리고, 양자칩 제조법은 바뀐다.",
+  "cover": {
+    "stat": "최대 5,000명 · PR 40%+ · 양자칩",
+    "title": "AI가 코드를 쓰는 시대\n누가 개발 환경을 지키나",
+    "subtitle": "Claude 확장 백도어 · GitHub 에이전트 · 분자 양자칩"
+  },
+  "stories": [
+    {
+      "id": "cursor-claude-code-marketplace-trojan",
+      "category": "AI SECURITY / CODING TOOLS",
+      "headline": "Cursor 마켓의 Claude Code 확장에 SSH 백도어, 최대 5,000명 영향 가능",
+      "facts": "Cursor는 10월 29일 자사 VS Code 확장 마켓에 악성 변조된 Anthropic.claude-code 2.1.312·2.1.313이 약 11시간 노출됐다고 공지했다. 악성 코드는 사용자·기기 정보를 전송하고 SSH 키 등록과 지속적 역방향 연결을 시도했다. Cursor는 영향을 받았을 가능성이 있는 사용자를 최대 5,000명으로 추산하며 해당 버전을 제거하고 마켓플레이스를 재구축했다. 악성 코드의 오류로 관리자 권한이 없는 일반적인 환경에서는 일부 백도어 설치 단계가 실패했지만, 감염 가능성이 있는 기기에는 점검과 인증정보 교체를 권고했다.",
+      "whyItMatters": "코딩 에이전트의 권한이 커질수록 확장 마켓플레이스 자체가 개발자 PC와 기업 저장소를 공격하는 공급망 경로가 된다.",
+      "analysis": "최대 5,000명은 노출 가능 규모이지 실제 감염자 수가 아니다. 전날 소개한 EMBRACE 브라우저 취약점과는 다른, 확장 배포 경로의 악성 코드 사고다.",
+      "outlook": "6~24개월: 확장 서명·배포 검증, 업데이트 무결성, 기업의 확장 허용목록과 사고 대응 속도를 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Cursor 한국어 공식 보안 공지 · 2026-10-29",
+          "url": "https://cursor.com/ko/blog/claude-code-extension-security-notice"
+        },
+        {
+          "name": "WIRED · 2026-10-30",
+          "url": "https://www.wired.com/story/trojan-malware-targets-thousands-of-anthropic-claude-developer-systems"
+        }
+      ],
+      "card": {
+        "stat": "최대 5,000명",
+        "headline": "Claude Code 확장에 백도어",
+        "what": "Cursor 확장 마켓에서 변조된 Claude Code 버전이 약 11시간 유통됐다. SSH 백도어를 시도했으며 최대 5,000명이 영향 가능 대상이다.",
+        "why": "코딩 AI의 확장 공급망이 개발 PC 침입 경로가 될 수 있다.",
+        "next": "해당 버전 설치 여부 확인, 침해 지표 점검과 인증정보 교체.",
+        "hook": "코딩 AI의 위험은 모델 밖에도 있다"
+      },
+      "visual": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/VS_Code_Screenshot.png",
+        "credit": "Cycling2 / Wikimedia Commons (일반 VS Code 화면, 사고 화면 아님)",
+        "license": "CC0 1.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:VS_Code_Screenshot.png",
+        "reuseAllowed": true,
+        "modified": "cropped and darkened"
+      }
+    },
+    {
+      "id": "github-octoverse-2026-agent-pr-forty-percent",
+      "category": "CODING / AI AGENTS",
+      "headline": "GitHub PR 40% 이상을 AI 에이전트가 시작했다",
+      "facts": "GitHub의 2026 Octoverse 보고서에 따르면 9월 기준 전체 풀리퀘스트의 40% 이상이 AI 에이전트의 초안으로 시작됐다. 3월 비율은 17%였으며 9월 에이전트 시작 PR은 약 1억1,000만 건이었다. 9월 에이전트 관련 PR의 2주 이내 병합률은 90%로 집계됐다. 2025년 10월부터 2026년 9월까지 GitHub 전체 코드 푸시는 179억 회로 전년도보다 크게 증가했다.",
+      "whyItMatters": "AI 코딩이 개인 생산성 실험을 넘어 대형 개발 플랫폼의 실제 협업·리뷰 방식과 인프라 수요를 바꾸고 있다.",
+      "analysis": "에이전트가 시작한 PR 비율과 병합률은 코드 품질을 직접 증명하지 않는다. GitHub가 감지 가능한 에이전트 활동을 기준으로 집계한 플랫폼 통계라는 점도 고려해야 한다.",
+      "outlook": "6~24개월: 에이전트 PR의 결함률·리뷰 부담·CI 비용과 개발자당 완료 작업 수를 비교.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "GitHub Octoverse 2026 공식 보고서 · 2026-10",
+          "url": "https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/"
+        }
+      ],
+      "card": {
+        "stat": "40% 이상",
+        "headline": "PR 초안 10개 중 4개는 AI",
+        "what": "GitHub 9월 PR의 40% 이상을 에이전트가 시작했다. 3월엔 17%였고, 9월에만 약 1억1,000만 건이었다.",
+        "why": "코딩 에이전트가 실험 도구에서 개발 협업의 기본 구성원으로 이동 중이다.",
+        "next": "코드 품질·리뷰 부담·CI 비용이 실제로 개선되는지 검증.",
+        "hook": "AI가 PR을 열고 인간이 검토한다"
+      },
+      "visual": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Front_of_server_racks_at_NERSC.jpg",
+        "credit": "Derrick Coetzee / Wikimedia Commons (일반 서버실, GitHub 시설 아님)",
+        "license": "CC0 1.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Front_of_server_racks_at_NERSC.jpg",
+        "reuseAllowed": true,
+        "modified": "cropped and darkened"
+      }
+    },
+    {
+      "id": "nvision-organic-molecule-quantum-chip-nature",
+      "category": "QUANTUM / SEMICONDUCTORS",
+      "headline": "OLED처럼 분자를 입혀 양자칩 만드는 길 열렸다",
+      "facts": "독일 스타트업 NVision은 10월 28일 Nature 논문에서 유기 분자를 기존 제조 공정의 칩 위에 박막으로 입히는 양자 하드웨어 접근을 공개했다. 연구진은 AI로 수백 종의 후보 분자를 평가하고 약 40종을 합성해 적합한 분자를 찾았다. 해당 기술은 의료용 MRI 감도 개선 연구에서 파생됐다. NVision은 미국 HyperLight와 첫 칩을 공동 개발하고 장기적으로 완성형 양자컴퓨터를 만들겠다고 밝혔다.",
+      "whyItMatters": "기존 디스플레이와 반도체의 박막 공정을 활용할 수 있다면 양자칩의 제조 확장성에 새로운 선택지가 생긴다.",
+      "analysis": "분자 기반 소자의 물리적 가능성과 오류 정정이 가능한 범용 양자컴퓨터의 실용화는 큰 차이가 있다. 현재 공개된 결과로 상용 시스템의 성능을 단정할 수 없다.",
+      "outlook": "6~24개월: 첫 시제품의 큐비트 성능·결맞음 시간·제조 수율과 독립 재현 여부를 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Reuters · 2026-10-28",
+          "url": "https://www.reuters.com/technology/german-startup-nvision-shows-new-path-quantum-computing-chips-nature-paper-2026-10-28/"
+        }
+      ],
+      "card": {
+        "stat": "후보 약 40종 합성",
+        "headline": "OLED 방식으로 양자칩 만든다?",
+        "what": "NVision이 AI로 분자 후보를 좁히고 약 40종을 합성했다. 유기 분자를 칩에 얇게 입히는 양자 하드웨어 연구를 Nature에 발표했다.",
+        "why": "기존 디스플레이·반도체 공정을 양자칩 제조에 활용할 가능성이 있다.",
+        "next": "실제 칩의 큐비트 성능·오류율과 제조 수율을 검증.",
+        "hook": "양자칩의 재료가 바뀐다"
+      },
+      "visual": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/OxidizedSiliconWafer.jpg",
+        "credit": "90lbNose / Wikimedia Commons (일반 실리콘 웨이퍼, NVision 제품 아님)",
+        "license": "CC0 1.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:OxidizedSiliconWafer.jpg",
+        "reuseAllowed": true,
+        "modified": "cropped and darkened"
+      }
+    },
+    {
+      "id": "google-gemini-4-carbon-cybersecurity",
+      "category": "LLM / CYBERSECURITY",
+      "headline": "구글 Gemini 4 Carbon, 보안 취약점 찾기·패치에 집중",
+      "facts": "Google은 10월 28일 Gemini 4 Carbon 모델을 발표했다. 보안 취약점 탐색·악용 가능성 분석·소프트웨어 패치 등 사이버보안 작업을 중점 대상으로 제시했다. Google은 내부 벤치마크에서 안전한 코드 생성 성공률이 Gemini 4 Argon의 두 배 이상이라고 주장했다. 초기 접근은 Fairwind 프로그램의 일부 보안 방어자에게 제한되며 가격은 입력 100만 토큰당 2달러, 출력 100만 토큰당 10달러로 안내됐다.",
+      "whyItMatters": "강력한 코딩 모델을 일반에 곧바로 풀기보다 방어 목적의 제한된 접근으로 먼저 검증하는 배포 전략이 등장했다.",
+      "analysis": "두 배 성공률은 Google 내부 평가이며 독립적으로 재현된 결과가 아니다. 취약점 탐색 능력은 방어와 공격에 모두 사용될 수 있다.",
+      "outlook": "6~24개월: 보안 평가 공개 범위, 제한 접근 확대와 실제 패치의 회귀 오류율을 관찰.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Reuters · 2026-10-28",
+          "url": "https://www.reuters.com/technology/google-launches-gemini-4-carbon-ai-model-with-cybersecurity-focus-2026-10-28/"
+        }
+      ]
+    },
+    {
+      "id": "epic-ue6-fortnite-claude-codex-development",
+      "category": "GAME DEV / CODING AGENTS",
+      "headline": "Epic, Unreal Engine 6·Fortnite 개발에 Claude Code와 Codex 활용",
+      "facts": "Epic Games 개발 책임자 Marcus Wassmer는 10월 말 Unreal Engine 6, Fortnite, UEFN 개발에 Claude Code와 Codex를 사용한다고 밝혔다. 엔지니어가 구조·성능·메모리 한계를 정하고 AI 생성 코드를 반복 검토하는 방식이라고 설명했다. Epic 측은 오래된 비결정적 쿠킹 버그를 줄이고 셰이더 압축과 D3D12 렌더링 코드 재작업을 가속했다고 주장했다. D3D12 관련 작업은 기존 예상 3~6주 대신 약 1주에 완료했다고 밝혔다.",
+      "whyItMatters": "대형 게임 엔진 제작사도 코딩 에이전트를 핵심 개발 과정에 투입하고 있어 게임개발 워크플로가 바뀔 수 있다.",
+      "analysis": "기간 단축과 버그 감소는 회사 설명이며 동일 조건의 독립 비교 실험은 아니다. AI 코드의 검증·성능 회귀 방지가 중요하다.",
+      "outlook": "6~24개월: UE6 빌드 안정성, AI 코드의 유지보수 비용, 패치 크기와 실제 개발자 경험을 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "PC Gamer · 2026-10-29",
+          "url": "https://www.pcgamer.com/software/ai/yes-we-are-vibe-coding-things-epic-confirms-its-using-ai-tools-to-code-unreal-engine-6-fortnite-and-more/"
+        }
+      ]
+    },
+    {
+      "id": "meta-sp-negative-ai-cashflow-outlook",
+      "category": "AI MARKETS / FINANCE",
+      "headline": "S&P, Meta 신용등급 전망 '부정적'으로 하향",
+      "facts": "S&P Global Ratings는 10월 30일 Meta의 신용등급 전망을 안정적에서 부정적으로 변경했다. Meta는 2026년 설비투자를 1,350억~1,450억 달러로 전망하고 3분기 잉여현금흐름 21억2,000만 달러 적자를 보고했다. S&P는 영업현금흐름에서 설비투자를 뺀 자유영업현금흐름 적자가 2026년 390억 달러, 2027년 710억 달러에 이를 수 있다고 추정했다. Meta는 AI 수익화 능력에 관한 S&P의 평가에 동의하지 않는다고 밝혔다.",
+      "whyItMatters": "AI 데이터센터 경쟁이 기술기업의 신용 위험과 자금조달 조건까지 바꾸고 있다는 구체적 신호다.",
+      "analysis": "신용등급 전망 하향은 즉각적인 등급 강등이 아니다. 2027년 적자 규모도 신용평가사의 전망이지 확정 실적이 아니다.",
+      "outlook": "6~24개월: AI 설비투자 대비 광고·에이전트 수익, 현금흐름과 추가 신용등급 조정을 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Reuters · 2026-10-30",
+          "url": "https://www.reuters.com/business/sp-global-revises-outlook-meta-negative-cashflow-concerns-2026-10-30/"
+        }
+      ]
+    },
+    {
+      "id": "acer-predator-atlas8-us-launch-arc-g3",
+      "category": "PC GAMING / HANDHELD",
+      "headline": "인텔 Arc G3 Extreme 휴대용 게임 PC, 미국 출시",
+      "facts": "Acer의 Predator Atlas 8이 11월 1일 미국 판매를 시작할 예정이라고 10월 27일 보도됐다. 고급형은 Intel Arc G3 Extreme 계열 그래픽과 24GB LPDDR5x 메모리를 탑재한다. 8인치 120Hz 화면과 TMR 조이스틱, 휴대·도킹 모드를 지원하며 미국 가격은 1,299.99달러다. 사전 주문 물량은 매진됐다고 보도됐지만 실제 출시 후 판매량과 게임 성능은 별도로 확인해야 한다.",
+      "whyItMatters": "휴대용 게이밍 PC에서 AMD 외에 Intel GPU 기반 고급 제품의 경쟁이 본격화하고 있다.",
+      "analysis": "사전 주문 매진은 높은 장기 수요를 보장하지 않는다. 동일 전력에서 게임 FPS와 배터리·발열을 비교해야 한다.",
+      "outlook": "6~24개월: Arc G3 드라이버 안정성, 게임 호환성, 배터리 시간과 경쟁 기기 가격을 비교.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "The Verge · 2026-10-27",
+          "url": "https://www.theverge.com/games/1019245/acer-predator-atlas-8-launch-price"
+        }
+      ]
+    },
+    {
+      "id": "tess-rubin-dwarf-planet-precovery-2026-ed138",
+      "category": "SPACE / ASTRONOMY",
+      "headline": "루빈 망원경이 찾은 왜소행성 후보, 7년 전 영상에서 재발견",
+      "facts": "10월 29일 공개된 연구 프리프린트는 베라 루빈 천문대가 발견한 해왕성 바깥 천체 2026 ED138의 과거 관측 기록을 분석했다. 연구진은 TESS 우주망원경의 2019~2026년 관측 자료 다섯 구간에서 해당 천체를 검출했다. 다섯 구간 중 네 구간은 이 천체의 공식 발견 이전에 촬영된 자료였다. 전체 결합 검출 신호는 34시그마로 보고됐으며 기존 궤도 계산과 일치했다.",
+      "whyItMatters": "새 망원경의 발견을 기존 우주망원경 아카이브와 연결하면 먼 태양계 천체의 궤도를 더 정확히 측정할 수 있다.",
+      "analysis": "왜소행성 '후보'라는 표현이 중요하다. 프리프린트의 궤도 확인과 천체의 최종 분류는 별도 과정이다.",
+      "outlook": "6~24개월: 후속 궤도 측정, 크기·반사율 추정, 국제천문연맹의 분류 여부를 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "arXiv 원문 연구 · 2026-10-29",
+          "url": "https://arxiv.org/abs/2610.40106"
+        }
+      ]
+    },
+    {
+      "id": "meta-fourier-humanoid-prototype-report",
+      "category": "ROBOTICS / AI COMPANIES",
+      "headline": "Meta, 중국 Fourier와 휴머노이드 시제품 개발 보도",
+      "facts": "10월 31일 The Information은 Meta가 중국 로봇 스타트업 Fourier와 휴머노이드 시제품을 만들었다고 보도했다. 관계자를 인용해 두 번째 버전도 개발 중이라고 전했다. Reuters는 해당 보도를 재전송하면서 내용을 독립적으로 즉시 확인할 수 없다고 명시했다. Meta나 Fourier가 구체적인 시제품 사양과 상용화 일정을 공식 발표한 것은 확인되지 않았다.",
+      "whyItMatters": "Meta의 AI 모델·컴퓨팅 투자가 실제 로봇 플랫폼으로 확장될 가능성을 보여주는 새 움직임이다.",
+      "analysis": "단일 매체의 관계자 인용 보도이며 독립 검증이 없다. 시제품 개발 사실, 기술 성숙도, 대량생산 가능성을 구분해야 한다.",
+      "outlook": "6~24개월: 공식 시연, Meta·Fourier의 공동 발표, 제어 모델과 로봇 양산 계획을 확인.",
+      "status": "unconfirmed",
+      "sources": [
+        {
+          "name": "Reuters / The Information 인용 · 2026-10-31",
+          "url": "https://www.reuters.com/world/china/meta-builds-humanoid-robot-with-chinese-startup-fourier-information-says-2026-10-31/"
+        }
+      ]
+    },
+    {
+      "id": "atelico-local-ai-npc-memory-engine-early-access",
+      "category": "GAME DEV / LOCAL AI",
+      "headline": "NPC가 플레이어를 기억한다, Atelico 로컬 AI 엔진 공개",
+      "facts": "게임 개발사 Atelico는 10월 29일 게임용 로컬 AI 엔진의 제한적 얼리 액세스를 열었다. Unity·Unreal·Godot와 통합되며 대화 모델, 음성 합성·인식, 이미지 생성과 NPC 기억·관계 관리 기능을 제공한다고 밝혔다. AI 추론은 게임을 실행하는 기기에서 이루어져 별도 클라우드 토큰 요금이 필요하지 않다. 개발사는 RTX 5080 기반 자체 실험에서 렌더링과 추론을 조정하는 스케줄러로 프레임 저하를 크게 줄였다고 주장했다.",
+      "whyItMatters": "클라우드 지연과 사용량 요금 없이 기억을 가진 NPC를 게임 플레이에 통합하려는 실용적 개발 도구가 등장했다.",
+      "analysis": "프레임 성능은 공급사 시험이며 다양한 PC·모바일 기기에서 재현되지 않았다. NPC의 서사 일관성과 콘텐츠 안전성도 검증해야 한다.",
+      "outlook": "6~24개월: 공개 SDK 확대, 저사양 기기 성능, NPC 기억의 안정성과 상용 게임 채택 여부를 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Atelico 공식 발표 · 2026-10-29",
+          "url": "https://atelico.studio/blog/the-atelico-ai-engine-is-here"
+        },
+        {
+          "name": "Atelico 공식 제품 페이지",
+          "url": "https://atelico.studio/ai-engine/"
+        }
+      ]
+    }
+  ]
+}
