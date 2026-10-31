@@ -1,0 +1,39 @@
+[2026-11-01] 오늘 볼 만한 AI·테크 뉴스 TOP 3
+
+1. Claude Code 확장에 백도어
+무슨 일? Cursor 확장 마켓에서 변조된 Claude Code 버전이 약 11시간 유통됐다. SSH 백도어를 시도했으며 최대 5,000명이 영향 가능 대상이다.
+왜 중요? 코딩 AI의 확장 공급망이 개발 PC 침입 경로가 될 수 있다.
+다음엔? 해당 버전 설치 여부 확인, 침해 지표 점검과 인증정보 교체.
+
+2. PR 초안 10개 중 4개는 AI
+무슨 일? GitHub 9월 PR의 40% 이상을 에이전트가 시작했다. 3월엔 17%였고, 9월에만 약 1억1,000만 건이었다.
+왜 중요? 코딩 에이전트가 실험 도구에서 개발 협업의 기본 구성원으로 이동 중이다.
+다음엔? 코드 품질·리뷰 부담·CI 비용이 실제로 개선되는지 검증.
+
+3. OLED 방식으로 양자칩 만든다?
+무슨 일? NVision이 AI로 분자 후보를 좁히고 약 40종을 합성했다. 유기 분자를 칩에 얇게 입히는 양자 하드웨어 연구를 Nature에 발표했다.
+왜 중요? 기존 디스플레이·반도체 공정을 양자칩 제조에 활용할 가능성이 있다.
+다음엔? 실제 칩의 큐비트 성능·오류율과 제조 수율을 검증.
+
+오늘 한 줄: 코딩 AI가 개발을 주도하자 보안은 흔들리고, 양자칩 제조법은 바뀐다.
+
+출처
+- Cursor 한국어 공식 보안 공지 · 2026-10-29: https://cursor.com/ko/blog/claude-code-extension-security-notice
+- WIRED · 2026-10-30: https://www.wired.com/story/trojan-malware-targets-thousands-of-anthropic-claude-developer-systems
+- GitHub Octoverse 2026 공식 보고서 · 2026-10: https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/
+- Reuters · 2026-10-28: https://www.reuters.com/technology/german-startup-nvision-shows-new-path-quantum-computing-chips-nature-paper-2026-10-28/
+- Reuters · 2026-10-28: https://www.reuters.com/technology/google-launches-gemini-4-carbon-ai-model-with-cybersecurity-focus-2026-10-28/
+- PC Gamer · 2026-10-29: https://www.pcgamer.com/software/ai/yes-we-are-vibe-coding-things-epic-confirms-its-using-ai-tools-to-code-unreal-engine-6-fortnite-and-more/
+- Reuters · 2026-10-30: https://www.reuters.com/business/sp-global-revises-outlook-meta-negative-cashflow-concerns-2026-10-30/
+- The Verge · 2026-10-27: https://www.theverge.com/games/1019245/acer-predator-atlas-8-launch-price
+- arXiv 원문 연구 · 2026-10-29: https://arxiv.org/abs/2610.40106
+- Reuters / The Information 인용 · 2026-10-31: https://www.reuters.com/world/china/meta-builds-humanoid-robot-with-chinese-startup-fourier-information-says-2026-10-31/
+- Atelico 공식 발표 · 2026-10-29: https://atelico.studio/blog/the-atelico-ai-engine-is-here
+- Atelico 공식 제품 페이지: https://atelico.studio/ai-engine/
+
+이미지 출처
+- Slide 1/2: Cycling2 / Wikimedia Commons (일반 VS Code 화면, 사고 화면 아님) · CC0 1.0 · https://commons.wikimedia.org/wiki/File:VS_Code_Screenshot.png · cropped and darkened
+- Slide 2/3: Derrick Coetzee / Wikimedia Commons (일반 서버실, GitHub 시설 아님) · CC0 1.0 · https://commons.wikimedia.org/wiki/File:Front_of_server_racks_at_NERSC.jpg · cropped and darkened
+- Slide 3/4: 90lbNose / Wikimedia Commons (일반 실리콘 웨이퍼, NVision 제품 아님) · CC0 1.0 · https://commons.wikimedia.org/wiki/File:OxidizedSiliconWafer.jpg · cropped and darkened
+
+@daily_tech_magazine · 무단 재업로드/재배포 금지
