@@ -1,0 +1,42 @@
+[2026-11-02] 오늘 볼 만한 AI·테크 뉴스 TOP 3
+
+1. Claude, 게임 복제에 제동
+무슨 일? Claude Code가 기존 게임을 그대로 재현하는 요청을 피하도록 변경됐다. 독창적인 게임과 사용자가 소유한 자산을 활용한 개발은 허용된다.
+왜 중요? AI 코딩의 생산성과 게임 개발자의 저작권 보호가 충돌하는 지점이다.
+다음엔? 정상적인 모딩·리버스엔지니어링까지 차단하는지 확인.
+
+2. 한국 반도체 수출 폭증
+무슨 일? 10월 반도체 수출이 전년 대비 259.4% 증가해 564억4,000만 달러를 기록했다. AI 서버용 컴퓨터 수출도 급증했다.
+왜 중요? AI 인프라 경쟁이 한국 반도체 산업의 수출 실적으로 직결됐다.
+다음엔? HBM 수요·메모리 가격과 조업일 효과를 구분해 추적.
+
+3. 빛으로 GPU 서버를 잇는다
+무슨 일? PsiQuantum이 8×8 광스위치를 공개했다. 자체 실험에서 광손실 1.2dB를 기록했고 전기신호 변환 없이 광섬유를 연결한다.
+왜 중요? AI 서버 간 데이터 이동에 쓰이는 전력과 병목을 줄일 가능성이 있다.
+다음엔? 64포트 이상 확장 시 성능과 실제 데이터센터 시험 결과.
+
+오늘 한 줄: Claude는 게임 복제를 막고, 반도체 수출은 뛰고, GPU 연결은 빛으로 바뀐다.
+
+출처
+- PC Gamer · 2026-10-31: https://www.pcgamer.com/gaming-industry/anthropic-updates-claude-to-steer-it-away-from-letting-users-clone-games-following-weeks-of-steam-being-inundated-with-ai-slop/
+- Dexerto · 2026-10-31: https://www.dexerto.com/gaming/anthropic-adds-new-claude-rule-banning-recreations-of-existing-games-3423516/
+- Reuters · 2026-11-01: https://www.reuters.com/world/asia-pacific/south-korea-exports-nearly-double-october-strongest-growth-since-1974-2026-11-01/
+- PsiQuantum 공식 발표 · 2026-10-28: https://www.psiquantum.com/news-import/psiquantum-unveils-optical-circuit-switch-technology-built-on-advanced-low-loss-silicon-photonics-platform
+- Tom's Hardware · 2026-10-30: https://www.tomshardware.com/tech-industry/photonics/psiquantum-turns-its-photonics-know-how-into-an-optical-switch-for-supercharging-ai-data-center-gpu-networks-8x8-lab-prototype-loses-less-light-than-rivals-with-plans-to-develop-larger-devices
+- Anthropic 원문 연구 · 2026-10-27: https://www.anthropic.com/research/discovering-vulnerabilities-with-claude
+- NVIDIA 공식 발표 · 2026-10-27: https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-and-Oracle-Expand-NVIDIA-Vera-Rubin-to-Multi-Gigawatt-Scale-and-Bring-NVIDIA-Vera-CPU-to-Oracle-Cloud-Infrastructure/default.aspx
+- Oracle OCI 기술 블로그 · 2026-10-27: https://blogs.oracle.com/cloud-infrastructure/nvidia-vera-cpus-oci
+- 서울경제 · 2026-11-01: https://en.sedaily.com/finance/2026/11/01/sam-altman-meets-50-samsung-presidents-to-deepen-ai-chip
+- Reuters · 2026-10-26: https://www.reuters.com/business/cadence-unveils-nvidia-backed-ai-models-that-chipmakers-can-run-in-house-2026-10-26/
+- 나고야대 원문 발표 · 2026-10-28: https://en.nagoya-u.ac.jp/news/articles/pr-2024-solar-storm-triggered-ultra-relativistic-electrons-inside-earths-impenetrable-barrier/
+- ScienceAlert · 2026-10-31: https://www.sciencealert.com/earths-supposedly-impenetrable-radiation-barrier-has-been-breached
+- 나고야대 공식 연구 발표 · 2026-10-30: https://en.nagoya-u.ac.jp/news/articles/pr-has-a-mysterious-gamma-ray-powerhouse-revealed-its-smoking-gun/
+- Astrophysical Journal Letters 원문 DOI: https://doi.org/10.3847/2041-8213/aea0cb
+- Mitsubishi Electric 공식 발표 · 2026-10-21: https://www.mitsubishielectric.com/en/pr/2026/1021_rd/
+
+이미지 출처
+- Slide 1/2: Kjaskren / Wikimedia Commons (상징 이미지, Claude 화면 아님) · CC0 1.0 · https://commons.wikimedia.org/wiki/File:Black_Xbox_Controller.jpg · cropped and darkened
+- Slide 2/3: ArticCynda / Wikimedia Commons (일반 웨이퍼 전시, 한국 수출품 사진 아님) · CC0 1.0 · https://commons.wikimedia.org/wiki/File:Silicon_wafers.jpg · cropped and darkened
+- Slide 3/4: Bquast / Wikimedia Commons (일반 광섬유, PsiQuantum 제품 사진 아님) · CC0 1.0 · https://commons.wikimedia.org/wiki/File:Fiber_Optical_Cable.jpg · cropped and darkened
+
+@daily_tech_magazine · 무단 재업로드/재배포 금지
