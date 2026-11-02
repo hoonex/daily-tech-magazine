@@ -1,0 +1,246 @@
+{
+  "date": "2026-11-03",
+  "edition": 51,
+  "brand": "DAILY TECH",
+  "handle": "@daily_tech_magazine",
+  "deckTitle": "AI 실무 시험 12%, Anthropic 8954억 달러 약정, 광학 인수 1150억 달러",
+  "deckSubtitle": "에이전트의 현실 · AI 투자 위험 · 광통신의 초대형 M&A",
+  "top3": [
+    "gdpx-agent-benchmark-top-score-12-percent",
+    "anthropic-ipo-compute-commitments-895-billion",
+    "marvell-lumentum-115-billion-optics-deal"
+  ],
+  "dailyAnalysis": "오늘 기술 뉴스의 중심에는 AI의 실무 능력과 그 능력을 뒷받침하는 자본의 간극이 있다. GDPx의 206개 전문 과제에서 최고 모델도 12%를 기록해 긴 작업의 완수율이 아직 낮다는 점이 드러났다. 동시에 Anthropic은 장기 연산 약정 8,954억 달러를 공개했고 Marvell은 광학 부품에 1,150억 달러 규모 인수를 결정했다. 한국은 피지컬 AI와 반도체·데이터센터에 21.3조 원을 배정하는 예산을 추진한다. 게임 제작에서는 Roblox Build가 7만 개 넘는 작품을 내놓으며 창작량보다 유통·검증·안전이 중요해지는 국면을 만들었다. 중국 로봇 기업은 몸체의 시연보다 범용 두뇌와 데이터에 자금을 투입한다. Apple의 신형 폰과 Mac 실적, Palantir의 기업 AI 매출은 AI 관련 수요가 소비자와 기업 시장에 동시에 작용함을 보여준다. 향후 6~24개월에는 실제 에이전트 작업 성공률, AI 인프라 약정의 이행, 광학 부품의 수익성, 게임·로봇의 실사용 지표가 핵심이다.",
+  "recap": "AI 실무는 아직 12%, 투자 약정은 수천억 달러… 승부는 검증과 수익성이다.",
+  "cover": {
+    "stat": "12% · $895.4B · $115B",
+    "title": "AI 실무 성적표는 12%\n인프라 투자는 천문학적",
+    "subtitle": "GDPx 에이전트 평가 · Anthropic 연산 약정 · 광학 부품 초대형 인수"
+  },
+  "stories": [
+    {
+      "id": "gdpx-agent-benchmark-top-score-12-percent",
+      "category": "AI AGENTS / CODING",
+      "headline": "AI 에이전트 실무 시험, 1위도 12%",
+      "facts": "SemiAnalysis가 11월 2일 GDPx 벤치마크를 공개했다. 14개 전문 데이터 파트너와 함께 칩 설계·보안·소프트웨어 개발 등 11개 분야의 206개 장기 과제를 구성했다. Claude Opus 5.5가 12.0%, Gemini 4 Carbon이 10.9%, GPT-6 Astra가 9.6%를 기록했다. 모델은 Claude Code·Codex·Antigravity·OpenCode 같은 작업 도구에서 최대 8시간 동안 과제를 수행했다.",
+      "whyItMatters": "짧은 질문에 정답을 내는 능력과 실제 전문 업무를 끝까지 완수하는 능력의 차이를 수치로 보여준다.",
+      "analysis": "점수는 GDPx가 선택한 과제와 채점 방식의 결과이지 모든 직무의 성공률이 12%라는 뜻이 아니다. 안전 필터와 도구 환경, 과제 난도도 순위에 영향을 준다.",
+      "outlook": "6~24개월: 독립 재현, 모델별 작업 비용과 장기 작업 완료율의 변화를 비교.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "SemiAnalysis GDPx 원문 · 2026-11-02",
+          "url": "https://newsletter.semianalysis.com/p/gdpx-measuring-frontier-model-capabilities"
+        },
+        {
+          "name": "GDPx 공식 리더보드",
+          "url": "https://gdpx.semianalysis.com/"
+        }
+      ],
+      "card": {
+        "stat": "12.0%",
+        "headline": "최고 AI도 실무 성공률 12%",
+        "what": "GDPx가 11개 전문 분야 206개 장기 과제를 시험했다. Claude Opus 5.5가 12.0%로 1위, Gemini 4 Carbon은 10.9%였다.",
+        "why": "코딩·설계·보안의 실제 장기 업무는 기존 AI 벤치마크보다 훨씬 어렵다.",
+        "next": "독립 재현과 에이전트의 8시간 작업 완료율·비용을 확인.",
+        "hook": "AI가 진짜 일을 맡으면 성적표가 달라진다"
+      },
+      "visual": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/NeuralNetwork.png",
+        "credit": "Loxaxs / Wikimedia Commons (상징 다이어그램, GDPx 결과 화면 아님)",
+        "license": "CC0 1.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:NeuralNetwork.png",
+        "reuseAllowed": true,
+        "modified": "cropped and darkened"
+      }
+    },
+    {
+      "id": "anthropic-ipo-compute-commitments-895-billion",
+      "category": "AI COMPANIES / MARKETS",
+      "headline": "Anthropic, 컴퓨팅 약정 8,954억 달러 공개",
+      "facts": "Anthropic이 11월 2일 수정 상장신고서에서 AI 인프라 관련 지출 약정 8,954억 달러를 공개했다. 3분기 매출은 전 분기보다 47% 늘어난 169억6,000만 달러였지만 2분기의 144% 증가율보다 둔화했다. 3분기 순손실은 232억9,000만 달러, 영업손실은 5억6,700만 달러였다. 회사는 일부 인프라 파트너의 외부 자금조달 실패가 계약된 연산 용량의 인도 지연이나 비용 상승을 부를 수 있다고 경고했다.",
+      "whyItMatters": "AI 서비스 성장 속도보다 더 큰 컴퓨팅 투자 약정이 기업가치와 공급망의 핵심 위험 변수로 떠올랐다.",
+      "analysis": "8,954억 달러는 즉시 지출한 현금이 아니라 장기간에 걸친 약정이다. 순손실에는 전환사채 관련 비영업 항목이 포함되므로 영업손실과 구분해야 한다.",
+      "outlook": "6~24개월: IPO 공모가, 매출 대비 연산 비용, 데이터센터 조달·납기 리스크를 추적.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Reuters · 2026-11-02",
+          "url": "https://www.reuters.com/business/anthropics-quarterly-loss-shrinks-revenue-jumps-ahead-blockbuster-ipo-2026-11-02/"
+        }
+      ],
+      "card": {
+        "stat": "$895.4B",
+        "headline": "Anthropic의 8954억 달러 약정",
+        "what": "Anthropic이 상장 서류에서 장기 컴퓨팅 지출 약정 8,954억 달러를 공개했다. 3분기 매출은 169억6,000만 달러였다.",
+        "why": "AI 모델 기업의 성장 경쟁이 데이터센터 자금조달 위험과 맞물렸다.",
+        "next": "IPO 가격, 컴퓨팅 비용과 계약된 연산 용량의 실제 인도 일정.",
+        "hook": "AI 매출이 커져도 연산비는 더 무겁다"
+      },
+      "visual": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Technician_monitoring_room_at_NERSC_data_center.jpg",
+        "credit": "Derrick Coetzee / Wikimedia Commons (상징 사진, Anthropic 시설 아님)",
+        "license": "CC0 1.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Technician_monitoring_room_at_NERSC_data_center.jpg",
+        "reuseAllowed": true,
+        "modified": "cropped and darkened"
+      }
+    },
+    {
+      "id": "marvell-lumentum-115-billion-optics-deal",
+      "category": "AI CHIPS / OPTICS",
+      "headline": "Marvell, 광부품 업체 1,150억 달러 인수 합의",
+      "facts": "Marvell이 11월 2일 Lumentum을 부채 포함 약 1,150억 달러 규모의 주식 교환 방식으로 인수하기로 합의했다. Lumentum 주주는 보유 주식 1주당 Marvell 주식 4.5주를 받으며 합병 법인 지분 약 33%를 보유하게 된다. 거래는 규제 승인 등을 거쳐 2028년 상반기 완료될 전망이다. 두 회사의 주가는 발표 후 하락했고 투자자들은 높은 인수 가격을 우려했다.",
+      "whyItMatters": "AI 데이터센터에서 GPU 간 데이터 이동을 담당하는 광학 연결 부품이 핵심 전략 자산으로 부상했다.",
+      "analysis": "거래는 발표된 합의이지 완료된 인수가 아니다. 부채 포함 1,150억 달러와 지분가치 1,025억 달러를 구분해야 하며 통합 비용과 규제 심사가 남아 있다.",
+      "outlook": "6~24개월: 반독점 심사, 광학 부품 수요, 통합 후 수익성 및 거래 종결 여부를 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Reuters · 2026-11-02",
+          "url": "https://www.reuters.com/legal/transactional/marvell-buy-lumentum-115-billion-deal-ai-data-center-bet-2026-11-02/"
+        }
+      ],
+      "card": {
+        "stat": "$115B",
+        "headline": "광학 부품에 1150억 달러 베팅",
+        "what": "Marvell이 광학 부품 업체 Lumentum을 부채 포함 약 1,150억 달러에 인수하기로 합의했다. 완료 목표는 2028년 상반기다.",
+        "why": "GPU를 연결하는 빛의 통신망이 AI 반도체 경쟁의 중심으로 이동한다.",
+        "next": "규제 승인과 인수 비용, 광학 네트워크 수요를 추적.",
+        "hook": "GPU 다음 전장은 연결 속도다"
+      },
+      "visual": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Fiber_Optic_%28Unsplash%29.jpg/1280px-Fiber_Optic_%28Unsplash%29.jpg",
+        "credit": "Christopher Burns / Wikimedia Commons (상징 광섬유 사진, Marvell 제품 아님)",
+        "license": "CC0 1.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fiber_Optic_(Unsplash).jpg",
+        "reuseAllowed": true,
+        "modified": "cropped and darkened"
+      }
+    },
+    {
+      "id": "apple-iphone-18-pro-earnings-and-duo-supply",
+      "category": "MOBILE / PC HARDWARE",
+      "headline": "애플 실적 선방, 접는 아이폰은 공급 부족",
+      "facts": "Apple은 미국 시간 11월 2일 발표한 회계연도 4분기 매출이 1,144억8,000만 달러로 시장 예상치를 넘었다고 밝혔다. iPhone 매출은 575억8,000만 달러였고 Mac 매출은 107억9,000만 달러로 집계됐다. 신임 CEO 존 터너스는 접이식 iPhone Duo가 공급 부족 상태이며 화면 문제로 반품된 물량은 매우 적다고 설명했다. 메모리 가격 상승의 부담은 일부 제품 가격 인상과 재고 효과로 상쇄했다고 밝혔다.",
+      "whyItMatters": "AI 메모리 가격 상승이 스마트폰과 노트북 가격 전략에 영향을 주는 동시에 접이식 기기의 공급 문제가 새로운 변수가 됐다.",
+      "analysis": "실적 호조는 iPhone 18 Pro 중심으로 확인됐으며 Duo 판매는 해당 분기 iPhone 매출에 포함되지 않았다. 화면 문제의 실제 발생률은 회사 설명과 독립적인 검증을 구분해야 한다.",
+      "outlook": "6~24개월: Duo 수율·반품률, 메모리 가격, Mac의 에이전트 활용 수요와 신형 Siri 비용을 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Reuters · 2026-11-02",
+          "url": "https://www.reuters.com/business/retail-consumer/apple-results-beat-wall-street-expectations-on-strong-iphone-sales-2026-11-02/"
+        }
+      ]
+    },
+    {
+      "id": "korea-2027-ai-physical-ai-budget-21-trillion",
+      "category": "KOREA / AI POLICY",
+      "headline": "한국, AI·반도체에 21.3조 원 투자 추진",
+      "facts": "이재명 대통령은 11월 2일 국회 시정연설에서 2027년 AI와 반도체·피지컬 AI·AI 데이터센터 3대 사업에 21조3,000억 원을 투자하겠다고 밝혔다. 이는 올해 관련 예산의 거의 두 배라고 설명했다. 전체 2027년 예산안은 820조9,000억 원으로 제안됐다. 아직 국회의 예산 심의·의결 절차가 남아 있다.",
+      "whyItMatters": "AI 모델뿐 아니라 로봇·칩·데이터센터를 국가 차원에서 함께 육성하는 정책 방향이 명확해졌다.",
+      "analysis": "21.3조 원은 확정 집행액이 아닌 정부 제안 예산이다. 어제 다룬 반도체 수출 증가와는 별개의 정책 결정이며 실제 성과는 사업별 배분과 집행에 달려 있다.",
+      "outlook": "6~24개월: 국회 확정액, 지역별 데이터센터 인허가, 국산 AI·로봇 프로젝트의 성과를 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Reuters · 2026-11-02",
+          "url": "https://www.reuters.com/world/asia-pacific/south-koreas-lee-vows-make-bold-ai-investment-record-budget-push-2026-11-02/"
+        }
+      ]
+    },
+    {
+      "id": "roblox-build-70000-ai-generated-games",
+      "category": "GAME DEV / AI TOOLS",
+      "headline": "Roblox, AI 게임 제작 도구로 7만 작품 출시",
+      "facts": "Roblox의 3분기 주주서한에 따르면 자연어 기반 제작 도구 Build의 제한적 알파 테스트에 50만 명 넘게 참여했다. 이들이 공개한 게임은 7만 개를 넘었다. 최근 한 달 상위 100개 게임 중 80% 이상이 제작에 AI 도구를 활용했다. 회사는 외부 게임을 Roblox 환경으로 가져오는 Universal Player와 플랫폼 밖 배포를 지원하는 Roblox Everywhere 계획도 설명했다.",
+      "whyItMatters": "게임 제작의 진입장벽이 낮아질수록 코드를 만드는 능력보다 게임을 발견시키고 유지하는 능력이 중요해진다.",
+      "analysis": "7만 개는 Roblox의 자체 집계이며 게임 품질이나 플레이어 만족도를 뜻하지 않는다. Universal Player의 광범위한 게임 변환은 현재 완성된 기능이 아닌 목표다.",
+      "outlook": "6~24개월: Build 확대, 실제 게임 유지율·수익화, AI 생성물 검수와 Universal Player의 구현 범위를 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Roblox 3Q26 주주서한 원문",
+          "url": "https://s27.q4cdn.com/984876518/files/content_files/Q3-2026-Earnings-Shareholder-Letter.pdf"
+        },
+        {
+          "name": "PC Gamer · 2026-10-30",
+          "url": "https://www.pcgamer.com/software/ai/ai-powered-game-development-is-leading-to-an-explosion-of-content-roblox-says-as-it-brags-about-70-000-games-published-on-its-platform-in-the-last-5-months-alone/"
+        }
+      ]
+    },
+    {
+      "id": "china-embodied-ai-robot-brain-investment-2026",
+      "category": "ROBOTICS / EMBODIED AI",
+      "headline": "중국 로봇 경쟁, 몸보다 두뇌에 13조 원 이상",
+      "facts": "Reuters는 11월 2일 중국 로봇 기업들이 달리기·춤추기 같은 동작 시연보다 새로운 작업을 배우는 AI 개발에 집중한다고 보도했다. 데이터업체 ITjuzi에 따르면 2026년 상반기 중국 체화형 AI 투자는 935억 위안, 322건으로 전년 동기 약 5배였다. Spirit AI는 약 1,000명을 동원해 작업 데이터를 수집하고, Ant Group 로봇 조직은 16만 시간의 자료를 모델 학습에 활용했다고 밝혔다. 일부 공장·약국에서 로봇을 시험 중이지만 낯선 환경에서의 신뢰성은 아직 과제다.",
+      "whyItMatters": "로봇 하드웨어가 보급될수록 차별화 요소가 범용 행동 모델과 고품질 작업 데이터로 이동하고 있다.",
+      "analysis": "935억 위안은 전체 산업 투자 집계이며 단일 기업의 매출이 아니다. 일부 성공률은 공급사의 특정 작업 테스트에 한정된다.",
+      "outlook": "6~24개월: 낯선 공장에서도 같은 모델이 작동하는지, 데이터 수집 비용과 칩 제약을 관찰.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Reuters · 2026-11-02",
+          "url": "https://www.reuters.com/world/china/chinas-robot-makers-have-mastered-moves-now-comes-race-brains-2026-11-01/"
+        }
+      ]
+    },
+    {
+      "id": "palantir-q3-2026-ai-software-revenue-96-percent",
+      "category": "ENTERPRISE AI / MARKETS",
+      "headline": "Palantir, AI 소프트웨어 매출 96% 증가",
+      "facts": "Palantir은 11월 2일 3분기 매출이 전년 동기 대비 약 96% 증가한 23억1,000만 달러였다고 발표했다. 이는 시장 예상치 21억8,000만 달러를 웃돈다. 회사는 4분기 매출을 26억4,900만~26억5,300만 달러로 예상했다. 연간 매출 전망도 85억3,000만~85억3,400만 달러로 상향했다.",
+      "whyItMatters": "기업이 민감한 데이터를 통제하면서 AI 모델을 업무 시스템에 연결하는 수요가 실적에 반영되고 있다.",
+      "analysis": "성장률이 높아도 주가와 기업가치의 적정성을 자동으로 보장하지 않는다. 매출 전망은 회사의 예측으로 확정 실적과 구분해야 한다.",
+      "outlook": "6~24개월: 상업 고객의 AI 도입 지속성, 정부 의존도와 수익성, 전망치 달성 여부를 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Reuters · 2026-11-02",
+          "url": "https://www.reuters.com/technology/palantir-tops-third-quarter-revenue-estimates-strong-ai-software-demand-2026-11-02/"
+        }
+      ]
+    },
+    {
+      "id": "aratasaurus-115-million-year-heme-fossil",
+      "category": "SCIENCE / PALEONTOLOGY",
+      "headline": "1억1,500만 년 전 공룡 뼈에서 혈액 흔적",
+      "facts": "11월 2일 PNAS에 발표된 연구에서 브라질 공룡 아라타사우루스의 다리뼈 속 미세 혈관 통로에서 적혈구를 닮은 구조가 발견됐다. 연구진은 헤모글로빈과 연관된 철 함유 분자 헴의 화학적 흔적도 확인했다. 화석은 약 1억1,500만 년 전 살았던 길이 약 3.1m 육식 공룡의 것이다. 연구진은 혈액이나 DNA가 온전하게 보존된 것이 아니라고 강조했다.",
+      "whyItMatters": "생체 조직의 형태와 화학 신호가 매우 긴 지질학적 시간 동안 어떤 형태로 남을 수 있는지 연구 범위를 넓힌다.",
+      "analysis": "발견은 광물화된 세포 유사 구조와 변형된 화학 신호의 조합이다. 영화처럼 공룡 DNA를 복원할 수 있다는 주장은 근거가 없다.",
+      "outlook": "6~24개월: 다른 화석에서 같은 신호가 재현되는지, 오염·광물 형성 과정과의 구별을 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "PNAS 원문 연구 · 2026-11-02",
+          "url": "https://www.pnas.org/doi/abs/10.1073/pnas.2614248123"
+        },
+        {
+          "name": "Reuters · 2026-11-02",
+          "url": "https://www.reuters.com/science/evidence-red-blood-cells-seen-dinosaur-fossil-brazil-2026-11-02/"
+        }
+      ]
+    },
+    {
+      "id": "graph-shortest-path-1996-approximation-improvement",
+      "category": "ALGORITHMS / COMPUTER SCIENCE",
+      "headline": "30년 묵은 최단경로 알고리즘 한계 개선",
+      "facts": "인도 IIT 간디나가르의 Manoj Gupta 연구가 10월 30일 소개됐다. 연구는 대규모 그래프의 모든 쌍 최단경로를 빠르게 근사하는 1996년 DHZ 방식의 약점을 다룬다. 여러 규모에서 정점을 표본추출해 가까운 정점 쌍에서도 거리 추정의 2배 이내 보장 범위를 넓혔다. 연구는 기존 방법과 비슷한 계산 복잡도를 유지하는 이론적 결과이며 원 논문은 FOCS 2025에 발표됐다.",
+      "whyItMatters": "네트워크·그래프 데이터베이스·교통 경로 탐색의 기초 알고리즘에 새로운 수학적 도구를 제공한다.",
+      "analysis": "정확한 최단경로를 모든 쌍에 즉시 계산한다는 의미는 아니다. 2-근사 보장 범위를 확대한 이론 연구로 상용 시스템 속도 향상은 아직 입증되지 않았다.",
+      "outlook": "6~24개월: 실제 그래프 데이터셋의 성능, 메모리 사용량과 다른 그래프 알고리즘으로의 확장을 검증.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "FOCS 2025 원문 DOI",
+          "url": "https://doi.org/10.1109/FOCS63196.2025.00065"
+        },
+        {
+          "name": "ScienceDaily · 2026-10-30",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261029072146.htm"
+        }
+      ]
+    }
+  ]
+}
