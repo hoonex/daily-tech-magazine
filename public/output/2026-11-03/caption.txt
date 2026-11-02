@@ -1,0 +1,41 @@
+[2026-11-03] 오늘 볼 만한 AI·테크 뉴스 TOP 3
+
+1. 최고 AI도 실무 성공률 12%
+무슨 일? GDPx가 11개 전문 분야 206개 장기 과제를 시험했다. Claude Opus 5.5가 12.0%로 1위, Gemini 4 Carbon은 10.9%였다.
+왜 중요? 코딩·설계·보안의 실제 장기 업무는 기존 AI 벤치마크보다 훨씬 어렵다.
+다음엔? 독립 재현과 에이전트의 8시간 작업 완료율·비용을 확인.
+
+2. Anthropic의 8954억 달러 약정
+무슨 일? Anthropic이 상장 서류에서 장기 컴퓨팅 지출 약정 8,954억 달러를 공개했다. 3분기 매출은 169억6,000만 달러였다.
+왜 중요? AI 모델 기업의 성장 경쟁이 데이터센터 자금조달 위험과 맞물렸다.
+다음엔? IPO 가격, 컴퓨팅 비용과 계약된 연산 용량의 실제 인도 일정.
+
+3. 광학 부품에 1150억 달러 베팅
+무슨 일? Marvell이 광학 부품 업체 Lumentum을 부채 포함 약 1,150억 달러에 인수하기로 합의했다. 완료 목표는 2028년 상반기다.
+왜 중요? GPU를 연결하는 빛의 통신망이 AI 반도체 경쟁의 중심으로 이동한다.
+다음엔? 규제 승인과 인수 비용, 광학 네트워크 수요를 추적.
+
+오늘 한 줄: AI 실무는 아직 12%, 투자 약정은 수천억 달러… 승부는 검증과 수익성이다.
+
+출처
+- SemiAnalysis GDPx 원문 · 2026-11-02: https://newsletter.semianalysis.com/p/gdpx-measuring-frontier-model-capabilities
+- GDPx 공식 리더보드: https://gdpx.semianalysis.com/
+- Reuters · 2026-11-02: https://www.reuters.com/business/anthropics-quarterly-loss-shrinks-revenue-jumps-ahead-blockbuster-ipo-2026-11-02/
+- Reuters · 2026-11-02: https://www.reuters.com/legal/transactional/marvell-buy-lumentum-115-billion-deal-ai-data-center-bet-2026-11-02/
+- Reuters · 2026-11-02: https://www.reuters.com/business/retail-consumer/apple-results-beat-wall-street-expectations-on-strong-iphone-sales-2026-11-02/
+- Reuters · 2026-11-02: https://www.reuters.com/world/asia-pacific/south-koreas-lee-vows-make-bold-ai-investment-record-budget-push-2026-11-02/
+- Roblox 3Q26 주주서한 원문: https://s27.q4cdn.com/984876518/files/content_files/Q3-2026-Earnings-Shareholder-Letter.pdf
+- PC Gamer · 2026-10-30: https://www.pcgamer.com/software/ai/ai-powered-game-development-is-leading-to-an-explosion-of-content-roblox-says-as-it-brags-about-70-000-games-published-on-its-platform-in-the-last-5-months-alone/
+- Reuters · 2026-11-02: https://www.reuters.com/world/china/chinas-robot-makers-have-mastered-moves-now-comes-race-brains-2026-11-01/
+- Reuters · 2026-11-02: https://www.reuters.com/technology/palantir-tops-third-quarter-revenue-estimates-strong-ai-software-demand-2026-11-02/
+- PNAS 원문 연구 · 2026-11-02: https://www.pnas.org/doi/abs/10.1073/pnas.2614248123
+- Reuters · 2026-11-02: https://www.reuters.com/science/evidence-red-blood-cells-seen-dinosaur-fossil-brazil-2026-11-02/
+- FOCS 2025 원문 DOI: https://doi.org/10.1109/FOCS63196.2025.00065
+- ScienceDaily · 2026-10-30: https://www.sciencedaily.com/releases/2026/10/261029072146.htm
+
+이미지 출처
+- Slide 1/2: Loxaxs / Wikimedia Commons (상징 다이어그램, GDPx 결과 화면 아님) · CC0 1.0 · https://commons.wikimedia.org/wiki/File:NeuralNetwork.png · cropped and darkened
+- Slide 2/3: Derrick Coetzee / Wikimedia Commons (상징 사진, Anthropic 시설 아님) · CC0 1.0 · https://commons.wikimedia.org/wiki/File:Technician_monitoring_room_at_NERSC_data_center.jpg · cropped and darkened
+- Slide 3/4: Christopher Burns / Wikimedia Commons (상징 광섬유 사진, Marvell 제품 아님) · CC0 1.0 · https://commons.wikimedia.org/wiki/File:Fiber_Optic_(Unsplash).jpg · cropped and darkened
+
+@daily_tech_magazine · 무단 재업로드/재배포 금지
