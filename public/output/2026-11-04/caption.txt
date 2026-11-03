@@ -1,0 +1,43 @@
+[2026-11-04] 오늘 볼 만한 AI·테크 뉴스 TOP 3
+
+1. 우주에서 구조물을 출력했다
+무슨 일? Orbital Matter의 위성이 진공에서 약 50cm의 단단한 빔을 3D 프린트했다. 자외선으로 수지를 굳히는 방식이다.
+왜 중요? 미래 우주 데이터센터의 대형 태양전지판·방열판을 궤도에서 제작할 가능성.
+다음엔? 더 긴 구조물의 내구성·제조 수율과 고객 위성 실증.
+
+2. AMD 데이터센터 매출 97%↑
+무슨 일? AMD 3분기 데이터센터 매출이 85억5,000만 달러로 전년 대비 97% 증가했다. Helios 랙은 생산 단계다.
+왜 중요? GPU뿐 아니라 서버 CPU·랙 전체를 묶는 AI 인프라 경쟁이 커진다.
+다음엔? Helios 실제 출하량과 HBM 수급, 데이터센터 마진.
+
+3. 로보택시가 가상도로를 달린다
+무슨 일? 바이두 Apollo World가 하루 최대 10만 km의 가상 주행을 생성한다. 카메라·라이다 데이터를 만들어 로보택시를 훈련한다.
+왜 중요? 실제 도로에서 만나기 어려운 위험 상황을 저비용으로 반복 학습할 수 있다.
+다음엔? 시뮬레이션 성과가 실제 무인 운행 안전성으로 이어지는지 검증.
+
+오늘 한 줄: 우주에서 만들고, AI 칩은 팔리고, 로봇은 가상도로에서 배운다.
+
+출처
+- TechCrunch · 2026-11-03: https://techcrunch.com/2026/11/03/orbital-matter-3d-printed-the-first-rigid-beam-in-the-vacuum-of-space/
+- Orbital Matter 기술 소개: https://www.orbitalmatter.com/
+- Reuters · 2026-11-03: https://www.reuters.com/business/amd-forecasts-quarterly-revenue-above-estimates-data-center-growth-accelerates-2026-11-03/
+- Reuters · 2026-11-03: https://www.reuters.com/technology/chinas-baidu-launches-ai-model-simulating-road-environment-robotaxis-2026-11-03/
+- Google Jules 공식 변경 기록 · 2026-10-29: https://jules.google/docs/changelog/2026-10-29
+- TechRadar · 2026-11-02: https://www.techradar.com/pro/google-kills-off-jules-its-ai-coding-agent-which-promised-to-do-all-the-jobs-you-didnt-want-to
+- CrowdStrike 공식 발표 · 2026-11-03: https://www.crowdstrike.com/en-us/blog/crowdstrike-to-acquire-fiddler/
+- TechCrunch · 2026-11-03: https://techcrunch.com/2026/11/03/crowdstrike-to-shell-out-nearly-500m-for-2-ai-security-startups-as-the-market-for-securing-agents-takes-off/
+- TechCrunch · 2026-10-30: https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/
+- Google 2026년 10월 AI 소식: https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/
+- TechCrunch · 2026-11-02: https://techcrunch.com/2026/11/02/apple-watchs-ai-features-for-rewinding-and-recapping-conversations-begin-beta-testing/
+- Apple Developer 베타 안내: https://developer.apple.com/news/?id=6gpufove
+- Dataiku 공식 발표 · 2026-10-27: https://www.dataiku.com/company/news/dataiku-introduces-headless
+- Daily Tribune · 2026-11-03: https://tribune.net.ph/2026/11/03/dataiku-brings-ai-powered-development-to-claude-code-codex
+- VALORANT Esports 한국 공식 공지 · 2026-11-02: https://valorantesports.com/ko-KR/news/2027-vct-pacific-kickoff-korea-qualifier-registration-info/
+- TechCrunch · 2026-11-02: https://techcrunch.com/2026/11/02/trajectory-raises-45m-to-make-ai-model-training-accessible-to-nontechnical-experts/
+
+이미지 출처
+- Slide 1/2: NASA / Wikimedia Commons (국제우주정거장 태양전지판, Orbital Matter 제품 아님) · Public Domain (NASA, US) · https://commons.wikimedia.org/wiki/File:ISS-50_Solar_arrays_on_the_International_Space_Station.jpg · cropped and darkened
+- Slide 2/3: Henriok / Wikimedia Commons (구형 PowerPC 칩 일러스트, AMD 제품 아님) · CC0 1.0 · https://commons.wikimedia.org/wiki/File:MPC7447A.jpg · cropped and darkened
+- Slide 3/4: Retired electrician / Wikimedia Commons (Yandex 자율주행차, Baidu 차량 아님) · CC0 1.0 · https://commons.wikimedia.org/wiki/File:Moscow,_Yandex_self-driving_Hyundai_Sonata,_Robotaxi_livery,_Mar_2026_01.jpg · cropped and darkened
+
+@daily_tech_magazine · 무단 재업로드/재배포 금지
