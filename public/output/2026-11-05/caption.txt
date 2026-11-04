@@ -1,0 +1,40 @@
+[2026-11-05] 오늘 볼 만한 AI·테크 뉴스 TOP 3
+
+1. Codex가 Git 도구 회사를 품는다
+무슨 일? OpenAI가 Pierre 인수 계획을 발표했다. Codex가 이미 쓰는 Trees·Diffs에 코드 저장·이력 관리 기능까지 결합한다.
+왜 중요? AI 에이전트가 만든 코드를 사람이 검토하고 배포하는 전체 흐름을 잡으려는 움직임.
+다음엔? 규제 승인과 Code Storage 통합, 오픈소스 유지 약속의 이행.
+
+2. AI가 PC용 칩까지 밀어낸다
+무슨 일? Siltronic CEO는 AI 서버가 일반 서버보다 실리콘 면적을 약 3~4배 사용하며 생산능력이 AI 고객에게 쏠린다고 설명했다.
+왜 중요? GPU 호황이 스마트폰·노트북용 반도체 공급과 가격에 영향을 줄 수 있다.
+다음엔? 웨이퍼 증설과 소비자 기기 칩 공급·가격 변화.
+
+3. 화성 화산은 아직 살아 있을까
+무슨 일? ExoMars 탐사선이 알바 몬스 균열 위에서 염화수소를 검출했다. 연구진은 지하 마그마의 가스 방출 가능성을 제시했다.
+왜 중요? 지하 열과 물이 공존하는 환경은 화성의 지질 활동과 생명 가능성 연구에 중요하다.
+다음엔? 반복 관측과 화산성 기원에 대한 독립 검증.
+
+오늘 한 줄: Codex는 Git을 품고, AI는 칩을 끌어가고, 화성은 가스를 내뿜는다.
+
+출처
+- OpenAI 공식 발표 · 2026-11-04: https://openai.com/index/openai-to-acquire-pierre/
+- Wall Street Journal · 2026-11-04: https://www.wsj.com/tech/ai/openai-to-bring-pierre-computers-code-storage-to-codex-through-acquisition-05f53582
+- Reuters · 2026-11-04: https://www.reuters.com/business/ai-boom-draws-chip-supply-other-end-markets-siltronic-ceo-says-2026-11-04/
+- Reuters · 2026-11-04: https://www.reuters.com/science/pungent-gas-above-martian-fissures-hints-ongoing-volcanism-2026-11-04/
+- Reuters · 2026-11-04: https://www.reuters.com/legal/litigation/tencent-rolls-out-ai-model-trained-with-limited-cybersecurity-data-amid-hacking-2026-11-04/
+- Reuters · 2026-11-04: https://www.reuters.com/business/arm-beats-second-quarter-revenue-estimates-ai-data-center-demand-2026-11-04/
+- Reuters · 2026-11-04: https://www.reuters.com/technology/figma-banking-ai-credits-in-house-model-lift-margins-2026-11-04/
+- Reuters · 2026-11-04: https://www.reuters.com/technology/terawulf-gets-credit-backstop-google-anthropic-data-center-project-2026-11-04/
+- Unreal Engine 공식 발표 · 2026-10-22: https://www.unrealengine.com/news/2026-epic-ai-megajam
+- Epic 개발자 포럼 FAQ: https://forums.unrealengine.com/t/vibe-your-way-to-50k-the-2026-epic-ai-megajam-is-coming/2843973
+- Associated Press · 2026-11-04: https://apnews.com/article/5c19afdd7867dc88d68ea61dba1fbaee
+- Reuters · 2026-11-04: https://www.reuters.com/science/nasas-swift-satellite-telescope-heads-fiery-re-entry-22-years-after-launch-2026-11-04/
+- Axios 단독 보도 · 2026-11-04: https://www.axios.com/2026/11/04/meta-acquires-ai-coding-startup-conductor
+
+이미지 출처
+- Slide 1/2: Lorenzo Cafaro / Wikimedia Commons (상징 이미지) · CC0 1.0 · https://commons.wikimedia.org/wiki/File:Programming.jpg · cropped and darkened
+- Slide 2/3: Inductiveload / Wikimedia Commons (실리콘 웨이퍼 상징 이미지) · Public Domain · https://commons.wikimedia.org/wiki/File:Silicon_wafer.jpg · cropped and darkened
+- Slide 3/4: NASA / USGS / Wikimedia Commons (알바 몬스 위성영상) · Public Domain (NASA, US) · https://commons.wikimedia.org/wiki/File:Alba_Patera.jpg · cropped and darkened
+
+@daily_tech_magazine · 무단 재업로드/재배포 금지
