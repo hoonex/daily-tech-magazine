@@ -1,252 +1,240 @@
 {
-  "date": "2026-11-04",
-  "edition": 52,
+  "date": "2026-11-05",
+  "edition": 53,
   "brand": "DAILY TECH",
   "handle": "@daily_tech_magazine",
-  "deckTitle": "우주 3D 프린트, AMD +97%, 로보택시 하루 10만 km",
-  "deckSubtitle": "궤도 제조 실험 · AI 반도체 실적 · 자율주행 월드모델",
+  "deckTitle": "Codex가 Git을 품고, AI가 PC 칩을 밀어내고, 화성은 숨 쉰다",
+  "deckSubtitle": "Pierre 인수 계획 · 반도체 공급 쏠림 · 화성 화산가스 단서",
   "top3": [
-    "orbital-matter-half-meter-beam-space-3d-print",
-    "amd-q3-2026-datacenter-revenue-up-97-percent",
-    "baidu-apollo-world-robotaxi-100000km-simulation"
+    "openai-pierre-codex-source-control",
+    "siltronic-ai-wafer-supply-crowds-out-pcs",
+    "mars-alba-mons-hydrogen-chloride-volcanism"
   ],
-  "dailyAnalysis": "오늘은 AI를 현실 세계에서 돌리는 하드웨어와 검증 체계가 동시에 진화했다. Orbital Matter는 우주 진공에서 구조물을 출력해 대형 위성 설계의 제약을 시험했고, AMD의 데이터센터 매출은 97% 성장해 AI 인프라 수요가 실적으로 확인됐다. 바이두는 하루 최대 10만 km의 가상 주행을 생성하는 월드모델을 로보택시 학습에 투입했다. 그러나 가상 주행량은 실제 안전성과 같지 않고, 우주 3D 프린트도 아직 소규모 실증이다. 개발도구 시장에서는 Google이 Jules를 종료하고 Antigravity에 집중하는 반면 Dataiku는 Claude Code·Codex와 기업 관리형 데이터 프로젝트를 연결했다. CrowdStrike의 인수 추진은 AI 에이전트 행동 관측과 보안 테스트의 중요성을 보여준다. 구글의 궤도 TPU, 애플워치 대화 요약, 국내 VCT 오픈 예선, Trajectory의 지속 학습 플랫폼까지 모두 사용 가능한 기술과 실증 가능한 성과가 관건이다. 향후 6~24개월에는 하드웨어 수율과 비용, 로봇의 실제 안전 지표, 에이전트 보안과 개발도구 데이터 이동성을 함께 살펴야 한다.",
-  "recap": "우주에서 만들고, AI 칩은 팔리고, 로봇은 가상도로에서 배운다.",
+  "dailyAnalysis": "오늘의 기술 흐름은 AI 에이전트가 소프트웨어 개발의 주변 도구를 흡수하고, AI 인프라 수요가 다른 산업의 자원을 재배분한다는 것이다. OpenAI는 Pierre 인수 계획으로 Codex의 Git 저장·검토 기능을 강화하려 하고, Meta의 Conductor 인수 보도는 다중 에이전트 관리 경쟁을 시사하지만 공식 확인 전이다. Siltronic은 AI 데이터센터의 웨이퍼 수요가 PC·스마트폰 공급을 제약한다고 경고했고, Arm의 실적은 저전력 서버 CPU의 중요성을 보여준다. 구글의 데이터센터 신용보강은 AI 투자 경쟁이 금융·전력 인프라로 확장됐음을 보여준다. Figma의 자체 AI 모델과 크레딧 과금, 텐센트의 방어 중심 보안 모델은 AI를 수익화하고 통제하려는 서로 다른 실험이다. 과학에서는 화성 알바 몬스의 염화수소가 현재 화산 활동 가능성을 제기했으며 Swift 망원경은 22년의 관측을 마쳤다. 게임개발에서는 Epic의 AI MegaJam이 사람과 다수 에이전트의 협업을 시험한다. 앞으로 6~24개월에는 AI 개발도구 통합 성과, 반도체 공급 재편, AI 인프라 자금조달의 건전성과 독립적인 과학 검증을 함께 지켜봐야 한다.",
+  "recap": "Codex는 Git을 품고, AI는 칩을 끌어가고, 화성은 가스를 내뿜는다.",
   "cover": {
-    "stat": "0.5m · +97% · 10만 km",
-    "title": "우주에서 출력하고\nAI는 가상도로를 달린다",
-    "subtitle": "우주 3D 프린트 · AMD 실적 · 바이두 로보택시"
+    "stat": "CODEX × GIT",
+    "title": "AI가 코드를 넘어\n개발 환경까지 삼킨다",
+    "subtitle": "PC 반도체 공급 경고와 화성 화산가스의 단서까지"
   },
   "stories": [
     {
-      "id": "orbital-matter-half-meter-beam-space-3d-print",
-      "category": "SPACE / FUTURE HARDWARE",
-      "headline": "우주 진공에서 50cm 구조물을 3D 프린트",
-      "facts": "Orbital Matter는 11월 3일 자사 Replicator-2 위성이 우주 진공에서 길이 약 0.5m의 단단한 구조물을 3D 프린팅했다고 공개했다. 7월 발사된 소형 위성에는 수지를 압출하고 자외선으로 굳히는 프린터 네 대가 실렸다. 회사는 자유 비행 중인 위성에서 외부 구조물을 직접 출력한 사례라고 설명했다. 프린터 한 대에는 이상이 발생했으나 다른 장치로 출력과 태양전지판 전개를 시연했다.",
-      "whyItMatters": "로켓 내부에 접어 넣어야 했던 대형 태양전지판·안테나·방열판을 우주에서 직접 제작하는 길을 시험했다.",
-      "analysis": "50cm 출력은 실증 성과이지 100m 구조물 양산이 입증됐다는 뜻이 아니다. 회사가 주장하는 최초성도 유사한 기존 실험의 정의에 따라 달라질 수 있다.",
-      "outlook": "6~24개월: 더 긴 빔의 제작 성공률, 장기간 구조 강도, 실제 위성 고객 적용을 확인.",
+      "id": "openai-pierre-codex-source-control",
+      "category": "CODING AGENTS / CODEX",
+      "headline": "OpenAI, Git 도구 회사 Pierre 인수 추진",
+      "facts": "OpenAI는 11월 4일 코드 저장·탐색·리뷰 도구를 개발한 Pierre Computer 인수 계획을 공식 발표했다. Pierre의 Trees와 Diffs 라이브러리는 이미 Codex 앱에서 파일 탐색과 코드 변경 검토에 사용된다. 회사는 Code Storage를 비롯한 Git 기반 작업 기능을 Codex에 통합할 계획이다. 인수 금액은 공개하지 않았고 규제 승인 등 거래 종결 조건이 남아 있다.",
+      "whyItMatters": "Codex가 코드 생성기를 넘어 브랜치 생성·코드 검토·배포까지 포괄하는 개발 작업 공간으로 확장된다.",
+      "analysis": "인수 발표는 확정이지만 거래가 완료된 것은 아니다. 기존 Pierre 오픈소스 프로젝트는 계속 공개하겠다고 약속했으나 장기적인 제품 통합 성과는 미지수다.",
+      "outlook": "6~24개월: Code Storage의 Codex 통합 시점, Git 호환성, 여러 에이전트의 동시 코드 변경 검토 성능을 확인.",
       "status": "confirmed",
       "sources": [
         {
-          "name": "TechCrunch · 2026-11-03",
-          "url": "https://techcrunch.com/2026/11/03/orbital-matter-3d-printed-the-first-rigid-beam-in-the-vacuum-of-space/"
+          "name": "OpenAI 공식 발표 · 2026-11-04",
+          "url": "https://openai.com/index/openai-to-acquire-pierre/"
         },
         {
-          "name": "Orbital Matter 기술 소개",
-          "url": "https://www.orbitalmatter.com/"
+          "name": "Wall Street Journal · 2026-11-04",
+          "url": "https://www.wsj.com/tech/ai/openai-to-bring-pierre-computers-code-storage-to-codex-through-acquisition-05f53582"
         }
       ],
       "card": {
-        "stat": "0.5m",
-        "headline": "우주에서 구조물을 출력했다",
-        "what": "Orbital Matter의 위성이 진공에서 약 50cm의 단단한 빔을 3D 프린트했다. 자외선으로 수지를 굳히는 방식이다.",
-        "why": "미래 우주 데이터센터의 대형 태양전지판·방열판을 궤도에서 제작할 가능성.",
-        "next": "더 긴 구조물의 내구성·제조 수율과 고객 위성 실증.",
-        "hook": "우주 건설은 접는 대신 출력한다"
+        "stat": "CODEX × GIT",
+        "headline": "Codex가 Git 도구 회사를 품는다",
+        "what": "OpenAI가 Pierre 인수 계획을 발표했다. Codex가 이미 쓰는 Trees·Diffs에 코드 저장·이력 관리 기능까지 결합한다.",
+        "why": "AI 에이전트가 만든 코드를 사람이 검토하고 배포하는 전체 흐름을 잡으려는 움직임.",
+        "next": "규제 승인과 Code Storage 통합, 오픈소스 유지 약속의 이행.",
+        "hook": "코딩 에이전트의 다음 전장은 Git이다"
       },
       "visual": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/ISS-50_Solar_arrays_on_the_International_Space_Station.jpg",
-        "credit": "NASA / Wikimedia Commons (국제우주정거장 태양전지판, Orbital Matter 제품 아님)",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Programming.jpg",
+        "credit": "Lorenzo Cafaro / Wikimedia Commons (상징 이미지)",
+        "license": "CC0 1.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Programming.jpg",
+        "reuseAllowed": true,
+        "modified": "cropped and darkened"
+      }
+    },
+    {
+      "id": "siltronic-ai-wafer-supply-crowds-out-pcs",
+      "category": "GPU / PC HARDWARE",
+      "headline": "AI 서버가 PC·스마트폰용 칩 공급까지 밀어낸다",
+      "facts": "실리콘 웨이퍼 제조사 Siltronic의 CEO는 11월 4일 Reuters에 AI 칩 수요가 반도체 생산능력을 데이터센터 쪽으로 끌어당긴다고 설명했다. 제조사들은 더 높은 가격을 지불하는 대형 AI 고객에게 물량을 우선 배정하고 있다. 그는 AI 서버 팜이 일반 서버보다 실리콘 면적을 약 3~4배 사용한다고 추산했다. Siltronic은 웨이퍼 수요 강세를 이유로 올해 매출 전망을 두 번째 상향했다.",
+      "whyItMatters": "AI 투자 확대가 PC·스마트폰의 부품 공급과 가격에도 영향을 주는 산업 전반의 자원 배분 문제로 커졌다.",
+      "analysis": "3~4배는 Siltronic 경영진의 업계 추정이며 모든 서버에 적용되는 고정 비율은 아니다. PC 수요가 줄었다기보다 공급 배분 때문에 성장 기회를 놓칠 수 있다는 주장이다.",
+      "outlook": "6~24개월: 웨이퍼 생산능력 증설, PC·스마트폰 칩 가격, AI 투자 둔화 시 공급 재배분 속도를 추적.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Reuters · 2026-11-04",
+          "url": "https://www.reuters.com/business/ai-boom-draws-chip-supply-other-end-markets-siltronic-ceo-says-2026-11-04/"
+        }
+      ],
+      "card": {
+        "stat": "3~4배",
+        "headline": "AI가 PC용 칩까지 밀어낸다",
+        "what": "Siltronic CEO는 AI 서버가 일반 서버보다 실리콘 면적을 약 3~4배 사용하며 생산능력이 AI 고객에게 쏠린다고 설명했다.",
+        "why": "GPU 호황이 스마트폰·노트북용 반도체 공급과 가격에 영향을 줄 수 있다.",
+        "next": "웨이퍼 증설과 소비자 기기 칩 공급·가격 변화.",
+        "hook": "AI 붐의 숨은 비용은 PC 부품이다"
+      },
+      "visual": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Silicon_wafer.jpg",
+        "credit": "Inductiveload / Wikimedia Commons (실리콘 웨이퍼 상징 이미지)",
+        "license": "Public Domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Silicon_wafer.jpg",
+        "reuseAllowed": true,
+        "modified": "cropped and darkened"
+      }
+    },
+    {
+      "id": "mars-alba-mons-hydrogen-chloride-volcanism",
+      "category": "SPACE / SCIENCE",
+      "headline": "화성에서 화산가스 흔적, 내부가 아직 살아 있나",
+      "facts": "11월 4일 보도된 Science Advances 연구에서 ExoMars Trace Gas Orbiter가 화성 알바 몬스 주변 지표 균열 위 대기에서 염화수소를 관측했다. 염화수소는 지구에서 화산 분출과 관련되는 기체다. 연구진은 지하 마그마의 탈가스가 가장 가능성 높은 설명이라고 제시했다. 계절별 변화는 여름철 얼음이 녹으면서 균열에 갇힌 기체가 방출되는 시나리오와도 맞는다.",
+      "whyItMatters": "화성이 완전히 지질학적으로 죽은 행성이 아닐 수 있으며 지하 열원과 물의 상호작용을 탐색할 단서를 제공한다.",
+      "analysis": "염화수소 검출 자체와 현재 화산 활동의 입증은 다르다. 연구진이 제시한 화산성 기원은 유력한 가설이며 직접 마그마를 관측한 것은 아니다.",
+      "outlook": "6~24개월: 추가 궤도 관측에서 계절성 가스 분출이 재현되는지, 비화산성 대체 설명을 배제할 수 있는지 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Reuters · 2026-11-04",
+          "url": "https://www.reuters.com/science/pungent-gas-above-martian-fissures-hints-ongoing-volcanism-2026-11-04/"
+        }
+      ],
+      "card": {
+        "stat": "HCl 검출",
+        "headline": "화성 화산은 아직 살아 있을까",
+        "what": "ExoMars 탐사선이 알바 몬스 균열 위에서 염화수소를 검출했다. 연구진은 지하 마그마의 가스 방출 가능성을 제시했다.",
+        "why": "지하 열과 물이 공존하는 환경은 화성의 지질 활동과 생명 가능성 연구에 중요하다.",
+        "next": "반복 관측과 화산성 기원에 대한 독립 검증.",
+        "hook": "붉은 행성의 내부가 다시 주목받는다"
+      },
+      "visual": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Alba_Patera.jpg",
+        "credit": "NASA / USGS / Wikimedia Commons (알바 몬스 위성영상)",
         "license": "Public Domain (NASA, US)",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:ISS-50_Solar_arrays_on_the_International_Space_Station.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alba_Patera.jpg",
         "reuseAllowed": true,
         "modified": "cropped and darkened"
       }
     },
     {
-      "id": "amd-q3-2026-datacenter-revenue-up-97-percent",
-      "category": "GPU / CPU / AI MARKETS",
-      "headline": "AMD 데이터센터 매출 97% 급증",
-      "facts": "AMD는 11월 3일 발표한 3분기 실적에서 데이터센터 매출이 전년 대비 97% 증가한 85억5,000만 달러를 기록했다고 밝혔다. 전체 매출은 133억8,000만 달러로 45% 늘었다. 4분기 매출 전망은 약 170억 달러로 시장 예상치를 웃돌았다. MI455X 가속기와 Venice 서버 CPU를 결합한 Helios 랙은 생산 단계이며 Meta가 초기 시스템을 시험 중이라고 설명했다.",
-      "whyItMatters": "AI 서버 시장에서 GPU·CPU·랙 전체를 함께 공급하려는 AMD의 경쟁력이 실제 실적 증가로 나타났다.",
-      "analysis": "데이터센터 매출은 GPU와 서버 CPU를 함께 포함하므로 97%를 AI GPU 판매 증가율로 단정할 수 없다. HBM 공급 부족과 고객 집중 위험도 남아 있다.",
-      "outlook": "6~24개월: Helios 양산 확대, Meta 고객 시험 결과, HBM 확보와 엔비디아 대비 수익성을 확인.",
+      "id": "tencent-hy4-defensive-cyber-model",
+      "category": "AI MODELS / SECURITY",
+      "headline": "텐센트 Hy4, 공격용 해킹 데이터 빼고 학습",
+      "facts": "텐센트는 11월 4일 사이버보안 방어 작업에 초점을 맞춘 AI 모델 Hy4를 공개했다. 회사는 취약점 수정 같은 방어 데이터는 활용하되 공격 도구 제작과 시스템 침입 관련 학습 자료는 제외했다고 설명했다. 내부 시험에서 사이버공격 능력이나 생물학적 위해 능력이 유의미하게 높아지지 않았다고 주장했다. 모델 가중치와 안전성 평가 보고서를 공개할 계획이라고 밝혔다.",
+      "whyItMatters": "보안 업무에 유용한 AI를 만들면서 공격 능력의 확산을 억제할 수 있는지 실험하는 접근이다.",
+      "analysis": "안전성 결과는 회사 내부 평가이며 외부 연구자의 재현이 아직 필요하다. 공격 지식 제거가 실제 모든 우회 경로를 막는다고 단정할 수 없다.",
+      "outlook": "6~24개월: 가중치 공개 후 독립 레드팀 평가, 방어 성능과 공격 억제 사이의 균형을 확인.",
       "status": "confirmed",
       "sources": [
         {
-          "name": "Reuters · 2026-11-03",
-          "url": "https://www.reuters.com/business/amd-forecasts-quarterly-revenue-above-estimates-data-center-growth-accelerates-2026-11-03/"
+          "name": "Reuters · 2026-11-04",
+          "url": "https://www.reuters.com/legal/litigation/tencent-rolls-out-ai-model-trained-with-limited-cybersecurity-data-amid-hacking-2026-11-04/"
         }
-      ],
-      "card": {
-        "stat": "+97%",
-        "headline": "AMD 데이터센터 매출 97%↑",
-        "what": "AMD 3분기 데이터센터 매출이 85억5,000만 달러로 전년 대비 97% 증가했다. Helios 랙은 생산 단계다.",
-        "why": "GPU뿐 아니라 서버 CPU·랙 전체를 묶는 AI 인프라 경쟁이 커진다.",
-        "next": "Helios 실제 출하량과 HBM 수급, 데이터센터 마진.",
-        "hook": "AI GPU 경쟁의 두 번째 축이 커진다"
-      },
-      "visual": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/MPC7447A.jpg",
-        "credit": "Henriok / Wikimedia Commons (구형 PowerPC 칩 일러스트, AMD 제품 아님)",
-        "license": "CC0 1.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:MPC7447A.jpg",
-        "reuseAllowed": true,
-        "modified": "cropped and darkened"
-      }
+      ]
     },
     {
-      "id": "baidu-apollo-world-robotaxi-100000km-simulation",
-      "category": "ROBOTICS / AUTONOMOUS AI",
-      "headline": "로보택시, 하루 10만 km를 가상으로 달린다",
-      "facts": "바이두는 11월 3일 자율주행용 AI 시뮬레이션 시스템 Apollo World를 발표했다. 회사는 하루 최대 10만 km의 가상 주행 데이터를 생성할 수 있다고 설명했다. 시스템은 카메라와 라이다 관측을 실시간으로 생성해 차량의 인식·판단을 훈련한다. 바이두는 자사 Apollo Go 로보택시 학습에 이미 사용 중이라고 밝혔다.",
-      "whyItMatters": "현실 도로에서 수집하기 어렵거나 위험한 상황을 가상으로 반복 시험해 자율주행 개발비와 시간을 줄일 수 있다.",
-      "analysis": "10만 km는 바이두가 제시한 시뮬레이션 생성량이며 실제 도로 10만 km 주행과 동등한 안전성을 입증한 수치는 아니다.",
-      "outlook": "6~24개월: 가상 학습이 실제 사고율·개입률을 얼마나 개선하는지 독립 평가와 해외 운행 허가를 확인.",
+      "id": "arm-fiscal-q2-2027-ai-datacenter-licensing",
+      "category": "CPU / CHIP MARKETS",
+      "headline": "Arm 매출 14.4억 달러, 서버 CPU 존재감 확대",
+      "facts": "Arm은 11월 4일 회계연도 2분기 매출 14억4,000만 달러를 발표해 시장 예상치 13억8,000만 달러를 넘어섰다. 라이선스 매출은 7억7,300만 달러로 예상치를 상회했다. 반면 로열티 매출은 6억7,000만 달러로 예상치보다 낮았다. Arm은 주요 클라우드 사업자 서버 배치에서 자사 아키텍처 비중이 2025년 절반을 넘었고 2026년 말 60%를 넘을 것으로 전망했다.",
+      "whyItMatters": "AI 데이터센터가 전력 효율을 중시하면서 GPU뿐 아니라 서버 CPU 설계와 아키텍처 라이선스의 중요성도 커지고 있다.",
+      "analysis": "클라우드 서버 점유율은 Arm의 회사 추정·전망이다. 라이선스 성장과 로열티 실적이 엇갈려 실제 칩 출하와 계약 수익을 구분해야 한다.",
+      "outlook": "6~24개월: 클라우드 사업자의 Arm CPU 채택률, 로열티 성장, 자체 설계 CPU와 x86 경쟁을 확인.",
       "status": "confirmed",
       "sources": [
         {
-          "name": "Reuters · 2026-11-03",
-          "url": "https://www.reuters.com/technology/chinas-baidu-launches-ai-model-simulating-road-environment-robotaxis-2026-11-03/"
+          "name": "Reuters · 2026-11-04",
+          "url": "https://www.reuters.com/business/arm-beats-second-quarter-revenue-estimates-ai-data-center-demand-2026-11-04/"
         }
-      ],
-      "card": {
-        "stat": "10만 km/일",
-        "headline": "로보택시가 가상도로를 달린다",
-        "what": "바이두 Apollo World가 하루 최대 10만 km의 가상 주행을 생성한다. 카메라·라이다 데이터를 만들어 로보택시를 훈련한다.",
-        "why": "실제 도로에서 만나기 어려운 위험 상황을 저비용으로 반복 학습할 수 있다.",
-        "next": "시뮬레이션 성과가 실제 무인 운행 안전성으로 이어지는지 검증.",
-        "hook": "운전 연습장이 AI 속으로 들어왔다"
-      },
-      "visual": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Moscow%2C_Yandex_self-driving_Hyundai_Sonata%2C_Robotaxi_livery%2C_Mar_2026_01.jpg",
-        "credit": "Retired electrician / Wikimedia Commons (Yandex 자율주행차, Baidu 차량 아님)",
-        "license": "CC0 1.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Moscow,_Yandex_self-driving_Hyundai_Sonata,_Robotaxi_livery,_Mar_2026_01.jpg",
-        "reuseAllowed": true,
-        "modified": "cropped and darkened"
-      }
+      ]
     },
     {
-      "id": "google-jules-winddown-antigravity-consolidation",
-      "category": "CODING AGENTS / DEVELOPER TOOLS",
-      "headline": "구글 Jules 종료, 코딩 에이전트는 Antigravity로",
-      "facts": "구글은 공식 변경 기록에서 비동기 코딩 에이전트 Jules를 2026년 12월 31일 종료한다고 공지했다. 11월 11일까지 진행 중인 세션을 마칠 수 있으며 이후 연말까지 읽기 전용으로 전환된다. 구글은 Jules에서 얻은 경험을 Antigravity 등 제품에 반영한다고 밝혔다. 설정·연결 저장소·세션 기록·코드 패치를 로컬 폴더로 내보내는 절차도 공개했다.",
-      "whyItMatters": "AI 코딩 도구를 장기간 프로젝트에 도입할 때 제품 수명과 작업 기록의 이동 가능성이 중요하다는 사례다.",
-      "analysis": "공식 문서의 세션 종료 기한은 2026년 11월 11일이다. 일부 2차 보도에서 2027년으로 잘못 표기돼 공식 일정으로 바로잡았다.",
-      "outlook": "6~24개월: Antigravity로의 기능 통합, Jules 프로젝트 이전 편의성과 코딩 에이전트 시장 재편을 확인.",
+      "id": "figma-ai-credits-proprietary-model-margins",
+      "category": "DESIGN AI / SOFTWARE",
+      "headline": "Figma, 자체 AI 모델과 크레딧 과금으로 수익성 실험",
+      "facts": "Figma는 11월 4일 자체 디자인 AI 모델 사용을 확대하고 AI 크레딧 과금으로 수익성을 높이고 있다고 밝혔다. 10월 기준 대형 유료 고객의 80% 이상이 매주 AI 크레딧을 사용했다. 3분기 매출은 전년 대비 43% 증가한 3억9,140만 달러였다. 회사는 2026년 매출 전망을 14억9,700만~14억9,900만 달러로 상향했다.",
+      "whyItMatters": "디자인 도구의 AI 기능이 단순 무료 부가 기능을 넘어 반복 사용량 기반 매출원으로 자리 잡는 사례다.",
+      "analysis": "자체 모델의 속도·품질·비용 개선은 경영진 설명이며 고객별 효과는 다를 수 있다. 매출 성장에도 매출총이익률은 시장 예상치를 소폭 밑돌았다.",
+      "outlook": "6~24개월: AI 크레딧 구매 지속성, 자체 모델의 비용 절감, 디자인 전문가의 작업 품질 변화를 확인.",
       "status": "confirmed",
       "sources": [
         {
-          "name": "Google Jules 공식 변경 기록 · 2026-10-29",
-          "url": "https://jules.google/docs/changelog/2026-10-29"
+          "name": "Reuters · 2026-11-04",
+          "url": "https://www.reuters.com/technology/figma-banking-ai-credits-in-house-model-lift-margins-2026-11-04/"
+        }
+      ]
+    },
+    {
+      "id": "google-terawulf-anthropic-kentucky-backstop",
+      "category": "AI INFRASTRUCTURE / FINANCE",
+      "headline": "구글이 Anthropic 데이터센터 금융을 보증한다",
+      "facts": "TeraWulf는 11월 4일 켄터키주 AI 데이터센터 사업 자금조달을 지원하는 구글의 신용보강 계약을 확보했다고 밝혔다. 해당 부지는 Anthropic과 20년 임대계약을 체결한 곳으로 계약 매출 규모는 약 190억 달러로 예상된다. 데이터센터의 계획 IT 전력 용량은 약 401MW다. 첫 가동은 2027년 하반기를 목표로 한다.",
+      "whyItMatters": "AI 데이터센터 확장이 반도체 구매를 넘어 장기 임대·신용보증·대규모 전력 인프라 금융까지 연결되고 있다.",
+      "analysis": "190억 달러는 장기 계약 예상 매출이지 이미 발생한 수익이 아니다. 구글의 신용 지원은 프로젝트 자금조달 위험을 낮출 수 있지만 공사·전력·수요 위험을 없애지는 않는다.",
+      "outlook": "6~24개월: 프로젝트 금융 조달 조건, 건설 진척, 2027년 초기 가동 여부와 전력 공급을 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Reuters · 2026-11-04",
+          "url": "https://www.reuters.com/technology/terawulf-gets-credit-backstop-google-anthropic-data-center-project-2026-11-04/"
+        }
+      ]
+    },
+    {
+      "id": "epic-ai-megajam-unreal-uefn-2026",
+      "category": "GAME DEVELOPMENT / AI TOOLS",
+      "headline": "에픽, AI 에이전트 무제한 참여 게임잼 개최",
+      "facts": "Epic Games는 11월 12~15일 Unreal Engine 또는 UEFN으로 게임을 제작하는 AI MegaJam을 개최한다. 팀당 사람은 최대 5명이지만 AI 에이전트 수에는 제한을 두지 않았다. 11월 11일 주제를 공개하고 온라인 및 샌프란시스코 현장 참가를 지원한다. 주요 부문 1위 상금은 각 7,500달러이며 우수작에는 최대 5만 달러의 후속 개발 지원금이 제공될 수 있다.",
+      "whyItMatters": "게임 제작 현장에서 AI 코딩 에이전트와 MCP 기반 편집기 연동을 실전처럼 시험하는 공개 실험장이 열린다.",
+      "analysis": "AI 사용은 허용·장려되지만 의무는 아니다. 4일간 만든 게임의 완성도와 장기적인 상용 게임 제작 생산성은 구분해야 한다.",
+      "outlook": "6~24개월: 출품작의 실제 품질, 인간·에이전트 협업 방식, 수상작의 후속 상용화 여부를 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Unreal Engine 공식 발표 · 2026-10-22",
+          "url": "https://www.unrealengine.com/news/2026-epic-ai-megajam"
         },
         {
-          "name": "TechRadar · 2026-11-02",
-          "url": "https://www.techradar.com/pro/google-kills-off-jules-its-ai-coding-agent-which-promised-to-do-all-the-jobs-you-didnt-want-to"
+          "name": "Epic 개발자 포럼 FAQ",
+          "url": "https://forums.unrealengine.com/t/vibe-your-way-to-50k-the-2026-epic-ai-megajam-is-coming/2843973"
         }
       ]
     },
     {
-      "id": "crowdstrike-fiddler-dreadnode-ai-agent-security",
-      "category": "AI SECURITY / ACQUISITIONS",
-      "headline": "CrowdStrike, AI 에이전트 보안 기업 2곳 인수 추진",
-      "facts": "CrowdStrike는 11월 3일 AI 관측성 기업 Fiddler AI와 보안 테스트 기업 Dreadnode 인수 계획을 발표했다. 보도에 따르면 거래 금액은 각각 약 4억 달러와 9,500만 달러다. Fiddler의 기능은 Falcon Observe에, Dreadnode의 테스트는 Falcon Guardian에 통합할 계획이다. 기업용 AI 에이전트의 행동을 감시하고 배포 전에 취약점을 점검하는 시장을 겨냥했다.",
-      "whyItMatters": "에이전트가 회사 시스템을 직접 조작하면서 기존 PC 보안과 별도로 AI 행동·도구 호출을 감시할 필요가 커졌다.",
-      "analysis": "거래 금액은 보도된 추정치이며 회사의 제품 통합 계획이 실제 보안 효과로 이어질지는 검증이 필요하다.",
-      "outlook": "6~24개월: 인수 종결, 에이전트 행위 감지 정확도, 오탐률과 기업 도입 실적을 확인.",
+      "id": "nasa-swift-telescope-reentry-22-years",
+      "category": "SPACE / SCIENCE",
+      "headline": "22년간 우주 폭발을 지켜본 Swift 망원경 귀환",
+      "facts": "NASA의 Neil Gehrels Swift 우주망원경이 11월 4일 지구 대기권에 재진입해 임무를 마쳤다고 AP가 보도했다. 2004년 발사 당시 계획 수명은 2년이었지만 약 22년간 감마선 폭발과 우주 고에너지 현상을 관측했다. 궤도 고도를 높이기 위한 민간 로봇 구조 임무는 올해 실패했다. NASA는 잔해 대부분이 대기권에서 타버렸을 것으로 예상했다.",
+      "whyItMatters": "우주 관측 장비의 긴 수명과 동시에 노후 위성을 궤도에서 정비·연장하는 기술의 필요성을 보여준다.",
+      "analysis": "망원경 임무 종료와 위성 수리 사업의 실패는 별개다. Swift의 과학적 성과는 많지만 우주 정비 기술은 아직 높은 기술적 위험을 갖는다.",
+      "outlook": "6~24개월: 민간 궤도 정비 기술 재시험, 허블 우주망원경 궤도 유지 방안, 후속 고에너지 천문 관측 임무를 주목.",
       "status": "confirmed",
       "sources": [
         {
-          "name": "CrowdStrike 공식 발표 · 2026-11-03",
-          "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-to-acquire-fiddler/"
+          "name": "Associated Press · 2026-11-04",
+          "url": "https://apnews.com/article/5c19afdd7867dc88d68ea61dba1fbaee"
         },
         {
-          "name": "TechCrunch · 2026-11-03",
-          "url": "https://techcrunch.com/2026/11/03/crowdstrike-to-shell-out-nearly-500m-for-2-ai-security-startups-as-the-market-for-securing-agents-takes-off/"
+          "name": "Reuters · 2026-11-04",
+          "url": "https://www.reuters.com/science/nasas-swift-satellite-telescope-heads-fiery-re-entry-22-years-after-launch-2026-11-04/"
         }
       ]
     },
     {
-      "id": "google-suncatcher-orbit-tpu-gemma-haiku",
-      "category": "SPACE / AI HARDWARE",
-      "headline": "우주에 올린 TPU가 첫 AI 답변을 보냈다",
-      "facts": "구글 Project Suncatcher의 첫 시범 위성이 10월 말 궤도에서 AI 추론 결과를 지상으로 전송했다. 위성에는 TPU 네 개가 실렸지만 전력 제약 때문에 한 번에 한 개를 약 20분씩 가동할 수 있다. Gemma 4 모델은 우주를 주제로 한 짧은 시를 생성했다. 구글은 앞으로 방사선과 온도 변화가 칩 안정성에 미치는 영향을 시험할 계획이다.",
-      "whyItMatters": "AI 데이터센터를 지상 밖으로 옮긴다는 구상이 작은 규모로나마 실제 하드웨어 실험으로 이어졌다.",
-      "analysis": "시 한 편 생성은 대규모 궤도 데이터센터의 경제성이나 연속 가동을 입증하지 않는다. 발사비·방열·통신·전력 문제가 크다.",
-      "outlook": "6~24개월: 방사선 오류율, 위성 간 통신, 전력 가동률과 후속 발사 결과를 추적.",
-      "status": "confirmed",
+      "id": "meta-conductor-multi-coding-agents-acquisition",
+      "category": "AI CODING / ACQUISITIONS",
+      "headline": "메타, 다중 코딩 에이전트 관리 스타트업 인수 보도",
+      "facts": "Axios는 11월 4일 복수의 관계자를 인용해 Meta가 AI 코딩 스타트업 Conductor를 인수했다고 보도했다. Conductor는 개발자가 여러 코딩 에이전트를 동시에 조정하는 도구를 개발한다. 이번 보도는 OpenAI가 Pierre 인수 계획을 공식 발표한 날 나왔다. 인수 금액과 구체적인 통합 계획은 공개되지 않았다.",
+      "whyItMatters": "AI 코딩 경쟁의 초점이 단일 에이전트의 코드 생성에서 여러 에이전트를 감독하는 개발자 경험으로 옮겨갈 가능성이 있다.",
+      "analysis": "Axios의 신뢰할 만한 단독 보도지만 Meta의 공식 발표나 거래 문서를 확인하지 못해 인수 완료 사실은 미확정으로 표시한다.",
+      "outlook": "6~24개월: Meta의 공식 확인, Conductor 제품의 공개 범위, Llama 기반 개발도구 통합 여부를 확인.",
+      "status": "unconfirmed",
       "sources": [
         {
-          "name": "TechCrunch · 2026-10-30",
-          "url": "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/"
-        },
-        {
-          "name": "Google 2026년 10월 AI 소식",
-          "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/"
-        }
-      ]
-    },
-    {
-      "id": "apple-watch-audio-intelligence-beta-live-rewind",
-      "category": "MOBILE / WEARABLE AI",
-      "headline": "애플워치, 방금 들은 15초를 글로 되돌린다",
-      "facts": "Apple Watch의 Audio Intelligence 기능이 iOS 27.3 개발자 베타에서 시험을 시작했다. Live Rewind는 사용자가 조작하면 직전 약 15초의 대화를 텍스트로 확인하도록 설계됐다. Siri Recaps는 대화에서 일정·할 일 등 핵심 내용을 요약한다. Apple은 원본 음성을 보관하지 않고 사용자가 기능을 켜도록 설계했다고 설명했다.",
-      "whyItMatters": "웨어러블 AI가 건강 측정을 넘어 일상 대화 기억을 보조하는 개인 비서로 확장되고 있다.",
-      "analysis": "프라이버시 보호는 Apple이 공개한 설계 설명이며 실제 사용 환경에서 타인의 동의와 민감 대화 처리 문제가 남는다.",
-      "outlook": "6~24개월: 일반 배포 시점, 한국어 지원, 배터리 영향과 개인정보 보호 평가를 확인.",
-      "status": "confirmed",
-      "sources": [
-        {
-          "name": "TechCrunch · 2026-11-02",
-          "url": "https://techcrunch.com/2026/11/02/apple-watchs-ai-features-for-rewinding-and-recapping-conversations-begin-beta-testing/"
-        },
-        {
-          "name": "Apple Developer 베타 안내",
-          "url": "https://developer.apple.com/news/?id=6gpufove"
-        }
-      ]
-    },
-    {
-      "id": "dataiku-headless-claude-codex-enterprise-workflows",
-      "category": "CLAUDE CODE / CODEX / ENTERPRISE",
-      "headline": "Claude Code·Codex에서 기업 데이터 파이프라인 제작",
-      "facts": "Dataiku는 Headless 기능을 공개해 Claude Code·Codex·Cursor 등에서 자사 데이터·AI 프로젝트를 조작하도록 했다. 자연어로 데이터 파이프라인, 머신러닝 모델, 대시보드, 에이전트를 만들고 변경할 수 있다. 회사의 Cobuild가 생성한 결과는 Dataiku 프로젝트로 남아 다른 팀이 검토하고 관리할 수 있다. 기존 Excel·Alteryx 작업을 관리형 프로젝트로 옮기는 시나리오도 제시했다.",
-      "whyItMatters": "코딩 에이전트의 빠른 작업 결과를 기업의 권한 관리와 운영 시스템 안에 연결하는 구체적인 방법이다.",
-      "analysis": "발표된 기능 범위와 실제 대규모 이전 성공률은 다르다. 자동 변경의 승인·감사 기록을 확인해야 한다.",
-      "outlook": "6~24개월: 기업 내 배포 범위, 기존 파이프라인 이전 정확도, 운영 오류와 권한 관리 성능을 추적.",
-      "status": "confirmed",
-      "sources": [
-        {
-          "name": "Dataiku 공식 발표 · 2026-10-27",
-          "url": "https://www.dataiku.com/company/news/dataiku-introduces-headless"
-        },
-        {
-          "name": "Daily Tribune · 2026-11-03",
-          "url": "https://tribune.net.ph/2026/11/03/dataiku-brings-ai-powered-development-to-claude-code-codex"
-        }
-      ]
-    },
-    {
-      "id": "valorant-vct-pacific-korea-open-qualifier-2027",
-      "category": "VALORANT / ESPORTS",
-      "headline": "발로란트 2027 한국 오픈 예선, 참가 신청 시작",
-      "facts": "라이엇게임즈는 11월 2일 2027 VCT Pacific Kickoff Korea Qualifier 접수를 시작했다. 신청 마감은 11월 18일 오후 5시이며 오픈 예선은 11월 25~26일에 열린다. 예선 상위 4팀은 KIWOOM DRX·NS Redforce·VARREL·ONSIDE GAMING과 8강 플레이오프에서 만난다. 최종 우승 1팀이 VCT Pacific Kickoff 2027에 진출한다.",
-      "whyItMatters": "파트너 팀이 아닌 상위 랭크 선수들도 최상위 VCT 무대로 진입할 수 있는 공식 경로가 열렸다.",
-      "analysis": "공개 예선이 곧 국제 무대 진출을 보장하는 것은 아니다. 만 17세 이상, 초월자 1 이상, 한국 거주 선수 구성 등 조건을 충족해야 한다.",
-      "outlook": "6~24개월: 공개 예선 팀의 성과, VCT 진입 팀의 지속성, 2027 개편 포맷의 효과를 확인.",
-      "status": "confirmed",
-      "sources": [
-        {
-          "name": "VALORANT Esports 한국 공식 공지 · 2026-11-02",
-          "url": "https://valorantesports.com/ko-KR/news/2027-vct-pacific-kickoff-korea-qualifier-registration-info/"
-        }
-      ]
-    },
-    {
-      "id": "trajectory-45m-continual-learning-specialist-models",
-      "category": "AI MODELS / DEVELOPER INFRA",
-      "headline": "AI가 업무 피드백으로 계속 배우는 플랫폼에 4,500만 달러",
-      "facts": "Trajectory는 11월 2일 시리즈 A에서 4,500만 달러를 유치했다고 발표했다. 기업가치는 약 3억 달러로 평가됐으며 Sequoia가 투자를 주도했다. 이 회사는 오픈소스 AI 모델에 업무 수행 결과와 전문가 피드백을 연결해 추가 학습하는 플랫폼을 제공한다. 법률·금융 분야 기업이 계약서 검토와 분석 등 전문 업무에 사용하고 있다고 설명했다.",
-      "whyItMatters": "범용 LLM을 반복 호출하는 방식에서 기업별 실제 작업 경험으로 모델을 개선하는 방식으로 경쟁이 확장된다.",
-      "analysis": "투자 유치와 고객 사용은 확인되지만 지속 학습이 모든 작업에서 성능을 높인다는 독립 증거는 아니다. 잘못된 피드백의 누적도 위험이다.",
-      "outlook": "6~24개월: 전문 업무 정확도, 추가 학습 비용, 모델 망각 현상과 고객 유지율을 확인.",
-      "status": "confirmed",
-      "sources": [
-        {
-          "name": "TechCrunch · 2026-11-02",
-          "url": "https://techcrunch.com/2026/11/02/trajectory-raises-45m-to-make-ai-model-training-accessible-to-nontechnical-experts/"
+          "name": "Axios 단독 보도 · 2026-11-04",
+          "url": "https://www.axios.com/2026/11/04/meta-acquires-ai-coding-startup-conductor"
         }
       ]
     }
