@@ -1,0 +1,43 @@
+[2026-11-06] 오늘 볼 만한 AI·테크 뉴스 TOP 3
+
+1. AI가 다음 AI를 더 빨리 만든다
+무슨 일? METR은 Anthropic 모델의 특정 과제 성능 개선 속도가 과거보다 약 1.9배 빨라졌다고 추정했다. 내부 자료와 인터뷰를 분석했다.
+왜 중요? AI가 연구용 코드·실험을 도우면서 모델 개발 주기 자체가 빨라질 가능성.
+다음엔? 다른 연구소 재현과 실제 연구 자동화 정도, 안전 평가 속도.
+
+2. 휴머노이드 기업, 증시에 입성
+무슨 일? Digit 제작사 Agility Robotics가 11월 5일 나스닥 상장. 합병·관련 자금조달 규모는 비용 차감 전 약 4.65억 달러다.
+왜 중요? 로봇의 실제 생산성과 고객 수요가 공개시장 평가 대상이 됐다.
+다음엔? 2027년 Digit 5 인도, 조건부 주문의 실제 매출 전환.
+
+3. AI가 별빛을 지워 행성을 찾다
+무슨 일? Nature 연구팀이 FLIP으로 JWST 관측자료의 외계행성 탐지 민감도를 2~15배 높이고 51 Eridani b를 새 파장에서 포착했다.
+왜 중요? 망원경을 바꾸지 않고도 희미한 행성을 더 잘 찾아낼 수 있다.
+다음엔? 다른 외계행성 관측에서 재현하고 대기 성분 분석에 적용.
+
+오늘 한 줄: AI가 AI 개발을 가속하고, 로봇은 증시에 서고, 별빛 뒤 행성이 보인다.
+
+출처
+- Reuters · 2026-11-05: https://www.reuters.com/technology/anthropics-models-improving-nearly-twice-fast-with-help-ai-study-finds-2026-11-05/
+- Associated Press · 2026-11-05: https://apnews.com/article/9cf8c590ffc1abdb489179bdccc69c23
+- Agility Robotics 공식 발표 · 2026-11-05: https://www.agilityrobotics.com/content/agility-becomes-first-u-s-publicly-listed-pure-play-humanoid-robotics-company-begins-trading-today-on-nasdaq-as-aglt
+- Investor's Business Daily · 2026-11-05: https://www.investors.com/news/tesla-agility-robotics-nvidia-amazon-foxconn-optimus-spac-merger/
+- Nature 원문 연구 · 2026-11-04: https://www.nature.com/articles/s41586-026-11213-z
+- Nature Portfolio 연구 발표 · 2026-11-05: https://www.natureasia.com/en/info/press-releases/detail/9474
+- IBM 공식 발표 · 2026-11-05: https://newsroom.ibm.com/2026-11-05-oak-ridge-national-lab%2C-ibm%2C-and-amd-launch-new-co-design-platform-for-quantum-error-correction
+- IBM Quantum 기술 설명 · 2026-11-05: https://www.ibm.com/quantum/blog/ornl-amd-error-correction-co-design-platform
+- Reuters · 2026-11-05: https://www.reuters.com/business/media-telecom/china-blocks-softbanks-54-billion-takeover-abbs-robotics-division-ft-reports-2026-11-05/
+- Box 공식 발표 · 2026-11-05: https://blog.box.com/box-partners-nvidia-deliver-trusted-content-layer-enterprise-ai
+- BoxWorks 제품 소개 · 2026-11-05: https://blog.box.com/boxworks-2026-box-brings-frontier-ai-business-workflows-enterprise-context-and-control
+- Adobe 공식 발표 · 2026-11-04: https://news.adobe.com/news/2026/11/adobe-integrates-agentic-cx-enterprise-coworker-into-ai-platforms
+- Epic Games Japan 공식 보도자료 · 2026-11-05: https://prtimes.jp/main/html/rd/p/000000211.000036502.html
+- Unity 3분기 공식 배포 실적자료 · 2026-11-05: https://finance.yahoo.com/markets/stocks/articles/unity-reports-third-quarter-2026-120000870.html
+- Unity SEC 8-K 공시 요약: https://www.stocktitan.net/sec-filings/U/8-k-unity-software-inc-reports-material-event-0a565238515e.html
+- Associated Press · 2026-11-05: https://apnews.com/article/7ee9c212805aa5e70cf34d25aab7a36e
+
+이미지 출처
+- Slide 1/2: Pixabay 원작자 / Wikimedia Commons (AI 상징 이미지) · CC0 1.0 · https://commons.wikimedia.org/wiki/File:Artificial-Intelligence.jpg · cropped and darkened
+- Slide 2/3: NASA/Bill Stafford·James Blair·Regan Geeseman (NASA Valkyrie, Digit 아님) · Public Domain (NASA, US) · https://commons.wikimedia.org/wiki/File:Valkyrie-robot-3.jpg · cropped and darkened
+- Slide 3/4: NASA·ESA·CSA·STScI·L. Pueyo·W. Balmer·M. Perrin (2025년 관측 이미지) · Public Domain (NASA/STScI) · https://commons.wikimedia.org/wiki/File:51_Eridani_(NIRCam_Image)_(2025-114).png · cropped and darkened
+
+@daily_tech_magazine · 무단 재업로드/재배포 금지
