@@ -1,240 +1,252 @@
 {
-  "date": "2026-11-05",
-  "edition": 53,
+  "date": "2026-11-06",
+  "edition": 54,
   "brand": "DAILY TECH",
   "handle": "@daily_tech_magazine",
-  "deckTitle": "Codex가 Git을 품고, AI가 PC 칩을 밀어내고, 화성은 숨 쉰다",
-  "deckSubtitle": "Pierre 인수 계획 · 반도체 공급 쏠림 · 화성 화산가스 단서",
+  "deckTitle": "AI가 AI를 1.9배 빨리 만든다…로봇 상장, 외계행성 탐지 15배",
+  "deckSubtitle": "AI 개발 가속·휴머노이드 실전·우주 관측의 변화까지 오늘의 10선",
   "top3": [
-    "openai-pierre-codex-source-control",
-    "siltronic-ai-wafer-supply-crowds-out-pcs",
-    "mars-alba-mons-hydrogen-chloride-volcanism"
+    "metr-anthropic-ai-rd-acceleration-1-9x",
+    "agility-digit-nasdaq-listing-465m",
+    "jwst-flip-exoplanet-imaging-15x"
   ],
-  "dailyAnalysis": "오늘의 기술 흐름은 AI 에이전트가 소프트웨어 개발의 주변 도구를 흡수하고, AI 인프라 수요가 다른 산업의 자원을 재배분한다는 것이다. OpenAI는 Pierre 인수 계획으로 Codex의 Git 저장·검토 기능을 강화하려 하고, Meta의 Conductor 인수 보도는 다중 에이전트 관리 경쟁을 시사하지만 공식 확인 전이다. Siltronic은 AI 데이터센터의 웨이퍼 수요가 PC·스마트폰 공급을 제약한다고 경고했고, Arm의 실적은 저전력 서버 CPU의 중요성을 보여준다. 구글의 데이터센터 신용보강은 AI 투자 경쟁이 금융·전력 인프라로 확장됐음을 보여준다. Figma의 자체 AI 모델과 크레딧 과금, 텐센트의 방어 중심 보안 모델은 AI를 수익화하고 통제하려는 서로 다른 실험이다. 과학에서는 화성 알바 몬스의 염화수소가 현재 화산 활동 가능성을 제기했으며 Swift 망원경은 22년의 관측을 마쳤다. 게임개발에서는 Epic의 AI MegaJam이 사람과 다수 에이전트의 협업을 시험한다. 앞으로 6~24개월에는 AI 개발도구 통합 성과, 반도체 공급 재편, AI 인프라 자금조달의 건전성과 독립적인 과학 검증을 함께 지켜봐야 한다.",
-  "recap": "Codex는 Git을 품고, AI는 칩을 끌어가고, 화성은 가스를 내뿜는다.",
+  "dailyAnalysis": "오늘은 AI가 다음 세대 AI 개발을 돕는 속도 변화와 현실 세계에서 검증받는 로봇 산업이 동시에 부각됐다. METR의 1.9배 추정은 AI 연구 가속의 가능성을 보여주지만 인과관계와 일반화에 한계가 있다. Agility의 상장은 휴머노이드에 대한 기대를 주문 인도와 수익성이라는 실적 지표로 옮긴다. JWST 영상의 별빛을 제거한 FLIP 연구는 AI가 과학 기기의 실질적 관측 능력을 높일 수 있음을 입증했다. IBM·AMD의 양자 오류 정정, Box·Adobe의 업무 에이전트, Epic의 게임 개발 도구는 AI와 고전적 시스템의 결합이 핵심임을 보여준다. 동시에 중국의 로봇 인수 차단과 AI 관련주 급락은 기술 가능성과 별개로 규제·자금조달·사업화 위험을 상기시킨다.",
+  "recap": "AI가 AI 개발을 가속하고, 로봇은 증시에 서고, 별빛 뒤 행성이 보인다.",
   "cover": {
-    "stat": "CODEX × GIT",
-    "title": "AI가 코드를 넘어\n개발 환경까지 삼킨다",
-    "subtitle": "PC 반도체 공급 경고와 화성 화산가스의 단서까지"
+    "stat": "1.9× · 15×",
+    "title": "AI가 AI를 가속한다\n로봇은 상장, 별빛 뒤 행성까지",
+    "subtitle": "오늘 TOP 3: 연구 가속 · 휴머노이드 · 외계행성"
   },
   "stories": [
     {
-      "id": "openai-pierre-codex-source-control",
-      "category": "CODING AGENTS / CODEX",
-      "headline": "OpenAI, Git 도구 회사 Pierre 인수 추진",
-      "facts": "OpenAI는 11월 4일 코드 저장·탐색·리뷰 도구를 개발한 Pierre Computer 인수 계획을 공식 발표했다. Pierre의 Trees와 Diffs 라이브러리는 이미 Codex 앱에서 파일 탐색과 코드 변경 검토에 사용된다. 회사는 Code Storage를 비롯한 Git 기반 작업 기능을 Codex에 통합할 계획이다. 인수 금액은 공개하지 않았고 규제 승인 등 거래 종결 조건이 남아 있다.",
-      "whyItMatters": "Codex가 코드 생성기를 넘어 브랜치 생성·코드 검토·배포까지 포괄하는 개발 작업 공간으로 확장된다.",
-      "analysis": "인수 발표는 확정이지만 거래가 완료된 것은 아니다. 기존 Pierre 오픈소스 프로젝트는 계속 공개하겠다고 약속했으나 장기적인 제품 통합 성과는 미지수다.",
-      "outlook": "6~24개월: Code Storage의 Codex 통합 시점, Git 호환성, 여러 에이전트의 동시 코드 변경 검토 성능을 확인.",
+      "id": "metr-anthropic-ai-rd-acceleration-1-9x",
+      "category": "AI / LLM / RESEARCH",
+      "headline": "AI가 AI를 개발한다…개선 속도 약 1.9배",
+      "facts": "독립 평가기관 METR이 11월 5일 공개한 조사에서 Anthropic의 잘 정의된 벤치마크 과제 성능 개선 속도가 과거보다 약 1.9배 빨라졌다고 추정했다. 8~10월 약 11주 동안 내부 자료와 연구진 인터뷰, 미공개 모델 성능 데이터를 검토했다. AI가 코드 작성과 실험을 돕는 효과가 주요 설명으로 제시됐지만 정확한 인과관계는 확정되지 않았다. 연구진은 추정 불확실성이 크고 핵심 연구 단계가 완전 자동화된 것은 아니라고 강조했다.",
+      "whyItMatters": "AI가 다음 세대 AI 개발을 도우면 모델 개선 주기와 안전성 평가 사이의 시간 격차가 커질 수 있다.",
+      "analysis": "1.9배는 모든 모델 성능이나 전체 회사 생산성이 1.9배라는 뜻이 아니다. 평가 가능한 과제의 개선 추세를 비교한 추정이며 자료 일부가 비공개라 외부 재현에 한계가 있다.",
+      "outlook": "6~24개월: METR의 후속 평가, 다른 연구소의 독립 재현, 모델 개발 자동화 수준과 안전성 평가 주기 변화를 확인.",
       "status": "confirmed",
       "sources": [
         {
-          "name": "OpenAI 공식 발표 · 2026-11-04",
-          "url": "https://openai.com/index/openai-to-acquire-pierre/"
+          "name": "Reuters · 2026-11-05",
+          "url": "https://www.reuters.com/technology/anthropics-models-improving-nearly-twice-fast-with-help-ai-study-finds-2026-11-05/"
         },
         {
-          "name": "Wall Street Journal · 2026-11-04",
-          "url": "https://www.wsj.com/tech/ai/openai-to-bring-pierre-computers-code-storage-to-codex-through-acquisition-05f53582"
+          "name": "Associated Press · 2026-11-05",
+          "url": "https://apnews.com/article/9cf8c590ffc1abdb489179bdccc69c23"
         }
       ],
       "card": {
-        "stat": "CODEX × GIT",
-        "headline": "Codex가 Git 도구 회사를 품는다",
-        "what": "OpenAI가 Pierre 인수 계획을 발표했다. Codex가 이미 쓰는 Trees·Diffs에 코드 저장·이력 관리 기능까지 결합한다.",
-        "why": "AI 에이전트가 만든 코드를 사람이 검토하고 배포하는 전체 흐름을 잡으려는 움직임.",
-        "next": "규제 승인과 Code Storage 통합, 오픈소스 유지 약속의 이행.",
-        "hook": "코딩 에이전트의 다음 전장은 Git이다"
+        "stat": "약 1.9배",
+        "headline": "AI가 다음 AI를 더 빨리 만든다",
+        "what": "METR은 Anthropic 모델의 특정 과제 성능 개선 속도가 과거보다 약 1.9배 빨라졌다고 추정했다. 내부 자료와 인터뷰를 분석했다.",
+        "why": "AI가 연구용 코드·실험을 도우면서 모델 개발 주기 자체가 빨라질 가능성.",
+        "next": "다른 연구소 재현과 실제 연구 자동화 정도, 안전 평가 속도.",
+        "hook": "AI 개발 속도, AI가 다시 끌어올린다"
       },
       "visual": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Programming.jpg",
-        "credit": "Lorenzo Cafaro / Wikimedia Commons (상징 이미지)",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Artificial-Intelligence.jpg",
+        "credit": "Pixabay 원작자 / Wikimedia Commons (AI 상징 이미지)",
         "license": "CC0 1.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Programming.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Artificial-Intelligence.jpg",
         "reuseAllowed": true,
         "modified": "cropped and darkened"
       }
     },
     {
-      "id": "siltronic-ai-wafer-supply-crowds-out-pcs",
-      "category": "GPU / PC HARDWARE",
-      "headline": "AI 서버가 PC·스마트폰용 칩 공급까지 밀어낸다",
-      "facts": "실리콘 웨이퍼 제조사 Siltronic의 CEO는 11월 4일 Reuters에 AI 칩 수요가 반도체 생산능력을 데이터센터 쪽으로 끌어당긴다고 설명했다. 제조사들은 더 높은 가격을 지불하는 대형 AI 고객에게 물량을 우선 배정하고 있다. 그는 AI 서버 팜이 일반 서버보다 실리콘 면적을 약 3~4배 사용한다고 추산했다. Siltronic은 웨이퍼 수요 강세를 이유로 올해 매출 전망을 두 번째 상향했다.",
-      "whyItMatters": "AI 투자 확대가 PC·스마트폰의 부품 공급과 가격에도 영향을 주는 산업 전반의 자원 배분 문제로 커졌다.",
-      "analysis": "3~4배는 Siltronic 경영진의 업계 추정이며 모든 서버에 적용되는 고정 비율은 아니다. PC 수요가 줄었다기보다 공급 배분 때문에 성장 기회를 놓칠 수 있다는 주장이다.",
-      "outlook": "6~24개월: 웨이퍼 생산능력 증설, PC·스마트폰 칩 가격, AI 투자 둔화 시 공급 재배분 속도를 추적.",
+      "id": "agility-digit-nasdaq-listing-465m",
+      "category": "ROBOTICS / PHYSICAL AI",
+      "headline": "휴머노이드 Digit 제작사, 나스닥 상장",
+      "facts": "Agility Robotics가 11월 5일 스팩 합병을 마치고 나스닥에서 AGLT로 거래를 시작했다. 회사는 합병과 관련 자금조달로 비용 차감 전 약 4억6,500만 달러를 확보했다고 발표했다. 차세대 Digit 5에는 계약 조건 충족을 전제로 한 3억 달러 이상의 다년 주문이 있다고 밝혔다. 기존 물류·제조 현장 도입 경험을 바탕으로 2027년 공급 확대를 추진한다.",
+      "whyItMatters": "휴머노이드 로봇의 상용화 성과를 공개시장에서 투자자들이 지속적으로 평가할 수 있는 사례가 등장했다.",
+      "analysis": "3억 달러는 이미 인식된 매출이 아니라 조건부 장기 주문이다. 상장 자체가 생산 수율이나 고객 투자수익률을 증명하지 않는다.",
+      "outlook": "6~24개월: Digit 5의 고객 인도량, 실제 작업시간당 비용, 계약 조건 충족과 수익성 공시를 확인.",
       "status": "confirmed",
       "sources": [
         {
-          "name": "Reuters · 2026-11-04",
-          "url": "https://www.reuters.com/business/ai-boom-draws-chip-supply-other-end-markets-siltronic-ceo-says-2026-11-04/"
-        }
-      ],
-      "card": {
-        "stat": "3~4배",
-        "headline": "AI가 PC용 칩까지 밀어낸다",
-        "what": "Siltronic CEO는 AI 서버가 일반 서버보다 실리콘 면적을 약 3~4배 사용하며 생산능력이 AI 고객에게 쏠린다고 설명했다.",
-        "why": "GPU 호황이 스마트폰·노트북용 반도체 공급과 가격에 영향을 줄 수 있다.",
-        "next": "웨이퍼 증설과 소비자 기기 칩 공급·가격 변화.",
-        "hook": "AI 붐의 숨은 비용은 PC 부품이다"
-      },
-      "visual": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Silicon_wafer.jpg",
-        "credit": "Inductiveload / Wikimedia Commons (실리콘 웨이퍼 상징 이미지)",
-        "license": "Public Domain",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Silicon_wafer.jpg",
-        "reuseAllowed": true,
-        "modified": "cropped and darkened"
-      }
-    },
-    {
-      "id": "mars-alba-mons-hydrogen-chloride-volcanism",
-      "category": "SPACE / SCIENCE",
-      "headline": "화성에서 화산가스 흔적, 내부가 아직 살아 있나",
-      "facts": "11월 4일 보도된 Science Advances 연구에서 ExoMars Trace Gas Orbiter가 화성 알바 몬스 주변 지표 균열 위 대기에서 염화수소를 관측했다. 염화수소는 지구에서 화산 분출과 관련되는 기체다. 연구진은 지하 마그마의 탈가스가 가장 가능성 높은 설명이라고 제시했다. 계절별 변화는 여름철 얼음이 녹으면서 균열에 갇힌 기체가 방출되는 시나리오와도 맞는다.",
-      "whyItMatters": "화성이 완전히 지질학적으로 죽은 행성이 아닐 수 있으며 지하 열원과 물의 상호작용을 탐색할 단서를 제공한다.",
-      "analysis": "염화수소 검출 자체와 현재 화산 활동의 입증은 다르다. 연구진이 제시한 화산성 기원은 유력한 가설이며 직접 마그마를 관측한 것은 아니다.",
-      "outlook": "6~24개월: 추가 궤도 관측에서 계절성 가스 분출이 재현되는지, 비화산성 대체 설명을 배제할 수 있는지 확인.",
-      "status": "confirmed",
-      "sources": [
+          "name": "Agility Robotics 공식 발표 · 2026-11-05",
+          "url": "https://www.agilityrobotics.com/content/agility-becomes-first-u-s-publicly-listed-pure-play-humanoid-robotics-company-begins-trading-today-on-nasdaq-as-aglt"
+        },
         {
-          "name": "Reuters · 2026-11-04",
-          "url": "https://www.reuters.com/science/pungent-gas-above-martian-fissures-hints-ongoing-volcanism-2026-11-04/"
+          "name": "Investor's Business Daily · 2026-11-05",
+          "url": "https://www.investors.com/news/tesla-agility-robotics-nvidia-amazon-foxconn-optimus-spac-merger/"
         }
       ],
       "card": {
-        "stat": "HCl 검출",
-        "headline": "화성 화산은 아직 살아 있을까",
-        "what": "ExoMars 탐사선이 알바 몬스 균열 위에서 염화수소를 검출했다. 연구진은 지하 마그마의 가스 방출 가능성을 제시했다.",
-        "why": "지하 열과 물이 공존하는 환경은 화성의 지질 활동과 생명 가능성 연구에 중요하다.",
-        "next": "반복 관측과 화산성 기원에 대한 독립 검증.",
-        "hook": "붉은 행성의 내부가 다시 주목받는다"
+        "stat": "4.65억 달러",
+        "headline": "휴머노이드 기업, 증시에 입성",
+        "what": "Digit 제작사 Agility Robotics가 11월 5일 나스닥 상장. 합병·관련 자금조달 규모는 비용 차감 전 약 4.65억 달러다.",
+        "why": "로봇의 실제 생산성과 고객 수요가 공개시장 평가 대상이 됐다.",
+        "next": "2027년 Digit 5 인도, 조건부 주문의 실제 매출 전환.",
+        "hook": "로봇의 미래가 이제 실적으로 시험받는다"
       },
       "visual": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Alba_Patera.jpg",
-        "credit": "NASA / USGS / Wikimedia Commons (알바 몬스 위성영상)",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Valkyrie-robot-3.jpg",
+        "credit": "NASA/Bill Stafford·James Blair·Regan Geeseman (NASA Valkyrie, Digit 아님)",
         "license": "Public Domain (NASA, US)",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alba_Patera.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Valkyrie-robot-3.jpg",
         "reuseAllowed": true,
         "modified": "cropped and darkened"
       }
     },
     {
-      "id": "tencent-hy4-defensive-cyber-model",
-      "category": "AI MODELS / SECURITY",
-      "headline": "텐센트 Hy4, 공격용 해킹 데이터 빼고 학습",
-      "facts": "텐센트는 11월 4일 사이버보안 방어 작업에 초점을 맞춘 AI 모델 Hy4를 공개했다. 회사는 취약점 수정 같은 방어 데이터는 활용하되 공격 도구 제작과 시스템 침입 관련 학습 자료는 제외했다고 설명했다. 내부 시험에서 사이버공격 능력이나 생물학적 위해 능력이 유의미하게 높아지지 않았다고 주장했다. 모델 가중치와 안전성 평가 보고서를 공개할 계획이라고 밝혔다.",
-      "whyItMatters": "보안 업무에 유용한 AI를 만들면서 공격 능력의 확산을 억제할 수 있는지 실험하는 접근이다.",
-      "analysis": "안전성 결과는 회사 내부 평가이며 외부 연구자의 재현이 아직 필요하다. 공격 지식 제거가 실제 모든 우회 경로를 막는다고 단정할 수 없다.",
-      "outlook": "6~24개월: 가중치 공개 후 독립 레드팀 평가, 방어 성능과 공격 억제 사이의 균형을 확인.",
+      "id": "jwst-flip-exoplanet-imaging-15x",
+      "category": "SCIENCE / AI IMAGING",
+      "headline": "AI가 별빛을 지워 외계행성 탐지 15배 개선",
+      "facts": "11월 4일 Nature에 발표된 연구가 제임스웹우주망원경(JWST)의 실제 관측자료에서 외계행성 영상 탐지 민감도를 기존 기법보다 2~15배 높였다. FLIP라는 방법은 망원경의 물리 모델과 자동미분을 활용해 별빛의 번짐을 예측하고 제거한다. 기존 분석에서 검출하지 못했던 51 Eridani b를 4.3마이크로미터 파장에서 포착했다. 연구진은 향후 지상·우주 망원경에도 확장할 수 있다고 제시했다.",
+      "whyItMatters": "새 망원경을 발사하지 않고도 기존 관측자료에서 더 희미한 행성을 찾아낼 가능성이 커졌다.",
+      "analysis": "15배는 모든 행성에서 보장되는 수치가 아니라 특정 관측 조건의 최대 민감도 개선치다. 이번에 지구형 생명체가 발견된 것은 아니다.",
+      "outlook": "6~24개월: 다른 관측 자료에서 재현, 행성 대기 특성 분석, 로먼 우주망원경 등으로의 확장 가능성을 확인.",
       "status": "confirmed",
       "sources": [
         {
-          "name": "Reuters · 2026-11-04",
-          "url": "https://www.reuters.com/legal/litigation/tencent-rolls-out-ai-model-trained-with-limited-cybersecurity-data-amid-hacking-2026-11-04/"
-        }
-      ]
-    },
-    {
-      "id": "arm-fiscal-q2-2027-ai-datacenter-licensing",
-      "category": "CPU / CHIP MARKETS",
-      "headline": "Arm 매출 14.4억 달러, 서버 CPU 존재감 확대",
-      "facts": "Arm은 11월 4일 회계연도 2분기 매출 14억4,000만 달러를 발표해 시장 예상치 13억8,000만 달러를 넘어섰다. 라이선스 매출은 7억7,300만 달러로 예상치를 상회했다. 반면 로열티 매출은 6억7,000만 달러로 예상치보다 낮았다. Arm은 주요 클라우드 사업자 서버 배치에서 자사 아키텍처 비중이 2025년 절반을 넘었고 2026년 말 60%를 넘을 것으로 전망했다.",
-      "whyItMatters": "AI 데이터센터가 전력 효율을 중시하면서 GPU뿐 아니라 서버 CPU 설계와 아키텍처 라이선스의 중요성도 커지고 있다.",
-      "analysis": "클라우드 서버 점유율은 Arm의 회사 추정·전망이다. 라이선스 성장과 로열티 실적이 엇갈려 실제 칩 출하와 계약 수익을 구분해야 한다.",
-      "outlook": "6~24개월: 클라우드 사업자의 Arm CPU 채택률, 로열티 성장, 자체 설계 CPU와 x86 경쟁을 확인.",
-      "status": "confirmed",
-      "sources": [
-        {
-          "name": "Reuters · 2026-11-04",
-          "url": "https://www.reuters.com/business/arm-beats-second-quarter-revenue-estimates-ai-data-center-demand-2026-11-04/"
-        }
-      ]
-    },
-    {
-      "id": "figma-ai-credits-proprietary-model-margins",
-      "category": "DESIGN AI / SOFTWARE",
-      "headline": "Figma, 자체 AI 모델과 크레딧 과금으로 수익성 실험",
-      "facts": "Figma는 11월 4일 자체 디자인 AI 모델 사용을 확대하고 AI 크레딧 과금으로 수익성을 높이고 있다고 밝혔다. 10월 기준 대형 유료 고객의 80% 이상이 매주 AI 크레딧을 사용했다. 3분기 매출은 전년 대비 43% 증가한 3억9,140만 달러였다. 회사는 2026년 매출 전망을 14억9,700만~14억9,900만 달러로 상향했다.",
-      "whyItMatters": "디자인 도구의 AI 기능이 단순 무료 부가 기능을 넘어 반복 사용량 기반 매출원으로 자리 잡는 사례다.",
-      "analysis": "자체 모델의 속도·품질·비용 개선은 경영진 설명이며 고객별 효과는 다를 수 있다. 매출 성장에도 매출총이익률은 시장 예상치를 소폭 밑돌았다.",
-      "outlook": "6~24개월: AI 크레딧 구매 지속성, 자체 모델의 비용 절감, 디자인 전문가의 작업 품질 변화를 확인.",
-      "status": "confirmed",
-      "sources": [
-        {
-          "name": "Reuters · 2026-11-04",
-          "url": "https://www.reuters.com/technology/figma-banking-ai-credits-in-house-model-lift-margins-2026-11-04/"
-        }
-      ]
-    },
-    {
-      "id": "google-terawulf-anthropic-kentucky-backstop",
-      "category": "AI INFRASTRUCTURE / FINANCE",
-      "headline": "구글이 Anthropic 데이터센터 금융을 보증한다",
-      "facts": "TeraWulf는 11월 4일 켄터키주 AI 데이터센터 사업 자금조달을 지원하는 구글의 신용보강 계약을 확보했다고 밝혔다. 해당 부지는 Anthropic과 20년 임대계약을 체결한 곳으로 계약 매출 규모는 약 190억 달러로 예상된다. 데이터센터의 계획 IT 전력 용량은 약 401MW다. 첫 가동은 2027년 하반기를 목표로 한다.",
-      "whyItMatters": "AI 데이터센터 확장이 반도체 구매를 넘어 장기 임대·신용보증·대규모 전력 인프라 금융까지 연결되고 있다.",
-      "analysis": "190억 달러는 장기 계약 예상 매출이지 이미 발생한 수익이 아니다. 구글의 신용 지원은 프로젝트 자금조달 위험을 낮출 수 있지만 공사·전력·수요 위험을 없애지는 않는다.",
-      "outlook": "6~24개월: 프로젝트 금융 조달 조건, 건설 진척, 2027년 초기 가동 여부와 전력 공급을 확인.",
-      "status": "confirmed",
-      "sources": [
-        {
-          "name": "Reuters · 2026-11-04",
-          "url": "https://www.reuters.com/technology/terawulf-gets-credit-backstop-google-anthropic-data-center-project-2026-11-04/"
-        }
-      ]
-    },
-    {
-      "id": "epic-ai-megajam-unreal-uefn-2026",
-      "category": "GAME DEVELOPMENT / AI TOOLS",
-      "headline": "에픽, AI 에이전트 무제한 참여 게임잼 개최",
-      "facts": "Epic Games는 11월 12~15일 Unreal Engine 또는 UEFN으로 게임을 제작하는 AI MegaJam을 개최한다. 팀당 사람은 최대 5명이지만 AI 에이전트 수에는 제한을 두지 않았다. 11월 11일 주제를 공개하고 온라인 및 샌프란시스코 현장 참가를 지원한다. 주요 부문 1위 상금은 각 7,500달러이며 우수작에는 최대 5만 달러의 후속 개발 지원금이 제공될 수 있다.",
-      "whyItMatters": "게임 제작 현장에서 AI 코딩 에이전트와 MCP 기반 편집기 연동을 실전처럼 시험하는 공개 실험장이 열린다.",
-      "analysis": "AI 사용은 허용·장려되지만 의무는 아니다. 4일간 만든 게임의 완성도와 장기적인 상용 게임 제작 생산성은 구분해야 한다.",
-      "outlook": "6~24개월: 출품작의 실제 품질, 인간·에이전트 협업 방식, 수상작의 후속 상용화 여부를 확인.",
-      "status": "confirmed",
-      "sources": [
-        {
-          "name": "Unreal Engine 공식 발표 · 2026-10-22",
-          "url": "https://www.unrealengine.com/news/2026-epic-ai-megajam"
+          "name": "Nature 원문 연구 · 2026-11-04",
+          "url": "https://www.nature.com/articles/s41586-026-11213-z"
         },
         {
-          "name": "Epic 개발자 포럼 FAQ",
-          "url": "https://forums.unrealengine.com/t/vibe-your-way-to-50k-the-2026-epic-ai-megajam-is-coming/2843973"
+          "name": "Nature Portfolio 연구 발표 · 2026-11-05",
+          "url": "https://www.natureasia.com/en/info/press-releases/detail/9474"
         }
-      ]
+      ],
+      "card": {
+        "stat": "최대 15배",
+        "headline": "AI가 별빛을 지워 행성을 찾다",
+        "what": "Nature 연구팀이 FLIP으로 JWST 관측자료의 외계행성 탐지 민감도를 2~15배 높이고 51 Eridani b를 새 파장에서 포착했다.",
+        "why": "망원경을 바꾸지 않고도 희미한 행성을 더 잘 찾아낼 수 있다.",
+        "next": "다른 외계행성 관측에서 재현하고 대기 성분 분석에 적용.",
+        "hook": "우주망원경의 눈을 AI로 업그레이드"
+      },
+      "visual": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/51_Eridani_%28NIRCam_Image%29_%282025-114%29.png",
+        "credit": "NASA·ESA·CSA·STScI·L. Pueyo·W. Balmer·M. Perrin (2025년 관측 이미지)",
+        "license": "Public Domain (NASA/STScI)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:51_Eridani_(NIRCam_Image)_(2025-114).png",
+        "reuseAllowed": true,
+        "modified": "cropped and darkened"
+      }
     },
     {
-      "id": "nasa-swift-telescope-reentry-22-years",
-      "category": "SPACE / SCIENCE",
-      "headline": "22년간 우주 폭발을 지켜본 Swift 망원경 귀환",
-      "facts": "NASA의 Neil Gehrels Swift 우주망원경이 11월 4일 지구 대기권에 재진입해 임무를 마쳤다고 AP가 보도했다. 2004년 발사 당시 계획 수명은 2년이었지만 약 22년간 감마선 폭발과 우주 고에너지 현상을 관측했다. 궤도 고도를 높이기 위한 민간 로봇 구조 임무는 올해 실패했다. NASA는 잔해 대부분이 대기권에서 타버렸을 것으로 예상했다.",
-      "whyItMatters": "우주 관측 장비의 긴 수명과 동시에 노후 위성을 궤도에서 정비·연장하는 기술의 필요성을 보여준다.",
-      "analysis": "망원경 임무 종료와 위성 수리 사업의 실패는 별개다. Swift의 과학적 성과는 많지만 우주 정비 기술은 아직 높은 기술적 위험을 갖는다.",
-      "outlook": "6~24개월: 민간 궤도 정비 기술 재시험, 허블 우주망원경 궤도 유지 방안, 후속 고에너지 천문 관측 임무를 주목.",
+      "id": "ibm-amd-ornl-quantum-error-correction-platform",
+      "category": "QUANTUM / GPU",
+      "headline": "IBM 양자칩 옆에 AMD GPU를 붙였다",
+      "facts": "IBM·AMD·오크리지국립연구소가 11월 5일 양자 오류 정정 공동 설계 플랫폼을 공개했다. 120큐비트급 IBM Quantum Nighthawk 프로세서와 AMD Instinct MI355X GPU·5세대 EPYC CPU를 쓰는 Umbra 슈퍼컴퓨팅 시스템을 한 장소에 배치했다. 연구진은 양자 오류를 빠르게 판독하고 수정하는 고전 컴퓨팅 소프트웨어를 공동 최적화할 계획이다. 미국 에너지부의 2028년 양자 계산 목표와 연계한 연구 기반이다.",
+      "whyItMatters": "양자컴퓨터가 실용화되려면 큐비트뿐 아니라 오류를 즉시 처리할 CPU·GPU 인프라도 필요하다.",
+      "analysis": "플랫폼 출범은 오류 정정 문제의 해결 완료가 아니다. IBM이 밝힌 현재 실험과 2028년 목표 사이에는 여전히 큰 성능 격차가 있다.",
+      "outlook": "6~24개월: 오류 판독 지연, 논리 큐비트 수와 신뢰할 수 있는 연산 횟수 개선을 확인.",
       "status": "confirmed",
       "sources": [
         {
-          "name": "Associated Press · 2026-11-04",
-          "url": "https://apnews.com/article/5c19afdd7867dc88d68ea61dba1fbaee"
+          "name": "IBM 공식 발표 · 2026-11-05",
+          "url": "https://newsroom.ibm.com/2026-11-05-oak-ridge-national-lab%2C-ibm%2C-and-amd-launch-new-co-design-platform-for-quantum-error-correction"
         },
         {
-          "name": "Reuters · 2026-11-04",
-          "url": "https://www.reuters.com/science/nasas-swift-satellite-telescope-heads-fiery-re-entry-22-years-after-launch-2026-11-04/"
+          "name": "IBM Quantum 기술 설명 · 2026-11-05",
+          "url": "https://www.ibm.com/quantum/blog/ornl-amd-error-correction-co-design-platform"
         }
       ]
     },
     {
-      "id": "meta-conductor-multi-coding-agents-acquisition",
-      "category": "AI CODING / ACQUISITIONS",
-      "headline": "메타, 다중 코딩 에이전트 관리 스타트업 인수 보도",
-      "facts": "Axios는 11월 4일 복수의 관계자를 인용해 Meta가 AI 코딩 스타트업 Conductor를 인수했다고 보도했다. Conductor는 개발자가 여러 코딩 에이전트를 동시에 조정하는 도구를 개발한다. 이번 보도는 OpenAI가 Pierre 인수 계획을 공식 발표한 날 나왔다. 인수 금액과 구체적인 통합 계획은 공개되지 않았다.",
-      "whyItMatters": "AI 코딩 경쟁의 초점이 단일 에이전트의 코드 생성에서 여러 에이전트를 감독하는 개발자 경험으로 옮겨갈 가능성이 있다.",
-      "analysis": "Axios의 신뢰할 만한 단독 보도지만 Meta의 공식 발표나 거래 문서를 확인하지 못해 인수 완료 사실은 미확정으로 표시한다.",
-      "outlook": "6~24개월: Meta의 공식 확인, Conductor 제품의 공개 범위, Llama 기반 개발도구 통합 여부를 확인.",
-      "status": "unconfirmed",
+      "id": "china-blocks-softbank-abb-robotics-deal",
+      "category": "ROBOTICS / MARKET",
+      "headline": "중국, 소프트뱅크의 54억 달러 로봇 인수 차단",
+      "facts": "중국 국가발전개혁위원회가 소프트뱅크의 ABB 로봇사업부 인수(약 54억 달러)를 허용하지 않겠다는 입장을 전달했다고 11월 5일 Reuters가 보도했다. ABB도 중국의 반대 사실을 확인했다. ABB 로봇 사업은 중국에서 생산·연구 활동을 운영하며 중국 매출 비중이 약 30%다. 두 회사는 거래 성사를 위한 협의를 계속하고 있다.",
+      "whyItMatters": "산업용 로봇과 피지컬 AI가 전략 기술로 취급되면서 국경을 넘는 인수합병의 규제 위험이 커졌다.",
+      "analysis": "현재 확인된 것은 중국의 불허 방침이지 거래의 최종 법적 종료가 아니다. 보도된 우려 사유는 관계자 설명을 포함하며 공식 결정문 전체가 공개된 것은 아니다.",
+      "outlook": "6~24개월: 중국과의 재협상 결과, 사업부의 대체 소유 구조, 로봇 산업 인수합병 규제 흐름을 확인.",
+      "status": "confirmed",
       "sources": [
         {
-          "name": "Axios 단독 보도 · 2026-11-04",
-          "url": "https://www.axios.com/2026/11/04/meta-acquires-ai-coding-startup-conductor"
+          "name": "Reuters · 2026-11-05",
+          "url": "https://www.reuters.com/business/media-telecom/china-blocks-softbanks-54-billion-takeover-abbs-robotics-division-ft-reports-2026-11-05/"
+        }
+      ]
+    },
+    {
+      "id": "box-nvidia-nemotron-context-retrieval",
+      "category": "AI AGENTS / ENTERPRISE",
+      "headline": "Box·NVIDIA, 에이전트가 회사 문서를 찾는 엔진",
+      "facts": "Box가 11월 5일 NVIDIA Nemotron 기반 Box Context Retrieval을 발표했다. 기업 문서에서 키워드 검색과 의미 검색을 결합해 AI 에이전트에 관련 정보를 제공하도록 설계됐다. NVIDIA OpenShell을 이용한 보안 실행환경과 Nemotron 오픈 가중치 모델의 Box AI 통합도 소개했다. Context Retrieval은 발표 시점에 '출시 예정' 기능으로 안내됐다.",
+      "whyItMatters": "에이전트가 문서를 잘못 찾거나 권한을 넘어서 읽으면 업무 자동화의 신뢰성이 무너질 수 있다.",
+      "analysis": "검색 정확도·비용 절감은 실제 고객 환경의 독립 평가가 필요하다. 발표된 모든 기능이 즉시 일반 제공되는 것은 아니다.",
+      "outlook": "6~24개월: 정식 출시, 권한 준수·검색 정확도, 기업의 에이전트 작업 비용 절감을 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Box 공식 발표 · 2026-11-05",
+          "url": "https://blog.box.com/box-partners-nvidia-deliver-trusted-content-layer-enterprise-ai"
+        },
+        {
+          "name": "BoxWorks 제품 소개 · 2026-11-05",
+          "url": "https://blog.box.com/boxworks-2026-box-brings-frontier-ai-business-workflows-enterprise-context-and-control"
+        }
+      ]
+    },
+    {
+      "id": "adobe-cx-coworker-five-ai-platforms",
+      "category": "AI AGENTS / SOFTWARE",
+      "headline": "어도비 업무 에이전트, ChatGPT·Claude로 들어온다",
+      "facts": "Adobe가 11월 4일 CX Enterprise Coworker를 ChatGPT 플러그인, Claude, Databricks Genie, Gemini for business, Microsoft Copilot에서 이용할 수 있다고 발표했다. 이 도구는 고객 여정 계획, 캠페인 분석, 마케팅 워크플로 조정을 지원한다. MCP와 A2A 표준을 사용하며 파트너 서비스용 커넥터도 제공한다. AWS·IBM·Snowflake 지원은 향후 제공 계획으로 구분했다.",
+      "whyItMatters": "AI 비서가 별도 앱이 아니라 기업의 기존 업무 도구 안에서 실제 데이터를 읽고 작업을 실행하는 형태로 확장된다.",
+      "analysis": "지원 플랫폼 수와 실제 자동화 품질은 다르다. 개인정보·광고 집행 권한과 인간 승인 절차가 운영의 핵심이다.",
+      "outlook": "6~24개월: 플랫폼별 기능 격차, MCP 연동 안정성, 마케팅 성과의 객관적 측정을 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Adobe 공식 발표 · 2026-11-04",
+          "url": "https://news.adobe.com/news/2026/11/adobe-integrates-agentic-cx-enterprise-coworker-into-ai-platforms"
+        }
+      ]
+    },
+    {
+      "id": "unreal-fest-tokyo-ue59-preview-ue6",
+      "category": "GAME DEVELOPMENT / UNREAL",
+      "headline": "언리얼 5.9 예고, AI 워크플로·웹 지원 강화",
+      "facts": "Epic Games Japan이 11월 5일 Unreal Fest Tokyo 2026의 주요 발표를 정리했다. 회사는 Unreal Engine 5.9 프리뷰를 다음 주 공개할 계획이라고 밝혔다. 5.9에는 AI 지원 개발 워크플로, 웹 대상 플랫폼 지원, 렌더링·애니메이션 기능 개선이 포함될 예정이다. 팀 스위니는 행사에서 Unreal Engine 6의 장기 방향과 개방형 생태계 구상을 설명했다.",
+      "whyItMatters": "게임 개발자가 AI 보조 제작과 웹 배포를 하나의 엔진에서 다룰 가능성이 커진다.",
+      "analysis": "5.9 기능은 아직 프리뷰 예고 단계이고 Unreal Engine 6은 비전 설명이다. 구체적인 성능 개선은 출시 후 검증해야 한다.",
+      "outlook": "6~24개월: 5.9 프리뷰의 실제 지원 범위, 웹 빌드 성능, UE6의 호환성·개발 일정 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Epic Games Japan 공식 보도자료 · 2026-11-05",
+          "url": "https://prtimes.jp/main/html/rd/p/000000211.000036502.html"
+        }
+      ]
+    },
+    {
+      "id": "unity-q3-2026-first-gaap-profit-vector",
+      "category": "GAME DEV / AI MARKET",
+      "headline": "유니티, 상장 후 첫 분기 흑자…광고 AI가 견인",
+      "facts": "Unity는 11월 5일 2026년 3분기 매출 6억2,209만 달러로 전년 동기보다 32% 늘었다고 발표했다. GAAP 기준 순이익은 약 1억2,159만 달러로 상장 이후 첫 분기 흑자를 기록했다. Unity Vector 광고 시스템의 매출 성장률은 전년 대비 126%라고 회사가 밝혔다. 게임 제작 엔진 부문(Create) 매출은 1억6,500만 달러로 약 8% 증가했다.",
+      "whyItMatters": "게임 엔진 사업자의 성장 동력이 제작 도구 구독뿐 아니라 AI 기반 광고·게임 발견으로 이동하고 있다.",
+      "analysis": "Vector의 높은 성장률을 게임 엔진 사용료의 성장으로 혼동하면 안 된다. 순이익에는 회계 항목도 영향을 주므로 현금흐름과 함께 살펴야 한다.",
+      "outlook": "6~24개월: AI 광고 수익의 지속성, Create 부문 성장, 개발자 생태계와 과금 정책의 변화를 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Unity 3분기 공식 배포 실적자료 · 2026-11-05",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/unity-reports-third-quarter-2026-120000870.html"
+        },
+        {
+          "name": "Unity SEC 8-K 공시 요약",
+          "url": "https://www.stocktitan.net/sec-filings/U/8-k-unity-software-inc-reports-material-event-0a565238515e.html"
+        }
+      ]
+    },
+    {
+      "id": "ai-stocks-wall-street-nasdaq-drop-5-5",
+      "category": "AI MARKET / HARDWARE",
+      "headline": "AI 인프라 우려에 나스닥 5.5% 급락",
+      "facts": "11월 5일 미국 증시에서 나스닥 종합지수가 5.5% 하락하고 S&P 500은 4.4% 떨어졌다고 AP가 보도했다. NVIDIA는 9.3%, AMD는 17.3% 하락해 AI 인프라 관련주가 매도세를 주도했다. 투자자들은 데이터센터 건설비, 차입 비용, 인허가와 지역사회 반발에 따른 투자 지연을 우려했다. 한국 코스피도 같은 날 5.3% 하락했다.",
+      "whyItMatters": "AI 하드웨어 시장은 수요 성장 기대뿐 아니라 자금조달과 전력·건설 병목에도 크게 반응한다.",
+      "analysis": "하루 주가 급락은 AI 칩 수요가 이미 감소했다는 증거가 아니다. 실물 투자 계획의 취소와 시장의 위험 재평가를 구분해야 한다.",
+      "outlook": "6~24개월: 주요 기업의 실제 설비투자 집행, 데이터센터 가동률, 금리와 반도체 주문의 변화를 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Associated Press · 2026-11-05",
+          "url": "https://apnews.com/article/7ee9c212805aa5e70cf34d25aab7a36e"
         }
       ]
     }
