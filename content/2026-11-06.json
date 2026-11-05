@@ -1,0 +1,254 @@
+{
+  "date": "2026-11-06",
+  "edition": 54,
+  "brand": "DAILY TECH",
+  "handle": "@daily_tech_magazine",
+  "deckTitle": "AI가 AI를 1.9배 빨리 만든다…로봇 상장, 외계행성 탐지 15배",
+  "deckSubtitle": "AI 개발 가속·휴머노이드 실전·우주 관측의 변화까지 오늘의 10선",
+  "top3": [
+    "metr-anthropic-ai-rd-acceleration-1-9x",
+    "agility-digit-nasdaq-listing-465m",
+    "jwst-flip-exoplanet-imaging-15x"
+  ],
+  "dailyAnalysis": "오늘은 AI가 다음 세대 AI 개발을 돕는 속도 변화와 현실 세계에서 검증받는 로봇 산업이 동시에 부각됐다. METR의 1.9배 추정은 AI 연구 가속의 가능성을 보여주지만 인과관계와 일반화에 한계가 있다. Agility의 상장은 휴머노이드에 대한 기대를 주문 인도와 수익성이라는 실적 지표로 옮긴다. JWST 영상의 별빛을 제거한 FLIP 연구는 AI가 과학 기기의 실질적 관측 능력을 높일 수 있음을 입증했다. IBM·AMD의 양자 오류 정정, Box·Adobe의 업무 에이전트, Epic의 게임 개발 도구는 AI와 고전적 시스템의 결합이 핵심임을 보여준다. 동시에 중국의 로봇 인수 차단과 AI 관련주 급락은 기술 가능성과 별개로 규제·자금조달·사업화 위험을 상기시킨다.",
+  "recap": "AI가 AI 개발을 가속하고, 로봇은 증시에 서고, 별빛 뒤 행성이 보인다.",
+  "cover": {
+    "stat": "1.9× · 15×",
+    "title": "AI가 AI를 가속한다\n로봇은 상장, 별빛 뒤 행성까지",
+    "subtitle": "오늘 TOP 3: 연구 가속 · 휴머노이드 · 외계행성"
+  },
+  "stories": [
+    {
+      "id": "metr-anthropic-ai-rd-acceleration-1-9x",
+      "category": "AI / LLM / RESEARCH",
+      "headline": "AI가 AI를 개발한다…개선 속도 약 1.9배",
+      "facts": "독립 평가기관 METR이 11월 5일 공개한 조사에서 Anthropic의 잘 정의된 벤치마크 과제 성능 개선 속도가 과거보다 약 1.9배 빨라졌다고 추정했다. 8~10월 약 11주 동안 내부 자료와 연구진 인터뷰, 미공개 모델 성능 데이터를 검토했다. AI가 코드 작성과 실험을 돕는 효과가 주요 설명으로 제시됐지만 정확한 인과관계는 확정되지 않았다. 연구진은 추정 불확실성이 크고 핵심 연구 단계가 완전 자동화된 것은 아니라고 강조했다.",
+      "whyItMatters": "AI가 다음 세대 AI 개발을 도우면 모델 개선 주기와 안전성 평가 사이의 시간 격차가 커질 수 있다.",
+      "analysis": "1.9배는 모든 모델 성능이나 전체 회사 생산성이 1.9배라는 뜻이 아니다. 평가 가능한 과제의 개선 추세를 비교한 추정이며 자료 일부가 비공개라 외부 재현에 한계가 있다.",
+      "outlook": "6~24개월: METR의 후속 평가, 다른 연구소의 독립 재현, 모델 개발 자동화 수준과 안전성 평가 주기 변화를 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Reuters · 2026-11-05",
+          "url": "https://www.reuters.com/technology/anthropics-models-improving-nearly-twice-fast-with-help-ai-study-finds-2026-11-05/"
+        },
+        {
+          "name": "Associated Press · 2026-11-05",
+          "url": "https://apnews.com/article/9cf8c590ffc1abdb489179bdccc69c23"
+        }
+      ],
+      "card": {
+        "stat": "약 1.9배",
+        "headline": "AI가 다음 AI를 더 빨리 만든다",
+        "what": "METR은 Anthropic 모델의 특정 과제 성능 개선 속도가 과거보다 약 1.9배 빨라졌다고 추정했다. 내부 자료와 인터뷰를 분석했다.",
+        "why": "AI가 연구용 코드·실험을 도우면서 모델 개발 주기 자체가 빨라질 가능성.",
+        "next": "다른 연구소 재현과 실제 연구 자동화 정도, 안전 평가 속도.",
+        "hook": "AI 개발 속도, AI가 다시 끌어올린다"
+      },
+      "visual": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Artificial-Intelligence.jpg",
+        "credit": "Pixabay 원작자 / Wikimedia Commons (AI 상징 이미지)",
+        "license": "CC0 1.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Artificial-Intelligence.jpg",
+        "reuseAllowed": true,
+        "modified": "cropped and darkened"
+      }
+    },
+    {
+      "id": "agility-digit-nasdaq-listing-465m",
+      "category": "ROBOTICS / PHYSICAL AI",
+      "headline": "휴머노이드 Digit 제작사, 나스닥 상장",
+      "facts": "Agility Robotics가 11월 5일 스팩 합병을 마치고 나스닥에서 AGLT로 거래를 시작했다. 회사는 합병과 관련 자금조달로 비용 차감 전 약 4억6,500만 달러를 확보했다고 발표했다. 차세대 Digit 5에는 계약 조건 충족을 전제로 한 3억 달러 이상의 다년 주문이 있다고 밝혔다. 기존 물류·제조 현장 도입 경험을 바탕으로 2027년 공급 확대를 추진한다.",
+      "whyItMatters": "휴머노이드 로봇의 상용화 성과를 공개시장에서 투자자들이 지속적으로 평가할 수 있는 사례가 등장했다.",
+      "analysis": "3억 달러는 이미 인식된 매출이 아니라 조건부 장기 주문이다. 상장 자체가 생산 수율이나 고객 투자수익률을 증명하지 않는다.",
+      "outlook": "6~24개월: Digit 5의 고객 인도량, 실제 작업시간당 비용, 계약 조건 충족과 수익성 공시를 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Agility Robotics 공식 발표 · 2026-11-05",
+          "url": "https://www.agilityrobotics.com/content/agility-becomes-first-u-s-publicly-listed-pure-play-humanoid-robotics-company-begins-trading-today-on-nasdaq-as-aglt"
+        },
+        {
+          "name": "Investor's Business Daily · 2026-11-05",
+          "url": "https://www.investors.com/news/tesla-agility-robotics-nvidia-amazon-foxconn-optimus-spac-merger/"
+        }
+      ],
+      "card": {
+        "stat": "4.65억 달러",
+        "headline": "휴머노이드 기업, 증시에 입성",
+        "what": "Digit 제작사 Agility Robotics가 11월 5일 나스닥 상장. 합병·관련 자금조달 규모는 비용 차감 전 약 4.65억 달러다.",
+        "why": "로봇의 실제 생산성과 고객 수요가 공개시장 평가 대상이 됐다.",
+        "next": "2027년 Digit 5 인도, 조건부 주문의 실제 매출 전환.",
+        "hook": "로봇의 미래가 이제 실적으로 시험받는다"
+      },
+      "visual": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Valkyrie-robot-3.jpg",
+        "credit": "NASA/Bill Stafford·James Blair·Regan Geeseman (NASA Valkyrie, Digit 아님)",
+        "license": "Public Domain (NASA, US)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Valkyrie-robot-3.jpg",
+        "reuseAllowed": true,
+        "modified": "cropped and darkened"
+      }
+    },
+    {
+      "id": "jwst-flip-exoplanet-imaging-15x",
+      "category": "SCIENCE / AI IMAGING",
+      "headline": "AI가 별빛을 지워 외계행성 탐지 15배 개선",
+      "facts": "11월 4일 Nature에 발표된 연구가 제임스웹우주망원경(JWST)의 실제 관측자료에서 외계행성 영상 탐지 민감도를 기존 기법보다 2~15배 높였다. FLIP라는 방법은 망원경의 물리 모델과 자동미분을 활용해 별빛의 번짐을 예측하고 제거한다. 기존 분석에서 검출하지 못했던 51 Eridani b를 4.3마이크로미터 파장에서 포착했다. 연구진은 향후 지상·우주 망원경에도 확장할 수 있다고 제시했다.",
+      "whyItMatters": "새 망원경을 발사하지 않고도 기존 관측자료에서 더 희미한 행성을 찾아낼 가능성이 커졌다.",
+      "analysis": "15배는 모든 행성에서 보장되는 수치가 아니라 특정 관측 조건의 최대 민감도 개선치다. 이번에 지구형 생명체가 발견된 것은 아니다.",
+      "outlook": "6~24개월: 다른 관측 자료에서 재현, 행성 대기 특성 분석, 로먼 우주망원경 등으로의 확장 가능성을 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Nature 원문 연구 · 2026-11-04",
+          "url": "https://www.nature.com/articles/s41586-026-11213-z"
+        },
+        {
+          "name": "Nature Portfolio 연구 발표 · 2026-11-05",
+          "url": "https://www.natureasia.com/en/info/press-releases/detail/9474"
+        }
+      ],
+      "card": {
+        "stat": "최대 15배",
+        "headline": "AI가 별빛을 지워 행성을 찾다",
+        "what": "Nature 연구팀이 FLIP으로 JWST 관측자료의 외계행성 탐지 민감도를 2~15배 높이고 51 Eridani b를 새 파장에서 포착했다.",
+        "why": "망원경을 바꾸지 않고도 희미한 행성을 더 잘 찾아낼 수 있다.",
+        "next": "다른 외계행성 관측에서 재현하고 대기 성분 분석에 적용.",
+        "hook": "우주망원경의 눈을 AI로 업그레이드"
+      },
+      "visual": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/51_Eridani_%28NIRCam_Image%29_%282025-114%29.png",
+        "credit": "NASA·ESA·CSA·STScI·L. Pueyo·W. Balmer·M. Perrin (2025년 관측 이미지)",
+        "license": "Public Domain (NASA/STScI)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:51_Eridani_(NIRCam_Image)_(2025-114).png",
+        "reuseAllowed": true,
+        "modified": "cropped and darkened"
+      }
+    },
+    {
+      "id": "ibm-amd-ornl-quantum-error-correction-platform",
+      "category": "QUANTUM / GPU",
+      "headline": "IBM 양자칩 옆에 AMD GPU를 붙였다",
+      "facts": "IBM·AMD·오크리지국립연구소가 11월 5일 양자 오류 정정 공동 설계 플랫폼을 공개했다. 120큐비트급 IBM Quantum Nighthawk 프로세서와 AMD Instinct MI355X GPU·5세대 EPYC CPU를 쓰는 Umbra 슈퍼컴퓨팅 시스템을 한 장소에 배치했다. 연구진은 양자 오류를 빠르게 판독하고 수정하는 고전 컴퓨팅 소프트웨어를 공동 최적화할 계획이다. 미국 에너지부의 2028년 양자 계산 목표와 연계한 연구 기반이다.",
+      "whyItMatters": "양자컴퓨터가 실용화되려면 큐비트뿐 아니라 오류를 즉시 처리할 CPU·GPU 인프라도 필요하다.",
+      "analysis": "플랫폼 출범은 오류 정정 문제의 해결 완료가 아니다. IBM이 밝힌 현재 실험과 2028년 목표 사이에는 여전히 큰 성능 격차가 있다.",
+      "outlook": "6~24개월: 오류 판독 지연, 논리 큐비트 수와 신뢰할 수 있는 연산 횟수 개선을 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "IBM 공식 발표 · 2026-11-05",
+          "url": "https://newsroom.ibm.com/2026-11-05-oak-ridge-national-lab%2C-ibm%2C-and-amd-launch-new-co-design-platform-for-quantum-error-correction"
+        },
+        {
+          "name": "IBM Quantum 기술 설명 · 2026-11-05",
+          "url": "https://www.ibm.com/quantum/blog/ornl-amd-error-correction-co-design-platform"
+        }
+      ]
+    },
+    {
+      "id": "china-blocks-softbank-abb-robotics-deal",
+      "category": "ROBOTICS / MARKET",
+      "headline": "중국, 소프트뱅크의 54억 달러 로봇 인수 차단",
+      "facts": "중국 국가발전개혁위원회가 소프트뱅크의 ABB 로봇사업부 인수(약 54억 달러)를 허용하지 않겠다는 입장을 전달했다고 11월 5일 Reuters가 보도했다. ABB도 중국의 반대 사실을 확인했다. ABB 로봇 사업은 중국에서 생산·연구 활동을 운영하며 중국 매출 비중이 약 30%다. 두 회사는 거래 성사를 위한 협의를 계속하고 있다.",
+      "whyItMatters": "산업용 로봇과 피지컬 AI가 전략 기술로 취급되면서 국경을 넘는 인수합병의 규제 위험이 커졌다.",
+      "analysis": "현재 확인된 것은 중국의 불허 방침이지 거래의 최종 법적 종료가 아니다. 보도된 우려 사유는 관계자 설명을 포함하며 공식 결정문 전체가 공개된 것은 아니다.",
+      "outlook": "6~24개월: 중국과의 재협상 결과, 사업부의 대체 소유 구조, 로봇 산업 인수합병 규제 흐름을 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Reuters · 2026-11-05",
+          "url": "https://www.reuters.com/business/media-telecom/china-blocks-softbanks-54-billion-takeover-abbs-robotics-division-ft-reports-2026-11-05/"
+        }
+      ]
+    },
+    {
+      "id": "box-nvidia-nemotron-context-retrieval",
+      "category": "AI AGENTS / ENTERPRISE",
+      "headline": "Box·NVIDIA, 에이전트가 회사 문서를 찾는 엔진",
+      "facts": "Box가 11월 5일 NVIDIA Nemotron 기반 Box Context Retrieval을 발표했다. 기업 문서에서 키워드 검색과 의미 검색을 결합해 AI 에이전트에 관련 정보를 제공하도록 설계됐다. NVIDIA OpenShell을 이용한 보안 실행환경과 Nemotron 오픈 가중치 모델의 Box AI 통합도 소개했다. Context Retrieval은 발표 시점에 '출시 예정' 기능으로 안내됐다.",
+      "whyItMatters": "에이전트가 문서를 잘못 찾거나 권한을 넘어서 읽으면 업무 자동화의 신뢰성이 무너질 수 있다.",
+      "analysis": "검색 정확도·비용 절감은 실제 고객 환경의 독립 평가가 필요하다. 발표된 모든 기능이 즉시 일반 제공되는 것은 아니다.",
+      "outlook": "6~24개월: 정식 출시, 권한 준수·검색 정확도, 기업의 에이전트 작업 비용 절감을 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Box 공식 발표 · 2026-11-05",
+          "url": "https://blog.box.com/box-partners-nvidia-deliver-trusted-content-layer-enterprise-ai"
+        },
+        {
+          "name": "BoxWorks 제품 소개 · 2026-11-05",
+          "url": "https://blog.box.com/boxworks-2026-box-brings-frontier-ai-business-workflows-enterprise-context-and-control"
+        }
+      ]
+    },
+    {
+      "id": "adobe-cx-coworker-five-ai-platforms",
+      "category": "AI AGENTS / SOFTWARE",
+      "headline": "어도비 업무 에이전트, ChatGPT·Claude로 들어온다",
+      "facts": "Adobe가 11월 4일 CX Enterprise Coworker를 ChatGPT 플러그인, Claude, Databricks Genie, Gemini for business, Microsoft Copilot에서 이용할 수 있다고 발표했다. 이 도구는 고객 여정 계획, 캠페인 분석, 마케팅 워크플로 조정을 지원한다. MCP와 A2A 표준을 사용하며 파트너 서비스용 커넥터도 제공한다. AWS·IBM·Snowflake 지원은 향후 제공 계획으로 구분했다.",
+      "whyItMatters": "AI 비서가 별도 앱이 아니라 기업의 기존 업무 도구 안에서 실제 데이터를 읽고 작업을 실행하는 형태로 확장된다.",
+      "analysis": "지원 플랫폼 수와 실제 자동화 품질은 다르다. 개인정보·광고 집행 권한과 인간 승인 절차가 운영의 핵심이다.",
+      "outlook": "6~24개월: 플랫폼별 기능 격차, MCP 연동 안정성, 마케팅 성과의 객관적 측정을 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Adobe 공식 발표 · 2026-11-04",
+          "url": "https://news.adobe.com/news/2026/11/adobe-integrates-agentic-cx-enterprise-coworker-into-ai-platforms"
+        }
+      ]
+    },
+    {
+      "id": "unreal-fest-tokyo-ue59-preview-ue6",
+      "category": "GAME DEVELOPMENT / UNREAL",
+      "headline": "언리얼 5.9 예고, AI 워크플로·웹 지원 강화",
+      "facts": "Epic Games Japan이 11월 5일 Unreal Fest Tokyo 2026의 주요 발표를 정리했다. 회사는 Unreal Engine 5.9 프리뷰를 다음 주 공개할 계획이라고 밝혔다. 5.9에는 AI 지원 개발 워크플로, 웹 대상 플랫폼 지원, 렌더링·애니메이션 기능 개선이 포함될 예정이다. 팀 스위니는 행사에서 Unreal Engine 6의 장기 방향과 개방형 생태계 구상을 설명했다.",
+      "whyItMatters": "게임 개발자가 AI 보조 제작과 웹 배포를 하나의 엔진에서 다룰 가능성이 커진다.",
+      "analysis": "5.9 기능은 아직 프리뷰 예고 단계이고 Unreal Engine 6은 비전 설명이다. 구체적인 성능 개선은 출시 후 검증해야 한다.",
+      "outlook": "6~24개월: 5.9 프리뷰의 실제 지원 범위, 웹 빌드 성능, UE6의 호환성·개발 일정 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Epic Games Japan 공식 보도자료 · 2026-11-05",
+          "url": "https://prtimes.jp/main/html/rd/p/000000211.000036502.html"
+        }
+      ]
+    },
+    {
+      "id": "unity-q3-2026-first-gaap-profit-vector",
+      "category": "GAME DEV / AI MARKET",
+      "headline": "유니티, 상장 후 첫 분기 흑자…광고 AI가 견인",
+      "facts": "Unity는 11월 5일 2026년 3분기 매출 6억2,209만 달러로 전년 동기보다 32% 늘었다고 발표했다. GAAP 기준 순이익은 약 1억2,159만 달러로 상장 이후 첫 분기 흑자를 기록했다. Unity Vector 광고 시스템의 매출 성장률은 전년 대비 126%라고 회사가 밝혔다. 게임 제작 엔진 부문(Create) 매출은 1억6,500만 달러로 약 8% 증가했다.",
+      "whyItMatters": "게임 엔진 사업자의 성장 동력이 제작 도구 구독뿐 아니라 AI 기반 광고·게임 발견으로 이동하고 있다.",
+      "analysis": "Vector의 높은 성장률을 게임 엔진 사용료의 성장으로 혼동하면 안 된다. 순이익에는 회계 항목도 영향을 주므로 현금흐름과 함께 살펴야 한다.",
+      "outlook": "6~24개월: AI 광고 수익의 지속성, Create 부문 성장, 개발자 생태계와 과금 정책의 변화를 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Unity 3분기 공식 배포 실적자료 · 2026-11-05",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/unity-reports-third-quarter-2026-120000870.html"
+        },
+        {
+          "name": "Unity SEC 8-K 공시 요약",
+          "url": "https://www.stocktitan.net/sec-filings/U/8-k-unity-software-inc-reports-material-event-0a565238515e.html"
+        }
+      ]
+    },
+    {
+      "id": "ai-stocks-wall-street-nasdaq-drop-5-5",
+      "category": "AI MARKET / HARDWARE",
+      "headline": "AI 인프라 우려에 나스닥 5.5% 급락",
+      "facts": "11월 5일 미국 증시에서 나스닥 종합지수가 5.5% 하락하고 S&P 500은 4.4% 떨어졌다고 AP가 보도했다. NVIDIA는 9.3%, AMD는 17.3% 하락해 AI 인프라 관련주가 매도세를 주도했다. 투자자들은 데이터센터 건설비, 차입 비용, 인허가와 지역사회 반발에 따른 투자 지연을 우려했다. 한국 코스피도 같은 날 5.3% 하락했다.",
+      "whyItMatters": "AI 하드웨어 시장은 수요 성장 기대뿐 아니라 자금조달과 전력·건설 병목에도 크게 반응한다.",
+      "analysis": "하루 주가 급락은 AI 칩 수요가 이미 감소했다는 증거가 아니다. 실물 투자 계획의 취소와 시장의 위험 재평가를 구분해야 한다.",
+      "outlook": "6~24개월: 주요 기업의 실제 설비투자 집행, 데이터센터 가동률, 금리와 반도체 주문의 변화를 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Associated Press · 2026-11-05",
+          "url": "https://apnews.com/article/7ee9c212805aa5e70cf34d25aab7a36e"
+        }
+      ]
+    }
+  ]
+}
