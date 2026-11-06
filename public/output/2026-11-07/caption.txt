@@ -1,0 +1,45 @@
+[2026-11-07] 오늘 볼 만한 AI·테크 뉴스 TOP 3
+
+1. GPT-6, 취약점을 찾아낸다
+무슨 일? OpenAI의 보안 모델 GPT-6 Cyber가 Firefox의 신규 고위험 취약점 81건을 찾고 Linux 커널 취약점 948건의 재현 공격을 개발했다.
+왜 중요? 코드 감사에서 실제 재현과 패치 제안까지 AI 보안 연구가 확대된다.
+다음엔? Mozilla 패치 반영과 독립 평가, 제한된 연구 권한 준수 여부.
+
+2. 로봇에도 클라우드 시대
+무슨 일? Serve Robotics가 로봇 통신·데이터 선별·현장 학습 데이터 서비스를 외부 기업에 공개했다. 건설로봇 기업도 초기 고객이다.
+왜 중요? 로봇 제조사도 자체 데이터·통신 인프라를 외부 서비스로 조달할 수 있다.
+다음엔? 실제 외부 고객 증가와 로봇 통신 안정성·서비스 매출.
+
+3. Xbox에도 AI 업스케일링
+무슨 일? AMD가 Xbox Series X|S 개발자에게 머신러닝 FSR 4.1.2를 제공했다. Full·Lite 모델을 선택해 게임에 통합할 수 있다.
+왜 중요? 기존 콘솔도 AI 업스케일링으로 화질·성능 개선을 노릴 수 있다.
+다음엔? 지원 게임 출시, 실제 FPS·화질·입력 지연 비교.
+
+오늘 한 줄: GPT-6는 보안 취약점을 찾고, 로봇은 클라우드를 쓰며, Xbox도 AI로 진화한다.
+
+출처
+- OpenAI 공식 발표 · 2026-11-05: https://openai.com/index/introducing-gpt-6-cyber/
+- Reuters · 2026-11-05: https://www.reuters.com/technology/openai-launches-gpt-6-cyber-with-critical-cybersecurity-rating-2026-11-05/
+- Serve Robotics 공식 발표 · 2026-11-05: https://serverobotics.gcs-web.com/news-releases/news-release-details/serve-robotics-launches-physical-ai-services-opening-technology
+- TechCrunch · 2026-11-05: https://techcrunch.com/2026/11/05/serve-robotics-launches-new-business-to-become-the-aws-for-robots/
+- AMD GPUOpen 공식 발표 · 2026-11-04: https://gpuopen.com/learn/amd-fsr-upscaling-412-xbox/
+- AMD 개발자 커뮤니티 · 2026-11-05: https://devcommunity.amd.com/t/amd-fsr-upscaling-4-1-2-comes-to-xbox-series-x-s/1308
+- Perplexity 공식 블로그 · 2026-11-04: https://www.perplexity.ai/hub/blog/teammates-are-agents-for-complex-ongoing-work
+- The Verge · 2026-11-05: https://www.theverge.com/ai-artificial-intelligence/1028302/perplexity-teammates-ai-agents-work
+- Anthropic 연구 발표 · 2026-11-04: https://www.anthropic.com/research/investigating-vault-particles-with-claude
+- 개발자 GitHub 원본: https://github.com/HHHHanasak1/xess-xmx-linux
+- PC Gamer · 2026-11-06: https://www.pcgamer.com/hardware/handheld-gaming-pcs/experimental-project-beats-intel-in-bringing-real-intel-xess-super-resolution-to-steamos-and-proton-games-on-linux/
+- Meta 공식 발표 · 2026-11-06: https://about.fb.com/news/2026/11/introducing-spaces-customize-muse-app/
+- The Verge · 2026-11-06: https://www.theverge.com/tech/1028871/meta-muse-ai-spaces
+- JCAP 원문 연구 · 2026-11-04: https://doi.org/10.1088/1475-7516/2026/11/012
+- Live Science · 2026-11-06: https://www.livescience.com/physics-mathematics/physicists-sank-a-telescope-1-5-miles-under-the-sea-to-put-einsteins-relativity-to-the-test
+- Reuters · 2026-11-06 (Bloomberg 인용): https://www.reuters.com/business/finance/ing-puts-500-million-data-center-loans-up-sale-bloomberg-news-reports-2026-11-06/
+- Perplexity 공식 연구 · 2026-11-02: https://www.perplexity.ai/hub/blog/browsesafe-plus-plus
+- BrowseSafe++ GitHub: https://github.com/perplexityai/browsesafe-plus-plus
+
+이미지 출처
+- Slide 1/2: Pixabay / Wikimedia Commons (보안 상징 이미지) · CC0 1.0 · https://commons.wikimedia.org/wiki/File:Security_Online.jpg · cropped and darkened
+- Slide 2/3: JIP (Starship 배달 로봇; Serve Robotics 제품 아님) · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Starship_food_delivery_robot_crossing_a_street_in_Loviisa.jpg · cropped and darkened
+- Slide 3/4: Kyu3a (Xbox Series X/S 실물) · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Xbox_Series_X%E3%81%A8Series_S.jpg · cropped and darkened
+
+@daily_tech_magazine · 무단 재업로드/재배포 금지
