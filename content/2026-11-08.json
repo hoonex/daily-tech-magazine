@@ -1,0 +1,258 @@
+{
+  "date": "2026-11-08",
+  "edition": 56,
+  "brand": "DAILY TECH",
+  "handle": "@daily_tech_magazine",
+  "deckTitle": "AI가 18년 수학 난제를 풀었다…32MB 음성 모델과 테슬라의 로보택시 전환",
+  "deckSubtitle": "AI 수학 증명 · 로컬 음성 AI · 자율주행 · 로봇 시뮬레이션 · PC 게임·AI 시장 10선",
+  "top3": [
+    "psi-anthropic-aaronson-ambainis-lean-proof",
+    "underdog-woof-32mb-browser-voice",
+    "tesla-cybertruck-wind-down-cybercab-2027"
+  ],
+  "dailyAnalysis": "오늘의 기술 뉴스는 AI가 더 적은 자원으로 더 어려운 일을 수행하는 방향과, 실제 세계의 인프라·규제 제약이 동시에 중요해지는 흐름을 보여준다. PSI의 AI 보조 형식 증명은 수학 연구 자동화의 가능성을 제시했지만 독립 검증이 남아 있다. Underdog의 초경량 음성 모델은 로컬·오프라인 AI의 진전을 보여준다. Tesla의 Cybercab 중심 생산 재편과 Physicl의 예외상황 시뮬레이션은 로봇·자율주행 상용화가 하드웨어 생산량뿐 아니라 신뢰성과 훈련 데이터에 달려 있음을 시사한다. Google의 데이터센터 부지 인수와 Alphabet의 Qualcomm 지분 보유는 AI 컴퓨팅의 전력·칩 공급 경쟁을 보여주고, Ramp 지표는 사용량과 매출이 같은 속도로 증가하지 않을 수 있음을 보여준다. GOG의 Linux 지원과 고전 게임 복원은 개발 생태계의 개방성을, Censys의 보안 연구는 강력한 AI 도구의 운영상 위험을 드러낸다.",
+  "recap": "AI는 18년 난제를 풀고 32MB로 말하며, 테슬라는 로보택시로 방향을 튼다.",
+  "cover": {
+    "stat": "18년 난제 · 31.7MB · 2027",
+    "title": "AI가 수학 난제를 풀었다\n테슬라는 로보택시로",
+    "subtitle": "오늘 TOP 3: 양자 수학 증명 · 초경량 음성 AI · Cybercab 전환"
+  },
+  "stories": [
+    {
+      "id": "psi-anthropic-aaronson-ambainis-lean-proof",
+      "category": "AI / QUANTUM SCIENCE",
+      "headline": "비공개 Anthropic AI, 18년 된 양자컴퓨팅 난제 증명",
+      "facts": "Physical Superintelligence(PSI)는 11월 6일 2008년부터 미해결이던 Aaronson–Ambainis 추측의 증명을 공개했다. PSI의 자체 연구 시스템은 비공개 Anthropic 모델을 사용했으며 실행 3일째에 완전한 증명을 얻었다고 밝혔다. 증명 보조기 Lean이 형식화된 증명을 받아들였고 논문과 코드를 공개했다. 이 결과는 무작위·비구조화 입력에서 양자컴퓨터가 지수적인 질의 속도 우위를 얻기 어렵다는 이론과 관련되지만, 외부 전문가의 독립 검토와 학술 심사는 아직 진행 중이다.",
+      "whyItMatters": "AI가 논문 요약을 넘어 검증 가능한 수학 증명 생산에 기여한 사례로, 양자 알고리즘의 가능 범위를 이해하는 데 중요하다.",
+      "analysis": "Lean의 수용은 형식화된 명제가 논리적으로 도출됨을 뒷받침하지만, 그것이 원래 추측과 정확히 일치하는지와 독립 재현 여부는 별도로 검증해야 한다.",
+      "outlook": "6~24개월: 원 저자·독립 수학자 검토, Lean 재실행, 학술지 심사와 다른 난제에 대한 재현 가능성을 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "PSI 공식 연구 · 2026-11-06",
+          "url": "https://psi.inc/research/aaronson-ambainis/"
+        },
+        {
+          "name": "PSI 공개 증명 코드",
+          "url": "https://github.com/physical-superintelligence/aaronson-ambainis"
+        }
+      ],
+      "card": {
+        "stat": "18년 난제",
+        "headline": "AI가 양자 난제를 증명했다",
+        "what": "PSI가 비공개 Anthropic 모델을 이용해 2008년부터 미해결이던 양자컴퓨팅 수학 추측의 증명을 3일 만에 만들었다고 발표했다.",
+        "why": "Lean이 형식 증명을 받아들여 AI의 수학 연구 역량을 보여줬다.",
+        "next": "외부 수학자의 독립 검증과 학술 심사 결과.",
+        "hook": "18년 동안 풀리지 않던 수학 문제, AI가 풀었다"
+      },
+      "visual": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Mathematics_%28cryptography%29_on_a_blackboard.jpg",
+        "credit": "David Malone (수학 칠판 상징 이미지, 해당 증명 원본 아님)",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mathematics_(cryptography)_on_a_blackboard.jpg",
+        "reuseAllowed": true,
+        "modified": "cropped and darkened"
+      }
+    },
+    {
+      "id": "underdog-woof-32mb-browser-voice",
+      "category": "LOCAL AI / AUDIO",
+      "headline": "음성 생성 AI가 32MB, 브라우저에서 작동",
+      "facts": "Underdog가 11월 5일 공개한 Woof 음성 합성 모델은 단일 음성 데모 기준 약 31.7MB다. 회사는 모델을 브라우저 안에서 실행하는 복고풍 게임 데모를 공개했으며 타자기로 문장을 입력하면 음성으로 읽어준다. TechCrunch에 따르면 약 3,100만 매개변수 모델이며 인터넷 연결 없이 대부분의 기기에서 실행 가능하다고 회사가 설명했다. 별도로 더 큰 두 음성 버전이 있어 모든 Woof 배포본의 크기가 31.7MB인 것은 아니다.",
+      "whyItMatters": "로컬 음성 AI가 가벼워지면 저사양 노트북·스마트폰에서 개인정보를 외부 서버로 보내지 않는 음성 인터페이스를 만들기 쉬워진다.",
+      "analysis": "시연 성공이 고급 클라우드 TTS 수준의 음질·다국어 지원·지연시간을 보장하지 않는다. 상용 배포 전 모델 가중치의 사용 조건을 확인해야 한다.",
+      "outlook": "6~24개월: 실제 CPU·모바일 브라우저 지연시간, 한국어 지원, 음질 평가와 로컬 음성 비서 통합을 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "TechCrunch · 2026-11-06",
+          "url": "https://techcrunch.com/2026/11/06/underdog-shows-off-a-32mb-speech-model-in-new-demo/"
+        },
+        {
+          "name": "Underdog Woof 데모",
+          "url": "https://underdog.ai/woof"
+        }
+      ],
+      "card": {
+        "stat": "31.7MB",
+        "headline": "목소리 AI가 32MB?",
+        "what": "Underdog의 Woof는 약 31.7MB 단일 음성 모델로 브라우저에서 문장을 음성으로 바꾸는 게임 데모를 공개했다.",
+        "why": "인터넷 없이 돌아가는 초경량 음성 비서의 가능성이 커진다.",
+        "next": "모바일 실측 속도·음질, 한국어 지원과 상업적 사용 조건.",
+        "hook": "클라우드 없이 말하는 AI"
+      },
+      "visual": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Sound_Wave_1.jpg",
+        "credit": "Jahzcore (음향 파형 상징 이미지)",
+        "license": "CC BY-SA 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sound_Wave_1.jpg",
+        "reuseAllowed": true,
+        "modified": "cropped and darkened"
+      }
+    },
+    {
+      "id": "tesla-cybertruck-wind-down-cybercab-2027",
+      "category": "ROBOTAXI / VEHICLES",
+      "headline": "테슬라, 사이버트럭 생산 줄이고 로보택시로 전환",
+      "facts": "Tesla CEO 일론 머스크는 11월 6일 텍사스 공장의 Cybertruck 생산을 2027년 중반 무렵 줄여 Cybercab 생산 공간을 확보할 계획이라고 밝혔다. 11월 7일에는 기존 주문을 최대한 처리하기 위해 추가 생산 교대조를 투입하겠다고 말했다. 미국 내 Cybertruck 판매량은 2024년 약 3만9천 대에서 2025년 약 2만 대로 줄었다는 업계 추정이 보도됐다. Cybertruck의 타 공장 이전이나 완전 단종 여부는 아직 확정되지 않았다.",
+      "whyItMatters": "Tesla의 제조 우선순위가 독특한 전기 픽업트럭에서 자율주행 전용 차량으로 옮겨가고 있음을 보여준다.",
+      "analysis": "Cybercab 증산 계획은 경영진의 계획일 뿐, 무인 자율주행의 안전성·규제 승인·수익성을 보장하지 않는다. 완전 단종이라고 단정해서는 안 된다.",
+      "outlook": "6~24개월: Cybertruck 실제 생산 종료·이전 여부, Cybercab 생산량, 무인 운행 승인과 안전 지표를 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Reuters · 2026-11-07",
+          "url": "https://www.reuters.com/business/autos-transportation/tesla-expand-cybertruck-production-bid-fill-orders-before-dismantling-line-next-2026-11-07/"
+        },
+        {
+          "name": "TechCrunch · 2026-11-06",
+          "url": "https://techcrunch.com/2026/11/06/tesla-will-stop-making-the-cybertruck-in-2027/"
+        }
+      ],
+      "card": {
+        "stat": "2027년 중반",
+        "headline": "사이버트럭 대신 로보택시",
+        "what": "Tesla가 텍사스 Cybertruck 생산라인을 2027년 중반 Cybercab 증산에 활용할 계획이다. 기존 주문 처리를 위해 추가 교대조도 투입한다.",
+        "why": "테슬라의 제조 역량이 전기 픽업에서 자율주행 차량으로 이동한다.",
+        "next": "실제 라인 전환과 Cybercab 생산·규제 승인 성과.",
+        "hook": "사이버트럭이 비켜선 자리엔 로보택시"
+      },
+      "visual": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/2024_Tesla_Cybertruck_-_01.jpg/1280px-2024_Tesla_Cybertruck_-_01.jpg",
+        "credit": "Oleg Yunakov (2025년 Cybertruck 실물 사진)",
+        "license": "CC BY-SA 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:2024_Tesla_Cybertruck_-_01.jpg",
+        "reuseAllowed": true,
+        "modified": "cropped and darkened"
+      }
+    },
+    {
+      "id": "physicl-studio-robot-simulation-10m",
+      "category": "ROBOTICS / WORLD MODELS",
+      "headline": "로봇이 실패하는 장면을 가상으로 무한 재현",
+      "facts": "Physicl은 11월 6일 1,000만 달러의 시드 투자 유치와 로봇·월드모델 학습 도구 Studio를 발표했다. Studio는 1만 개의 3D 환경과 10만 개 이상의 에셋을 기반으로 조명·카메라·물체 배치 등 조건을 바꿔 학습 데이터를 만든다. 컵이 가려지거나 그림자가 생기는 등 모델이 실패하는 상황을 반복 재현하는 것이 목표다. 협력사 SpAItial은 Physicl 데이터 추가 후 자사 실내 3D 복원 오류가 절반 이상 줄었다고 주장했다.",
+      "whyItMatters": "로봇이 실제 현장에서 자주 실패하는 예외 상황을 데이터 수집 비용 없이 반복 학습할 수 있다.",
+      "analysis": "오류 감소는 협력사 사례로 모든 로봇에 일반화할 수 없다. 가상 환경의 물리 정확성과 현실 전이 성능을 따로 평가해야 한다.",
+      "outlook": "6~24개월: 실제 로봇 실패율 감소, 물리 엔진 정확도, 고객 확장과 데이터 생성 비용을 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Physicl 공식 보도자료 · 2026-11-06",
+          "url": "https://www.globenewswire.com/news-release/2026/11/06/3397485/0/en/physicl-raises-10-million-to-solve-physical-ai-s-edge-case-gap.html"
+        },
+        {
+          "name": "TechCrunch · 2026-11-06",
+          "url": "https://techcrunch.com/2026/11/06/physicl-raises-10m-to-make-the-digital-world-real-enough-for-robots/"
+        }
+      ]
+    },
+    {
+      "id": "alphabet-548m-qualcomm-stake",
+      "category": "AI CHIPS / MARKETS",
+      "headline": "구글 모회사, 퀄컴 지분 5억4,800만 달러 확보",
+      "facts": "Reuters는 11월 6일 Alphabet이 3분기 중 Qualcomm 주식을 약 5억4,800만 달러어치 보유하게 됐다고 보도했다. Qualcomm은 스마트폰용 칩에서 AI 데이터센터용 맞춤형 프로세서로 사업을 넓히고 있다. 회사는 2029년 데이터센터 칩 매출 150억 달러를 목표로 제시했다. Alphabet과 Qualcomm은 Android 스마트폰, 노트북과 자동차용 AI 분야에서도 협력해 왔다.",
+      "whyItMatters": "AI 데이터센터의 칩 공급자 경쟁이 NVIDIA·AMD를 넘어 모바일 칩 설계사로 확장될 수 있다.",
+      "analysis": "지분 보유는 사업 지원 신호로 볼 수 있지만 특정 칩의 성능이나 매출 목표 달성을 입증하지 않는다.",
+      "outlook": "6~24개월: 데이터센터 제품 실제 출하, 클라우드 고객 채택, Qualcomm의 GPU·가속기 소프트웨어 생태계를 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Reuters · 2026-11-06",
+          "url": "https://www.reuters.com/business/alphabet-discloses-548-million-worth-qualcomm-stake-2026-11-06/"
+        }
+      ]
+    },
+    {
+      "id": "censys-artex-exposed-ai-security-consoles",
+      "category": "AI SECURITY / RESEARCH",
+      "headline": "AI 해킹 도구 관리 화면 815곳이 인터넷에 노출",
+      "facts": "보안 기업 Censys는 11월 5일 AI 기반 침투 테스트 도구 ARTEX의 공개 노출 현황을 발표했다. 11월 4일 기준 1,465개 호스트에서 관리 콘솔을 확인했지만 유사한 호스팅 배치를 제외하면 약 815개의 별도 설치로 추정했다. 155개 호스트에서는 다른 위협 도구도 함께 관측됐다. ARTEX는 합법적 보안 점검에도 쓰일 수 있어 노출된 모든 설치가 범죄에 사용됐다는 뜻은 아니다.",
+      "whyItMatters": "강력한 AI 보안 도구라도 관리 인터페이스를 잘못 공개하면 새로운 위험을 만든다.",
+      "analysis": "노출 호스트 수와 실제 공격 성공 수는 다르다. 보안 도구 운영자의 접근통제·인증 설정이 모델 성능만큼 중요하다.",
+      "outlook": "6~24개월: 공개 콘솔 감소, 도구 기본 보안 설정, 외부 보안 감사와 실제 악용 사례 추적이 필요.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Censys 원문 연구 · 2026-11-05",
+          "url": "https://censys.com/blog/artex-agentic-asbestos/"
+        },
+        {
+          "name": "TechCrunch · 2026-11-06",
+          "url": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/"
+        }
+      ]
+    },
+    {
+      "id": "google-acquires-crusoe-wyoming-data-center-site",
+      "category": "AI INFRASTRUCTURE / ENERGY",
+      "headline": "구글, 개발 중인 대형 데이터센터 부지를 직접 인수",
+      "facts": "Crusoe는 11월 6일 미국 와이오밍주 남동부 데이터센터 부지를 Google에 매각했다고 공식 발표했다. Crusoe는 그동안 부지 선정·인허가·전력 조달 전략 등 착공 전 작업을 수행했다. 프로젝트는 전력망·연료전지·천연가스 터빈을 조합하는 전력 공급 방식을 검토해 왔다. 매각 가격과 Google의 최종 건설 규모는 발표되지 않았다.",
+      "whyItMatters": "AI 인프라 경쟁에서 부지와 전력 확보가 GPU 구매 못지않게 중요한 병목임을 보여준다.",
+      "analysis": "인수 완료는 건설·가동 완료와 다르며, 과거 언급된 대규모 전력 목표를 확정 건설량으로 해석하면 안 된다.",
+      "outlook": "6~24개월: 인허가, 실제 전력 공급계약, 착공 일정, 냉각·전력 효율과 총투자비를 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Crusoe 공식 발표 · 2026-11-06",
+          "url": "https://www.crusoe.ai/resources/newsroom/crusoe-wyoming-data-center-campus-update"
+        },
+        {
+          "name": "TechCrunch · 2026-11-06",
+          "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/"
+        }
+      ]
+    },
+    {
+      "id": "gog-galaxy-linux-wing-commander-restoration",
+      "category": "PC GAMING / LINUX",
+      "headline": "GOG 런처 리눅스 진출, 고전 게임 7종 복원",
+      "facts": "GOG는 11월 5일 첫 Showcase에서 GOG GALAXY의 Linux 지원 계획을 공식 발표했다. Windows·Mac용 클라이언트도 개선하며, 게임을 설치 파일로 내려받을 수 있어 런처 사용은 계속 선택 사항이다. EA와 협력해 Wing Commander 시리즈와 Road Rash를 포함한 7개 Anniversary Edition을 선보였다. GOG에서 해당 Wing Commander 구작을 이미 보유한 이용자에게는 대응하는 Anniversary 패키지를 추가 구매 없이 제공한다고 밝혔다.",
+      "whyItMatters": "SteamOS·Linux 게임 이용자 선택지가 늘고, 오래된 게임을 현대 PC에서 보존하는 실질적인 작업이 진행된다.",
+      "analysis": "Linux용 GALAXY의 구체적인 출시일·호환성은 공식 발표만으로 확정할 수 없다. 복원판의 품질은 개별 게임별로 평가해야 한다.",
+      "outlook": "6~24개월: Linux 클라이언트 정식 출시, Steam Deck 호환성, 복원 대상 게임 확대와 DRM-free 정책 지속 여부를 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "GOG 공식 발표 · 2026-11-05",
+          "url": "https://www.gog.com/pressroom/were-celebrating-18-years-with-the-first-gog-showcase-restored-wing-commander-prophecy-gog-galaxy-announcements-and-more/"
+        }
+      ]
+    },
+    {
+      "id": "conservation-ai-200k-wildlife-images",
+      "category": "AI / SCIENCE / ENVIRONMENT",
+      "headline": "AI가 야생동물 사진 20만 장을 몇 시간 만에 분석",
+      "facts": "Reuters는 11월 7일 환경·보전 단체 15곳을 취재해 모두 AI를 사용하면서 데이터센터의 환경 부담을 우려한다고 보도했다. 케냐의 Save the Elephants는 과거 20만 장의 항공 사진을 사람 9명이 9개월간 분석했지만 유사한 작업을 AI로 몇 시간 만에 처리할 수 있다고 설명했다. 분석 결과 기존 수작업 조사에서 일부 동물이 상당수 누락됐다는 사실도 드러났다. 일부 단체는 데이터센터 전송을 줄이기 위해 선박·현장 기기에서 직접 AI 처리를 수행한다.",
+      "whyItMatters": "AI가 과학적 관측의 비용과 시간을 줄여 멸종위기 동물 보호와 현장 대응을 개선할 수 있다.",
+      "analysis": "AI 사용의 환경 이득과 데이터센터 전력·물 사용 부담을 함께 계산해야 한다. 조사 성능은 지역·종·촬영 조건에 따라 달라질 수 있다.",
+      "outlook": "6~24개월: 현장 AI의 정확도, 저전력 모델 보급, 데이터센터 환경 영향 공개와 보전 성과를 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Reuters · 2026-11-07",
+          "url": "https://www.reuters.com/sustainability/cop/environmental-groups-embrace-ai-even-they-warn-data-center-impacts-2026-11-07/"
+        }
+      ]
+    },
+    {
+      "id": "ramp-ai-token-price-drop-usage-growth",
+      "category": "AI BUSINESS / ECONOMICS",
+      "headline": "AI 토큰 사용은 급증, 평균 가격은 26.8% 하락",
+      "facts": "Ramp AI Index는 11월 6일 보도된 분석에서 미국 기업의 AI 사용과 지출 사이에 차이가 있다고 보여줬다. 10월 23일 종료 주의 토큰 처리량은 한 달 전 대응 주보다 37.1% 증가했지만 지출은 8.9% 증가했다. OpenAI와 Anthropic을 합친 평균 100만 토큰당 가격은 0.76달러에서 0.56달러로 26.8% 낮아졌다. Ramp 자료는 자사 결제·토큰 관리 서비스를 이용하는 기업 표본이므로 전체 AI 시장의 대표 통계는 아니다.",
+      "whyItMatters": "AI 활용량 증가가 AI 기업의 매출 증가로 그대로 이어지지 않을 수 있다는 가격 경쟁의 신호다.",
+      "analysis": "토큰 단가 변화에는 고객 구성·모델 믹스가 영향을 줄 수 있다. 가격 하락을 곧바로 모델 공급자의 이익률 악화로 단정할 수 없다.",
+      "outlook": "6~24개월: 모델별 토큰 가격, 기업의 실제 AI 지출, 추론 원가와 유료 서비스 유지율을 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Ramp AI Index 원자료",
+          "url": "https://ramp.com/data/ai-index?detail=maker&metric=token-spend&mode=volume"
+        },
+        {
+          "name": "TechCrunch · 2026-11-06",
+          "url": "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/"
+        }
+      ]
+    }
+  ]
+}
