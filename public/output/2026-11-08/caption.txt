@@ -1,0 +1,44 @@
+[2026-11-08] 오늘 볼 만한 AI·테크 뉴스 TOP 3
+
+1. AI가 양자 난제를 증명했다
+무슨 일? PSI가 비공개 Anthropic 모델을 이용해 2008년부터 미해결이던 양자컴퓨팅 수학 추측의 증명을 3일 만에 만들었다고 발표했다.
+왜 중요? Lean이 형식 증명을 받아들여 AI의 수학 연구 역량을 보여줬다.
+다음엔? 외부 수학자의 독립 검증과 학술 심사 결과.
+
+2. 목소리 AI가 32MB?
+무슨 일? Underdog의 Woof는 약 31.7MB 단일 음성 모델로 브라우저에서 문장을 음성으로 바꾸는 게임 데모를 공개했다.
+왜 중요? 인터넷 없이 돌아가는 초경량 음성 비서의 가능성이 커진다.
+다음엔? 모바일 실측 속도·음질, 한국어 지원과 상업적 사용 조건.
+
+3. 사이버트럭 대신 로보택시
+무슨 일? Tesla가 텍사스 Cybertruck 생산라인을 2027년 중반 Cybercab 증산에 활용할 계획이다. 기존 주문 처리를 위해 추가 교대조도 투입한다.
+왜 중요? 테슬라의 제조 역량이 전기 픽업에서 자율주행 차량으로 이동한다.
+다음엔? 실제 라인 전환과 Cybercab 생산·규제 승인 성과.
+
+오늘 한 줄: AI는 18년 난제를 풀고 32MB로 말하며, 테슬라는 로보택시로 방향을 튼다.
+
+출처
+- PSI 공식 연구 · 2026-11-06: https://psi.inc/research/aaronson-ambainis/
+- PSI 공개 증명 코드: https://github.com/physical-superintelligence/aaronson-ambainis
+- TechCrunch · 2026-11-06: https://techcrunch.com/2026/11/06/underdog-shows-off-a-32mb-speech-model-in-new-demo/
+- Underdog Woof 데모: https://underdog.ai/woof
+- Reuters · 2026-11-07: https://www.reuters.com/business/autos-transportation/tesla-expand-cybertruck-production-bid-fill-orders-before-dismantling-line-next-2026-11-07/
+- TechCrunch · 2026-11-06: https://techcrunch.com/2026/11/06/tesla-will-stop-making-the-cybertruck-in-2027/
+- Physicl 공식 보도자료 · 2026-11-06: https://www.globenewswire.com/news-release/2026/11/06/3397485/0/en/physicl-raises-10-million-to-solve-physical-ai-s-edge-case-gap.html
+- TechCrunch · 2026-11-06: https://techcrunch.com/2026/11/06/physicl-raises-10m-to-make-the-digital-world-real-enough-for-robots/
+- Reuters · 2026-11-06: https://www.reuters.com/business/alphabet-discloses-548-million-worth-qualcomm-stake-2026-11-06/
+- Censys 원문 연구 · 2026-11-05: https://censys.com/blog/artex-agentic-asbestos/
+- TechCrunch · 2026-11-06: https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/
+- Crusoe 공식 발표 · 2026-11-06: https://www.crusoe.ai/resources/newsroom/crusoe-wyoming-data-center-campus-update
+- TechCrunch · 2026-11-06: https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/
+- GOG 공식 발표 · 2026-11-05: https://www.gog.com/pressroom/were-celebrating-18-years-with-the-first-gog-showcase-restored-wing-commander-prophecy-gog-galaxy-announcements-and-more/
+- Reuters · 2026-11-07: https://www.reuters.com/sustainability/cop/environmental-groups-embrace-ai-even-they-warn-data-center-impacts-2026-11-07/
+- Ramp AI Index 원자료: https://ramp.com/data/ai-index?detail=maker&metric=token-spend&mode=volume
+- TechCrunch · 2026-11-06: https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/
+
+이미지 출처
+- Slide 1/2: David Malone (수학 칠판 상징 이미지, 해당 증명 원본 아님) · CC BY 4.0 · https://commons.wikimedia.org/wiki/File:Mathematics_(cryptography)_on_a_blackboard.jpg · cropped and darkened
+- Slide 2/3: Jahzcore (음향 파형 상징 이미지) · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Sound_Wave_1.jpg · cropped and darkened
+- Slide 3/4: Oleg Yunakov (2025년 Cybertruck 실물 사진) · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:2024_Tesla_Cybertruck_-_01.jpg · cropped and darkened
+
+@daily_tech_magazine · 무단 재업로드/재배포 금지
