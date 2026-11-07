@@ -1,260 +1,256 @@
 {
-  "date": "2026-11-07",
-  "edition": 55,
+  "date": "2026-11-08",
+  "edition": 56,
   "brand": "DAILY TECH",
   "handle": "@daily_tech_magazine",
-  "deckTitle": "GPT-6, Firefox 81건 발견…로봇용 클라우드와 Xbox AI 업스케일링",
-  "deckSubtitle": "보안 AI의 진전부터 로봇 인프라·게임 그래픽·기초과학까지 10선",
+  "deckTitle": "AI가 18년 수학 난제를 풀었다…32MB 음성 모델과 테슬라의 로보택시 전환",
+  "deckSubtitle": "AI 수학 증명 · 로컬 음성 AI · 자율주행 · 로봇 시뮬레이션 · PC 게임·AI 시장 10선",
   "top3": [
-    "gpt6-cyber-firefox-81-linux-948",
-    "serve-robotics-physical-ai-services",
-    "amd-fsr-412-xbox-series-x-s"
+    "psi-anthropic-aaronson-ambainis-lean-proof",
+    "underdog-woof-32mb-browser-voice",
+    "tesla-cybertruck-wind-down-cybercab-2027"
   ],
-  "dailyAnalysis": "GPT-6 Cyber의 실제 취약점 검증, Serve Robotics의 통신·데이터 서비스, AMD의 Xbox FSR 배포는 AI가 모델 자체를 넘어 보안·로봇·게임 하드웨어의 기반 기술로 확장되는 흐름을 보여준다. Perplexity Teammates와 Meta Spaces는 사용자에게 에이전트와 작은 앱을 직접 구성할 권한을 제공한다. 하지만 자동화가 커질수록 외부 페이지의 프롬프트 인젝션을 방어하는 BrowseSafe++ 같은 검증 체계도 필요하다. Claude가 도운 미생물 단백질 연구와 ORCA의 중성미자 측정은 AI 활용과 기초과학의 서로 다른 성과를 보여준다. ING의 데이터센터 대출 매각 보도는 AI 인프라 확장에 금융 위험 관리가 필수라는 점을 상기시킨다.",
-  "recap": "GPT-6는 보안 취약점을 찾고, 로봇은 클라우드를 쓰며, Xbox도 AI로 진화한다.",
+  "dailyAnalysis": "오늘의 기술 뉴스는 AI가 더 적은 자원으로 더 어려운 일을 수행하는 방향과, 실제 세계의 인프라·규제 제약이 동시에 중요해지는 흐름을 보여준다. PSI의 AI 보조 형식 증명은 수학 연구 자동화의 가능성을 제시했지만 독립 검증이 남아 있다. Underdog의 초경량 음성 모델은 로컬·오프라인 AI의 진전을 보여준다. Tesla의 Cybercab 중심 생산 재편과 Physicl의 예외상황 시뮬레이션은 로봇·자율주행 상용화가 하드웨어 생산량뿐 아니라 신뢰성과 훈련 데이터에 달려 있음을 시사한다. Google의 데이터센터 부지 인수와 Alphabet의 Qualcomm 지분 보유는 AI 컴퓨팅의 전력·칩 공급 경쟁을 보여주고, Ramp 지표는 사용량과 매출이 같은 속도로 증가하지 않을 수 있음을 보여준다. GOG의 Linux 지원과 고전 게임 복원은 개발 생태계의 개방성을, Censys의 보안 연구는 강력한 AI 도구의 운영상 위험을 드러낸다.",
+  "recap": "AI는 18년 난제를 풀고 32MB로 말하며, 테슬라는 로보택시로 방향을 튼다.",
   "cover": {
-    "stat": "81건 · 2,000대+ · FSR 4.1.2",
-    "title": "AI가 코드를 지킨다\n로봇과 콘솔도 바뀐다",
-    "subtitle": "오늘 TOP 3: GPT-6 Cyber · 로봇 클라우드 · Xbox AI 그래픽"
+    "stat": "18년 난제 · 31.7MB · 2027",
+    "title": "AI가 수학 난제를 풀었다\n테슬라는 로보택시로",
+    "subtitle": "오늘 TOP 3: 양자 수학 증명 · 초경량 음성 AI · Cybercab 전환"
   },
   "stories": [
     {
-      "id": "gpt6-cyber-firefox-81-linux-948",
-      "category": "AI / CYBERSECURITY",
-      "headline": "GPT-6 Cyber, 파이어폭스 취약점 81개 발견",
-      "facts": "OpenAI는 11월 5일 GPT-6 Cyber를 제한된 보안 연구 고객에게 공개했다. 회사 연구진은 이 모델을 활용해 Firefox의 새로운 고위험 취약점 81개를 찾아 Mozilla에 전달했다고 밝혔다. Linux 커널의 기존 취약점 948개에 대한 동작 가능한 권한 상승 익스플로잇을 개발했으며, 이 숫자는 신규 취약점 948개를 발견했다는 뜻이 아니다. ExploitGym 점수는 GPT-5.6 Cyber의 32.1%에서 48.5%로 상승했고, 모델은 OpenAI의 사이버 역량 등급에서 Critical로 분류됐다.",
-      "whyItMatters": "AI 보안 감사가 수동 코드 검토에서 취약점 재현과 패치 제안까지 확장되고 있다.",
-      "analysis": "취약점 발견·재현 능력은 실제 성과지만, 실험에서의 범위 준수 수치가 모든 현장 환경의 안전을 보장하지 않는다. 제한된 승인 고객에게만 제공된다.",
-      "outlook": "6~24개월: Mozilla의 패치 반영, 독립적 보안 평가, 승인 범위 준수와 실제 사고 감소 여부를 확인.",
+      "id": "psi-anthropic-aaronson-ambainis-lean-proof",
+      "category": "AI / QUANTUM SCIENCE",
+      "headline": "비공개 Anthropic AI, 18년 된 양자컴퓨팅 난제 증명",
+      "facts": "Physical Superintelligence(PSI)는 11월 6일 2008년부터 미해결이던 Aaronson–Ambainis 추측의 증명을 공개했다. PSI의 자체 연구 시스템은 비공개 Anthropic 모델을 사용했으며 실행 3일째에 완전한 증명을 얻었다고 밝혔다. 증명 보조기 Lean이 형식화된 증명을 받아들였고 논문과 코드를 공개했다. 이 결과는 무작위·비구조화 입력에서 양자컴퓨터가 지수적인 질의 속도 우위를 얻기 어렵다는 이론과 관련되지만, 외부 전문가의 독립 검토와 학술 심사는 아직 진행 중이다.",
+      "whyItMatters": "AI가 논문 요약을 넘어 검증 가능한 수학 증명 생산에 기여한 사례로, 양자 알고리즘의 가능 범위를 이해하는 데 중요하다.",
+      "analysis": "Lean의 수용은 형식화된 명제가 논리적으로 도출됨을 뒷받침하지만, 그것이 원래 추측과 정확히 일치하는지와 독립 재현 여부는 별도로 검증해야 한다.",
+      "outlook": "6~24개월: 원 저자·독립 수학자 검토, Lean 재실행, 학술지 심사와 다른 난제에 대한 재현 가능성을 확인.",
       "status": "confirmed",
       "sources": [
         {
-          "name": "OpenAI 공식 발표 · 2026-11-05",
-          "url": "https://openai.com/index/introducing-gpt-6-cyber/"
+          "name": "PSI 공식 연구 · 2026-11-06",
+          "url": "https://psi.inc/research/aaronson-ambainis/"
         },
         {
-          "name": "Reuters · 2026-11-05",
-          "url": "https://www.reuters.com/technology/openai-launches-gpt-6-cyber-with-critical-cybersecurity-rating-2026-11-05/"
+          "name": "PSI 공개 증명 코드",
+          "url": "https://github.com/physical-superintelligence/aaronson-ambainis"
         }
       ],
       "card": {
-        "stat": "Firefox 81건",
-        "headline": "GPT-6, 취약점을 찾아낸다",
-        "what": "OpenAI의 보안 모델 GPT-6 Cyber가 Firefox의 신규 고위험 취약점 81건을 찾고 Linux 커널 취약점 948건의 재현 공격을 개발했다.",
-        "why": "코드 감사에서 실제 재현과 패치 제안까지 AI 보안 연구가 확대된다.",
-        "next": "Mozilla 패치 반영과 독립 평가, 제한된 연구 권한 준수 여부.",
-        "hook": "AI가 코드의 약점을 먼저 찾는다"
+        "stat": "18년 난제",
+        "headline": "AI가 양자 난제를 증명했다",
+        "what": "PSI가 비공개 Anthropic 모델을 이용해 2008년부터 미해결이던 양자컴퓨팅 수학 추측의 증명을 3일 만에 만들었다고 발표했다.",
+        "why": "Lean이 형식 증명을 받아들여 AI의 수학 연구 역량을 보여줬다.",
+        "next": "외부 수학자의 독립 검증과 학술 심사 결과.",
+        "hook": "18년 동안 풀리지 않던 수학 문제, AI가 풀었다"
       },
       "visual": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Security_Online.jpg",
-        "credit": "Pixabay / Wikimedia Commons (보안 상징 이미지)",
-        "license": "CC0 1.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Security_Online.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Mathematics_%28cryptography%29_on_a_blackboard.jpg",
+        "credit": "David Malone (수학 칠판 상징 이미지, 해당 증명 원본 아님)",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mathematics_(cryptography)_on_a_blackboard.jpg",
         "reuseAllowed": true,
         "modified": "cropped and darkened"
       }
     },
     {
-      "id": "serve-robotics-physical-ai-services",
-      "category": "ROBOTICS / PHYSICAL AI",
-      "headline": "배달 로봇 회사가 로봇용 클라우드를 판다",
-      "facts": "Serve Robotics는 11월 5일 Physical AI Services 사업을 공개했다. 로봇과 외부 AI 연산을 연결하는 통신 서비스, 주행 데이터에서 어려운 사례를 골라내는 도구, 실제 환경 학습용 데이터 카탈로그를 제공한다. 건설장비 자율주행 기업 Bedrock Robotics가 초기 고객에 포함됐다. 회사는 40개 이상 도시와 27개 병원에 2,000대 이상의 로봇을 배치했다고 밝혔다.",
-      "whyItMatters": "로봇 제조사가 통신·학습 데이터 기반을 직접 처음부터 구축하지 않고 외부 서비스를 이용할 수 있다.",
-      "analysis": "'로봇용 AWS'는 사업 방향을 설명하는 비유이지 클라우드 시장 지배력의 증거가 아니다. 외부 고객 규모와 수익성은 초기 단계다.",
-      "outlook": "6~24개월: 외부 로봇 고객 증가, 통신 안정성, 데이터 품질과 서비스 매출 비중을 확인.",
+      "id": "underdog-woof-32mb-browser-voice",
+      "category": "LOCAL AI / AUDIO",
+      "headline": "음성 생성 AI가 32MB, 브라우저에서 작동",
+      "facts": "Underdog가 11월 5일 공개한 Woof 음성 합성 모델은 단일 음성 데모 기준 약 31.7MB다. 회사는 모델을 브라우저 안에서 실행하는 복고풍 게임 데모를 공개했으며 타자기로 문장을 입력하면 음성으로 읽어준다. TechCrunch에 따르면 약 3,100만 매개변수 모델이며 인터넷 연결 없이 대부분의 기기에서 실행 가능하다고 회사가 설명했다. 별도로 더 큰 두 음성 버전이 있어 모든 Woof 배포본의 크기가 31.7MB인 것은 아니다.",
+      "whyItMatters": "로컬 음성 AI가 가벼워지면 저사양 노트북·스마트폰에서 개인정보를 외부 서버로 보내지 않는 음성 인터페이스를 만들기 쉬워진다.",
+      "analysis": "시연 성공이 고급 클라우드 TTS 수준의 음질·다국어 지원·지연시간을 보장하지 않는다. 상용 배포 전 모델 가중치의 사용 조건을 확인해야 한다.",
+      "outlook": "6~24개월: 실제 CPU·모바일 브라우저 지연시간, 한국어 지원, 음질 평가와 로컬 음성 비서 통합을 확인.",
       "status": "confirmed",
       "sources": [
         {
-          "name": "Serve Robotics 공식 발표 · 2026-11-05",
-          "url": "https://serverobotics.gcs-web.com/news-releases/news-release-details/serve-robotics-launches-physical-ai-services-opening-technology"
+          "name": "TechCrunch · 2026-11-06",
+          "url": "https://techcrunch.com/2026/11/06/underdog-shows-off-a-32mb-speech-model-in-new-demo/"
         },
         {
-          "name": "TechCrunch · 2026-11-05",
-          "url": "https://techcrunch.com/2026/11/05/serve-robotics-launches-new-business-to-become-the-aws-for-robots/"
+          "name": "Underdog Woof 데모",
+          "url": "https://underdog.ai/woof"
         }
       ],
       "card": {
-        "stat": "2,000대+",
-        "headline": "로봇에도 클라우드 시대",
-        "what": "Serve Robotics가 로봇 통신·데이터 선별·현장 학습 데이터 서비스를 외부 기업에 공개했다. 건설로봇 기업도 초기 고객이다.",
-        "why": "로봇 제조사도 자체 데이터·통신 인프라를 외부 서비스로 조달할 수 있다.",
-        "next": "실제 외부 고객 증가와 로봇 통신 안정성·서비스 매출.",
-        "hook": "로봇용 AWS가 등장했다"
+        "stat": "31.7MB",
+        "headline": "목소리 AI가 32MB?",
+        "what": "Underdog의 Woof는 약 31.7MB 단일 음성 모델로 브라우저에서 문장을 음성으로 바꾸는 게임 데모를 공개했다.",
+        "why": "인터넷 없이 돌아가는 초경량 음성 비서의 가능성이 커진다.",
+        "next": "모바일 실측 속도·음질, 한국어 지원과 상업적 사용 조건.",
+        "hook": "클라우드 없이 말하는 AI"
       },
       "visual": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Starship_food_delivery_robot_crossing_a_street_in_Loviisa.jpg",
-        "credit": "JIP (Starship 배달 로봇; Serve Robotics 제품 아님)",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Sound_Wave_1.jpg",
+        "credit": "Jahzcore (음향 파형 상징 이미지)",
         "license": "CC BY-SA 4.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Starship_food_delivery_robot_crossing_a_street_in_Loviisa.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sound_Wave_1.jpg",
         "reuseAllowed": true,
         "modified": "cropped and darkened"
       }
     },
     {
-      "id": "amd-fsr-412-xbox-series-x-s",
-      "category": "GAME DEVELOPMENT / GPU",
-      "headline": "Xbox에도 머신러닝 FSR 4.1.2 등장",
-      "facts": "AMD는 11월 4일 Xbox Series X|S 개발자에게 FSR Upscaling 4.1.2를 제공한다고 발표했고 5일 개발자 커뮤니티에서 재확인했다. 2026년 10월 Microsoft GDK를 통해 ML 기반 업스케일링을 Xbox 콘솔에 처음 도입한다. Full INT8과 크기가 절반 미만인 Lite INT8 모델을 선택할 수 있으며 PC와 공통 SDK를 사용한다. 일반 사용자가 바로 모든 게임에서 기능을 켤 수 있는 것은 아니고 게임별 개발사 통합이 필요하다.",
-      "whyItMatters": "구형 RDNA 2 기반 콘솔도 소프트웨어와 경량 AI 모델을 통해 화질과 성능의 균형을 개선할 기회를 얻는다.",
-      "analysis": "실제 FPS와 화질 개선폭은 게임 구현·해상도에 따라 다르며 공식 콘솔 게임 벤치마크는 아직 충분하지 않다.",
-      "outlook": "6~24개월: 실제 출시 게임 채택률, Full·Lite 화질 차이, 4K 프레임 시간과 입력 지연을 확인.",
+      "id": "tesla-cybertruck-wind-down-cybercab-2027",
+      "category": "ROBOTAXI / VEHICLES",
+      "headline": "테슬라, 사이버트럭 생산 줄이고 로보택시로 전환",
+      "facts": "Tesla CEO 일론 머스크는 11월 6일 텍사스 공장의 Cybertruck 생산을 2027년 중반 무렵 줄여 Cybercab 생산 공간을 확보할 계획이라고 밝혔다. 11월 7일에는 기존 주문을 최대한 처리하기 위해 추가 생산 교대조를 투입하겠다고 말했다. 미국 내 Cybertruck 판매량은 2024년 약 3만9천 대에서 2025년 약 2만 대로 줄었다는 업계 추정이 보도됐다. Cybertruck의 타 공장 이전이나 완전 단종 여부는 아직 확정되지 않았다.",
+      "whyItMatters": "Tesla의 제조 우선순위가 독특한 전기 픽업트럭에서 자율주행 전용 차량으로 옮겨가고 있음을 보여준다.",
+      "analysis": "Cybercab 증산 계획은 경영진의 계획일 뿐, 무인 자율주행의 안전성·규제 승인·수익성을 보장하지 않는다. 완전 단종이라고 단정해서는 안 된다.",
+      "outlook": "6~24개월: Cybertruck 실제 생산 종료·이전 여부, Cybercab 생산량, 무인 운행 승인과 안전 지표를 확인.",
       "status": "confirmed",
       "sources": [
         {
-          "name": "AMD GPUOpen 공식 발표 · 2026-11-04",
-          "url": "https://gpuopen.com/learn/amd-fsr-upscaling-412-xbox/"
+          "name": "Reuters · 2026-11-07",
+          "url": "https://www.reuters.com/business/autos-transportation/tesla-expand-cybertruck-production-bid-fill-orders-before-dismantling-line-next-2026-11-07/"
         },
         {
-          "name": "AMD 개발자 커뮤니티 · 2026-11-05",
-          "url": "https://devcommunity.amd.com/t/amd-fsr-upscaling-4-1-2-comes-to-xbox-series-x-s/1308"
+          "name": "TechCrunch · 2026-11-06",
+          "url": "https://techcrunch.com/2026/11/06/tesla-will-stop-making-the-cybertruck-in-2027/"
         }
       ],
       "card": {
-        "stat": "FSR 4.1.2",
-        "headline": "Xbox에도 AI 업스케일링",
-        "what": "AMD가 Xbox Series X|S 개발자에게 머신러닝 FSR 4.1.2를 제공했다. Full·Lite 모델을 선택해 게임에 통합할 수 있다.",
-        "why": "기존 콘솔도 AI 업스케일링으로 화질·성능 개선을 노릴 수 있다.",
-        "next": "지원 게임 출시, 실제 FPS·화질·입력 지연 비교.",
-        "hook": "콘솔 그래픽, AI로 다시 업그레이드"
+        "stat": "2027년 중반",
+        "headline": "사이버트럭 대신 로보택시",
+        "what": "Tesla가 텍사스 Cybertruck 생산라인을 2027년 중반 Cybercab 증산에 활용할 계획이다. 기존 주문 처리를 위해 추가 교대조도 투입한다.",
+        "why": "테슬라의 제조 역량이 전기 픽업에서 자율주행 차량으로 이동한다.",
+        "next": "실제 라인 전환과 Cybercab 생산·규제 승인 성과.",
+        "hook": "사이버트럭이 비켜선 자리엔 로보택시"
       },
       "visual": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Xbox_Series_X%E3%81%A8Series_S.jpg",
-        "credit": "Kyu3a (Xbox Series X/S 실물)",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/2024_Tesla_Cybertruck_-_01.jpg/1280px-2024_Tesla_Cybertruck_-_01.jpg",
+        "credit": "Oleg Yunakov (2025년 Cybertruck 실물 사진)",
         "license": "CC BY-SA 4.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Xbox_Series_X%E3%81%A8Series_S.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:2024_Tesla_Cybertruck_-_01.jpg",
         "reuseAllowed": true,
         "modified": "cropped and darkened"
       }
     },
     {
-      "id": "perplexity-teammates-persistent-agents",
-      "category": "AI AGENTS / PRODUCTIVITY",
-      "headline": "Perplexity, 상시 근무하는 AI 팀원 출시",
-      "facts": "Perplexity는 11월 4일 Teammates를 공개하고 5일 관련 보도가 확산됐다. 에이전트는 프로젝트 목표와 과거 작업을 기억하면서 여러 Computer 세션과 다른 에이전트를 조율한다. Slack·GitHub·Gmail 같은 연결 도구를 활용하며 사용자는 진행상황을 확인하고 작업을 승인할 수 있다. 초기 제공은 웹의 Max 구독자 대상이며 iOS 지원은 예고 단계다.",
-      "whyItMatters": "일회성 질의보다 장기간 업무를 지속 관리하는 에이전트 제품 경쟁이 심화한다.",
-      "analysis": "상시 작업 기능이 실제로 인간 감독 시간을 줄이는지는 검증이 필요하다. Max 요금제의 비용과 도구 권한 관리도 진입 장벽이다.",
-      "outlook": "6~24개월: 장기 작업 성공률, 멀티에이전트 오류 복구, 요금제 확대와 실제 팀 활용 사례를 확인.",
+      "id": "physicl-studio-robot-simulation-10m",
+      "category": "ROBOTICS / WORLD MODELS",
+      "headline": "로봇이 실패하는 장면을 가상으로 무한 재현",
+      "facts": "Physicl은 11월 6일 1,000만 달러의 시드 투자 유치와 로봇·월드모델 학습 도구 Studio를 발표했다. Studio는 1만 개의 3D 환경과 10만 개 이상의 에셋을 기반으로 조명·카메라·물체 배치 등 조건을 바꿔 학습 데이터를 만든다. 컵이 가려지거나 그림자가 생기는 등 모델이 실패하는 상황을 반복 재현하는 것이 목표다. 협력사 SpAItial은 Physicl 데이터 추가 후 자사 실내 3D 복원 오류가 절반 이상 줄었다고 주장했다.",
+      "whyItMatters": "로봇이 실제 현장에서 자주 실패하는 예외 상황을 데이터 수집 비용 없이 반복 학습할 수 있다.",
+      "analysis": "오류 감소는 협력사 사례로 모든 로봇에 일반화할 수 없다. 가상 환경의 물리 정확성과 현실 전이 성능을 따로 평가해야 한다.",
+      "outlook": "6~24개월: 실제 로봇 실패율 감소, 물리 엔진 정확도, 고객 확장과 데이터 생성 비용을 확인.",
       "status": "confirmed",
       "sources": [
         {
-          "name": "Perplexity 공식 블로그 · 2026-11-04",
-          "url": "https://www.perplexity.ai/hub/blog/teammates-are-agents-for-complex-ongoing-work"
+          "name": "Physicl 공식 보도자료 · 2026-11-06",
+          "url": "https://www.globenewswire.com/news-release/2026/11/06/3397485/0/en/physicl-raises-10-million-to-solve-physical-ai-s-edge-case-gap.html"
         },
         {
-          "name": "The Verge · 2026-11-05",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1028302/perplexity-teammates-ai-agents-work"
+          "name": "TechCrunch · 2026-11-06",
+          "url": "https://techcrunch.com/2026/11/06/physicl-raises-10m-to-make-the-digital-world-real-enough-for-robots/"
         }
       ]
     },
     {
-      "id": "claude-bacterial-vault-particle-structure",
-      "category": "AI / BIOLOGY",
-      "headline": "Claude가 미생물 단백질 캡슐 구조를 풀었다",
-      "facts": "Anthropic 연구팀은 11월 4일 원핵생물 계열에서 발견한 vault 유사 단백질 입자의 3차원 구조를 공개했다. 박테리오파지 유래 L05 입자는 동일한 단백질 96개로 이루어졌으며 극저온 전자현미경으로 구조를 분석했다. Claude는 서열 검색·DNA 설계·분리 방법 최적화·영상 분석을 도왔고, 팀은 기존 수일 걸리던 정제 과정을 약 90분으로 줄였다고 설명했다. 아직 동료심사를 거친 정식 논문이 아니라 연구팀의 공개 결과이며 입자의 생물학적 기능은 알려지지 않았다.",
-      "whyItMatters": "AI가 생명과학 연구의 문헌·실험·데이터 분석을 하나의 흐름으로 보조할 수 있음을 보여준다.",
-      "analysis": "연구팀 스스로 AI가 잘못된 배지 조건을 제안해 2주 지연을 초래한 사례를 밝혔다. 성과는 연구자 감독과 특정 실험 환경에 의존한다.",
-      "outlook": "6~24개월: 사전공개 논문의 독립 검증, 원래 미생물에서 입자 형성 여부, 실제 기능과 바이오 전달체 활용을 확인.",
+      "id": "alphabet-548m-qualcomm-stake",
+      "category": "AI CHIPS / MARKETS",
+      "headline": "구글 모회사, 퀄컴 지분 5억4,800만 달러 확보",
+      "facts": "Reuters는 11월 6일 Alphabet이 3분기 중 Qualcomm 주식을 약 5억4,800만 달러어치 보유하게 됐다고 보도했다. Qualcomm은 스마트폰용 칩에서 AI 데이터센터용 맞춤형 프로세서로 사업을 넓히고 있다. 회사는 2029년 데이터센터 칩 매출 150억 달러를 목표로 제시했다. Alphabet과 Qualcomm은 Android 스마트폰, 노트북과 자동차용 AI 분야에서도 협력해 왔다.",
+      "whyItMatters": "AI 데이터센터의 칩 공급자 경쟁이 NVIDIA·AMD를 넘어 모바일 칩 설계사로 확장될 수 있다.",
+      "analysis": "지분 보유는 사업 지원 신호로 볼 수 있지만 특정 칩의 성능이나 매출 목표 달성을 입증하지 않는다.",
+      "outlook": "6~24개월: 데이터센터 제품 실제 출하, 클라우드 고객 채택, Qualcomm의 GPU·가속기 소프트웨어 생태계를 확인.",
       "status": "confirmed",
       "sources": [
         {
-          "name": "Anthropic 연구 발표 · 2026-11-04",
-          "url": "https://www.anthropic.com/research/investigating-vault-particles-with-claude"
+          "name": "Reuters · 2026-11-06",
+          "url": "https://www.reuters.com/business/alphabet-discloses-548-million-worth-qualcomm-stake-2026-11-06/"
         }
       ]
     },
     {
-      "id": "intel-xess-xmx-proton-linux-community",
-      "category": "PC HARDWARE / OPEN SOURCE",
-      "headline": "리눅스 게임에서 인텔 XMX 업스케일링 구현",
-      "facts": "독립 개발자의 xess-xmx-linux 프로젝트가 Intel Arc GPU의 XMX 연산 유닛을 사용해 Proton 게임에서 XeSS 업스케일링과 프레임 생성을 실행하는 실험적 방법을 공개했다. 기본 Proton의 DP4a 경로 대신 수정된 Mesa Vulkan 드라이버와 호환 계층을 사용한다. 개발자는 Arc B580 등에서 동작을 확인했으며 PC Gamer는 11월 6일 이 프로젝트를 소개했다. 기본 Steam 클라이언트가 필요하고 Flatpak Steam은 지원하지 않는다.",
-      "whyItMatters": "Windows 게임을 Linux에서 구동할 때 GPU의 전용 AI 연산 성능을 더 잘 활용할 가능성이 있다.",
-      "analysis": "비공식 드라이버 패치이며 설치가 시스템 전체 그래픽 환경에 영향을 줄 수 있다. 공개된 성능 수치는 독립적·광범위한 벤치마크로 일반화할 수 없다.",
-      "outlook": "6~24개월: Intel 공식 Linux 지원, Mesa 상류 통합, 게임 호환성·안정성·지연시간 검증을 확인.",
+      "id": "censys-artex-exposed-ai-security-consoles",
+      "category": "AI SECURITY / RESEARCH",
+      "headline": "AI 해킹 도구 관리 화면 815곳이 인터넷에 노출",
+      "facts": "보안 기업 Censys는 11월 5일 AI 기반 침투 테스트 도구 ARTEX의 공개 노출 현황을 발표했다. 11월 4일 기준 1,465개 호스트에서 관리 콘솔을 확인했지만 유사한 호스팅 배치를 제외하면 약 815개의 별도 설치로 추정했다. 155개 호스트에서는 다른 위협 도구도 함께 관측됐다. ARTEX는 합법적 보안 점검에도 쓰일 수 있어 노출된 모든 설치가 범죄에 사용됐다는 뜻은 아니다.",
+      "whyItMatters": "강력한 AI 보안 도구라도 관리 인터페이스를 잘못 공개하면 새로운 위험을 만든다.",
+      "analysis": "노출 호스트 수와 실제 공격 성공 수는 다르다. 보안 도구 운영자의 접근통제·인증 설정이 모델 성능만큼 중요하다.",
+      "outlook": "6~24개월: 공개 콘솔 감소, 도구 기본 보안 설정, 외부 보안 감사와 실제 악용 사례 추적이 필요.",
       "status": "confirmed",
       "sources": [
         {
-          "name": "개발자 GitHub 원본",
-          "url": "https://github.com/HHHHanasak1/xess-xmx-linux"
+          "name": "Censys 원문 연구 · 2026-11-05",
+          "url": "https://censys.com/blog/artex-agentic-asbestos/"
         },
         {
-          "name": "PC Gamer · 2026-11-06",
-          "url": "https://www.pcgamer.com/hardware/handheld-gaming-pcs/experimental-project-beats-intel-in-bringing-real-intel-xess-super-resolution-to-steamos-and-proton-games-on-linux/"
+          "name": "TechCrunch · 2026-11-06",
+          "url": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/"
         }
       ]
     },
     {
-      "id": "meta-muse-spaces-custom-mini-apps",
-      "category": "AI APPS / INTERFACE",
-      "headline": "말로 만들면 앱 안에 새 화면이 생긴다",
-      "facts": "Meta는 11월 6일 Muse 앱에 자연어로 맞춤형 화면을 만드는 Spaces를 공개했다. 사용자는 학습 대시보드, 일정표, 게임, 주문 추적기 등을 설명해 생성하고 이후 디자인과 기능을 대화로 수정할 수 있다. 생성된 화면을 사이드바·탭에 배치하거나 요일별로 표시하도록 설정할 수 있다. 지원되는 연결 앱의 데이터를 이용해 일부 정보를 지속 갱신하는 기능도 소개됐다.",
-      "whyItMatters": "생성형 AI가 단순 답변을 넘어 사용자가 직접 조합하는 작은 소프트웨어 인터페이스가 되고 있다.",
-      "analysis": "시연과 기능 발표는 확인되지만 복잡한 업무 앱의 정확성·권한 제어·유지보수 수준은 별도 검증이 필요하다.",
-      "outlook": "6~24개월: Spaces의 실제 이용률, 데이터 연결 신뢰성, 공유·협업 기능과 앱스토어형 생태계 발전을 확인.",
+      "id": "google-acquires-crusoe-wyoming-data-center-site",
+      "category": "AI INFRASTRUCTURE / ENERGY",
+      "headline": "구글, 개발 중인 대형 데이터센터 부지를 직접 인수",
+      "facts": "Crusoe는 11월 6일 미국 와이오밍주 남동부 데이터센터 부지를 Google에 매각했다고 공식 발표했다. Crusoe는 그동안 부지 선정·인허가·전력 조달 전략 등 착공 전 작업을 수행했다. 프로젝트는 전력망·연료전지·천연가스 터빈을 조합하는 전력 공급 방식을 검토해 왔다. 매각 가격과 Google의 최종 건설 규모는 발표되지 않았다.",
+      "whyItMatters": "AI 인프라 경쟁에서 부지와 전력 확보가 GPU 구매 못지않게 중요한 병목임을 보여준다.",
+      "analysis": "인수 완료는 건설·가동 완료와 다르며, 과거 언급된 대규모 전력 목표를 확정 건설량으로 해석하면 안 된다.",
+      "outlook": "6~24개월: 인허가, 실제 전력 공급계약, 착공 일정, 냉각·전력 효율과 총투자비를 확인.",
       "status": "confirmed",
       "sources": [
         {
-          "name": "Meta 공식 발표 · 2026-11-06",
-          "url": "https://about.fb.com/news/2026/11/introducing-spaces-customize-muse-app/"
+          "name": "Crusoe 공식 발표 · 2026-11-06",
+          "url": "https://www.crusoe.ai/resources/newsroom/crusoe-wyoming-data-center-campus-update"
         },
         {
-          "name": "The Verge · 2026-11-06",
-          "url": "https://www.theverge.com/tech/1028871/meta-muse-ai-spaces"
+          "name": "TechCrunch · 2026-11-06",
+          "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/"
         }
       ]
     },
     {
-      "id": "km3net-orca-relativity-neutrino-test",
-      "category": "SCIENCE / PHYSICS",
-      "headline": "해저 2.4km 망원경으로 아인슈타인 이론 시험",
-      "facts": "KM3NeT/ORCA 연구팀은 11월 4일 발표한 논문에서 대기 중성미자 후보 사건 5,828개를 분석했다. 지중해 해저의 초기 검출 장치 6개로 약 1.4년간 수집한 자료를 이용해 로런츠 대칭성 위반을 탐색했다. 표준 물리학에서 벗어난 신호는 발견되지 않았으며 가능한 위반 정도에 새로운 상한을 설정했다. 초기의 작은 검출기 구성으로도 기존 대형 실험과 경쟁력 있는 제한을 얻었다.",
-      "whyItMatters": "상대성이론의 기본 대칭성을 극한 환경에서 검증하는 정밀 물리학의 진전이다.",
-      "analysis": "'아인슈타인이 틀렸다'는 발견이 아니라 위반 증거를 찾지 못했다는 결과다. 검출 장치가 확대되면 민감도가 높아질 수 있다.",
-      "outlook": "6~24개월: ORCA 확장 자료, 다른 검출기와의 결합, 고에너지 중성미자에서의 새로운 물리 신호를 확인.",
+      "id": "gog-galaxy-linux-wing-commander-restoration",
+      "category": "PC GAMING / LINUX",
+      "headline": "GOG 런처 리눅스 진출, 고전 게임 7종 복원",
+      "facts": "GOG는 11월 5일 첫 Showcase에서 GOG GALAXY의 Linux 지원 계획을 공식 발표했다. Windows·Mac용 클라이언트도 개선하며, 게임을 설치 파일로 내려받을 수 있어 런처 사용은 계속 선택 사항이다. EA와 협력해 Wing Commander 시리즈와 Road Rash를 포함한 7개 Anniversary Edition을 선보였다. GOG에서 해당 Wing Commander 구작을 이미 보유한 이용자에게는 대응하는 Anniversary 패키지를 추가 구매 없이 제공한다고 밝혔다.",
+      "whyItMatters": "SteamOS·Linux 게임 이용자 선택지가 늘고, 오래된 게임을 현대 PC에서 보존하는 실질적인 작업이 진행된다.",
+      "analysis": "Linux용 GALAXY의 구체적인 출시일·호환성은 공식 발표만으로 확정할 수 없다. 복원판의 품질은 개별 게임별로 평가해야 한다.",
+      "outlook": "6~24개월: Linux 클라이언트 정식 출시, Steam Deck 호환성, 복원 대상 게임 확대와 DRM-free 정책 지속 여부를 확인.",
       "status": "confirmed",
       "sources": [
         {
-          "name": "JCAP 원문 연구 · 2026-11-04",
-          "url": "https://doi.org/10.1088/1475-7516/2026/11/012"
-        },
-        {
-          "name": "Live Science · 2026-11-06",
-          "url": "https://www.livescience.com/physics-mathematics/physicists-sank-a-telescope-1-5-miles-under-the-sea-to-put-einsteins-relativity-to-the-test"
+          "name": "GOG 공식 발표 · 2026-11-05",
+          "url": "https://www.gog.com/pressroom/were-celebrating-18-years-with-the-first-gog-showcase-restored-wing-commander-prophecy-gog-galaxy-announcements-and-more/"
         }
       ]
     },
     {
-      "id": "ing-500m-data-center-loans-sale-report",
-      "category": "AI INFRA / FINANCE",
-      "headline": "AI 데이터센터 대출 5억 달러, 매물로",
-      "facts": "Reuters는 11월 6일 Bloomberg의 관계자 보도를 인용해 ING가 약 5억 달러의 데이터센터 대출 12건을 매각하려 한다고 전했다. 여기에는 Stargate 관련 뉴멕시코 데이터센터 대출 2,500만 달러도 포함된 것으로 알려졌다. 매수 희망자는 11월 19일까지 입찰할 수 있으며 ING는 Reuters의 논평 요청을 거절했다. 대출 매각 계획은 신뢰할 만한 보도지만 은행의 공식 확인은 아직 없다.",
-      "whyItMatters": "AI 인프라 투자 위험이 주식뿐 아니라 은행의 대출 자산과 금융 시장에서도 재평가될 수 있다.",
-      "analysis": "대출 포트폴리오 매각 자체가 채무불이행이나 프로젝트 취소를 뜻하지는 않는다. 매각 이유와 실제 체결 가격은 확인되지 않았다.",
-      "outlook": "6~24개월: 실제 입찰 가격, 데이터센터 대출 금리, Stargate 사업 진행과 프로젝트 금융 리스크를 확인.",
-      "status": "unconfirmed",
-      "sources": [
-        {
-          "name": "Reuters · 2026-11-06 (Bloomberg 인용)",
-          "url": "https://www.reuters.com/business/finance/ing-puts-500-million-data-center-loans-up-sale-bloomberg-news-reports-2026-11-06/"
-        }
-      ]
-    },
-    {
-      "id": "perplexity-browsesafe-plus-plus-38675",
-      "category": "AI AGENT SECURITY / RESEARCH",
-      "headline": "웹페이지 속 가짜 지시문 3만8천여 쌍 공개",
-      "facts": "Perplexity는 11월 2일 실제 웹 환경의 간접 프롬프트 인젝션을 평가하는 BrowseSafe++를 공개했다. 공격이 포함된 페이지와 깨끗한 페이지를 짝지은 38,675쌍으로 구성했으며 HTML·Markdown·접근성 트리·스크린샷 형식을 포함한다. 회사는 2025년 9월부터 1년간 브라우저 에이전트가 읽은 페이지에서 탐지기가 약 115만 건의 인젝션을 표시했다고 밝혔다. 8억 파라미터 규모의 텍스트·멀티모달 탐지 모델도 함께 소개했다.",
-      "whyItMatters": "AI 에이전트가 인터넷 콘텐츠를 사용자 명령으로 오인하는 위험을 실제 웹 자료로 평가할 수 있다.",
-      "analysis": "115만 건은 탐지기 표시 횟수이지 확인된 공격 성공 건수가 아니다. 자체 평가의 우수성은 공개 벤치마크에서 독립적으로 재현해야 한다.",
-      "outlook": "6~24개월: 외부 탐지기 평가, 오탐률·실제 공격 방어율, 브라우저 에이전트 기본 보안 기능에의 통합을 확인.",
+      "id": "conservation-ai-200k-wildlife-images",
+      "category": "AI / SCIENCE / ENVIRONMENT",
+      "headline": "AI가 야생동물 사진 20만 장을 몇 시간 만에 분석",
+      "facts": "Reuters는 11월 7일 환경·보전 단체 15곳을 취재해 모두 AI를 사용하면서 데이터센터의 환경 부담을 우려한다고 보도했다. 케냐의 Save the Elephants는 과거 20만 장의 항공 사진을 사람 9명이 9개월간 분석했지만 유사한 작업을 AI로 몇 시간 만에 처리할 수 있다고 설명했다. 분석 결과 기존 수작업 조사에서 일부 동물이 상당수 누락됐다는 사실도 드러났다. 일부 단체는 데이터센터 전송을 줄이기 위해 선박·현장 기기에서 직접 AI 처리를 수행한다.",
+      "whyItMatters": "AI가 과학적 관측의 비용과 시간을 줄여 멸종위기 동물 보호와 현장 대응을 개선할 수 있다.",
+      "analysis": "AI 사용의 환경 이득과 데이터센터 전력·물 사용 부담을 함께 계산해야 한다. 조사 성능은 지역·종·촬영 조건에 따라 달라질 수 있다.",
+      "outlook": "6~24개월: 현장 AI의 정확도, 저전력 모델 보급, 데이터센터 환경 영향 공개와 보전 성과를 확인.",
       "status": "confirmed",
       "sources": [
         {
-          "name": "Perplexity 공식 연구 · 2026-11-02",
-          "url": "https://www.perplexity.ai/hub/blog/browsesafe-plus-plus"
+          "name": "Reuters · 2026-11-07",
+          "url": "https://www.reuters.com/sustainability/cop/environmental-groups-embrace-ai-even-they-warn-data-center-impacts-2026-11-07/"
+        }
+      ]
+    },
+    {
+      "id": "ramp-ai-token-price-drop-usage-growth",
+      "category": "AI BUSINESS / ECONOMICS",
+      "headline": "AI 토큰 사용은 급증, 평균 가격은 26.8% 하락",
+      "facts": "Ramp AI Index는 11월 6일 보도된 분석에서 미국 기업의 AI 사용과 지출 사이에 차이가 있다고 보여줬다. 10월 23일 종료 주의 토큰 처리량은 한 달 전 대응 주보다 37.1% 증가했지만 지출은 8.9% 증가했다. OpenAI와 Anthropic을 합친 평균 100만 토큰당 가격은 0.76달러에서 0.56달러로 26.8% 낮아졌다. Ramp 자료는 자사 결제·토큰 관리 서비스를 이용하는 기업 표본이므로 전체 AI 시장의 대표 통계는 아니다.",
+      "whyItMatters": "AI 활용량 증가가 AI 기업의 매출 증가로 그대로 이어지지 않을 수 있다는 가격 경쟁의 신호다.",
+      "analysis": "토큰 단가 변화에는 고객 구성·모델 믹스가 영향을 줄 수 있다. 가격 하락을 곧바로 모델 공급자의 이익률 악화로 단정할 수 없다.",
+      "outlook": "6~24개월: 모델별 토큰 가격, 기업의 실제 AI 지출, 추론 원가와 유료 서비스 유지율을 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Ramp AI Index 원자료",
+          "url": "https://ramp.com/data/ai-index?detail=maker&metric=token-spend&mode=volume"
         },
         {
-          "name": "BrowseSafe++ GitHub",
-          "url": "https://github.com/perplexityai/browsesafe-plus-plus"
+          "name": "TechCrunch · 2026-11-06",
+          "url": "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/"
         }
       ]
     }
