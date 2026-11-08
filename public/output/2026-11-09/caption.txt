@@ -1,0 +1,43 @@
+[2026-11-09] 오늘 볼 만한 AI·테크 뉴스 TOP 3
+
+1. AI가 실험실까지 설계한다
+무슨 일? AI 에이전트가 실험실의 디지털 트윈을 만들고 로봇 동작을 미리 시험한 뒤 실제 로봇팔에 200개 넘는 명령을 내려 실험을 수행했다.
+왜 중요? 연구실 자동화에 필요한 수작업 프로그래밍을 줄일 수 있다.
+다음엔? 독립 재현과 실제 장비 설치·운영 비용 검증.
+
+2. Claude가 발전기까지 확보?
+무슨 일? FT는 Anthropic이 데이터센터용 가스 발전기 1.7GW의 주문 약정을 약 34억 달러에 확보했다고 보도했다. 공식 확인은 아직 없다.
+왜 중요? AI 데이터센터의 최대 병목이 전력 생산 장비로 옮겨가고 있다.
+다음엔? 계약 공식 확인, 발전소 인허가와 실제 가동 일정.
+
+3. GPU 병목은 패키징이다
+무슨 일? AI 칩 수요가 폭증하며 GPU와 HBM을 묶는 첨단 패키징이 공급 병목으로 떠올랐다. 올해 설비투자 전망은 약 280억 달러다.
+왜 중요? 칩을 설계해도 패키징이 부족하면 GPU를 출하할 수 없다.
+다음엔? TSMC CoWoS 증설과 사각 패널 패키징의 양산 수율.
+
+오늘 한 줄: AI는 실험실을 설계하고, 발전기를 확보하려 하며, GPU는 패키징에서 막힌다.
+
+출처
+- Nature 뉴스 · 2026-11-06: https://www.nature.com/articles/d41586-026-03587-x
+- Self-Building Labs 원문 사전논문: https://arxiv.org/abs/2610.23826
+- Reuters · 2026-11-08: https://www.reuters.com/business/energy/anthropic-secures-34-billion-generator-deal-ai-data-centers-ft-reports-2026-11-08/
+- Financial Times 원보도 · 2026-11-08: https://www.ft.com/content/41bf5c6a-9735-4f1a-a8e3-2bcccad58ba0
+- Reuters 심층 보도 · 2026-11-06: https://www.reuters.com/world/asia-pacific/ai-boom-turns-chip-packaging-into-next-battleground-semiconductors-2026-11-06/
+- Nature 원문 연구 · 2026-11-04: https://www.nature.com/articles/s41586-026-11228-6
+- AutoDNA 코드: https://github.com/IPADS-X/AutoDNA
+- Reuters · 2026-11-08: https://www.reuters.com/world/china/nvidia-launches-probe-after-report-ceo-huang-was-target-foreign-intelligence-2026-11-08/
+- Reuters · 2026-11-07: https://www.reuters.com/science/astronomers-spot-white-dwarf-star-with-two-rings-planetary-debris-2026-11-07/
+- Business Insider · 2026-11-05: https://www.businessinsider.com/cat-wu-joins-openai-from-anthropic-product-lead-coup-2026-11
+- The Next Web · 2026-11-06: https://thenextweb.com/news/cat-wu-claude-code-anthropic-openai-core-products
+- Wall Street Journal · 2026-11-06: https://www.wsj.com/cio-journal/mercedes-gives-its-cars-an-ai-upgrade-607daae2
+- Mercedes-Benz 공식 발표: https://group.mercedes-benz.com/technology/innovation/collaboration/liquid-ai.html
+- The Verge · 2026-11-06: https://www.theverge.com/tech/1028813/apple-iphone-duo-optimized-apps
+- Apple iPhone Duo 공식 발표: https://www.apple.com/newsroom/2026/09/apple-unveils-iphone-duo/
+- Reuters · 2026-11-06: https://www.reuters.com/world/europe/activists-breach-microsoft-data-centre-construction-site-protests-spread-europe-2026-11-06/
+
+이미지 출처
+- Slide 1/2: Shixart1985 (실험실 로봇팔 상징 이미지, 해당 연구 장비 아님) · CC BY 2.0 · https://commons.wikimedia.org/wiki/File:Robot_arm_works_on_a_small_component_in_a_lab_setting.jpg · cropped and darkened
+- Slide 2/3: Pro-Per Energy Services (가스 발전소 상징 이미지, 거래 장비 아님) · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Gas_Turbine_Power_Plant.JPG · cropped and darkened
+- Slide 3/4: 2x910 (실리콘 웨이퍼 상징 이미지, 패키징 공정 사진 아님) · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Si_wafer.jpg · cropped and darkened
+
+@daily_tech_magazine · 무단 재업로드/재배포 금지
