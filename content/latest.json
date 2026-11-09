@@ -1,252 +1,244 @@
 {
-  "date": "2026-11-09",
-  "edition": 57,
+  "date": "2026-11-10",
+  "edition": 58,
   "brand": "DAILY TECH",
   "handle": "@daily_tech_magazine",
-  "deckTitle": "AI가 실험실을 짓는다…Claude의 1.7GW 발전기와 GPU 패키징 전쟁",
-  "deckSubtitle": "로봇 실험실 · AI 전력 · GPU 패키징 · Codex 인재 이동 · 우주·모바일 최신 뉴스 10선",
+  "deckTitle": "Claude가 회로를 설계하고, 구글은 AI 칩을 쪼개고, 로봇은 심해 4km로",
+  "deckSubtitle": "Claude Fable 5.2 · Google TPU 8tx/8i Max · 심해 AI 로봇 · 뎁스 카메라 연구 · 최신 기술 10선",
   "top3": [
-    "self-building-labs-robot-digital-twin",
-    "anthropic-1point7gw-gas-generators-report",
-    "ai-advanced-packaging-28b-capex"
+    "claude-fable-mythos-52-launch",
+    "google-tpu-8tx-8i-max",
+    "impossible-metals-4000m-seabed-robot"
   ],
-  "dailyAnalysis": "오늘 뉴스의 공통점은 AI가 연구·반도체·전력의 현실 세계로 깊이 들어오고 있다는 것이다. Self-Building Labs와 AutoDNA는 에이전트가 물리 장비를 계획하고 조작하는 실험을 보여주지만, 다른 연구실에서도 재현 가능한지와 장비 운영 비용은 별개 과제다. Anthropic의 1.7GW 발전기 계약 보도는 공식 확인 전이며, 첨단 패키징의 280억 달러 설비투자 전망과 함께 AI 컴퓨팅 병목이 GPU 자체에서 전력·공급망으로 확장되는 흐름을 보여준다. NVIDIA의 독립 조사는 의혹을 확인하기 위한 절차이지 위법 행위가 확정된 것은 아니다. Claude Code 제품 책임자의 OpenAI 이동과 Mercedes의 차량 내 AI, iPhone Duo 앱 최적화는 AI 도구와 하드웨어의 사용자 경험 경쟁을 나타낸다. 백색왜성 이중 고리 발견은 행성계의 미래를 이해할 새 단서다. 유럽 데이터센터 시위는 인프라 확대에 사회적 합의가 필요함을 드러낸다.",
-  "recap": "AI는 실험실을 설계하고, 발전기를 확보하려 하며, GPU는 패키징에서 막힌다.",
+  "dailyAnalysis": "오늘의 핵심은 AI 기술의 범위가 코드 생성에서 하드웨어 설계·특화 반도체·물리적 탐사로 확장되고 있다는 것이다. Anthropic은 Fable·Mythos 5.2가 전자기기 설계와 수학 증명 형식화에 성과를 냈다고 발표했지만 독립 재현이 필요하다. Google은 보안 처리용 TPU 8tx와 메모리 대역폭을 확대한 8i Max를 공개해 에이전트의 실제 병목을 겨냥했다. Impossible Metals의 4km 심해 로봇은 흥미로운 실증이지만 450g 회수와 상업 채굴은 다른 단계다. 깊이 카메라 기반 보행 AI와 Panasonic 촉각 로봇은 센서 데이터가 현장 성능을 개선할 가능성을 보여준다. 반면 노르웨이의 전력망 연결 제한과 호주 중앙은행의 생산성 경계는 AI 확장이 전력·경제 제약을 마주하고 있음을 상기시킨다. GitHub의 Slack·Teams 에이전트 연동은 개발도구가 협업 대화 속으로 이동하는 사례다. 극저온 회전 자석 연구는 정밀 센싱과 기초과학의 새로운 실험 경로를 제시한다.",
+  "recap": "Claude는 회로를 설계하고, 구글은 칩을 특화하며, 로봇은 심해로 향한다.",
   "cover": {
-    "stat": "200+ 명령 · 1.7GW · $28B",
-    "title": "AI가 실험실을 설계한다\n이젠 전력·패키징 전쟁",
-    "subtitle": "오늘 TOP 3: 로봇 실험실 · Claude 발전기 보도 · GPU 병목"
+    "stat": "Fable 5.2 · TPU 8i Max · 4,000m",
+    "title": "AI가 회로를 만들고\n심해 4km까지 내려갔다",
+    "subtitle": "오늘 TOP 3: Claude 신모델 · 구글 TPU · 심해 자율로봇"
   },
   "stories": [
     {
-      "id": "self-building-labs-robot-digital-twin",
-      "category": "ROBOTICS / AI AGENTS",
-      "headline": "AI 에이전트가 실험실을 설계하고 로봇까지 조종한다",
-      "facts": "토론토대 등 연구진의 Self-Building Labs 연구가 11월 6일 Nature에 소개됐다. 연구자가 목표와 장비를 알려주면 에이전트가 장비 배치와 실험 절차를 설계하고 가상 실험실에서 충돌을 점검한다. 실제 실험에서 로봇팔에 200개가 넘는 명령을 내려 나노결정의 광학 특성 측정을 수행했다. 원 연구는 10월 공개된 arXiv 사전논문이며 아직 동료심사를 통과하지 않았다.",
-      "whyItMatters": "실험 장비가 바뀔 때마다 사람이 로봇을 다시 프로그래밍하는 비용을 줄일 가능성이 있다.",
-      "analysis": "시뮬레이션에서 성공한 절차가 다른 연구실에서도 그대로 작동하는 것은 아니다. 센서 설치와 장비 정렬에 드는 비용을 별도 검증해야 한다.",
-      "outlook": "6~24개월: 다른 실험실 재현, 장비 호환성, 충돌·오작동률과 실제 구축비를 확인.",
+      "id": "claude-fable-mythos-52-launch",
+      "category": "AI MODELS / CODING AGENTS",
+      "headline": "Claude Fable·Mythos 5.2 공개, 코딩·과학 성능 도약",
+      "facts": "Anthropic이 11월 9일 Claude Fable 5.2와 Mythos 5.2를 발표했다. 자체 FrontierCode 2.0 평가에서 Fable 5.2는 49.1%를 기록했고 Fable 5.1의 32.4%를 넘어섰다. 회사는 사전 시험에서 전자기기 3종의 PCB·외함·소프트웨어를 설계하고 페르마의 마지막 정리를 1,000개 에이전트로 30시간에 형식화했다고 밝혔다. Fable은 일반 제공하지만 Mythos는 검증된 보안·생명과학 기관 중심으로 접근을 제한한다.",
+      "whyItMatters": "코딩 에이전트가 코드 생성에서 하드웨어 설계와 복잡한 연구를 수행하는 방향으로 확장되고 있다.",
+      "analysis": "성능과 연구 성과는 상당 부분 Anthropic 자체 평가이며 독립 재현이 필요하다. 30시간 결과는 새로운 정리의 최초 발견이 아니라 알려진 증명의 Lean 형식화다.",
+      "outlook": "6~24개월: 외부 벤치마크, 하드웨어 설계 재현, 실제 개발 비용과 접근 제한 정책을 확인.",
       "status": "confirmed",
       "sources": [
         {
-          "name": "Nature 뉴스 · 2026-11-06",
-          "url": "https://www.nature.com/articles/d41586-026-03587-x"
+          "name": "Anthropic 공식 발표 · 2026-11-09",
+          "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2"
         },
         {
-          "name": "Self-Building Labs 원문 사전논문",
-          "url": "https://arxiv.org/abs/2610.23826"
+          "name": "The Verge · 2026-11-09",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2"
         }
       ],
       "card": {
-        "stat": "200+ 명령",
-        "headline": "AI가 실험실까지 설계한다",
-        "what": "AI 에이전트가 실험실의 디지털 트윈을 만들고 로봇 동작을 미리 시험한 뒤 실제 로봇팔에 200개 넘는 명령을 내려 실험을 수행했다.",
-        "why": "연구실 자동화에 필요한 수작업 프로그래밍을 줄일 수 있다.",
-        "next": "독립 재현과 실제 장비 설치·운영 비용 검증.",
-        "hook": "실험실을 짓고 로봇을 움직이는 AI"
+        "stat": "Fable 5.2",
+        "headline": "Claude가 PCB까지 설계했다",
+        "what": "Anthropic이 Fable·Mythos 5.2를 발표했다. 사전 시험에서 전자기기 3종을 설계하고 1,000개 에이전트로 수학 증명을 30시간에 형식화했다.",
+        "why": "코딩 AI가 하드웨어 제작과 연구까지 확장되고 있다.",
+        "next": "독립 재현, 실제 설계 성공률, 모델 사용 비용을 확인.",
+        "hook": "코드만 짜던 AI, 회로까지 설계"
       },
       "visual": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Robot_arm_works_on_a_small_component_in_a_lab_setting.jpg",
-        "credit": "Shixart1985 (실험실 로봇팔 상징 이미지, 해당 연구 장비 아님)",
-        "license": "CC BY 2.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Robot_arm_works_on_a_small_component_in_a_lab_setting.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/AIBRAIN.png",
+        "credit": "Eladkarmel (AI 상징 일러스트, Claude 실제 화면 아님)",
+        "license": "CC BY-SA 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:AIBRAIN.png",
         "reuseAllowed": true,
         "modified": "cropped and darkened"
       }
     },
     {
-      "id": "anthropic-1point7gw-gas-generators-report",
+      "id": "google-tpu-8tx-8i-max",
+      "category": "AI CHIPS / HARDWARE",
+      "headline": "구글 TPU 8tx·8i Max, 보안과 초장문 AI 전용으로 분화",
+      "facts": "Google이 11월 9일 8세대 TPU 시스템 8tx와 8i Max를 공개했다. 8tx는 5세대 AMD EPYC CPU와 결합해 실행 중인 민감 데이터와 모델 가중치를 하드웨어 수준에서 보호한다. Google은 8tx가 8t보다 지연시간을 최대 절반으로 낮춘다고 설명한다. 8i Max는 8i 칩 2개를 한 패키지에 넣어 연산능력·SRAM·HBM 대역폭을 각각 두 배로 늘린 구성이다.",
+      "whyItMatters": "대규모 에이전트의 긴 문맥 처리와 데이터 보호가 GPU·TPU 설계의 주요 경쟁 요소가 됐다.",
+      "analysis": "두 제품은 새로운 단일 칩만을 의미하는 것이 아니라 기존 실리콘을 다른 시스템 구성으로 최적화한 것이다. 성능 수치는 Google 발표 기준이다.",
+      "outlook": "6~24개월: 실제 클라우드 가격, 고객 채택, PyTorch 호환성과 NVIDIA 대비 총소유비용을 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Google 공식 발표 · 2026-11-09",
+          "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/"
+        },
+        {
+          "name": "Reuters · 2026-11-09",
+          "url": "https://www.reuters.com/business/google-to-introduce-two-variants-its-in-house-chips-bloomberg-news-reports-2026-11-09/"
+        }
+      ],
+      "card": {
+        "stat": "TPU 8tx · 8i Max",
+        "headline": "구글, AI 칩을 둘로 나눴다",
+        "what": "구글이 민감 데이터 보호용 8tx와 초장문 에이전트용 8i Max를 공개했다. 8i Max는 칩 두 개로 HBM 대역폭과 연산능력을 2배로 늘린다.",
+        "why": "AI 칩 경쟁의 초점이 보안과 메모리 병목으로 확대된다.",
+        "next": "실제 클라우드 요금, PyTorch 지원과 고객 채택을 확인.",
+        "hook": "AI 칩, 이제 보안과 메모리 싸움"
+      },
+      "visual": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/AST_Computer_Chip.jpg",
+        "credit": "SIMONIZESERVES (일반 반도체 상징 사진, Google TPU 아님)",
+        "license": "CC BY-SA 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:AST_Computer_Chip.jpg",
+        "reuseAllowed": true,
+        "modified": "cropped and darkened"
+      }
+    },
+    {
+      "id": "impossible-metals-4000m-seabed-robot",
+      "category": "ROBOTICS / OCEAN TECH",
+      "headline": "AI 해저 로봇, 수심 4,000m에서 광물 450g 채취",
+      "facts": "Impossible Metals는 11월 9일 9월 태평양 탐사에서 AI 기반 자율 해저 로봇을 시험했다고 밝혔다. 로봇은 수심 4,000m 이상 해저로 내려가 집게로 다금속 단괴 약 450g을 회수하고 수면으로 돌아왔다. 회사는 주변 생물을 피해 선택적으로 광물을 집는 방식이 해저 교란을 줄일 수 있다고 주장한다. 상업 채굴은 국제해저기구 또는 미국 정부의 허가가 필요하다.",
+      "whyItMatters": "심해 자원 회수에 자율로봇과 컴퓨터 비전을 적용하는 구체적인 시험 사례다.",
+      "analysis": "450g 회수는 기술 실증이지 경제적인 대량 채굴의 증거가 아니다. 환경 피해 감소 주장은 독립적인 생태계 평가가 필요하다.",
+      "outlook": "6~24개월: 대형 로봇 확장, 반복 회수 성공률, 해양 환경 영향과 허가 여부를 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Reuters · 2026-11-09",
+          "url": "https://www.reuters.com/technology/impossible-metals-says-it-has-successfully-tested-ai-seabed-mining-robot-2026-11-09/"
+        },
+        {
+          "name": "Reuters 후속 확인 · 2026-11-09",
+          "url": "https://www.reuters.com/technology/impossible-metals-says-it-has-successfully-tested-ai-seabed-mining-robot-2026-11-09/"
+        }
+      ],
+      "card": {
+        "stat": "수심 4,000m+",
+        "headline": "심해 4km에서 광물을 집었다",
+        "what": "Impossible Metals의 AI 자율로봇이 태평양 수심 4,000m 이상에서 다금속 단괴 약 450g을 집게로 회수하고 수면으로 돌아왔다.",
+        "why": "심해 채굴 방식이 대규모 흡입에서 선택적 로봇 수거로 바뀔 가능성.",
+        "next": "상업 허가, 환경 영향 검증과 대형 로봇 확장을 확인.",
+        "hook": "심해 4km, 로봇이 광물을 골라 집다"
+      },
+      "visual": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Arthur_ROV.jpg",
+        "credit": "Vincent Creuze / DRASSM-LIRMM (수중 로봇 상징 사진, Impossible Metals 장비 아님)",
+        "license": "CC BY-SA 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Arthur_ROV.jpg",
+        "reuseAllowed": true,
+        "modified": "cropped and darkened"
+      }
+    },
+    {
+      "id": "gait-depth-camera-18-body-systems",
+      "category": "COMPUTER VISION / SCIENCE",
+      "headline": "뎁스 카메라 하나로 건강 지표 1,887개 예측",
+      "facts": "Nature Medicine에 11월 6일 온라인 게재된 연구는 성인 3,328명의 3D 골격 움직임을 뎁스 카메라 하나로 기록했다. 연구진은 다섯 가지 동작에서 관절의 시간별 움직임을 학습하는 보행 파운데이션 모델을 개발했다. 3,210개 건강 관련 지표 중 1,887개를 통계적으로 유의하게 예측했다. 기존의 보폭·보행속도 중심 지표보다 연령·BMI·내장지방 예측에서 높은 성능을 보였다.",
+      "whyItMatters": "일반적인 깊이 카메라와 AI로 다양한 신체 특성의 비침습적 추정 가능성을 보여준다.",
+      "analysis": "예측 상관관계가 질병 진단의 정확성을 보장하지는 않는다. 독립 집단 검증과 개인정보 보호가 필요하다.",
+      "outlook": "6~24개월: 외부 코호트 재현, 저가 카메라 성능, 실제 임상 효용을 검증.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Nature Medicine 원문 · 2026-11-06",
+          "url": "https://www.nature.com/articles/s41591-026-04724-9"
+        },
+        {
+          "name": "Nature Medicine 연구 요약 · 2026-11-09",
+          "url": "https://www.nature.com/articles/s41591-026-04725-8"
+        }
+      ]
+    },
+    {
+      "id": "panasonic-trex-tactile-robot",
+      "category": "ROBOTICS / TACTILE AI",
+      "headline": "로봇 손끝 반사신경 20Hz, 섬세한 작업 성공률 65%",
+      "facts": "Panasonic과 UC Berkeley 등 연구진은 손끝 촉각에 즉시 반응하는 양손 로봇 AI T-Rex를 개발했다. 시각·언어 기반 동작 생성은 약 5Hz로 수행하고 촉각을 이용한 수정은 약 20Hz로 실행한다. 계란 옮기기·카드 뽑기·열쇠 돌리기 등 실제 작업 12개에서 평균 성공률 65%를 기록했다. 비교 방법의 성공률은 35%였고 촉각을 제거하면 42%로 떨어졌다.",
+      "whyItMatters": "카메라만으로 어려운 삽입·접촉 작업에서 촉각 피드백이 실제 성능 차이를 만들 수 있다.",
+      "analysis": "수치는 연구진이 정한 12개 과제의 실험 결과다. 산업 현장의 일반적 성공률로 해석할 수 없다.",
+      "outlook": "6~24개월: 촉각 센서 가격, 새로운 물체에 대한 일반화, 삽입 작업의 장기 안정성을 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Panasonic 공식 발표 · 2026-11-05",
+          "url": "https://news.panasonic.com/global/press/en261105-2"
+        }
+      ]
+    },
+    {
+      "id": "levitated-magnet-138m-rpm",
+      "category": "QUANTUM SCIENCE / SENSORS",
+      "headline": "초전도체 위 미세자석, 분당 1억3,800만 회전",
+      "facts": "Science Advances 11월 6일 논문에서 연구진은 반지름 약 30마이크로미터 자석을 4.2K의 초전도체 위에 띄웠다. 이 자석은 초당 230만 회, 분당 약 1억3,800만 회전했다. 접촉 마찰이 없는 구조에서 매우 낮은 감쇠를 측정했다. 연구진은 이 장치를 이용해 액시온 유사 암흑물질 신호를 좁은 주파수 대역에서 예비 탐색했지만 신호는 발견하지 못했다.",
+      "whyItMatters": "극도로 약한 힘과 자기장을 측정하는 정밀 센서의 가능성을 넓혔다.",
+      "analysis": "초고속 회전 자체가 암흑물질 발견을 뜻하지 않는다. 탐색 범위가 좁고 극저온 장비가 필요하다.",
+      "outlook": "6~24개월: 더 넓은 주파수 탐색, 센서 잡음 저감, 재현 가능한 극저온 운용을 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Science Advances 원문 · 2026-11-06",
+          "url": "https://doi.org/10.1126/sciadv.aee6434"
+        }
+      ]
+    },
+    {
+      "id": "github-slack-teams-agent-ga",
+      "category": "DEVELOPER TOOLS / AGENTS",
+      "headline": "Slack·Teams 대화에서 바로 GitHub PR 생성",
+      "facts": "GitHub가 11월 6일 Slack과 Microsoft Teams의 @GitHub 연동을 정식 제공한다고 발표했다. 채팅에서 버그 조사, 이슈 생성, 코드 수정과 PR 열기를 요청할 수 있다. Teams의 Canvas에서는 구현 계획과 코드 변경, 미리보기를 대화와 함께 검토할 수 있다. 이슈와 PR에는 어떤 채팅 대화에서 생성됐는지 출처 정보도 표시한다.",
+      "whyItMatters": "코딩 에이전트의 작업 시작점이 IDE를 넘어 팀의 일상적인 협업 대화로 확장된다.",
+      "analysis": "채팅에서 PR을 열 수 있다는 사실이 코드의 품질이나 자동 병합의 안전성을 보장하지는 않는다. 접근 권한과 리뷰가 중요하다.",
+      "outlook": "6~24개월: 실제 개발팀 채택률, PR 품질, 대화 기반 승인·감사 기록을 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "GitHub 공식 변경 기록 · 2026-11-06",
+          "url": "https://github.blog/changelog/2026-11-06-github-copilot-in-slack-and-teams-is-generally-available/"
+        }
+      ]
+    },
+    {
+      "id": "norway-datacenter-grid-freeze",
       "category": "AI INFRASTRUCTURE / POWER",
-      "headline": "Anthropic, 1.7GW 가스 발전기 확보 보도",
-      "facts": "Financial Times는 11월 8일 Anthropic이 약 34억 달러를 들여 1.7GW 규모 가스 발전기 주문권을 확보했다고 보도했다. 텍사스 공급사 OnePWR Solutions의 장비 발주 약정을 넘겨받는 거래로, 회사 자체를 인수한 것은 아니라고 전했다. 설치에 필요한 엔지니어링·건설 역량도 거래에 포함됐다고 한다. Reuters는 독립 검증에 이르지 못했고 양사는 논평하지 않았다.",
-      "whyItMatters": "AI 모델 학습과 추론의 핵심 병목이 GPU에서 전력 생산설비 조달까지 확장되고 있음을 보여준다.",
-      "analysis": "34억 달러·1.7GW는 확인된 기업 공시가 아닌 신뢰할 만한 언론의 미확정 보도다. 장비 확보가 실제 발전·데이터센터 가동을 뜻하지 않는다.",
-      "outlook": "6~24개월: 양사 공식 확인, 설치 장소·인허가, 연료·탄소 배출, 실제 가동 시점을 추적.",
-      "status": "unconfirmed",
-      "sources": [
-        {
-          "name": "Reuters · 2026-11-08",
-          "url": "https://www.reuters.com/business/energy/anthropic-secures-34-billion-generator-deal-ai-data-centers-ft-reports-2026-11-08/"
-        },
-        {
-          "name": "Financial Times 원보도 · 2026-11-08",
-          "url": "https://www.ft.com/content/41bf5c6a-9735-4f1a-a8e3-2bcccad58ba0"
-        }
-      ],
-      "card": {
-        "stat": "1.7GW · 미확정",
-        "headline": "Claude가 발전기까지 확보?",
-        "what": "FT는 Anthropic이 데이터센터용 가스 발전기 1.7GW의 주문 약정을 약 34억 달러에 확보했다고 보도했다. 공식 확인은 아직 없다.",
-        "why": "AI 데이터센터의 최대 병목이 전력 생산 장비로 옮겨가고 있다.",
-        "next": "계약 공식 확인, 발전소 인허가와 실제 가동 일정.",
-        "hook": "AI 경쟁, 이제 발전기 확보전"
-      },
-      "visual": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Gas_Turbine_Power_Plant.JPG",
-        "credit": "Pro-Per Energy Services (가스 발전소 상징 이미지, 거래 장비 아님)",
-        "license": "CC BY-SA 4.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gas_Turbine_Power_Plant.JPG",
-        "reuseAllowed": true,
-        "modified": "cropped and darkened"
-      }
-    },
-    {
-      "id": "ai-advanced-packaging-28b-capex",
-      "category": "SEMICONDUCTORS / GPU",
-      "headline": "AI 칩 병목, 이제 패키징에 280억 달러",
-      "facts": "Reuters가 11월 6일 반도체 업계의 첨단 패키징 투자 경쟁을 집중 보도했다. Yole Group은 2026년 첨단 패키징 매출이 전통 패키징을 처음 앞서고 관련 설비투자가 약 280억 달러에 이를 것으로 전망한다. TSMC의 CoWoS 공급 부족으로 NVIDIA·AMD·Broadcom이 대안을 찾고 있다. Powertech는 AMD·Broadcom과 사각 패널 기반 패키징을 개발하며 싱가포르 합작 사업에 4억 달러를 투입할 계획이다.",
-      "whyItMatters": "GPU와 HBM을 빠르게 연결하는 패키징 능력이 고성능 AI 칩 출하량을 좌우한다.",
-      "analysis": "280억 달러는 연구기관의 시장 전망이지 확정 지출액이 아니다. 패널 패키징의 수율과 생산비는 양산 검증이 필요하다.",
-      "outlook": "6~24개월: CoWoS 증설, 패널 방식 수율, GPU 공급 확대와 신규 공장 가동을 확인.",
+      "headline": "노르웨이, 데이터센터 신규 전력망 예약 일시 중단",
+      "facts": "Reuters는 11월 9일 노르웨이 송전망 운영사 Statnett가 신규 데이터센터의 전력망 연결 용량 예약을 일시 중단했다고 보도했다. 정부는 국방·응급·의료 등 필수 인프라를 우선하는 허가 체계를 준비하고 있다. 올해 신청된 신규 전력 용량 약 2만6,000MW 중 데이터센터가 75%를 차지한다고 당국은 밝혔다. 정부는 자국 AI 개발에 필요한 시설은 지원하겠다는 입장이다.",
+      "whyItMatters": "AI 데이터센터 건설에서 GPU뿐 아니라 송전망 연결과 전력 인허가가 결정적 병목이 되고 있다.",
+      "analysis": "예약 중단은 이미 운영 중인 모든 데이터센터를 폐쇄한다는 의미가 아니다. 요청 용량은 실제 소비량과 다르다.",
+      "outlook": "6~24개월: 허가 우선순위, 전력망 증설비용 부담과 프로젝트 이전 여부를 확인.",
       "status": "confirmed",
       "sources": [
         {
-          "name": "Reuters 심층 보도 · 2026-11-06",
-          "url": "https://www.reuters.com/world/asia-pacific/ai-boom-turns-chip-packaging-into-next-battleground-semiconductors-2026-11-06/"
-        }
-      ],
-      "card": {
-        "stat": "280억 달러 전망",
-        "headline": "GPU 병목은 패키징이다",
-        "what": "AI 칩 수요가 폭증하며 GPU와 HBM을 묶는 첨단 패키징이 공급 병목으로 떠올랐다. 올해 설비투자 전망은 약 280억 달러다.",
-        "why": "칩을 설계해도 패키징이 부족하면 GPU를 출하할 수 없다.",
-        "next": "TSMC CoWoS 증설과 사각 패널 패키징의 양산 수율.",
-        "hook": "GPU를 만드는 마지막 단계가 막혔다"
-      },
-      "visual": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Si_wafer.jpg",
-        "credit": "2x910 (실리콘 웨이퍼 상징 이미지, 패키징 공정 사진 아님)",
-        "license": "CC BY-SA 4.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Si_wafer.jpg",
-        "reuseAllowed": true,
-        "modified": "cropped and darkened"
-      }
-    },
-    {
-      "id": "autodna-11000-steps-lab",
-      "category": "AI SCIENCE / BIOTECH",
-      "headline": "AI가 DNA 실험 1만1천 단계를 직접 지휘",
-      "facts": "11월 4일 Nature에 게재된 AutoDNA 연구는 20종 넘는 실험 장비를 AI 에이전트로 연결했다. 합성·전사·증폭·염기서열 분석 등 1만1천 단계 이상을 자동으로 조율했다. 실험 절차를 동시에 수행해 순차 실행 대비 3.2배 속도를 달성했다고 보고했다. DNA에 기록한 디지털 데이터를 정확히 복원하고 KRAS G13D 변이를 검출하는 실험도 제시했다.",
-      "whyItMatters": "AI가 실험 계획에서 실제 생물학적 실험 수행까지 연결하는 플랫폼이 될 수 있다.",
-      "analysis": "인간의 개입이 전혀 없지는 않다. 시약 보충·장비 유지보수는 필요하고 타 연구실의 재현도 확인해야 한다.",
-      "outlook": "6~24개월: 타 기관 재현, 실험 오류 복구, 다양한 장비 지원과 운영 비용을 확인.",
-      "status": "confirmed",
-      "sources": [
-        {
-          "name": "Nature 원문 연구 · 2026-11-04",
-          "url": "https://www.nature.com/articles/s41586-026-11228-6"
-        },
-        {
-          "name": "AutoDNA 코드",
-          "url": "https://github.com/IPADS-X/AutoDNA"
+          "name": "Reuters · 2026-11-09",
+          "url": "https://www.reuters.com/business/energy/norways-statnett-pauses-new-grid-capacity-data-centres-protect-power-system-2026-11-09/"
         }
       ]
     },
     {
-      "id": "nvidia-board-investigates-intelligence-allegations",
-      "category": "NVIDIA / GOVERNANCE",
-      "headline": "엔비디아 이사회, CEO 관련 정보유출 의혹 독립 조사",
-      "facts": "11월 8일 NVIDIA 이사회는 CEO 젠슨 황을 둘러싼 외국 정보기관 접근 의혹 보도에 대해 독립 조사를 시작한다고 발표했다. 외부 법률 자문과 독립 이사들이 조사를 감독한다. 보도는 중국으로의 첨단 AI 칩 우회 접근 의혹을 받는 기업과 관련된 인물에 관한 것이다. NVIDIA는 현재 국가안보나 회사 기밀이 침해됐다고 믿을 이유가 없다고 밝혔으며 조사 결과는 아직 나오지 않았다.",
-      "whyItMatters": "첨단 AI 반도체의 수출통제와 경영진 보안이 기술 기업의 주요 리스크가 되고 있다.",
-      "analysis": "조사 착수는 의혹의 사실 확인이나 기밀 유출의 증거가 아니다. 사생활 관련 사실과 기술·국가안보 위험을 구분해야 한다.",
-      "outlook": "6~24개월: 독립 조사 결과, 의회 보고, 수출통제 준수 체계의 변화가 관전 포인트.",
+      "id": "rba-ai-productivity-caution",
+      "category": "AI ECONOMY / JOBS",
+      "headline": "호주 중앙은행: AI 생산성 혁명, 아직 통계로는 불분명",
+      "facts": "호주 중앙은행 부총재급 인사 Sarah Hunter는 11월 9일 AI가 생산성을 크게 높였거나 대규모 실직을 일으켰다는 증거는 아직 제한적이라고 말했다. 반면 데이터센터 건설 투자는 전력과 자본 수요를 늘려 단기 물가 압력에 영향을 줄 수 있다고 지적했다. AI 노출도가 높은 직종에서는 청년층 고용 관련 초기 변화 신호가 나타난다고 설명했다. 장기적으로는 생산성 증가가 공급을 늘릴 수 있지만 시점은 불확실하다.",
+      "whyItMatters": "AI의 기술 성능과 실제 경제 생산성 사이의 간격을 구분해야 한다.",
+      "analysis": "이 발언은 경제 분석이지 AI가 생산성에 효과가 없다는 확정 판정은 아니다. 지역·업종별 효과가 다를 수 있다.",
+      "outlook": "6~24개월: 기업 생산성 통계, 청년 고용, 데이터센터 물가 영향과 투자 수익률을 추적.",
       "status": "confirmed",
       "sources": [
         {
-          "name": "Reuters · 2026-11-08",
-          "url": "https://www.reuters.com/world/china/nvidia-launches-probe-after-report-ceo-huang-was-target-foreign-intelligence-2026-11-08/"
+          "name": "Reuters · 2026-11-09",
+          "url": "https://www.reuters.com/world/asia-pacific/rbas-hunter-says-ai-has-yet-deliver-productivity-boost-trigger-job-losses-2026-11-08/"
         }
       ]
     },
     {
-      "id": "white-dwarf-double-debris-rings",
-      "category": "SPACE SCIENCE",
-      "headline": "죽은 별 주위에서 행성 잔해 고리 두 개 발견",
-      "facts": "11월 7일 Reuters가 보도한 Nature Astronomy 연구는 지구에서 약 1,600광년 떨어진 백색왜성 J1328−1450의 잔해 원반이 두 고리로 나뉘어 있음을 보여준다. 연구진은 칠레의 초거대망원경 VLT로 관측했다. 알려진 유사 백색왜성 21개에서는 단일 고리만 확인됐었다. 마그네슘 함량 차이와 고리 구조는 파괴된 행성 또는 암석 천체의 잔해가 복잡하게 분포함을 시사한다.",
-      "whyItMatters": "별이 죽은 뒤에도 행성계의 잔해가 남는 과정을 이해하고 먼 미래 태양계의 운명을 추정하는 데 도움이 된다.",
-      "analysis": "두 개의 행성이 실제로 존재한다는 직접 촬영은 아니다. 살아남은 암석 천체가 고리 구조를 만들었다는 것은 연구진의 설명 가설이다.",
-      "outlook": "6~24개월: 추가 분광 관측, 고리의 시간 변화와 다른 백색왜성의 이중 원반 발견 여부를 확인.",
+      "id": "lol-worlds-2026-final-brooklyn",
+      "category": "GAMING / ESPORTS",
+      "headline": "롤드컵 19팀 중 최후의 2팀, 11월 14일 결승",
+      "facts": "Riot Games가 11월 9일 2026 리그 오브 레전드 월드 챔피언십 결승 관람 행사 정보를 공개했다. 북미 대회에 출전한 19개 팀 중 두 팀만 남았다. 결승은 11월 14일 미국 뉴욕 브루클린 Barclays Center에서 열릴 예정이다. Riot는 공식 행사와 커뮤니티 관람 행사를 안내했다.",
+      "whyItMatters": "대형 e스포츠 이벤트는 게임의 지속적인 관심과 글로벌 커뮤니티 활동을 확인하는 지표다.",
+      "analysis": "경기 일정과 참가 팀 수는 확인됐지만 결과와 우승팀은 아직 정해지지 않았다. 관람 행사 안내가 게임 밸런스 업데이트를 의미하지 않는다.",
+      "outlook": "6~24개월: 결승 시청 지표, 2027 시즌 운영 방식과 지역별 e스포츠 생태계를 확인.",
       "status": "confirmed",
       "sources": [
         {
-          "name": "Reuters · 2026-11-07",
-          "url": "https://www.reuters.com/science/astronomers-spot-white-dwarf-star-with-two-rings-planetary-debris-2026-11-07/"
-        }
-      ]
-    },
-    {
-      "id": "claude-code-cat-wu-joins-openai",
-      "category": "CODING AGENTS / TALENT",
-      "headline": "Claude Code 제품 책임자, OpenAI로 이직",
-      "facts": "Claude Code의 제품 성장을 이끈 Cat Wu가 11월 5일 OpenAI 합류를 직접 알렸다. OpenAI 핵심 제품의 제품관리 조직을 이끌고 Thibault Sottiaux와 협력할 예정이다. Wu는 Claude Code가 내부 도구에서 상용 제품으로 성장하는 데 참여했다. OpenAI도 채용 사실을 언론에 확인했으며, 구체적인 Codex 제품 변경은 발표되지 않았다.",
-      "whyItMatters": "코딩 에이전트 경쟁에서 모델 성능뿐 아니라 제품 경험을 설계하는 핵심 인력의 중요성이 커졌다.",
-      "analysis": "인재 이동만으로 Codex의 성능 향상이나 Claude Code의 쇠퇴를 예단할 수 없다.",
-      "outlook": "6~24개월: Codex 사용성·권한 관리·장기 에이전트 협업 기능의 실제 변화에 주목.",
-      "status": "confirmed",
-      "sources": [
-        {
-          "name": "Business Insider · 2026-11-05",
-          "url": "https://www.businessinsider.com/cat-wu-joins-openai-from-anthropic-product-lead-coup-2026-11"
-        },
-        {
-          "name": "The Next Web · 2026-11-06",
-          "url": "https://thenextweb.com/news/cat-wu-claude-code-anthropic-openai-core-products"
-        }
-      ]
-    },
-    {
-      "id": "mercedes-liquid-ai-on-device-rollout",
-      "category": "ON-DEVICE AI / VEHICLES",
-      "headline": "메르세데스, 자동차 안에서 돌아가는 AI 비서 배포",
-      "facts": "Mercedes-Benz는 MIT 출신 기업 Liquid AI의 경량 모델을 차량에 탑재하는 작업을 진행 중이다. 11월 6일 WSJ 보도에 따르면 북미 일부 차량에 10월부터 무선 업데이트가 시작됐고 2027년 여러 차종으로 확대될 예정이다. 차량 안에서 음성 인식과 기능 제어를 처리하며 복잡한 요청은 클라우드로 넘긴다. Mercedes는 올해 4월 공식 발표에서 3·4세대 MBUX 차량을 대상으로 로컬 AI를 도입하겠다고 밝혔다.",
-      "whyItMatters": "인터넷이 불안정한 차량에서도 빠른 응답과 개인정보 보호를 확보하는 온디바이스 AI 사례다.",
-      "analysis": "모든 질문을 오프라인에서 해결하는 것은 아니다. 언어별 인식률과 실제 업데이트 제공 범위는 차종에 따라 다를 수 있다.",
-      "outlook": "6~24개월: 북미 외 지역 지원, 한국어 음성 성능, 업데이트 차종과 오프라인 응답 지연을 확인.",
-      "status": "confirmed",
-      "sources": [
-        {
-          "name": "Wall Street Journal · 2026-11-06",
-          "url": "https://www.wsj.com/cio-journal/mercedes-gives-its-cars-an-ai-upgrade-607daae2"
-        },
-        {
-          "name": "Mercedes-Benz 공식 발표",
-          "url": "https://group.mercedes-benz.com/technology/innovation/collaboration/liquid-ai.html"
-        }
-      ]
-    },
-    {
-      "id": "iphone-duo-100k-optimized-apps",
-      "category": "MOBILE / SOFTWARE",
-      "headline": "접는 아이폰, 2주 만에 최적화 앱 10만 개",
-      "facts": "Apple은 11월 6일 iPhone Duo에 맞춘 앱이 App Store에 10만 개 이상 있다고 밝혔다. 회사는 매일 수천 개의 최적화 앱이 추가된다고 설명했다. 폴더블의 안쪽 큰 화면과 다중 창 UI에 맞춰 개발자가 앱을 조정하는 과정이 진행 중이다. 다만 일부 앱은 최적화 표기가 있어도 화면 배치 문제가 보고됐다.",
-      "whyItMatters": "새로운 화면 비율과 멀티태스킹 방식에 소프트웨어 생태계가 얼마나 빠르게 적응하는지 보여준다.",
-      "analysis": "10만 개는 Apple의 발표 수치이며 앱의 품질을 일괄 보증하지 않는다. '최적화' 기준과 실제 사용성은 구분해야 한다.",
-      "outlook": "6~24개월: 태블릿형 UI 활용, 주요 앱의 완성도, 폴더블 앱 개발 표준 확산을 확인.",
-      "status": "confirmed",
-      "sources": [
-        {
-          "name": "The Verge · 2026-11-06",
-          "url": "https://www.theverge.com/tech/1028813/apple-iphone-duo-optimized-apps"
-        },
-        {
-          "name": "Apple iPhone Duo 공식 발표",
-          "url": "https://www.apple.com/newsroom/2026/09/apple-unveils-iphone-duo/"
-        }
-      ]
-    },
-    {
-      "id": "europe-ai-datacenter-protests-microsoft",
-      "category": "AI INFRASTRUCTURE / REGULATION",
-      "headline": "유럽 16개국 데이터센터 반대 시위, MS 공사장 진입",
-      "facts": "11월 6일 암스테르담의 Microsoft AI 데이터센터 공사 현장에 100명 넘는 시위대가 모였고 일부가 현장에 진입했다. Stop Dirty Data Centres 연합은 16개국에서 이틀간 행동을 예고했다. 활동가들은 전력·물 소비와 지역사회 비용을 문제 삼으며 대규모 건설의 일시 중단을 요구한다. Microsoft는 평화적 시위는 존중하지만 불법 행위는 반대한다고 밝혔다.",
-      "whyItMatters": "AI 데이터센터 증설이 기술과 자본뿐 아니라 지역 인허가·전력요금·사회적 수용성에 좌우될 수 있다.",
-      "analysis": "시위 자체가 모든 데이터센터 건설의 중단을 뜻하지는 않는다. 산업의 전력 수요와 지역 주민 부담을 함께 비교해야 한다.",
-      "outlook": "6~24개월: 각국의 인허가 기준, 전력·물 비용 부담, 실제 건설 일정 변경을 추적.",
-      "status": "confirmed",
-      "sources": [
-        {
-          "name": "Reuters · 2026-11-06",
-          "url": "https://www.reuters.com/world/europe/activists-breach-microsoft-data-centre-construction-site-protests-spread-europe-2026-11-06/"
+          "name": "Riot Games 공식 발표 · 2026-11-09",
+          "url": "https://www.riotgames.com/en/news/worlds-watch-parties-2026"
         }
       ]
     }
