@@ -1,0 +1,41 @@
+[2026-11-10] 오늘 볼 만한 AI·테크 뉴스 TOP 3
+
+1. Claude가 PCB까지 설계했다
+무슨 일? Anthropic이 Fable·Mythos 5.2를 발표했다. 사전 시험에서 전자기기 3종을 설계하고 1,000개 에이전트로 수학 증명을 30시간에 형식화했다.
+왜 중요? 코딩 AI가 하드웨어 제작과 연구까지 확장되고 있다.
+다음엔? 독립 재현, 실제 설계 성공률, 모델 사용 비용을 확인.
+
+2. 구글, AI 칩을 둘로 나눴다
+무슨 일? 구글이 민감 데이터 보호용 8tx와 초장문 에이전트용 8i Max를 공개했다. 8i Max는 칩 두 개로 HBM 대역폭과 연산능력을 2배로 늘린다.
+왜 중요? AI 칩 경쟁의 초점이 보안과 메모리 병목으로 확대된다.
+다음엔? 실제 클라우드 요금, PyTorch 지원과 고객 채택을 확인.
+
+3. 심해 4km에서 광물을 집었다
+무슨 일? Impossible Metals의 AI 자율로봇이 태평양 수심 4,000m 이상에서 다금속 단괴 약 450g을 집게로 회수하고 수면으로 돌아왔다.
+왜 중요? 심해 채굴 방식이 대규모 흡입에서 선택적 로봇 수거로 바뀔 가능성.
+다음엔? 상업 허가, 환경 영향 검증과 대형 로봇 확장을 확인.
+
+오늘 한 줄: Claude는 회로를 설계하고, 구글은 칩을 특화하며, 로봇은 심해로 향한다.
+
+출처
+- Anthropic 공식 발표 · 2026-11-09: https://www.anthropic.com/claude-fable-and-mythos-5-2
+- The Verge · 2026-11-09: https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2
+- Google 공식 발표 · 2026-11-09: https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/
+- Reuters · 2026-11-09: https://www.reuters.com/business/google-to-introduce-two-variants-its-in-house-chips-bloomberg-news-reports-2026-11-09/
+- Reuters · 2026-11-09: https://www.reuters.com/technology/impossible-metals-says-it-has-successfully-tested-ai-seabed-mining-robot-2026-11-09/
+- Reuters 후속 확인 · 2026-11-09: https://www.reuters.com/technology/impossible-metals-says-it-has-successfully-tested-ai-seabed-mining-robot-2026-11-09/
+- Nature Medicine 원문 · 2026-11-06: https://www.nature.com/articles/s41591-026-04724-9
+- Nature Medicine 연구 요약 · 2026-11-09: https://www.nature.com/articles/s41591-026-04725-8
+- Panasonic 공식 발표 · 2026-11-05: https://news.panasonic.com/global/press/en261105-2
+- Science Advances 원문 · 2026-11-06: https://doi.org/10.1126/sciadv.aee6434
+- GitHub 공식 변경 기록 · 2026-11-06: https://github.blog/changelog/2026-11-06-github-copilot-in-slack-and-teams-is-generally-available/
+- Reuters · 2026-11-09: https://www.reuters.com/business/energy/norways-statnett-pauses-new-grid-capacity-data-centres-protect-power-system-2026-11-09/
+- Reuters · 2026-11-09: https://www.reuters.com/world/asia-pacific/rbas-hunter-says-ai-has-yet-deliver-productivity-boost-trigger-job-losses-2026-11-08/
+- Riot Games 공식 발표 · 2026-11-09: https://www.riotgames.com/en/news/worlds-watch-parties-2026
+
+이미지 출처
+- Slide 1/2: Eladkarmel (AI 상징 일러스트, Claude 실제 화면 아님) · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:AIBRAIN.png · cropped and darkened
+- Slide 2/3: SIMONIZESERVES (일반 반도체 상징 사진, Google TPU 아님) · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:AST_Computer_Chip.jpg · cropped and darkened
+- Slide 3/4: Vincent Creuze / DRASSM-LIRMM (수중 로봇 상징 사진, Impossible Metals 장비 아님) · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Arthur_ROV.jpg · cropped and darkened
+
+@daily_tech_magazine · 무단 재업로드/재배포 금지
