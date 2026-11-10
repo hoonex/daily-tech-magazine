@@ -1,0 +1,32 @@
+[2026-11-11] 오늘 볼 만한 AI·테크 뉴스 TOP 3
+
+1. 구글 AI, 에이전트 군단으로
+무슨 일? Google이 Carbon을 일반·기업·개발자에게 확대 공개했다. Antigravity에서는 한 요청으로 여러 에이전트를 조율하는 기능을 예고했다.
+왜 중요? 복잡한 코딩과 장기 작업이 AI 개발도구의 핵심 경쟁이 된다.
+다음엔? 실제 프로젝트 성공률과 토큰 비용, 에이전트 통제 기능을 확인.
+
+2. 로봇, 손끝의 정밀함을 배운다
+무슨 일? NVIDIA가 GR00T 2와 Isaac Lab 3.0을 공개했다. 로봇은 시뮬레이션에서 케이블 연결과 부품 정렬 같은 작업을 연습한다.
+왜 중요? 로봇의 실용성은 이동보다 정교한 물체 조작에 달려 있다.
+다음엔? 실제 작업 성공률과 시뮬레이션에서 현실로의 전이 성능을 확인.
+
+3. 보안 카메라가 집 안을 날아다닌다
+무슨 일? Ring이 실내용 비행 카메라와 사업장 순찰 로봇을 공개했다. 고정 카메라에서 자율 이동 보안장치로 사업을 확장한다.
+왜 중요? 소비자용 로봇의 새로운 용도지만 프라이버시 위험도 커진다.
+다음엔? 가격, 안전성, 배터리와 촬영 데이터 보호 정책을 확인.
+
+오늘 한 줄: AI는 팀으로 코딩하고, 로봇은 손끝을 배우며, 카메라는 날기 시작했다.
+
+출처
+- Google 공식 발표: https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/
+- NVIDIA 공식 발표: https://blogs.nvidia.com/blog/robotics-simulation-advancements-corl/
+- Reuters: https://www.reuters.com/technology/amazons-ring-launches-flying-camera-autonomous-security-robot-2026-11-10/
+- Reuters: https://www.reuters.com/world/china/tsmc-invest-up-1-billion-anthropic-openai-2026-11-10/
+- Wall Street Journal: https://www.wsj.com/business/earnings/softbank-group-posts-quarterly-loss-on-special-losses-linked-to-u-s-data-center-projects-23b37a41
+- Axios: https://www.axios.com/2026/11/10/google-code-verification-signal
+- Reuters: https://www.reuters.com/business/retail-consumer/alibaba-chip-unit-t-head-files-confidential-hong-kong-ipo-application-2026-11-10/
+- Reuters: https://www.reuters.com/business/europe-can-compete-robotics-physical-ai-top-chipmaker-ceos-say-2026-11-10/
+- Microsoft 공식 발표: https://news.microsoft.com/source/2026/11/10/ibm-and-microsoft-announce-a-new-ai-agent-platform-designed-for-industry-specific-transformation/
+- Reuters: https://www.reuters.com/business/microsoft-top-nvidias-market-cap-first-time-since-june-2025-2026-11-10/
+
+@daily_tech_magazine · 무단 재업로드/재배포 금지
