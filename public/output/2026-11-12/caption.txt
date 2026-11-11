@@ -1,0 +1,32 @@
+[2026-11-12] 오늘 볼 만한 AI·테크 뉴스 TOP 3
+
+1. 영국 AI 칩, 7억 달러 투자 유치
+무슨 일? Fractile이 AI 추론 칩 개발에 7억2천만 달러를 유치했다. 기업가치는 70억 달러, 첫 상용 칩 목표는 2027년이다.
+왜 중요? GPU 중심 시장에 새로운 추론 전용 칩 경쟁자가 등장한다.
+다음엔? 실제 칩 출하와 전력당 추론 성능을 확인.
+
+2. 항공사가 AI 에이전트를 막는다
+무슨 일? 유나이티드항공이 보안을 이유로 AI 봇의 디지털 플랫폼 접근을 제한하기로 했다. 구체적인 차단 범위는 공개되지 않았다.
+왜 중요? 에이전트가 실제 서비스를 이용하려면 사이트 운영자의 허용이 필요하다.
+다음엔? 공식 예약 API와 인증·접근 정책을 확인.
+
+3. 제재 대학에 NVIDIA 칩이?
+무슨 일? Reuters가 미국 제재 대상 중국 대학의 H200 칩 2개 조달 기록을 확인했다. 관련 조달·기업 기록 26건을 조사했다.
+왜 중요? 고성능 AI 칩의 유통 경로와 수출통제 실효성이 쟁점이다.
+다음엔? 공급 경로 조사와 규제 변화 여부를 확인.
+
+오늘 한 줄: AI 칩에는 돈이 몰리고, 에이전트는 막히며, GPU 유통은 논란이다.
+
+출처
+- Reuters: https://www.reuters.com/legal/transactional/uk-backed-ai-chip-startup-fractile-hits-7-billion-valuation-funding-round-2026-11-11/
+- Reuters: https://www.reuters.com/legal/litigation/united-airlines-moves-block-ai-agents-its-platform-over-security-concerns-2026-11-11/
+- Reuters: https://www.reuters.com/world/pla-linked-chinese-university-bought-nvidia-h200-chips-despite-us-blacklist-2026-11-11/
+- Reuters: https://www.reuters.com/business/automation-startup-rox-raises-100-million-13-billion-valuation-2026-11-11/
+- WIRED: https://www.wired.com/story/startup-fights-ai-bioweapons-with-ai
+- Reuters: https://www.reuters.com/business/media-telecom/global-markets-global-markets-2026-11-11/
+- Reuters: https://www.reuters.com/business/technoprobe-revenue-climbs-2026-outlook-trimmed-2026-11-11/
+- GitHub Changelog: https://github.blog/changelog/
+- GitHub Changelog: https://github.blog/changelog/month/11-2026/
+- 머니투데이: https://www.mt.co.kr/amp/tech/2026/11/09/2026110909570971072
+
+@daily_tech_magazine · 무단 재업로드/재배포 금지
