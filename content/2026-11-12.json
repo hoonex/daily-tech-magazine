@@ -1,0 +1,203 @@
+{
+  "date": "2026-11-12",
+  "edition": 60,
+  "brand": "DAILY TECH",
+  "handle": "@daily_tech_magazine",
+  "deckTitle": "AI 칩 7억 달러, 에이전트 차단, H200 유통 논란",
+  "deckSubtitle": "Fractile · United Airlines · NVIDIA H200 외 최신 기술 10선",
+  "top3": [
+    "fractile-inference-chip-funding",
+    "united-airlines-agent-block",
+    "nvidia-h200-china-procurement"
+  ],
+  "dailyAnalysis": "오늘은 AI 확산을 뒷받침하는 추론 반도체 투자와 AI 에이전트의 실제 서비스 접근 제한이 동시에 나타났다. Fractile은 대규모 자금을 확보했지만 상용 칩 성능은 아직 검증 단계다. 유나이티드항공의 봇 접근 제한은 에이전트 기술의 발전만으로 서비스 이용 권한이 확보되지는 않는다는 점을 보여준다. 제재 대상 중국 대학의 H200 조달 기록은 공급망 추적의 어려움을 드러낸다. 한편 Rox의 투자 유치, CoreWeave의 수익성 전망, Technoprobe의 매출 증가 등은 AI 산업의 자금과 수요가 모델 개발사를 넘어 기업 소프트웨어·클라우드·검사 장비로 확산되고 있음을 시사한다. 오프라인 생물학 AI와 개발 도구 개선, 한국의 이기종 AI 칩 협력은 실용화의 다른 경로다.",
+  "recap": "AI 칩에는 돈이 몰리고, 에이전트는 막히며, GPU 유통은 논란이다.",
+  "cover": {
+    "stat": "$720M · H200 · AI AGENT",
+    "title": "AI에 돈이 몰린다\n하지만 길은 막힌다",
+    "subtitle": "추론 칩 투자 · 에이전트 차단 · GPU 공급망"
+  },
+  "stories": [
+    {
+      "id": "fractile-inference-chip-funding",
+      "category": "AI CHIPS",
+      "headline": "영국 Fractile, 추론 칩 개발에 7억2천만 달러 유치",
+      "facts": "영국 AI 칩 스타트업 Fractile이 시리즈 C에서 7억2천만 달러를 조달했다. 기업가치는 70억 달러로 평가됐다. 구글 CapitalG와 영국 공공 투자기관 등이 참여했다. 첫 상용 칩은 2027년 출시할 계획이다.",
+      "whyItMatters": "추론 전용 반도체 시장에서 NVIDIA 이외의 공급업체가 자본을 확보했다.",
+      "analysis": "투자금과 기업가치는 검증된 실사용 성능을 뜻하지 않는다.",
+      "outlook": "6~24개월: 첫 칩 출하, 전력당 토큰 처리량과 고객 확보를 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/legal/transactional/uk-backed-ai-chip-startup-fractile-hits-7-billion-valuation-funding-round-2026-11-11/"
+        }
+      ],
+      "card": {
+        "stat": "$720M",
+        "headline": "영국 AI 칩, 7억 달러 투자 유치",
+        "what": "Fractile이 AI 추론 칩 개발에 7억2천만 달러를 유치했다. 기업가치는 70억 달러, 첫 상용 칩 목표는 2027년이다.",
+        "why": "GPU 중심 시장에 새로운 추론 전용 칩 경쟁자가 등장한다.",
+        "next": "실제 칩 출하와 전력당 추론 성능을 확인."
+      }
+    },
+    {
+      "id": "united-airlines-agent-block",
+      "category": "AI AGENTS / SECURITY",
+      "headline": "유나이티드항공, AI 예약 에이전트 접근 제한",
+      "facts": "유나이티드항공은 11월 11일 AI 봇의 디지털 플랫폼 접근을 제한하겠다고 밝혔다. 회사는 데이터 보안 문제를 이유로 들었다. AI 에이전트가 여행을 검색하고 예약하는 사용 사례가 늘어나는 상황에서 나온 결정이다. 차단 대상과 시행 방식은 아직 구체적으로 공개되지 않았다.",
+      "whyItMatters": "에이전트가 실제 웹 서비스를 이용하려면 서비스 제공자의 허용과 보안 통제가 필요하다.",
+      "analysis": "AI 에이전트 전면 금지로 해석해서는 안 되며 적용 범위는 확인이 필요하다.",
+      "outlook": "6~24개월: 공식 에이전트 API, 인증과 예약 권한 정책 변화를 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/legal/litigation/united-airlines-moves-block-ai-agents-its-platform-over-security-concerns-2026-11-11/"
+        }
+      ],
+      "card": {
+        "stat": "AI AGENT",
+        "headline": "항공사가 AI 에이전트를 막는다",
+        "what": "유나이티드항공이 보안을 이유로 AI 봇의 디지털 플랫폼 접근을 제한하기로 했다. 구체적인 차단 범위는 공개되지 않았다.",
+        "why": "에이전트가 실제 서비스를 이용하려면 사이트 운영자의 허용이 필요하다.",
+        "next": "공식 예약 API와 인증·접근 정책을 확인."
+      }
+    },
+    {
+      "id": "nvidia-h200-china-procurement",
+      "category": "GPU / EXPORT CONTROL",
+      "headline": "미 제재 중국 대학, NVIDIA H200 조달 기록 확인",
+      "facts": "Reuters는 미국 제재 대상인 중국 서북공업대학이 10월 H200 칩 2개를 국내 공급업체에서 구매한 조달 기록을 확인했다. 가격은 총 87만4,700위안으로 기록됐다. H200·A100·A800을 활용하는 연산자원 임대 계약도 확인됐다. Reuters는 관련 조달·기업 기록 26건을 조사했다.",
+      "whyItMatters": "고성능 GPU의 공급망 추적과 수출통제 실효성이 다시 쟁점이 됐다.",
+      "analysis": "조달 기록만으로 칩의 원래 판매 경로나 모든 관련자의 위법 여부를 단정할 수 없다.",
+      "outlook": "6~24개월: 유통 경로 조사, 수출 허가 정책과 클라우드 연산 접근 규제를 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/world/pla-linked-chinese-university-bought-nvidia-h200-chips-despite-us-blacklist-2026-11-11/"
+        }
+      ],
+      "card": {
+        "stat": "H200",
+        "headline": "제재 대학에 NVIDIA 칩이?",
+        "what": "Reuters가 미국 제재 대상 중국 대학의 H200 칩 2개 조달 기록을 확인했다. 관련 조달·기업 기록 26건을 조사했다.",
+        "why": "고성능 AI 칩의 유통 경로와 수출통제 실효성이 쟁점이다.",
+        "next": "공급 경로 조사와 규제 변화 여부를 확인."
+      }
+    },
+    {
+      "id": "rox-enterprise-agents-funding",
+      "category": "AI AGENTS / MARKET",
+      "headline": "기업용 AI 에이전트 Rox, 1억 달러 조달",
+      "facts": "샌프란시스코의 AI 에이전트 개발사 Rox가 11월 11일 1억 달러 투자 유치를 발표했다. 이번 투자에서 기업가치는 13억 달러로 평가됐다. 회사는 대기업용 플랫폼 확장에 자금을 활용할 계획이다. 세부 투자자와 고객 성과는 보도에서 확인되지 않았다.",
+      "whyItMatters": "범용 챗봇을 넘어 기업 업무 자동화에 자금이 계속 유입되고 있다.",
+      "analysis": "투자 유치 규모가 고객의 생산성 개선을 증명하지는 않는다.",
+      "outlook": "6~24개월: 유료 고객 증가, 반복 작업 성공률과 도입 비용을 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/business/automation-startup-rox-raises-100-million-13-billion-valuation-2026-11-11/"
+        }
+      ]
+    },
+    {
+      "id": "omnii-offline-biosecurity-ai",
+      "category": "AI / SCIENCE",
+      "headline": "노트북에서 유전자 위험 신호를 분석하는 AI",
+      "facts": "Radical Numerics가 오프라인으로 작동할 수 있는 유전자 서열 분석 모델 Omnii Defense를 발표했다. 노트북과 USB 유전자 시퀀서를 연결하는 활용 시나리오를 제시했다. 알려진 서열과 정확히 일치하지 않는 경우에도 잠재적 위험 신호를 추정하도록 설계됐다. 현재 접근은 검증된 시험 사용자로 제한된다.",
+      "whyItMatters": "현장 생물학 연구에 클라우드 연결 없는 AI 분석을 적용할 가능성이 있다.",
+      "analysis": "위험 점수는 병원체의 실제 위험성이나 인위적 제작 여부에 대한 확정 판정이 아니다.",
+      "outlook": "6~24개월: 독립 검증, 오탐률과 현장 기기 성능을 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "WIRED",
+          "url": "https://www.wired.com/story/startup-fights-ai-bioweapons-with-ai"
+        }
+      ]
+    },
+    {
+      "id": "coreweave-profitability-2028",
+      "category": "AI INFRA / FINANCE",
+      "headline": "CoreWeave, 2028년 수익성 목표에 시장 반등",
+      "facts": "AI 클라우드 기업 CoreWeave가 2028년 상반기 조정 기준 흑자 전환을 전망했다. Reuters에 따르면 11월 11일 주가는 약 23% 상승했다. 최근 투자자들은 차입을 동반한 AI 데이터센터 확장의 수익성을 우려해 왔다. 이날 전망은 관련 기술주 반등의 한 요인이 됐다.",
+      "whyItMatters": "AI 인프라 시장이 매출 성장뿐 아니라 수익성 달성 시점을 따지고 있다.",
+      "analysis": "2028년 흑자는 기업의 전망이며 실제 실현이 보장되지 않는다.",
+      "outlook": "6~24개월: 부채 비용, 가동률, 현금흐름과 흑자 전망 변경 여부를 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/business/media-telecom/global-markets-global-markets-2026-11-11/"
+        }
+      ]
+    },
+    {
+      "id": "technoprobe-ai-testing-demand",
+      "category": "SEMICONDUCTORS",
+      "headline": "AI 칩 검사 장비 기업 매출 68.8% 증가",
+      "facts": "이탈리아 반도체 검사 업체 Technoprobe의 2026년 1~9월 매출은 7억8,740만 유로로 전년 동기보다 68.8% 늘었다. 회사는 AI와 데이터센터 관련 수요를 성장 요인으로 설명했다. 동시에 연간 매출 전망 상단을 11억 유로에서 10억7천만 유로로 낮췄다. 성장과 전망 조정이 동시에 나타난 사례다.",
+      "whyItMatters": "AI 칩 생산량 증가가 테스트·검사 장비 시장에도 영향을 준다.",
+      "analysis": "매출 증가율만 보고 향후 실적을 예측할 수 없으며 전망 하향 이유를 함께 봐야 한다.",
+      "outlook": "6~24개월: 신규 검사 장비 수주, 고객 투자 속도와 매출 가이던스를 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/business/technoprobe-revenue-climbs-2026-outlook-trimmed-2026-11-11/"
+        }
+      ]
+    },
+    {
+      "id": "github-personal-issue-types",
+      "category": "DEV TOOLS",
+      "headline": "GitHub 개인 계정도 이슈 유형·필드 사용",
+      "facts": "GitHub는 11월 11일 개인 계정에서도 이슈 유형과 필드를 사용할 수 있게 했다고 발표했다. 이전에는 주로 조직 중심으로 제공되던 이슈 구조화 기능이다. 개인 프로젝트에서도 버그·기능 요청 같은 작업을 더 체계적으로 구분할 수 있다. GitHub 공식 변경 기록에 게시됐다.",
+      "whyItMatters": "혼자 개발하는 프로젝트도 팀 수준의 작업 분류를 적용하기 쉬워진다.",
+      "analysis": "작업 분류 개선이 자동으로 개발 생산성 향상을 보장하지는 않는다.",
+      "outlook": "6~24개월: 개인 저장소의 프로젝트 자동화와 에이전트 연동 확대를 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "GitHub Changelog",
+          "url": "https://github.blog/changelog/"
+        }
+      ]
+    },
+    {
+      "id": "github-cpp-msbuild-autoconfig",
+      "category": "CODING / C++",
+      "headline": "Copilot CLI, C++ MSBuild 설정 자동 추출",
+      "facts": "GitHub는 11월 10일 Copilot CLI의 Microsoft C++ 언어 서버가 MSBuild 컴파일 명령 추출기를 포함한다고 발표했다. 필요한 빌드 정보를 자동으로 읽어 설정한다. 에이전트가 별도 추출기를 찾아 실행하는 단계를 줄인다. 특히 복잡한 Windows C++ 프로젝트의 코드 이해에 도움이 될 수 있다.",
+      "whyItMatters": "AI 코딩 도구가 모델 교체뿐 아니라 빌드 환경 인식 능력도 개선하고 있다.",
+      "analysis": "모든 C++ 프로젝트에서 자동 설정이 성공한다는 뜻은 아니다.",
+      "outlook": "6~24개월: 대형 솔루션 호환성, 오류율과 IDE·CLI 연동을 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "GitHub Changelog",
+          "url": "https://github.blog/changelog/month/11-2026/"
+        }
+      ]
+    },
+    {
+      "id": "korea-nvidia-rebellions-nvlink",
+      "category": "KOREA / AI CHIPS",
+      "headline": "국산 리벨리온 NPU, NVIDIA NVLink와 연결 추진",
+      "facts": "11월 9일 한국에서 SK텔레콤과 NVIDIA·리벨리온이 이기종 AI 컴퓨팅 협력을 구체화했다. SK텔레콤 데이터센터에 NVIDIA GPU와 리벨리온 NPU를 연계하는 구상이다. NVLink Fusion을 활용해 서로 다른 연산 장치를 고속 연결하는 방향을 추진한다. 같은 날 카카오모빌리티와 NVIDIA의 레벨4 자율주행 기술 협력도 발표됐다.",
+      "whyItMatters": "국산 AI 칩이 대형 GPU 중심 인프라와 연결될 새로운 경로가 열린다.",
+      "analysis": "협력 발표는 실제 양산 설치나 성능 검증 완료를 뜻하지 않는다.",
+      "outlook": "6~24개월: 실증 성능, 연동 소프트웨어, 실제 데이터센터 도입 여부를 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "머니투데이",
+          "url": "https://www.mt.co.kr/amp/tech/2026/11/09/2026110909570971072"
+        }
+      ]
+    }
+  ]
+}
