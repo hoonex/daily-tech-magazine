@@ -1,0 +1,32 @@
+[2026-11-13] 오늘 볼 만한 AI·테크 뉴스 TOP 3
+
+1. NVIDIA 젠슨 황 사임
+무슨 일? 공동창업자 젠슨 황이 CEO와 이사회에서 물러났다. CFO 콜레트 크레스가 임시 CEO를 맡는다.
+왜 중요? AI GPU 산업의 중심 기업에서 리더십 공백이 발생했다.
+다음엔? 정식 후임, 제품 로드맵과 독립 조사 결과.
+
+2. 휴머노이드에 5억 달러
+무슨 일? 독일 Agile Robots가 SoftBank 주도로 5억 달러를 유치했다. 기업가치는 85억 달러다.
+왜 중요? 휴머노이드 경쟁이 연구를 넘어 생산설비 확대로 이어진다.
+다음엔? 실제 양산 대수와 공장 현장 성능.
+
+3. AMD, 양자컴퓨터에 투자
+무슨 일? AMD가 PsiQuantum과 투자·협력을 확대해 실리콘 포토닉스 기반 양자컴퓨팅 인프라를 공동 개발한다.
+왜 중요? CPU·GPU 기술과 광자 양자컴퓨팅이 만난다.
+다음엔? 오류정정과 하이브리드 시스템의 실제 성능.
+
+오늘 한 줄: NVIDIA 수장은 떠나고, 로봇에 돈이 몰리며, 양자컴퓨팅 경쟁이 열린다.
+
+출처
+- Reuters: https://www.reuters.com/business/retail-consumer/nvidia-ceo-jensen-huang-step-down-big-blow-ai-boom-2026-11-12/
+- Reuters: https://www.reuters.com/business/media-telecom/softbank-nvidia-back-germanys-agile-robots-85-billion-valuation-2026-11-12/
+- Reuters: https://www.reuters.com/business/amd-invest-psiquantum-advance-quantum-computing-infrastructure-2026-11-12/
+- Reuters: https://www.reuters.com/business/cerebras-raises-annual-sales-forecast-strong-ai-linked-demand-2026-11-12/
+- Microsoft Research: https://www.microsoft.com/en-us/research/publication/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents/
+- Reuters: https://www.reuters.com/business/openai-google-anthropic-hit-with-lawsuit-seeking-halt-frontier-ai-development-2026-11-12/
+- Reuters: https://www.reuters.com/legal/litigation/help-wanted-ai-firms-court-ex-spies-nvidia-drama-spotlights-security-risks-2026-11-12/
+- Reuters: https://www.reuters.com/legal/government/feds-barr-us-should-prepare-serious-ai-job-disruption-widening-inequality-2026-11-12/
+- Microsoft Research: https://www.microsoft.com/en-us/research/blog/
+- GitHub: https://github.blog/
+
+@daily_tech_magazine · 무단 재업로드/재배포 금지
