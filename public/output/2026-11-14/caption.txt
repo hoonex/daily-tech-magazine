@@ -1,0 +1,32 @@
+[2026-11-14] 오늘 볼 만한 AI·테크 뉴스 TOP 3
+
+1. AI가 결제까지 한다
+무슨 일? ChatGPT Wallet은 에이전트 구매에 결제 토큰과 생체인증을 도입했다.
+왜 중요? 검색만 하던 AI가 실제 구매 실행으로 확장된다.
+다음엔? 지원 국가·가맹점과 결제 안전장치.
+
+2. 클라우드 하나가 멈추자
+무슨 일? Microsoft 365 장애가 Outlook·Teams·Copilot과 공공서비스까지 영향을 미쳤다.
+왜 중요? 클라우드 집중이 대규모 연쇄 장애를 만든다.
+다음엔? 사후 분석과 다중 공급업체 백업 전략.
+
+3. Google, 경량·고속 Gemini 4 Hydrogen 공개
+무슨 일? Google이 일상 코딩과 검색을 겨냥한 Gemini 4 Hydrogen을 공개했다. 회사는 이전 Gemini 3.8 Flash보다 빠르고 코딩 성능도 개선됐다고 설명했다. Gemini 앱, 검색, A…
+왜 중요? 최상위 추론 모델만이 아니라 저비용·저지연 모델의 경쟁이 중요하다.
+다음엔? 6~24개월: API 가격, 처리 지연, 코딩 작업 성공률을 확인.
+
+오늘 한 줄: AI는 결제까지 맡고, 클라우드는 멈췄으며, 코딩 경쟁은 빨라졌다.
+
+출처
+- Wall Street Journal: https://www.wsj.com/tech/ai/chatgpt-launches-wallet-feature-allowing-users-to-pay-with-agents-2abcded2
+- Associated Press: https://apnews.com/article/d92547a821930290db2964388016979a
+- Times of India: https://timesofindia.indiatimes.com/technology/tech-news/google-launches-gemini-4-hydrogen-ai-model-for-faster-coding-search-and-everyday-tasks/articleshow/135797173.cms
+- Wall Street Journal: https://www.wsj.com/cio-journal/ai-startup-langchain-more-than-doubles-its-valuation-to-3-billion-f83377ad
+- Wall Street Journal: https://www.wsj.com/pro/venture-capital/this-startup-raised-1-billion-to-build-ai-faster-and-with-fewer-humans-f7f07a59
+- Windows Central: https://www.windowscentral.com/artificial-intelligence/microsoft-copilot/microsoft-upgrades-copilot-for-visual-studio-to-reduce-ai-coding-mistakes-and-save-developer-time
+- Reuters: https://www.reuters.com/business/finance/ai-rockets-top-worries-about-financial-system-latest-fed-survey-2026-11-13/
+- Reuters: https://www.reuters.com/technology/smic-says-ai-chip-supply-chain-will-remain-tight-through-2027-2026-11-13/
+- Reuters: https://www.reuters.com/business/media-telecom/disney-adobe-co-develop-custom-ai-models-tailored-media-giant-2026-11-09/
+- Tom's Hardware: https://www.tomshardware.com/video-games/pc-peripheral-maker-logitech-giving-all-of-its-7-000-employees-the-day-off-to-play-gta-6-company-announces-game-day-initiative-dedicated-vacation-day-to-play-video-games
+
+@daily_tech_magazine · 무단 재업로드/재배포 금지
