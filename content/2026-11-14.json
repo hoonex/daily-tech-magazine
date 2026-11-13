@@ -1,0 +1,198 @@
+{
+  "date": "2026-11-14",
+  "edition": 62,
+  "brand": "DAILY TECH",
+  "handle": "@daily_tech_magazine",
+  "deckTitle": "AI가 결제하고, 클라우드가 멈추고, 새 Gemini가 등장했다",
+  "deckSubtitle": "AI 에이전트·클라우드 장애·LLM·코딩도구·반도체 최신 10선",
+  "top3": [
+    "chatgpt-wallet-agents",
+    "microsoft-365-global-outage",
+    "gemini-4-hydrogen"
+  ],
+  "dailyAnalysis": "AI 에이전트는 ChatGPT Wallet을 통해 결제 단계로 진입했지만, Microsoft 365의 광범위한 장애는 디지털 인프라의 집중 위험을 드러냈다. Google은 저지연 Gemini 4 Hydrogen을 공개하고 Microsoft는 동일 모델을 유지한 채 Copilot의 실행 엔진을 개선했다. LangChain과 Mirendil의 투자 유치는 에이전트 운영 및 AI 연구 자동화에 대한 기대를 보여준다. 한편 미 연준 조사와 SMIC의 공급망 전망은 AI 인프라가 금융·제조 병목과 밀접하게 연결돼 있음을 보여준다.",
+  "recap": "AI는 결제까지 맡고, 클라우드는 멈췄으며, 코딩 경쟁은 빨라졌다.",
+  "cover": {
+    "stat": "PAY · OUTAGE · GEMINI",
+    "title": "AI가 돈을 쓰는 시대\n클라우드는 멈췄다",
+    "subtitle": "ChatGPT Wallet · Microsoft 365 장애 · Gemini 4 Hydrogen"
+  },
+  "stories": [
+    {
+      "id": "chatgpt-wallet-agents",
+      "category": "AI AGENTS",
+      "headline": "ChatGPT Wallet, AI 에이전트 결제 시작",
+      "facts": "OpenAI가 AI 에이전트의 구매 결제를 지원하는 ChatGPT Wallet을 공개했다. 사용자는 카드 등록 후 구매마다 생체인증으로 승인한다. 실제 카드번호 대신 결제 토큰을 전달한다. 미국의 일부 성인 Pro 이용자에게 Dots를 통해 먼저 제공된다.",
+      "whyItMatters": "에이전트가 검색과 추천을 넘어 결제 실행 단계에 진입한다.",
+      "analysis": "결제 승인과 구매 위임은 다르다. 현재는 사용자 확인을 요구하는 방식이다.",
+      "outlook": "6~24개월: 지원 가맹점, 거래 분쟁 처리, 구매 한도 위임 기능을 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Wall Street Journal",
+          "url": "https://www.wsj.com/tech/ai/chatgpt-launches-wallet-feature-allowing-users-to-pay-with-agents-2abcded2"
+        }
+      ],
+      "card": {
+        "stat": "PAY WITH AI",
+        "headline": "AI가 결제까지 한다",
+        "what": "ChatGPT Wallet은 에이전트 구매에 결제 토큰과 생체인증을 도입했다.",
+        "why": "검색만 하던 AI가 실제 구매 실행으로 확장된다.",
+        "next": "지원 국가·가맹점과 결제 안전장치.",
+        "hook": "AI가 결제까지 한다"
+      }
+    },
+    {
+      "id": "microsoft-365-global-outage",
+      "category": "CLOUD / SECURITY",
+      "headline": "Microsoft 365 대규모 장애, 74개 국가·지역 영향",
+      "facts": "Microsoft 365의 Outlook, Teams, Copilot 등 서비스가 광범위한 장애를 겪었다. AP는 74개 국가·지역에 영향이 있었다고 보도했다. Microsoft는 네트워크 변경 후 업그레이드 관련 기술 문제를 원인으로 설명했다. 사이버 공격에 따른 장애는 아니라고 밝혔다.",
+      "whyItMatters": "한 공급업체의 장애가 기업·정부의 필수 업무까지 연쇄적으로 멈출 수 있다.",
+      "analysis": "복구가 진행돼도 일부 사용자에게 지연이 남을 수 있다. 단일 클라우드 의존의 위험이 드러났다.",
+      "outlook": "6~24개월: 장애 원인 보고서, 이중화 설계, 복구 시간 목표를 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Associated Press",
+          "url": "https://apnews.com/article/d92547a821930290db2964388016979a"
+        }
+      ],
+      "card": {
+        "stat": "74 REGIONS",
+        "headline": "클라우드 하나가 멈추자",
+        "what": "Microsoft 365 장애가 Outlook·Teams·Copilot과 공공서비스까지 영향을 미쳤다.",
+        "why": "클라우드 집중이 대규모 연쇄 장애를 만든다.",
+        "next": "사후 분석과 다중 공급업체 백업 전략.",
+        "hook": "클라우드 하나가 멈추자"
+      }
+    },
+    {
+      "id": "gemini-4-hydrogen",
+      "category": "AI / LLM",
+      "headline": "Google, 경량·고속 Gemini 4 Hydrogen 공개",
+      "facts": "Google이 일상 코딩과 검색을 겨냥한 Gemini 4 Hydrogen을 공개했다. 회사는 이전 Gemini 3.8 Flash보다 빠르고 코딩 성능도 개선됐다고 설명했다. Gemini 앱, 검색, AI Studio와 API 등으로 확대 제공된다. 실제 속도와 정확도는 사용 환경별 검증이 필요하다.",
+      "whyItMatters": "최상위 추론 모델만이 아니라 저비용·저지연 모델의 경쟁이 중요하다.",
+      "analysis": "Google의 자체 성능 설명을 독립 벤치마크와 구분해야 한다.",
+      "outlook": "6~24개월: API 가격, 처리 지연, 코딩 작업 성공률을 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Times of India",
+          "url": "https://timesofindia.indiatimes.com/technology/tech-news/google-launches-gemini-4-hydrogen-ai-model-for-faster-coding-search-and-everyday-tasks/articleshow/135797173.cms"
+        }
+      ]
+    },
+    {
+      "id": "langchain-300m-funding",
+      "category": "AI AGENTS / MARKET",
+      "headline": "LangChain, 3억 달러 투자·기업가치 30억 달러",
+      "facts": "AI 에이전트 개발 도구 기업 LangChain이 3억 달러를 조달했다. 기업가치는 30억 달러로 평가됐다. Alphabet의 CapitalG가 투자를 주도했다. 회사는 에이전트 모니터링·평가·배포 플랫폼 LangSmith에 투자할 계획이다.",
+      "whyItMatters": "에이전트의 신뢰성 측정과 운영 관리 자체가 큰 시장으로 성장한다.",
+      "analysis": "투자 규모는 제품 성능을 입증하지 않는다. 실제 운영 지표가 중요하다.",
+      "outlook": "6~24개월: LangSmith 고객 확대와 다중 모델 지원 경쟁을 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Wall Street Journal",
+          "url": "https://www.wsj.com/cio-journal/ai-startup-langchain-more-than-doubles-its-valuation-to-3-billion-f83377ad"
+        }
+      ]
+    },
+    {
+      "id": "mirendil-billion-agent-research",
+      "category": "AI RESEARCH / AGENTS",
+      "headline": "Mirendil, AI 연구 자동화에 10억 달러 유치",
+      "facts": "Mirendil이 10억 달러 시리즈 A 투자를 유치했다고 보도됐다. 기업가치는 약 50억 달러로 알려졌다. 회사는 수백 에이전트가 코드를 작성하고 실험하는 Lor 플랫폼을 소개했다. 적은 연구 인력으로 모델 개발을 가속하겠다는 목표다.",
+      "whyItMatters": "AI 연구를 AI가 수행하는 자동화 경쟁이 투자 단계에서 본격화된다.",
+      "analysis": "회사 주장과 외부 검증은 구분해야 하며 자율 연구의 통제 문제가 남는다.",
+      "outlook": "6~24개월: 재현 가능한 모델 성능과 자동 실험 비용을 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Wall Street Journal",
+          "url": "https://www.wsj.com/pro/venture-capital/this-startup-raised-1-billion-to-build-ai-faster-and-with-fewer-humans-f7f07a59"
+        }
+      ]
+    },
+    {
+      "id": "visual-studio-copilot-engine",
+      "category": "DEV TOOLS",
+      "headline": "Visual Studio Copilot, 동일 모델로 작업 성공률 개선",
+      "facts": "Microsoft가 Visual Studio의 Copilot Chat 엔진을 교체했다. 기존 모델을 유지하면서도 157개 코딩 과제 중 성공 수가 103개에서 124개로 늘었다고 회사는 설명했다. 작업 도중 추가 지시와 서브에이전트 진행상황 표시도 지원한다. C#과 C++, Python 등 다양한 개발 과제를 시험했다.",
+      "whyItMatters": "모델 교체 없이 에이전트 실행 환경만 개선해도 코딩 성능이 달라질 수 있다.",
+      "analysis": "157개 과제는 회사 내부 평가로 실제 저장소 성능을 보증하지 않는다.",
+      "outlook": "6~24개월: 실제 프로젝트 재현성과 작업별 비용·수정 횟수를 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Windows Central",
+          "url": "https://www.windowscentral.com/artificial-intelligence/microsoft-copilot/microsoft-upgrades-copilot-for-visual-studio-to-reduce-ai-coding-mistakes-and-save-developer-time"
+        }
+      ]
+    },
+    {
+      "id": "fed-ai-risk-87-percent",
+      "category": "AI FINANCE",
+      "headline": "연준 조사, 금융권 AI 위험 우려 87%",
+      "facts": "미 연준 금융안정보고서의 조사에서 응답자 87%가 AI 관련 위험을 지목했다. 지난 5월의 50%에서 크게 상승했다. 응답자들은 사이버 공격, 복잡한 AI 투자금융, 수익성 둔화에 따른 시장 조정을 우려했다. AI 데이터센터 투자 관련 채권 발행도 급증했다.",
+      "whyItMatters": "AI 산업의 기술적 위험이 금융시스템 위험과 연결되고 있다.",
+      "analysis": "87%는 실제 위기 발생 확률이 아니라 조사 응답 비율이다.",
+      "outlook": "6~24개월: AI 인프라 부채, 채권시장 변동성과 투자 수익을 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/business/finance/ai-rockets-top-worries-about-financial-system-latest-fed-survey-2026-11-13/"
+        }
+      ]
+    },
+    {
+      "id": "smic-chip-tight-2027",
+      "category": "SEMICONDUCTORS",
+      "headline": "SMIC, AI 칩 공급난 2027년까지 전망",
+      "facts": "중국 최대 파운드리 SMIC는 AI 관련 반도체 공급망이 2027년까지 빠듯할 것으로 전망했다. 데이터센터와 민간 클라우드의 수요가 계속 높다고 설명했다. 일부 제조 장비는 주문 후 납품까지 24개월 넘게 걸린다고 밝혔다. 메모리 수급 균형은 2028년 중후반으로 예상했다.",
+      "whyItMatters": "GPU만이 아니라 제조 장비와 메모리 공급도 AI 확장의 병목이다.",
+      "analysis": "이는 기업 경영진의 전망이며 실제 수요와 설비 투자 속도에 따라 달라진다.",
+      "outlook": "6~24개월: 장비 납기, 메모리 가격과 공장 가동률을 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/technology/smic-says-ai-chip-supply-chain-will-remain-tight-through-2027-2026-11-13/"
+        }
+      ]
+    },
+    {
+      "id": "disney-adobe-private-ai",
+      "category": "CREATIVE AI",
+      "headline": "Disney·Adobe, 디즈니 IP 전용 생성 AI 개발",
+      "facts": "Disney와 Adobe가 Disney의 지식재산을 활용한 전용 생성 AI 모델을 공동 개발한다. Adobe Firefly Foundry를 기반으로 테마파크와 스튜디오 제작 과정을 지원할 계획이다. 초기에는 아이디어 시각화와 디자인 반복 작업을 가속한다. ESPN의 콘텐츠 활용에도 AI를 적용할 예정이다.",
+      "whyItMatters": "기업이 저작권을 보유한 자료로 맞춤형 AI를 구축하는 사례다.",
+      "analysis": "창작 시간 단축은 기업의 설명이며 실제 제작 비용 절감은 별도 검증해야 한다.",
+      "outlook": "6~24개월: 실제 제작 현장 도입과 저작권 관리 체계를 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/business/media-telecom/disney-adobe-co-develop-custom-ai-models-tailored-media-giant-2026-11-09/"
+        }
+      ]
+    },
+    {
+      "id": "logitech-game-day",
+      "category": "GAMING / HARDWARE",
+      "headline": "Logitech, 직원 약 7천 명에게 게임 휴가",
+      "facts": "Logitech이 직원 약 7천 명에게 유급 게임 휴가 하루를 제공하는 Logi Game Day를 발표했다. 직원들은 앞으로 1년 안에 하루를 선택할 수 있다. GTA 6 출시를 앞둔 시점이지만 특정 게임을 플레이할 의무는 없다. 회사는 게임 경험의 가치를 강조했다.",
+      "whyItMatters": "게임 주변기기 회사가 게임 문화를 직원 복지 정책에 반영했다.",
+      "analysis": "업무 생산성 개선 효과는 아직 입증되지 않았다.",
+      "outlook": "6~24개월: 제도 유지와 실제 직원 참여율을 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/video-games/pc-peripheral-maker-logitech-giving-all-of-its-7-000-employees-the-day-off-to-play-gta-6-company-announces-game-day-initiative-dedicated-vacation-day-to-play-video-games"
+        }
+      ]
+    }
+  ]
+}
