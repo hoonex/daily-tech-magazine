@@ -1,0 +1,32 @@
+[2026-11-15] 오늘 볼 만한 AI·테크 뉴스 TOP 3
+
+1. 칩 제조사가 AI 기업에 투자
+무슨 일? TSMC가 OpenAI·Anthropic에 각각 최대 5억 달러 투자를 승인했다.
+왜 중요? AI 칩 공급사와 모델 개발사의 자본 관계가 더 깊어진다.
+다음엔? 실제 투자 집행과 제조설비 증설
+
+2. 해킹에도 AI 에이전트
+무슨 일? 보안기업은 Hermes 에이전트를 이용한 정부 문서 탈취 사례를 분석했다. 공격 귀속은 미확정이다.
+왜 중요? AI의 자율 실행 능력이 사이버 공격에도 악용될 수 있다.
+다음엔? 독립 조사와 에이전트 악용 탐지 기술
+
+3. 한국 AI 서버 연합 결성
+무슨 일? 인텔과 국내 23개 기업·기관이 AI 풀스택 연합을 발표했다.
+왜 중요? GPU뿐 아니라 CPU와 메모리, 전체 서버 효율이 중요해진다.
+다음엔? 실제 추론 비용과 국내 구축 사례
+
+오늘 한 줄: 칩 제조사는 AI에 투자하고, 해커도 AI를 쓰며, 서버 경쟁은 시스템 전체로 번진다.
+
+출처
+- Reuters: https://www.reuters.com/world/china/tsmc-invest-up-1-billion-anthropic-openai-2026-11-10/
+- Reuters: https://www.reuters.com/legal/government/kazakhstan-linked-hackers-used-ai-steal-tajik-government-documents-researchers-2026-11-11/
+- ChosunBiz: https://biz.chosun.com/en/en-it/2026/11/12/R2O5YIDCWNESZNXXKMOITVFQIU/
+- GitHub Changelog: https://github.blog/changelog/month/11-2026/
+- Reuters: https://www.reuters.com/legal/litigation/new-awards-show-celebrates-ai-music-its-creators-2026-11-14/
+- Le Monde: https://www.lemonde.fr/en/international/article/2026/11/14/ai-europeans-face-challenge-of-reaching-consensus-to-stay-competitive-and-improve-regulation_6780458_4.html
+- Reuters: https://www.reuters.com/commentary/reuters-open-interest/metals-age-ai-game-changer-or-hyperscale-hype-2026-11-14/
+- Associated Press: https://apnews.com/article/b2cfbb190e27c0202d533799b6ec3e8b
+- GitHub Changelog: https://github.blog/changelog/month/11-2026/
+- GitHub Changelog: https://github.blog/changelog/
+
+@daily_tech_magazine · 무단 재업로드/재배포 금지
