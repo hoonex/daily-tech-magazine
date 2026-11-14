@@ -1,0 +1,206 @@
+{
+  "date": "2026-11-15",
+  "edition": 63,
+  "brand": "DAILY TECH",
+  "handle": "@daily_tech_magazine",
+  "deckTitle": "AI 칩 회사가 AI에 투자하고, 해커도 에이전트를 쓴다",
+  "deckSubtitle": "반도체 투자·AI 보안·한국 AI 서버·개발도구 최신 10선",
+  "top3": [
+    "tsmc-ai-investments",
+    "ai-agent-tajikistan-hack",
+    "intel-korea-ai-alliance"
+  ],
+  "dailyAnalysis": "TSMC의 AI 모델 기업 투자는 반도체 공급사와 AI 개발사의 자본 관계가 강화되는 흐름을 보여준다. 한편 보안기업이 공개한 에이전트 악용 사례는 AI의 자율성이 공격자에게도 활용될 수 있음을 시사한다. 인텔과 국내 23개 기관의 협력은 GPU 성능만이 아니라 CPU·메모리·서버 전체의 효율이 중요해졌음을 보여준다. GitHub의 모델 지원 종료와 보안 API 변경은 개발자가 AI 도구의 수명주기와 자격증명 관리를 지속적으로 점검해야 한다는 사실을 상기시킨다.",
+  "recap": "칩 제조사는 AI에 투자하고, 해커도 AI를 쓰며, 서버 경쟁은 시스템 전체로 번진다.",
+  "cover": {
+    "stat": "$1B · AI ATTACK · 23",
+    "title": "AI에 투자하는 칩 제조사\nAI를 쓰는 해커",
+    "subtitle": "TSMC 투자 · 에이전트 보안 · 한국 AI 서버 연합"
+  },
+  "stories": [
+    {
+      "id": "tsmc-ai-investments",
+      "category": "AI / SEMICONDUCTORS",
+      "headline": "TSMC, OpenAI·Anthropic에 최대 10억 달러 투자",
+      "facts": "TSMC 이사회가 OpenAI와 Anthropic에 각각 최대 5억 달러를 투자하기로 승인했다. Anthropic에는 IPO 가격으로, OpenAI에는 우선주 형태로 참여할 계획이다. TSMC는 두 기업에 필요한 AI 칩의 핵심 제조사이기도 하다. 이는 승인된 투자 계획으로 최종 집행액은 달라질 수 있다.",
+      "whyItMatters": "칩 공급사가 고객사의 성장에도 직접 투자하는 구조가 확대된다.",
+      "analysis": "AI 생태계의 공급·투자 관계가 긴밀해지면서 이해관계 집중과 순환투자 우려도 커진다.",
+      "outlook": "6~24개월: 실제 투자 집행과 신규 제조설비 증설, 고객사 매출을 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/world/china/tsmc-invest-up-1-billion-anthropic-openai-2026-11-10/"
+        }
+      ],
+      "card": {
+        "stat": "UP TO $1B",
+        "headline": "칩 제조사가 AI 기업에 투자",
+        "what": "TSMC가 OpenAI·Anthropic에 각각 최대 5억 달러 투자를 승인했다.",
+        "why": "AI 칩 공급사와 모델 개발사의 자본 관계가 더 깊어진다.",
+        "next": "실제 투자 집행과 제조설비 증설",
+        "hook": "AI 칩을 만들고 AI 기업도 소유한다"
+      }
+    },
+    {
+      "id": "ai-agent-tajikistan-hack",
+      "category": "AI / CYBERSECURITY",
+      "headline": "AI 에이전트 활용 해킹, 정부 문서 2천 건 이상 탈취 주장",
+      "facts": "보안기업 CloudSek은 카자흐스탄 연계 해킹 조직이 오픈소스 Hermes 에이전트 프레임워크를 사용해 타지키스탄 정부 문서를 2천 건 이상 탈취했다고 분석했다. 연구진은 외부에 노출된 공격자 서버에서 관련 자료를 발견했다. AI가 정찰과 공격 보조 소프트웨어 제작에 활용된 정황을 제시했다. 정부와 공격 조직의 독립적인 확인은 확보되지 않았다.",
+      "whyItMatters": "AI 에이전트가 방어뿐 아니라 실제 공격 작업 자동화에도 사용될 수 있다.",
+      "analysis": "공격 귀속은 보안기업의 분석이므로 확정적 국가 배후로 단정할 수 없다.",
+      "outlook": "6~24개월: 자율 에이전트 악용 탐지, 자격증명 보호, 사고 조사 결과를 확인.",
+      "status": "unconfirmed",
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/legal/government/kazakhstan-linked-hackers-used-ai-steal-tajik-government-documents-researchers-2026-11-11/"
+        }
+      ],
+      "card": {
+        "stat": "2,000+ DOCS",
+        "headline": "해킹에도 AI 에이전트",
+        "what": "보안기업은 Hermes 에이전트를 이용한 정부 문서 탈취 사례를 분석했다. 공격 귀속은 미확정이다.",
+        "why": "AI의 자율 실행 능력이 사이버 공격에도 악용될 수 있다.",
+        "next": "독립 조사와 에이전트 악용 탐지 기술",
+        "hook": "AI가 공격 작업까지 돕는다"
+      }
+    },
+    {
+      "id": "intel-korea-ai-alliance",
+      "category": "AI HARDWARE / KOREA",
+      "headline": "인텔·한국 23개 기관, AI 풀스택 연합 결성",
+      "facts": "인텔이 11월 12일 서울 AI 서밋에서 K-AI Fullstack Alliance를 발표했다. 국내 기업과 기관 23곳이 초기 참여자로 이름을 올렸다. 인텔은 CPU를 통한 에이전트 작업 조정과 GPU 연산을 결합해 추론 비용을 줄이는 전략을 소개했다. 차세대 Xeon과 GPU D 시리즈도 주요 축이다.",
+      "whyItMatters": "AI 서버의 효율 경쟁이 GPU 단독 성능에서 시스템 전체 구성으로 옮겨간다.",
+      "analysis": "연합 구성은 시작이며 실제 운영 비용 절감은 검증이 필요하다.",
+      "outlook": "6~24개월: 국내 실증 구축, 토큰당 비용과 GPU·CPU 활용률을 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "ChosunBiz",
+          "url": "https://biz.chosun.com/en/en-it/2026/11/12/R2O5YIDCWNESZNXXKMOITVFQIU/"
+        }
+      ],
+      "card": {
+        "stat": "23 PARTNERS",
+        "headline": "한국 AI 서버 연합 결성",
+        "what": "인텔과 국내 23개 기업·기관이 AI 풀스택 연합을 발표했다.",
+        "why": "GPU뿐 아니라 CPU와 메모리, 전체 서버 효율이 중요해진다.",
+        "next": "실제 추론 비용과 국내 구축 사례",
+        "hook": "GPU만 빠르면 끝일까?"
+      }
+    },
+    {
+      "id": "github-copilot-model-retirement",
+      "category": "DEV TOOLS",
+      "headline": "GitHub Copilot, 12월 일부 모델 지원 종료 예고",
+      "facts": "GitHub가 11월 13일 일부 Copilot 모델을 12월 14일 종료할 예정이라고 공지했다. Copilot Chat과 코드 완성, 편집, 에이전트 모드 등에 적용된다. 사용자는 프로젝트에서 지정한 모델의 지원 종료 여부를 확인해야 한다. 모델 선택이 고정된 개발 워크플로는 변경이 필요할 수 있다.",
+      "whyItMatters": "AI 코딩 도구의 모델 선택이 영구적인 설정이 아니라 운영상 관리 대상이 된다.",
+      "analysis": "모델 교체 시 코드 품질과 비용, 지시 이행 방식이 달라질 수 있다.",
+      "outlook": "6~24개월: 자동 모델 라우팅과 지원 종료 알림, 모델별 회귀 테스트를 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "GitHub Changelog",
+          "url": "https://github.blog/changelog/month/11-2026/"
+        }
+      ]
+    },
+    {
+      "id": "ai-music-awards-la",
+      "category": "CREATIVE AI / MUSIC",
+      "headline": "미국 첫 AI 뮤직 어워즈, 가상 가수가 3관왕",
+      "facts": "로스앤젤레스에서 AI Music Awards 시상식이 열렸다. 작사가 Telisha Jones가 만든 가상 아티스트 Xania Monet이 아티스트·노래·앨범 부문을 수상했다. 제작자들은 AI를 사용해도 작사와 기획 등 사람의 창작 과정이 중요하다고 강조했다. 음원 업계에서는 AI 학습 데이터의 저작권 소송이 계속되고 있다.",
+      "whyItMatters": "AI 생성 콘텐츠가 별도 창작 시장과 평가 체계를 형성하기 시작했다.",
+      "analysis": "새로운 시상식의 존재가 저작권 분쟁이나 음악적 가치에 대한 합의를 뜻하지는 않는다.",
+      "outlook": "6~24개월: 학습 데이터 라이선스와 AI 음악 표시 기준, 플랫폼 수익 배분을 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/legal/litigation/new-awards-show-celebrates-ai-music-its-creators-2026-11-14/"
+        }
+      ]
+    },
+    {
+      "id": "eu-ai-sovereignty-dublin",
+      "category": "AI POLICY / EUROPE",
+      "headline": "유럽 AI 정상회의, 자체 인프라 투자 확대 논의",
+      "facts": "11월 13일 더블린 회의에서 유럽 지도자와 전문가들이 AI 경쟁력과 기술 주권을 논의했다. 유럽은 미국·중국의 대형 모델과 외국 클라우드에 대한 의존을 줄이려 한다. EU 집행위원회는 AI 개발과 도입에 최소 5천억 유로가 필요하다고 추산했다. 구체적인 자금 조달과 회원국 합의는 아직 과제다.",
+      "whyItMatters": "AI 경쟁이 모델 성능뿐 아니라 국가별 인프라와 산업 정책으로 확장된다.",
+      "analysis": "필요 투자액 추산과 실제 예산 확보를 구분해야 한다.",
+      "outlook": "6~24개월: EU 예산 합의, AI 팩토리 건설과 기업 도입률을 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Le Monde",
+          "url": "https://www.lemonde.fr/en/international/article/2026/11/14/ai-europeans-face-challenge-of-reaching-consensus-to-stay-competitive-and-improve-regulation_6780458_4.html"
+        }
+      ]
+    },
+    {
+      "id": "ai-datacenter-metals",
+      "category": "AI INFRASTRUCTURE",
+      "headline": "AI 데이터센터 1MW에 금속 최대 75톤",
+      "facts": "Reuters 분석은 AI 데이터센터가 메가와트당 약 60~75톤의 금속을 사용한다고 소개했다. 서버 건물 자체보다 전력망·변전소·송전선 증설이 구리와 알루미늄 수요를 더 크게 늘릴 수 있다. 갈륨과 게르마늄 등 특수 금속도 주목받는다. 다만 프로젝트 지연과 설계 효율화로 실제 수요는 변할 수 있다.",
+      "whyItMatters": "AI 인프라 병목이 반도체에서 전력망과 원자재까지 이어진다.",
+      "analysis": "수요 추정치는 확정된 구매량이 아니며 건설 일정의 영향을 받는다.",
+      "outlook": "6~24개월: 전력망 투자 승인, 건설 착공과 원자재 가격을 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/commentary/reuters-open-interest/metals-age-ai-game-changer-or-hyperscale-hype-2026-11-14/"
+        }
+      ]
+    },
+    {
+      "id": "softbank-ai-quarterly-loss",
+      "category": "AI MARKET",
+      "headline": "소프트뱅크, AI 투자 확대 속 분기 7조 원대 손실",
+      "facts": "SoftBank Group이 9월 말 종료 분기에 약 1조1천억 엔의 손실을 기록했다. 전년 동기에는 약 2조5천억 엔의 이익을 냈다. 매출은 16% 증가한 약 2조2천억 엔이었다. OpenAI와 Arm 등 기술기업 지분의 가치 변동이 투자 실적의 변동성을 높인다.",
+      "whyItMatters": "AI에 집중 투자한 기업도 실제 재무 성과는 크게 흔들릴 수 있다.",
+      "analysis": "분기 손실이 모든 AI 사업의 실패를 뜻하지 않으며 투자 평가손익과 영업 성과를 나눠 봐야 한다.",
+      "outlook": "6~24개월: 자산 매각·차입 규모, 데이터센터 투자 회수와 지분 평가를 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Associated Press",
+          "url": "https://apnews.com/article/b2cfbb190e27c0202d533799b6ec3e8b"
+        }
+      ]
+    },
+    {
+      "id": "github-ai-scan-api",
+      "category": "DEV SECURITY",
+      "headline": "GitHub AI Scan, REST API로 저장소별 관리",
+      "facts": "GitHub가 11월 13일 코드 스캐닝의 AI Scan 기능을 REST API로 켜고 끄는 공개 프리뷰를 발표했다. 조직과 개별 저장소 수준에서 설정을 관리할 수 있다. 보안 정책을 수많은 저장소에 자동으로 적용하는 작업이 쉬워진다. 기능은 공개 프리뷰이므로 지원 범위와 동작이 바뀔 수 있다.",
+      "whyItMatters": "AI 코드 검사를 개발 자동화 파이프라인과 연결할 수 있다.",
+      "analysis": "스캔 활성화가 취약점 제거를 보장하지는 않는다.",
+      "outlook": "6~24개월: 탐지 정확도, 자동 수정과 CI 정책 연계를 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "GitHub Changelog",
+          "url": "https://github.blog/changelog/month/11-2026/"
+        }
+      ]
+    },
+    {
+      "id": "github-cloudflare-token-scanning",
+      "category": "DEV SECURITY / CLOUDFLARE",
+      "headline": "GitHub, Cloudflare 서비스 토큰 유출 탐지 확대",
+      "facts": "GitHub는 11월 12일 비밀정보 스캐닝에 Cloudflare 서비스 토큰 탐지를 추가했다고 공지했다. 코드나 협업 자료에 잘못 포함된 인증정보를 발견하는 데 도움을 준다. Cloudflare를 사용하는 개인 웹서비스와 배포 자동화에도 관련된 변화다. 실제 보호 범위는 해당 스캐닝 기능의 설정과 적용 조건에 따라 달라진다.",
+      "whyItMatters": "개발자가 실수로 올린 클라우드 자격증명은 서비스 전체 보안에 영향을 줄 수 있다.",
+      "analysis": "탐지만으로 유출된 토큰이 자동 무효화된다고 가정하면 안 된다.",
+      "outlook": "6~24개월: 토큰 폐기 자동화, 배포 비밀정보 보호와 탐지 범위를 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "GitHub Changelog",
+          "url": "https://github.blog/changelog/"
+        }
+      ]
+    }
+  ]
+}
