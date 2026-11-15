@@ -1,0 +1,206 @@
+{
+  "date": "2026-11-16",
+  "edition": 64,
+  "brand": "DAILY TECH",
+  "handle": "@daily_tech_magazine",
+  "deckTitle": "AI 공급망 동맹, 100만 칩 연결, NVIDIA 복귀설",
+  "deckSubtitle": "반도체·로봇·코딩 에이전트·로컬 AI 최신 10선",
+  "top3": [
+    "pax-silica-ai-supply-chain",
+    "huawei-peerium-million-chip",
+    "nvidia-huang-return-talks"
+  ],
+  "dailyAnalysis": "오늘은 AI 모델 성능보다 이를 뒷받침하는 시스템과 조직의 변화가 두드러진다. 미국과 한국 등은 반도체·광물·전력 공급망을 공동 관리하려 하고, 화웨이는 칩 수를 극단적으로 늘리는 연결 구조를 제안했다. NVIDIA의 경영 불확실성은 기술기업에서 리더십이 갖는 영향력을 보여준다. 로봇·센서·국방·가정 보안의 사례는 에이전트가 현실 세계로 확장되는 흐름을 드러낸다. 다만 발표된 설계 목표와 실증 성능, 복귀 논의와 확정 결정을 엄격히 구분해야 한다.",
+  "recap": "AI 동맹은 공급망을 묶고, 화웨이는 칩을 연결하며, 로봇은 현실로 나온다.",
+  "cover": {
+    "stat": "SUPPLY CHAIN · 1M · RETURN?",
+    "title": "AI 패권의 다음 전장\n공급망과 초대형 칩",
+    "subtitle": "한국 참여 공동 선언 · 화웨이 100만 칩 설계 · NVIDIA 복귀설"
+  },
+  "stories": [
+    {
+      "id": "pax-silica-ai-supply-chain",
+      "category": "AI POLICY",
+      "headline": "미국·한국 등 AI 공급망 보호 공동 선언",
+      "facts": "미국과 한국·일본·영국·호주·인도 등 여러 국가가 AI 핵심 공급망 보호를 위한 샌프란시스코 선언에 서명했다. 반도체와 핵심 광물, 에너지 인프라를 함께 다룬다. 참여국은 민감한 기술을 식별하고 공급망 다변화를 논의할 실무 그룹을 구성한다. 협약은 구체적인 투자액이나 즉각적인 수출 금지를 확정하지 않는다.",
+      "whyItMatters": "AI 경쟁이 모델 성능에서 원자재·전력·동맹국 공급망으로 확장된다.",
+      "analysis": "공급망 보호와 중국 의존도 축소가 연결되지만 실제 실행은 국가별 이해관계에 좌우된다.",
+      "outlook": "6~24개월: 공동 프로젝트, 투자 및 수출 규칙의 구체화를 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Financial Times",
+          "url": "https://www.ft.com/content/3c2197fc-9618-4838-91e6-522ce1a96a22"
+        }
+      ],
+      "card": {
+        "stat": "AI SUPPLY CHAIN",
+        "headline": "한국도 AI 공급망 공동 선언",
+        "what": "미국·한국 등 여러 국가가 반도체·핵심 광물·에너지 공급망을 보호하는 공동 선언에 서명했다.",
+        "why": "AI 경쟁의 핵심이 모델에서 제조·전력·광물로 확대된다.",
+        "next": "공동 투자 프로젝트와 구체적인 공급망 규칙",
+        "hook": "AI 패권, 이제 공급망에서 갈린다"
+      }
+    },
+    {
+      "id": "huawei-peerium-million-chip",
+      "category": "AI HARDWARE",
+      "headline": "화웨이, AI 칩 100만 개 연결하는 구조 공개",
+      "facts": "화웨이가 최대 100만 개의 AI 칩을 하나의 컴퓨터처럼 연결하도록 설계한 Peerium 구조를 공개했다. 계층형 병렬처리와 서버 간 통합 메모리 주소 지정, UnifiedBus 통신을 활용한다. 8천 개 이상의 가속기를 탑재한 Atlas 950 SuperPoD도 소개했다. 대규모 성능과 효율 수치는 주로 회사의 설명으로 독립 검증이 필요하다.",
+      "whyItMatters": "AI 칩 개별 성능뿐 아니라 초대형 연결망 설계가 핵심 경쟁력이 된다.",
+      "analysis": "100만 개는 설계 목표이지 해당 규모의 실제 가동을 입증하는 숫자가 아니다.",
+      "outlook": "6~24개월: 공급 시작, 실측 대역폭과 전력당 처리량을 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Live Science",
+          "url": "https://www.livescience.com/technology/computing/huawei-unveils-supercluster-architecture-designed-to-make-1-million-ai-chips-work-as-a-single-computer"
+        }
+      ],
+      "card": {
+        "stat": "1M CHIPS",
+        "headline": "AI 칩 100만 개를 하나로?",
+        "what": "화웨이가 최대 100만 개의 AI 칩을 연결하도록 설계한 Peerium 구조를 공개했다. 실제 가동 규모는 별도 검증이 필요하다.",
+        "why": "초대형 AI는 칩 사이 통신과 메모리 구조가 성능을 좌우한다.",
+        "next": "실제 구축 규모와 전력·통신 성능 검증",
+        "hook": "GPU 한 개보다 연결이 중요해진다"
+      }
+    },
+    {
+      "id": "nvidia-huang-return-talks",
+      "category": "AI BUSINESS",
+      "headline": "젠슨 황 NVIDIA 복귀 논의 보도",
+      "facts": "Reuters는 Financial Times를 인용해 전 NVIDIA CEO 젠슨 황이 복귀 가능성을 측근들과 논의했다고 전했다. 지지자들이 복귀를 위한 지원 조직을 꾸리고 있다는 보도도 나왔다. 이사회가 Arm CEO 르네 하스를 후임 후보로 접촉했다는 별도 보도도 있다. 복귀 결정이나 이사회 승인은 확인되지 않았다.",
+      "whyItMatters": "AI 산업의 핵심 기업에서 경영 공백과 후계 구도가 동시에 부각됐다.",
+      "analysis": "측근의 발언과 복귀 확정은 다르며 사생활 관련 의혹도 사실로 단정할 수 없다.",
+      "outlook": "6~24개월: 공식 이사회 발표와 경영 안정화, 제품 일정 확인.",
+      "status": "unconfirmed",
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/world/china/jensen-huang-discusses-comeback-nvidia-ceo-with-allies-ft-reports-2026-11-15/"
+        }
+      ],
+      "card": {
+        "stat": "RETURN?",
+        "headline": "젠슨 황, 복귀 논의 보도",
+        "what": "Reuters가 FT를 인용해 전 NVIDIA CEO의 복귀 논의를 전했다. 이사회 결정은 확인되지 않았다.",
+        "why": "AI 칩 시장의 중심 기업에서 경영 불확실성이 커졌다.",
+        "next": "NVIDIA 이사회의 공식 발표",
+        "hook": "떠난 CEO, 다시 돌아올까"
+      }
+    },
+    {
+      "id": "openai-robotics-reorganization",
+      "category": "ROBOTICS",
+      "headline": "OpenAI, 로봇 조직 다시 통합",
+      "facts": "OpenAI가 독립 로봇팀을 해체하고 연구 인력을 핵심 연구 조직으로 이동시켰다는 보도가 나왔다. 응용 로봇·하드웨어 인력은 별도 응용 부문으로 재배치된다. 회사는 로봇 개발을 포기한 것이 아니라 범용 로봇 연구를 지속한다고 설명했다. 조직 개편의 실제 기술적 성과는 아직 확인되지 않았다.",
+      "whyItMatters": "범용 AI 연구와 물리적 로봇 연구를 통합하는 전략적 변화다.",
+      "analysis": "독립 조직 폐지는 연구 중단과 같지 않지만 우선순위 조정 신호일 수 있다.",
+      "outlook": "6~24개월: 실제 로봇 시연과 연구 발표, 인력 배치를 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Times of India",
+          "url": "https://timesofindia.indiatimes.com/technology/tech-news/openai-shuts-down-robot-unit-second-time-in-six-years-but-wants-everyone-to-know-that-the-company-is-committed-to-/articleshow/135846511.cms"
+        }
+      ]
+    },
+    {
+      "id": "gigabyte-ai-top-aero",
+      "category": "PC HARDWARE",
+      "headline": "기가바이트, 128GB 통합 메모리 AI 미니 PC 발표",
+      "facts": "기가바이트가 약 1리터 크기의 Windows 11 AI TOP AERO를 공개했다. Arm Grace 20코어 CPU와 Blackwell GPU, 최대 128GB 통합 LPDDR5X 메모리 구성을 제시했다. 로컬 AI 개발용 LM Studio·Ollama·ComfyUI 등을 강조한다. 가격과 실제 판매 일정은 공개하지 않았다.",
+      "whyItMatters": "큰 메모리를 가진 소형 로컬 AI 개발 장비 선택지가 늘어난다.",
+      "analysis": "통합 메모리 용량이 크더라도 실측 추론 속도와 냉각 성능은 별도로 확인해야 한다.",
+      "outlook": "6~24개월: 가격·출시·모델별 토큰 속도와 발열 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "TechRadar",
+          "url": "https://www.techradar.com/pro/gigabyte-unveils-its-nvidia-spark-powered-ai-workstation-ai-top-aero-combines-blackwell-architecture-gpu-and-up-to-128-gb-memory-if-you-can-get-one"
+        }
+      ]
+    },
+    {
+      "id": "oats-object-agent-twins",
+      "category": "ROBOTICS / IOT",
+      "headline": "화분과 스케이트보드가 감정을 표현한다",
+      "facts": "카네기멜런 연구자가 사물에 붙이는 소형 E Ink 장치 OATs를 만들었다. 습도·빛·움직임 등의 센서 정보로 가상 캐릭터의 표정을 바꾼다. 화분은 물이 부족하면 슬퍼하고 사용하지 않은 스케이트보드는 외로움을 표현하도록 설정할 수 있다. 약 20달러의 연구용 시제품이며 배터리는 대략 3~4일 지속된다.",
+      "whyItMatters": "센서 데이터가 단순 숫자 대신 직관적인 캐릭터 행동으로 전달될 수 있다.",
+      "analysis": "재미있는 인터페이스이지만 의인화가 실제 기기의 지능을 과장할 위험이 있다.",
+      "outlook": "6~24개월: 저전력 개선, 실제 사용자 행동 변화와 제품화 가능성 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "WIRED",
+          "url": "https://www.wired.com/story/this-ai-tamagotchi-oats-turns-everyday-objects-into-needy-virtual-pets"
+        }
+      ]
+    },
+    {
+      "id": "ring-flying-camera-robot",
+      "category": "ROBOTICS / SMART HOME",
+      "headline": "Ring, 집 안 비행 카메라와 보안 로봇 출시",
+      "facts": "아마존의 Ring이 로봇 사업을 발표하고 두 가지 자율 보안 제품을 소개했다. 가정용 제품은 실내를 비행하는 카메라다. 기업용 제품은 이동형 보안 로봇이다. 구체적인 운영 성능과 현장 효과는 도입 이후 확인이 필요하다.",
+      "whyItMatters": "고정 카메라 중심의 보안이 이동형 감시 장치로 확장된다.",
+      "analysis": "편의성뿐 아니라 사생활 보호와 오작동 방지가 구매 결정의 핵심이다.",
+      "outlook": "6~24개월: 실사용 신뢰성, 가격과 프라이버시 정책 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/technology/amazons-ring-launches-flying-camera-autonomous-security-robot-2026-11-10/"
+        }
+      ]
+    },
+    {
+      "id": "helsing-clarity-military-agents",
+      "category": "AI AGENTS",
+      "headline": "유럽 방산기업, 수백 AI 에이전트로 전장 정보 분석",
+      "facts": "독일 Helsing이 드론·위성·보고서 등 여러 출처를 분석하는 Clarity 소프트웨어를 공개했다. 회사는 수백 개의 특화 에이전트가 정보를 교차 검증하고 신뢰도를 표시한다고 설명한다. 타격 승인 권한은 사람에게 남겨둔다. 실제 군 고객 사용 여부와 도입 시기는 공개하지 않았다.",
+      "whyItMatters": "고위험 현장에서도 AI 에이전트의 근거 제시와 사람의 승인 구조가 중요해진다.",
+      "analysis": "회사 설명만으로 현장 정확성이나 안전성을 검증할 수는 없다.",
+      "outlook": "6~24개월: 실제 배치 여부, 오탐률과 감독 체계 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/technology/helsing-enters-market-battlefield-software-built-combat-data-2026-11-11/"
+        }
+      ]
+    },
+    {
+      "id": "europe-physical-ai-chips",
+      "category": "SEMICONDUCTORS / ROBOTICS",
+      "headline": "유럽 반도체 CEO들, 피지컬 AI 승부 선언",
+      "facts": "Infineon·STMicroelectronics·NXP 경영진이 유럽의 로봇·피지컬 AI 경쟁력을 강조했다. 자동차·산업용 센서와 전력 반도체, 마이크로컨트롤러가 강점이라고 설명했다. ST는 공장에 휴머노이드 로봇을 시험 배치하고 있다. 다만 대다수 적용은 초기 실험 단계다.",
+      "whyItMatters": "AI가 데이터센터를 벗어나면 전력 제어와 센서 기술의 중요성이 커진다.",
+      "analysis": "유럽의 기존 산업 경쟁력이 로봇 AI 시장 점유율로 이어질지는 미지수다.",
+      "outlook": "6~24개월: 공장 도입 확대와 안전성 검증, 부품 수요 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/business/europe-can-compete-robotics-physical-ai-top-chipmaker-ceos-say-2026-11-10/"
+        }
+      ]
+    },
+    {
+      "id": "github-copilot-enterprise-server",
+      "category": "DEV TOOLS",
+      "headline": "GitHub Copilot 앱, 자체 서버 저장소도 연결",
+      "facts": "GitHub가 Copilot 앱에서 GitHub Enterprise Server 계정을 연결할 수 있게 했다고 공지했다. 기업 내부 서버의 원격 저장소와 이슈, 풀 리퀘스트를 앱에서 다룰 수 있다. 공개 GitHub.com 저장소에 국한되지 않는 개발 흐름을 지원한다. 이용 가능 여부는 기업의 서버 버전과 접근 정책에 영향을 받는다.",
+      "whyItMatters": "기업 내부 코드베이스에도 에이전트 중심 작업 방식이 확장된다.",
+      "analysis": "연결 가능성과 내부 코드의 보안·접근 통제는 별도로 검토해야 한다.",
+      "outlook": "6~24개월: 엔터프라이즈 도입과 정책 통제, 감사 로그 지원 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "GitHub Changelog",
+          "url": "https://github.blog/changelog/month/11-2026/"
+        }
+      ]
+    }
+  ]
+}
