@@ -1,0 +1,32 @@
+[2026-11-16] 오늘 볼 만한 AI·테크 뉴스 TOP 3
+
+1. 한국도 AI 공급망 공동 선언
+무슨 일? 미국·한국 등 여러 국가가 반도체·핵심 광물·에너지 공급망을 보호하는 공동 선언에 서명했다.
+왜 중요? AI 경쟁의 핵심이 모델에서 제조·전력·광물로 확대된다.
+다음엔? 공동 투자 프로젝트와 구체적인 공급망 규칙
+
+2. AI 칩 100만 개를 하나로?
+무슨 일? 화웨이가 최대 100만 개의 AI 칩을 연결하도록 설계한 Peerium 구조를 공개했다. 실제 가동 규모는 별도 검증이 필요하다.
+왜 중요? 초대형 AI는 칩 사이 통신과 메모리 구조가 성능을 좌우한다.
+다음엔? 실제 구축 규모와 전력·통신 성능 검증
+
+3. 젠슨 황, 복귀 논의 보도
+무슨 일? Reuters가 FT를 인용해 전 NVIDIA CEO의 복귀 논의를 전했다. 이사회 결정은 확인되지 않았다.
+왜 중요? AI 칩 시장의 중심 기업에서 경영 불확실성이 커졌다.
+다음엔? NVIDIA 이사회의 공식 발표
+
+오늘 한 줄: AI 동맹은 공급망을 묶고, 화웨이는 칩을 연결하며, 로봇은 현실로 나온다.
+
+출처
+- Financial Times: https://www.ft.com/content/3c2197fc-9618-4838-91e6-522ce1a96a22
+- Live Science: https://www.livescience.com/technology/computing/huawei-unveils-supercluster-architecture-designed-to-make-1-million-ai-chips-work-as-a-single-computer
+- Reuters: https://www.reuters.com/world/china/jensen-huang-discusses-comeback-nvidia-ceo-with-allies-ft-reports-2026-11-15/
+- Times of India: https://timesofindia.indiatimes.com/technology/tech-news/openai-shuts-down-robot-unit-second-time-in-six-years-but-wants-everyone-to-know-that-the-company-is-committed-to-/articleshow/135846511.cms
+- TechRadar: https://www.techradar.com/pro/gigabyte-unveils-its-nvidia-spark-powered-ai-workstation-ai-top-aero-combines-blackwell-architecture-gpu-and-up-to-128-gb-memory-if-you-can-get-one
+- WIRED: https://www.wired.com/story/this-ai-tamagotchi-oats-turns-everyday-objects-into-needy-virtual-pets
+- Reuters: https://www.reuters.com/technology/amazons-ring-launches-flying-camera-autonomous-security-robot-2026-11-10/
+- Reuters: https://www.reuters.com/technology/helsing-enters-market-battlefield-software-built-combat-data-2026-11-11/
+- Reuters: https://www.reuters.com/business/europe-can-compete-robotics-physical-ai-top-chipmaker-ceos-say-2026-11-10/
+- GitHub Changelog: https://github.blog/changelog/month/11-2026/
+
+@daily_tech_magazine · 무단 재업로드/재배포 금지
