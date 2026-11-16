@@ -1,0 +1,32 @@
+[2026-11-17] 오늘 볼 만한 AI·테크 뉴스 TOP 3
+
+1. Qwen4-Max, 안전한 코딩 경쟁
+무슨 일? 알리바바가 2.4조 매개변수 Qwen4-Max와 자체 보안 코드 평가 개선을 공개했다.
+왜 중요? 모델 크기보다 안전성·비용의 실전 경쟁이 중요해졌다.
+다음엔? 독립 보안 평가와 공개 가중치 모델 출시
+
+2. 해외 클라우드도 AI 칩 통제
+무슨 일? 미국이 중국 기업의 해외 데이터센터 연산 접근과 일부 국가로의 첨단 칩 수출 허가를 강화했다.
+왜 중요? GPU를 직접 구매하지 않아도 수출 규제의 영향을 받을 수 있다.
+다음엔? 90일 허가 절차와 클라우드 사업자 대응
+
+3. Copilot 모델 3종 지원 종료
+무슨 일? GitHub가 Opus 4.8·Opus 5·GPT-5.6 Terra의 Copilot 지원을 종료하고 대체 모델을 안내했다.
+왜 중요? AI 코딩 자동화도 모델 수명주기 관리가 필수다.
+다음엔? 대체 모델 전환과 코딩 결과 회귀 테스트
+
+오늘 한 줄: AI는 더 커지고, 칩은 원격까지 규제되며, 코딩 모델은 빠르게 교체된다.
+
+출처
+- Reuters: https://www.reuters.com/business/retail-consumer/alibaba-unveils-new-flagship-ai-model-with-safety-upgrades-2026-11-16/
+- Reuters: https://www.reuters.com/legal/litigation/us-issues-rule-protect-advanced-ai-chips-being-accessed-remotely-2026-11-16/
+- GitHub Changelog: https://github.blog/changelog/2026-11-16-github-copilot-models-deprecated-on-november-16-2026/
+- GitHub Changelog: https://github.blog/changelog/2026-11-16-bulk-start-ai-scan-for-repositories/
+- TechCrunch: https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/
+- Reuters: https://www.reuters.com/world/china/inside-chinas-drive-build-an-ai-native-generation-2026-11-16/
+- Reuters: https://www.reuters.com/legal/legalindustry/adobe-blocked-using-foundry-name-ai-tools-during-trademark-dispute-2026-11-16/
+- RobotsBeat: https://robotsbeat.com/briefs/embodied-ai-air-factory-robot-tendon-driven-arms/
+- Reuters: https://www.reuters.com/business/retail-consumer/trump-administration-name-nvidia-other-ai-firms-us-national-champions-wsj-2026-11-16/
+- PC Gamer: https://www.pcgamer.com/games/fps/bungie-drops-gameplay-trailer-for-marathons-co-op-pve-roguelite-mode-and-swanky-new-social-space/
+
+@daily_tech_magazine · 무단 재업로드/재배포 금지
