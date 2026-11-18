@@ -1,0 +1,32 @@
+[2026-11-19] 오늘 볼 만한 AI·테크 뉴스 TOP 3
+
+1. GPT-6.2, 비용까지 낮췄다
+무슨 일? OpenAI가 11월 17일 두 모델을 공개했다. Astra의 API 입출력 단가는 이전 대비 20% 낮다. Sol은 기존 단가를 유지하며 FrontierCode에서 Astra와 0.5점 차이라는
+왜 중요? 복잡한 코딩 작업의 비용 효율이 개선될 수 있다.
+다음엔? 독립 코딩 평가와 장기 작업 성공률 확인.
+
+2. Claude 개발사의 증시 데뷔
+무슨 일? 11월 18일 Guardian은 Anthropic 공모가가 83달러로 결정됐다고 보도했다. 당초 예상 범위는 70~78달러였다. 19일 Nasdaq에서 ANT로 거래를 시작할 예정이다.
+왜 중요? AI 모델 기업의 공개시장 평가가 시작된다.
+다음엔? 상장 후 매출 대비 연산 비용과 주가 변동 확인.
+
+3. MS의 자체 코딩 AI 등장
+무슨 일? GitHub가 11월 17일 MAI Code 2와 Flash를 Copilot에 추가했다. 기본형은 복잡한 다중 파일 작업을 겨냥한다. Flash는 무료 및 학생 플랜에도 제공된다.
+왜 중요? 코딩 모델 선택지가 늘어난다.
+다음엔? 개발자 채택 및 독립 벤치마크 확인.
+
+오늘 한 줄: AI는 더 저렴해지고, 코딩 경쟁은 치열해지며, Claude는 증시로 향한다.
+
+출처
+- OpenAI: https://openai.com/index/introducing-gpt-6-2-astra-sol/
+- The Guardian: https://www.theguardian.com/technology/2026/nov/18/anthropic-share-price-stock-market-ipo
+- GitHub: https://github.blog/changelog/2026-11-17-mai-code-2-and-mai-code-2-flash-in-github-copilot/
+- GitHub: https://github.blog/changelog/2026-11-17-let-github-copilot-interact-with-your-browser/
+- PC Gamer: https://www.pcgamer.com/hardware/steam-machines/the-latest-steamos-update-improves-support-on-nvidia-powered-pcs-makes-swapping-your-rig-to-the-os-less-painful/
+- 동아사이언스: https://www.dongascience.com/en/news/80950
+- Reuters: https://www.reuters.com/world/china/nvidia-stops-shipping-us-approved-ai-chips-china-2026-11-18/
+- Tom’s Hardware: https://www.tomshardware.com/pc-components/gpus/amd-attacks-nvidias-fp64-emulation-at-sc26-touts-native-double-precision-on-instinct-mi430x-says-ozaki-schemes-fit-less-than-10-percent-of-hpc-workloads-and-triple-memory-use-and-emulated-fp64-is-a-poor-fit-for-many-hpc-workloads
+- Science: https://www.science.org/doi/10.1126/science.adz0597
+- Reuters: https://www.reuters.com/world/china/trump-administration-weighs-forcing-us-firms-disclose-chinese-ai-use-2026-11-18/
+
+@daily_tech_magazine · 무단 재업로드/재배포 금지
