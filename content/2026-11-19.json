@@ -1,0 +1,203 @@
+{
+  "date": "2026-11-19",
+  "edition": 66,
+  "brand": "DAILY TECH",
+  "handle": "@daily_tech_magazine",
+  "deckTitle": "GPT-6.2와 코딩 AI 경쟁, Claude 상장",
+  "deckSubtitle": "AI·개발도구·게임·과학 10선",
+  "top3": [
+    "gpt-62-launch",
+    "anthropic-ipo-price",
+    "mai-code-2"
+  ],
+  "dailyAnalysis": "AI 모델 경쟁은 작업당 비용과 실제 개발환경 통합으로 옮겨가고 있다. Anthropic의 상장은 대규모 연산 투자의 재무적 지속 가능성을 평가할 계기가 된다.",
+  "recap": "AI는 더 저렴해지고, 코딩 경쟁은 치열해지며, Claude는 증시로 향한다.",
+  "cover": {
+    "stat": "GPT-6.2 · $83 · MAI",
+    "title": "AI 코딩의 새 경쟁\nClaude는 증시로",
+    "subtitle": "오늘의 핵심 기술 변화 세 가지"
+  },
+  "stories": [
+    {
+      "id": "gpt-62-launch",
+      "category": "AI MODELS",
+      "headline": "GPT-6.2 Astra·Sol 출시",
+      "facts": "OpenAI가 11월 17일 두 모델을 공개했다. Astra의 API 입출력 단가는 이전 대비 20% 낮다. Sol은 기존 단가를 유지하며 FrontierCode에서 Astra와 0.5점 차이라는 자체 평가가 공개됐다.",
+      "whyItMatters": "복잡한 코딩 작업의 비용 효율이 개선될 수 있다.",
+      "analysis": "자체 평가와 실제 프로젝트 결과는 구분해야 한다.",
+      "outlook": "6~24개월: 독립 코딩 평가와 장기 작업 성공률 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/"
+        }
+      ],
+      "card": {
+        "stat": "−20% API",
+        "headline": "GPT-6.2, 비용까지 낮췄다",
+        "what": "OpenAI가 11월 17일 두 모델을 공개했다. Astra의 API 입출력 단가는 이전 대비 20% 낮다. Sol은 기존 단가를 유지하며 FrontierCode에서 Astra와 0.5점 차이라는 ",
+        "why": "복잡한 코딩 작업의 비용 효율이 개선될 수 있다.",
+        "next": "독립 코딩 평가와 장기 작업 성공률 확인."
+      }
+    },
+    {
+      "id": "anthropic-ipo-price",
+      "category": "AI BUSINESS",
+      "headline": "Anthropic 공모가 83달러 보도",
+      "facts": "11월 18일 Guardian은 Anthropic 공모가가 83달러로 결정됐다고 보도했다. 당초 예상 범위는 70~78달러였다. 19일 Nasdaq에서 ANT로 거래를 시작할 예정이다.",
+      "whyItMatters": "AI 모델 기업의 공개시장 평가가 시작된다.",
+      "analysis": "공모가와 실제 거래 가격은 다르다.",
+      "outlook": "6~24개월: 상장 후 매출 대비 연산 비용과 주가 변동 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/technology/2026/nov/18/anthropic-share-price-stock-market-ipo"
+        }
+      ],
+      "card": {
+        "stat": "$83",
+        "headline": "Claude 개발사의 증시 데뷔",
+        "what": "11월 18일 Guardian은 Anthropic 공모가가 83달러로 결정됐다고 보도했다. 당초 예상 범위는 70~78달러였다. 19일 Nasdaq에서 ANT로 거래를 시작할 예정이다.",
+        "why": "AI 모델 기업의 공개시장 평가가 시작된다.",
+        "next": "상장 후 매출 대비 연산 비용과 주가 변동 확인."
+      }
+    },
+    {
+      "id": "mai-code-2",
+      "category": "DEV TOOLS",
+      "headline": "마이크로소프트 MAI Code 2 공개",
+      "facts": "GitHub가 11월 17일 MAI Code 2와 Flash를 Copilot에 추가했다. 기본형은 복잡한 다중 파일 작업을 겨냥한다. Flash는 무료 및 학생 플랜에도 제공된다.",
+      "whyItMatters": "코딩 모델 선택지가 늘어난다.",
+      "analysis": "실제 비용과 수정 품질을 함께 비교해야 한다.",
+      "outlook": "6~24개월: 개발자 채택 및 독립 벤치마크 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-11-17-mai-code-2-and-mai-code-2-flash-in-github-copilot/"
+        }
+      ],
+      "card": {
+        "stat": "CODE 2",
+        "headline": "MS의 자체 코딩 AI 등장",
+        "what": "GitHub가 11월 17일 MAI Code 2와 Flash를 Copilot에 추가했다. 기본형은 복잡한 다중 파일 작업을 겨냥한다. Flash는 무료 및 학생 플랜에도 제공된다.",
+        "why": "코딩 모델 선택지가 늘어난다.",
+        "next": "개발자 채택 및 독립 벤치마크 확인."
+      }
+    },
+    {
+      "id": "copilot-browser",
+      "category": "DEV TOOLS",
+      "headline": "Copilot 브라우저 직접 조작",
+      "facts": "11월 17일 GitHub가 브라우저 조작 공개 프리뷰를 발표했다. Chrome 확장과 CLI, 앱, VS Code 및 JetBrains를 연결한다. 웹 앱 디버깅과 브라우저 테스트에 사용할 수 있다.",
+      "whyItMatters": "개발과 UI 검증을 연결한다.",
+      "analysis": "권한과 테스트 재현성 관리가 필요하다.",
+      "outlook": "6~24개월: 회귀 테스트 자동화와 승인 기능 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-11-17-let-github-copilot-interact-with-your-browser/"
+        }
+      ]
+    },
+    {
+      "id": "steamos-310",
+      "category": "GAMING",
+      "headline": "SteamOS 3.10 NVIDIA 지원 개선",
+      "facts": "11월 17일 보도된 SteamOS 프리뷰는 Linux 7.3 커널을 도입한다. NVIDIA Turing 이후 GPU의 메시 셰이더 지원을 개선한다. AMD에는 HDMI 2.1 관련 기능이 추가된다.",
+      "whyItMatters": "일반 PC에서 SteamOS를 쓰기 쉬워질 수 있다.",
+      "analysis": "프리뷰이므로 안정 버전과 다르다.",
+      "outlook": "6~24개월: 게임 호환성과 프레임 성능 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "PC Gamer",
+          "url": "https://www.pcgamer.com/hardware/steam-machines/the-latest-steamos-update-improves-support-on-nvidia-powered-pcs-makes-swapping-your-rig-to-the-os-less-painful/"
+        }
+      ]
+    },
+    {
+      "id": "kaist-drone-battery",
+      "category": "SCIENCE",
+      "headline": "KAIST 드론 다리에 배터리를 넣다",
+      "facts": "KAIST는 11월 18일 곡면에 적용할 리튬황 배터리 양극 연구를 발표했다. 탄소섬유 직물에 금속화합물을 성장시켰다. 굽힘에도 전류 경로를 유지하도록 설계했다.",
+      "whyItMatters": "구조물과 에너지 저장장치를 통합할 가능성이 있다.",
+      "analysis": "연구 단계이며 상용 비행시간 개선은 검증이 필요하다.",
+      "outlook": "6~24개월: 충방전 수명과 충격 안전성 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "동아사이언스",
+          "url": "https://www.dongascience.com/en/news/80950"
+        }
+      ]
+    },
+    {
+      "id": "nvidia-h200-halt",
+      "category": "CHIPS",
+      "headline": "NVIDIA 중국 H200 출하 중단",
+      "facts": "11월 18일 Reuters에 따르면 NVIDIA가 미국 허가를 받은 Hopper 칩 중국 출하를 중단했다. 직전 분기 해당 제품 매출은 24억 달러였다. 중단이 영구적인지는 밝히지 않았다.",
+      "whyItMatters": "허가를 받아도 공급이 보장되지 않는다.",
+      "analysis": "수요와 실제 출하를 구분해야 한다.",
+      "outlook": "6~24개월: 출하 재개와 재고 처리 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/world/china/nvidia-stops-shipping-us-approved-ai-chips-china-2026-11-18/"
+        }
+      ]
+    },
+    {
+      "id": "amd-native-fp64",
+      "category": "HARDWARE",
+      "headline": "AMD 과학 연산용 FP64 강조",
+      "facts": "AMD가 11월 17일 SC26에서 MI430X의 네이티브 FP64를 강조했다. FP64는 정밀 과학 계산에 쓰인다. AMD는 에뮬레이션 방식의 메모리 부담을 지적했다.",
+      "whyItMatters": "AI와 과학 계산의 최적 하드웨어가 다를 수 있다.",
+      "analysis": "경쟁사 비교는 독립 측정이 필요하다.",
+      "outlook": "6~24개월: 실제 시뮬레이션 처리량 비교.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Tom’s Hardware",
+          "url": "https://www.tomshardware.com/pc-components/gpus/amd-attacks-nvidias-fp64-emulation-at-sc26-touts-native-double-precision-on-instinct-mi430x-says-ozaki-schemes-fit-less-than-10-percent-of-hpc-workloads-and-triple-memory-use-and-emulated-fp64-is-a-poor-fit-for-many-hpc-workloads"
+        }
+      ]
+    },
+    {
+      "id": "graphene-strain",
+      "category": "SCIENCE",
+      "headline": "그래핀 저항을 늘이거나 줄여 제어",
+      "facts": "11월 12일 공개된 연구는 마법각 이중층 그래핀에 변형을 가했다. 전기저항 반응이 일반 금속보다 100배 이상 크게 나타났다. 저온에서 효과가 더욱 커졌다.",
+      "whyItMatters": "원자층 소재의 전자적 성질을 연구할 새 수단이다.",
+      "analysis": "실용 반도체 개발과는 거리가 있다.",
+      "outlook": "6~24개월: 재현성과 다른 소재 적용 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Science",
+          "url": "https://www.science.org/doi/10.1126/science.adz0597"
+        }
+      ]
+    },
+    {
+      "id": "us-chinese-ai-disclosure",
+      "category": "AI POLICY",
+      "headline": "미국 중국 AI 사용 공개 의무 검토",
+      "facts": "11월 18일 Reuters는 미국 정부가 중국 AI 모델 사용 공개 의무를 검토한다고 보도했다. 기업 웹사이트에 사용 사실을 알리는 방식이 거론된다. 공식 규정 채택 여부는 확정되지 않았다.",
+      "whyItMatters": "오픈웨이트 모델의 기업 도입 환경에 영향을 줄 수 있다.",
+      "analysis": "공개 의무와 사용 금지는 다르다.",
+      "outlook": "6~24개월: 공식 규칙 및 적용 범위 확인.",
+      "status": "unconfirmed",
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/world/china/trump-administration-weighs-forcing-us-firms-disclose-chinese-ai-use-2026-11-18/"
+        }
+      ]
+    }
+  ]
+}
