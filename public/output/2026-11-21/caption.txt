@@ -1,0 +1,32 @@
+[2026-11-21] 오늘 볼 만한 AI·테크 뉴스 TOP 3
+
+1. AI가 회로기판까지 만든다
+무슨 일? JARVIS가 회로 설계부터 로봇 제작·계측까지 수행했다. 연구진은 60Hz 필터 실험을 사람 개입 없이 완료했다고 보고했다.
+왜 중요? AI 에이전트의 작업 범위가 코드에서 물리적 제조로 확장된다.
+다음엔? 다양한 회로 재현성과 제작 안전성 검증.
+
+2. NVIDIA 회계 조사 보도
+무슨 일? Reuters는 미국 SEC가 NVIDIA의 잠재적 회계 문제를 조사 중이라고 보도했다. 조사 대상 세부 사항은 공개되지 않았다.
+왜 중요? AI 인프라 투자 붐의 재무 신뢰성이 시험대에 올랐다.
+다음엔? SEC 공식 발표와 NVIDIA 공시 확인.
+
+3. 드론 영상이 3D 지도로
+무슨 일? SkyeBrowse가 촬영 영상과 3D 모델을 결합하는 Realistic 3D를 공개했다. 처리 속도 3배 개선은 회사 주장이다.
+왜 중요? 현장 3D 기록과 디지털 트윈 제작을 더 쉽게 할 수 있다.
+다음엔? 독립적인 복원 정확도와 처리 속도 검증.
+
+오늘 한 줄: AI는 회로까지 만들고, 반도체는 신뢰를 시험받으며, 3D 복원은 빨라진다.
+
+출처
+- arXiv: https://arxiv.org/abs/2611.26503
+- Reuters: https://www.reuters.com/world/us-secs-nvidia-probe-is-examining-potential-accounting-issues-sources-say-2026-11-20/
+- DroneDJ: https://dronedj.com/2026/11/20/drone-3d-model-skyebrowse-realistic/
+- Reuters: https://www.reuters.com/business/view-nasdaq-plunges-5-day-after-anthropic-debut-investors-still-believe-ai-2026-11-20/
+- Reuters: https://www.reuters.com/technology/trump-says-us-penalize-firms-building-data-centers-abroad-2026-11-20/
+- Reuters: https://www.reuters.com/technology/samsung-elec-names-new-heads-memory-chip-mobile-businesses-2026-11-20/
+- GitHub: https://github.blog/changelog/2026-11-19-github-desktop-now-supports-multiple-accounts-per-host/
+- GitHub: https://github.blog/changelog/2026-11-20-security-advisory-permissions-are-now-generally-available/
+- Reuters: https://www.reuters.com/world/license-information-ai-chips-sent-china-released-by-us-house-committee-2026-11-19/
+- GitHub: https://github.blog/changelog/2026-11-20-pin-your-favorite-repositories-to-your-dashboard/
+
+@daily_tech_magazine · 무단 재업로드/재배포 금지
