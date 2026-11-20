@@ -1,0 +1,206 @@
+{
+  "date": "2026-11-21",
+  "edition": 67,
+  "brand": "DAILY TECH",
+  "handle": "@daily_tech_magazine",
+  "deckTitle": "AI가 회로를 만들고, NVIDIA는 조사받는다",
+  "deckSubtitle": "AI 에이전트·반도체·3D 기술 최신 뉴스 10선",
+  "top3": [
+    "jarvis-pcb-agent",
+    "nvidia-sec-inquiry",
+    "skyebrowse-realistic-3d"
+  ],
+  "dailyAnalysis": "AI 에이전트는 회로 설계부터 실제 제작까지 확장되는 반면, AI 반도체 기업은 회계 신뢰성과 규제 문제에 직면했다. 드론 기반 3D 복원과 GitHub 개발도구 개선은 기술을 실제 작업에 연결하는 흐름을 보여준다.",
+  "recap": "AI는 회로까지 만들고, 반도체는 신뢰를 시험받으며, 3D 복원은 빨라진다.",
+  "cover": {
+    "stat": "2시간 39분",
+    "title": "AI가 회로까지 만든다\n칩 산업은 신뢰 시험대",
+    "subtitle": "AI 제조 실험·NVIDIA 조사·드론 3D 기술"
+  },
+  "stories": [
+    {
+      "id": "jarvis-pcb-agent",
+      "category": "AI & ROBOTICS",
+      "headline": "AI가 회로기판을 설계·제작·시험까지",
+      "facts": "연구진이 JARVIS라는 물리 AI 에이전트를 공개했다. 로봇팔·PCB 프린터·부품 실장기와 계측기를 연동한다. 60Hz 노치 필터 제작 실험을 사람 개입 없이 2시간 39분에 수행했다. 디지털 트윈에서 제작 전 문제 5건을 발견했다고 보고했다.",
+      "whyItMatters": "코딩 에이전트가 실제 하드웨어 제작·측정까지 연결되는 사례다.",
+      "analysis": "연구진의 단일 실험이며 다양한 회로에 대한 범용성은 입증되지 않았다.",
+      "outlook": "6~24개월: 다른 회로에서의 재현성과 안전성, 제작비용 검증.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "arXiv",
+          "url": "https://arxiv.org/abs/2611.26503"
+        }
+      ],
+      "card": {
+        "stat": "2시간 39분",
+        "headline": "AI가 회로기판까지 만든다",
+        "what": "JARVIS가 회로 설계부터 로봇 제작·계측까지 수행했다. 연구진은 60Hz 필터 실험을 사람 개입 없이 완료했다고 보고했다.",
+        "why": "AI 에이전트의 작업 범위가 코드에서 물리적 제조로 확장된다.",
+        "next": "다양한 회로 재현성과 제작 안전성 검증.",
+        "hook": "AI가 코드 밖으로 나왔다"
+      }
+    },
+    {
+      "id": "nvidia-sec-inquiry",
+      "category": "AI BUSINESS",
+      "headline": "NVIDIA 회계 관련 SEC 조사 보도",
+      "facts": "Reuters가 미국 SEC가 NVIDIA의 잠재적인 회계 문제를 조사 중이라고 보도했다. 조사 시점과 구체적인 회계 관행은 공개되지 않았다. NVIDIA와 SEC는 논평하지 않았다. 조사 사실만으로 위법행위가 확인된 것은 아니다.",
+      "whyItMatters": "AI 산업의 중심 기업에 대한 재무 신뢰성 논쟁이 커질 수 있다.",
+      "analysis": "조사 단계이며 혐의나 결과를 단정해서는 안 된다.",
+      "outlook": "6~24개월: 공식 공시·조사 결과와 회계 정책 변화 확인.",
+      "status": "unconfirmed",
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/world/us-secs-nvidia-probe-is-examining-potential-accounting-issues-sources-say-2026-11-20/"
+        }
+      ],
+      "card": {
+        "stat": "SEC 조사",
+        "headline": "NVIDIA 회계 조사 보도",
+        "what": "Reuters는 미국 SEC가 NVIDIA의 잠재적 회계 문제를 조사 중이라고 보도했다. 조사 대상 세부 사항은 공개되지 않았다.",
+        "why": "AI 인프라 투자 붐의 재무 신뢰성이 시험대에 올랐다.",
+        "next": "SEC 공식 발표와 NVIDIA 공시 확인.",
+        "hook": "AI 시장의 신뢰 시험"
+      }
+    },
+    {
+      "id": "skyebrowse-realistic-3d",
+      "category": "3D & DRONES",
+      "headline": "드론 영상으로 3D 복원, 처리 최대 3배",
+      "facts": "SkyeBrowse가 Realistic 3D 업데이트를 공개했다. 드론·휴대폰 영상에서 3D 모델을 만들고 원본 촬영 경로에서는 실제 영상 프레임을 결합해 반사광과 그림자를 표현한다. 회사는 처리 속도 최대 3배와 품질 최대 5배 개선을 주장했다. 원본 경로 밖에서는 기존 텍스처 모델로 전환된다.",
+      "whyItMatters": "실제 공간 디지털 트윈과 현장 기록 제작의 진입장벽을 낮출 수 있다.",
+      "analysis": "성능 수치는 업체 주장이고 사진 같은 외관이 기하학적 정확도를 보장하지 않는다.",
+      "outlook": "6~24개월: 독립 측량 정확도 평가와 저가형 드론 지원 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "DroneDJ",
+          "url": "https://dronedj.com/2026/11/20/drone-3d-model-skyebrowse-realistic/"
+        }
+      ],
+      "card": {
+        "stat": "최대 3배",
+        "headline": "드론 영상이 3D 지도로",
+        "what": "SkyeBrowse가 촬영 영상과 3D 모델을 결합하는 Realistic 3D를 공개했다. 처리 속도 3배 개선은 회사 주장이다.",
+        "why": "현장 3D 기록과 디지털 트윈 제작을 더 쉽게 할 수 있다.",
+        "next": "독립적인 복원 정확도와 처리 속도 검증.",
+        "hook": "현실을 빠르게 3D로"
+      }
+    },
+    {
+      "id": "nasdaq-ai-selloff",
+      "category": "AI MARKETS",
+      "headline": "나스닥 하루 5% 넘게 급락",
+      "facts": "11월 20일 미국 기술주가 급락했다. Reuters에 따르면 나스닥은 하루 약 5.3%, 주간 약 10% 하락했다. AI 투자 가치평가와 데이터센터 투자 지속 가능성에 대한 우려가 거론됐다. 주가 하락이 곧 AI 수요의 붕괴를 뜻하지는 않는다.",
+      "whyItMatters": "AI 기업의 자금조달과 인프라 투자가 시장 심리에 민감해졌다.",
+      "analysis": "단기 시장 가격과 장기 기술 수요는 구분해야 한다.",
+      "outlook": "6~24개월: 데이터센터 실제 지출과 AI 서비스 매출 추이 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/business/view-nasdaq-plunges-5-day-after-anthropic-debut-investors-still-believe-ai-2026-11-20/"
+        }
+      ]
+    },
+    {
+      "id": "us-overseas-datacenter-tax",
+      "category": "AI POLICY",
+      "headline": "미국, 해외 데이터센터에 큰 세금 예고",
+      "facts": "트럼프 대통령이 미국 기업의 해외 데이터센터 건설에 큰 세금을 부과하겠다고 말했다. 구체적인 세율이나 시행 일정은 제시되지 않았다. 데이터센터는 이용자와 가까운 곳에 세워 지연시간과 전송 비용을 줄이기도 한다. 실제 정책 도입 여부는 확정되지 않았다.",
+      "whyItMatters": "클라우드 인프라의 지리적 배치에 영향을 줄 수 있다.",
+      "analysis": "정치적 발언과 확정된 법률은 다르다.",
+      "outlook": "6~24개월: 법안·행정조치 발표와 예외 규정 확인.",
+      "status": "unconfirmed",
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/technology/trump-says-us-penalize-firms-building-data-centers-abroad-2026-11-20/"
+        }
+      ]
+    },
+    {
+      "id": "samsung-memory-leadership",
+      "category": "CHIPS",
+      "headline": "삼성 메모리 수장 교체, AI 칩 집중",
+      "facts": "삼성전자가 메모리 사업 책임자로 황상준 사장을 임명했다. AI 수요 확대 속에 메모리 경쟁력 강화를 강조했다. 3분기 반도체 부문 이익은 전년 동기 대비 약 15배 증가했다고 Reuters는 보도했다. 모바일 사업 책임자도 새로 선임됐다.",
+      "whyItMatters": "HBM과 메모리 공급 경쟁이 기업 조직 개편으로 이어진다.",
+      "analysis": "인사만으로 기술 경쟁력 개선을 단정할 수 없다.",
+      "outlook": "6~24개월: HBM 고객사 확보와 양산 수율·공급 확대 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/technology/samsung-elec-names-new-heads-memory-chip-mobile-businesses-2026-11-20/"
+        }
+      ]
+    },
+    {
+      "id": "github-desktop-multiaccount",
+      "category": "DEV TOOLS",
+      "headline": "GitHub Desktop, 계정 여러 개 동시 사용",
+      "facts": "GitHub Desktop 3.7.0이 같은 GitHub 호스트에 여러 계정을 등록할 수 있게 됐다. 저장소마다 사용할 계정을 연결한다. 복제·게시·Git 작업 시 적절한 인증 정보를 자동으로 사용한다. 기존 단일 계정 저장소는 자동 이전된다.",
+      "whyItMatters": "개인·학교·업무 계정이 섞이는 개발자의 실수를 줄일 수 있다.",
+      "analysis": "계정 전환 편의성과 저장소 권한 보안은 별도로 관리해야 한다.",
+      "outlook": "6~24개월: 계정별 권한 안내와 기업 인증 정책 통합 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-11-19-github-desktop-now-supports-multiple-accounts-per-host/"
+        }
+      ]
+    },
+    {
+      "id": "github-advisory-roles",
+      "category": "DEV SECURITY",
+      "headline": "GitHub, 취약점 보고 권한 세분화",
+      "facts": "GitHub가 보안 권고(Security Advisory) 관련 사용자 지정 권한을 정식 제공하기 시작했다. 조직 관리자는 저장소 관리자 권한을 주지 않고도 비공개 취약점 보고서 작업을 맡길 수 있다. 보안 담당자에게 필요한 접근만 부여하는 방식이다.",
+      "whyItMatters": "오픈소스 프로젝트의 비공개 취약점 대응 권한을 더 안전하게 나눌 수 있다.",
+      "analysis": "세분화된 권한은 설정을 잘못하면 오히려 운영 복잡도를 높인다.",
+      "outlook": "6~24개월: 조직별 최소권한 정책 채택과 감사 기능 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-11-20-security-advisory-permissions-are-now-generally-available/"
+        }
+      ]
+    },
+    {
+      "id": "us-chip-license-879k",
+      "category": "CHIPS & POLICY",
+      "headline": "미국 의회, AI 칩 약 87만9천 개 허가 공개",
+      "facts": "미국 하원 외교위원회가 2025년 12월부터 2026년 5월까지 중국 기업 대상 첨단 AI 칩 약 87만9천 개의 수출 허가가 승인됐다고 밝혔다. 신청 물량은 340만 개 이상이었다. 승인 물량이 실제로 모두 배송됐는지는 불분명하다. NVIDIA와 AMD는 수출통제 준수를 강조했다.",
+      "whyItMatters": "AI 반도체 규제의 실제 집행 규모를 보여주는 자료다.",
+      "analysis": "승인·출하·실제 사용은 서로 다른 단계다.",
+      "outlook": "6~24개월: 실제 출하 집계와 규제 변경의 산업 영향 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/world/license-information-ai-chips-sent-china-released-by-us-house-committee-2026-11-19/"
+        }
+      ]
+    },
+    {
+      "id": "github-repo-pinning",
+      "category": "DEV TOOLS",
+      "headline": "GitHub 대시보드에 즐겨찾는 저장소 고정",
+      "facts": "GitHub가 새 대시보드에 Favorite repositories 영역을 도입했다. 자주 사용하는 저장소를 직접 고정해 빠르게 접근할 수 있다. 새로운 대시보드를 사용하지 않는 계정에서는 기존 Top repositories 영역이 유지된다.",
+      "whyItMatters": "여러 개인 프로젝트를 오가는 개발자의 탐색 시간이 줄어든다.",
+      "analysis": "개발 생산성을 크게 바꾸는 기능은 아니지만 반복 작업의 마찰을 줄인다.",
+      "outlook": "6~24개월: 프로젝트별 맞춤 대시보드와 에이전트 작업 연동 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-11-20-pin-your-favorite-repositories-to-your-dashboard/"
+        }
+      ]
+    }
+  ]
+}
