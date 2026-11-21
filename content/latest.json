@@ -1,204 +1,204 @@
 {
-  "date": "2026-11-21",
-  "edition": 67,
+  "date": "2026-11-22",
+  "edition": 68,
   "brand": "DAILY TECH",
   "handle": "@daily_tech_magazine",
-  "deckTitle": "AI가 회로를 만들고, NVIDIA는 조사받는다",
-  "deckSubtitle": "AI 에이전트·반도체·3D 기술 최신 뉴스 10선",
+  "deckTitle": "노트북 AI부터 440억 달러 GPU 금융까지",
+  "deckSubtitle": "로컬 AI·한국 데이터센터·AI 인프라 최신 뉴스 10선",
   "top3": [
-    "jarvis-pcb-agent",
-    "nvidia-sec-inquiry",
-    "skyebrowse-realistic-3d"
+    "inkling-mini-local",
+    "ulsan-ai-datacenter",
+    "spacex-gpu-debt"
   ],
-  "dailyAnalysis": "AI 에이전트는 회로 설계부터 실제 제작까지 확장되는 반면, AI 반도체 기업은 회계 신뢰성과 규제 문제에 직면했다. 드론 기반 3D 복원과 GitHub 개발도구 개선은 기술을 실제 작업에 연결하는 흐름을 보여준다.",
-  "recap": "AI는 회로까지 만들고, 반도체는 신뢰를 시험받으며, 3D 복원은 빨라진다.",
+  "dailyAnalysis": "AI 모델은 개인 장비에서도 실행 가능한 방향으로 소형화되고, 동시에 대규모 AI 연산 인프라는 수십억 달러를 넘어 수백억 달러 규모의 자금 조달을 필요로 한다. 한국 울산 데이터센터와 휴머노이드 학습 연구는 AI 경쟁이 지역 인프라와 물리 세계로 확대되고 있음을 보여준다.",
+  "recap": "AI는 노트북으로 내려오고, 데이터센터 투자는 거대해진다.",
   "cover": {
-    "stat": "2시간 39분",
-    "title": "AI가 회로까지 만든다\n칩 산업은 신뢰 시험대",
-    "subtitle": "AI 제조 실험·NVIDIA 조사·드론 3D 기술"
+    "stat": "20GB ↔ 440억 달러",
+    "title": "AI는 작아지고\n인프라 투자는 커진다",
+    "subtitle": "로컬 코딩 AI·울산 데이터센터·GPU 금융"
   },
   "stories": [
     {
-      "id": "jarvis-pcb-agent",
-      "category": "AI & ROBOTICS",
-      "headline": "AI가 회로기판을 설계·제작·시험까지",
-      "facts": "연구진이 JARVIS라는 물리 AI 에이전트를 공개했다. 로봇팔·PCB 프린터·부품 실장기와 계측기를 연동한다. 60Hz 노치 필터 제작 실험을 사람 개입 없이 2시간 39분에 수행했다. 디지털 트윈에서 제작 전 문제 5건을 발견했다고 보고했다.",
-      "whyItMatters": "코딩 에이전트가 실제 하드웨어 제작·측정까지 연결되는 사례다.",
-      "analysis": "연구진의 단일 실험이며 다양한 회로에 대한 범용성은 입증되지 않았다.",
-      "outlook": "6~24개월: 다른 회로에서의 재현성과 안전성, 제작비용 검증.",
+      "id": "inkling-mini-local",
+      "category": "LOCAL AI",
+      "headline": "Inkling 2 Mini, 20GB급 로컬 코딩 AI",
+      "facts": "Thinking Machines Lab이 11월 20일 Inkling 2 Mini를 공개했다. 총 264억 매개변수 중 토큰당 34억 개를 활성화하는 MoE 모델이다. 중간 계층을 세 번 반복하는 구조이며 최대 100만 토큰 문맥을 지원한다. 약 20GB 체크포인트를 공개했지만 공식 권장 메모리는 32GB 이상이다.",
+      "whyItMatters": "코딩 에이전트에 사용할 오픈웨이트 모델을 개인 장비에서도 실행할 수 있다.",
+      "analysis": "DeepSWE 48.2% 등 점수는 개발사 발표이며 실제 소비자 GPU 속도는 별도 검증해야 한다.",
+      "outlook": "6~24개월: 32GB급 기기 성능과 독립 코딩 벤치마크 검증.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Thinking Machines Lab",
+          "url": "https://thinkingmachines.ai/news/inkling-2-mini/"
+        }
+      ],
+      "card": {
+        "stat": "20GB 모델",
+        "headline": "노트북용 코딩 AI 공개",
+        "what": "Thinking Machines가 264억 매개변수의 Inkling 2 Mini를 공개했다. 100만 토큰 문맥과 로컬 실행을 지원한다.",
+        "why": "고성능 코딩 모델을 개인 장비에서 직접 활용할 선택지가 늘었다.",
+        "next": "32GB 메모리 기기에서 속도와 실제 코딩 성공률 검증.",
+        "hook": "AI 코딩, 로컬로 내려오다"
+      }
+    },
+    {
+      "id": "ulsan-ai-datacenter",
+      "category": "KOREA AI",
+      "headline": "울산에 7조 원 규모 AI 데이터센터",
+      "facts": "이재명 대통령이 11월 21일 울산의 AI 데이터센터 건설 현장을 방문했다. SK그룹과 AWS가 공동 개발하며 2029년까지 7조 원 투자가 예상된다. 2027년 하반기 가동을 목표로 하고 초기 전력 용량은 103MW다. 장기적으로 약 900MW까지 확장 가능성이 제시됐다.",
+      "whyItMatters": "국내 AI 연산 인프라와 반도체 수요가 수도권 밖으로 확대된다.",
+      "analysis": "전력 확보와 전문 인력 공급이 계획 실현의 핵심 변수다.",
+      "outlook": "6~24개월: 2027년 가동 일정, 전력망과 GPU 도입 계약 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/business/media-telecom/south-koreas-lee-says-speed-is-vital-ai-race-data-centre-visit-2026-11-21/"
+        }
+      ],
+      "card": {
+        "stat": "7조 원",
+        "headline": "울산에 거대 AI 데이터센터",
+        "what": "SK그룹과 AWS가 울산에 AI 데이터센터를 개발한다. 2027년 하반기 가동 목표, 초기 용량 103MW.",
+        "why": "한국 AI 인프라 투자가 수도권 밖으로 확대된다.",
+        "next": "전력망 확보와 2027년 가동 일정 확인.",
+        "hook": "한국 AI 인프라의 새 거점"
+      }
+    },
+    {
+      "id": "spacex-gpu-debt",
+      "category": "AI INFRA",
+      "headline": "SpaceX GPU 확보에 440억 달러 금융 조달",
+      "facts": "Reuters는 Apollo와 Goldman Sachs가 SpaceX의 NVIDIA GPU 및 관련 장비 확보를 위한 약 440억 달러 부채 금융을 마련했다고 보도했다. 수요가 높아 조달 규모가 확대됐다. 차세대 Vera Rubin 장비가 포함되며 2027년 상반기 인도가 예정돼 있다. AI 연산 설비의 대규모 금융 조달 사례다.",
+      "whyItMatters": "AI 인프라가 막대한 장기 자본을 필요로 하는 산업으로 변하고 있다.",
+      "analysis": "부채 규모는 실제 AI 서비스 수익성을 보장하지 않으며 장비 인도와 리스 비용을 살펴야 한다.",
+      "outlook": "6~24개월: GPU 인도, 설비 가동률, 금융 비용 대비 매출 추적.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/business/media-telecom/apollo-goldman-lead-44-billion-spacex-gpu-debt-financing-2026-11-20/"
+        }
+      ],
+      "card": {
+        "stat": "440억 달러",
+        "headline": "SpaceX의 초대형 GPU 금융",
+        "what": "SpaceX가 NVIDIA GPU와 관련 장비 확보를 위해 약 440억 달러의 부채 금융을 마련했다.",
+        "why": "AI 연산 경쟁이 거대한 자본 조달 경쟁으로 확대됐다.",
+        "next": "2027년 장비 인도와 실제 가동률 확인.",
+        "hook": "AI 칩 확보에 수십조 원"
+      }
+    },
+    {
+      "id": "awaken-hi-humanoid",
+      "category": "ROBOTICS",
+      "headline": "사람 동작 5만 시간으로 휴머노이드 훈련",
+      "facts": "EngineAI 연구진이 Awaken-HI와 Awaken-Human 데이터셋을 공개했다. 약 5만 시간의 1인칭 스테레오 영상과 전신 움직임을 연결하고 100개 넘는 기술을 포함했다. 인간 동작과 로봇 행동을 공동 학습하는 방식이다. 연구진은 T800 로봇의 8개 과제에서 평균 성공률 93.75%를 보고했다.",
+      "whyItMatters": "사람의 행동 데이터를 로봇 훈련에 활용하는 규모가 커지고 있다.",
+      "analysis": "93.75%는 제한된 연구 과제 결과이며 가정이나 공장 전반의 범용 성공률은 아니다.",
+      "outlook": "6~24개월: 미학습 환경과 다른 로봇 플랫폼에서 재현성 검증.",
       "status": "confirmed",
       "sources": [
         {
           "name": "arXiv",
-          "url": "https://arxiv.org/abs/2611.26503"
-        }
-      ],
-      "card": {
-        "stat": "2시간 39분",
-        "headline": "AI가 회로기판까지 만든다",
-        "what": "JARVIS가 회로 설계부터 로봇 제작·계측까지 수행했다. 연구진은 60Hz 필터 실험을 사람 개입 없이 완료했다고 보고했다.",
-        "why": "AI 에이전트의 작업 범위가 코드에서 물리적 제조로 확장된다.",
-        "next": "다양한 회로 재현성과 제작 안전성 검증.",
-        "hook": "AI가 코드 밖으로 나왔다"
-      }
-    },
-    {
-      "id": "nvidia-sec-inquiry",
-      "category": "AI BUSINESS",
-      "headline": "NVIDIA 회계 관련 SEC 조사 보도",
-      "facts": "Reuters가 미국 SEC가 NVIDIA의 잠재적인 회계 문제를 조사 중이라고 보도했다. 조사 시점과 구체적인 회계 관행은 공개되지 않았다. NVIDIA와 SEC는 논평하지 않았다. 조사 사실만으로 위법행위가 확인된 것은 아니다.",
-      "whyItMatters": "AI 산업의 중심 기업에 대한 재무 신뢰성 논쟁이 커질 수 있다.",
-      "analysis": "조사 단계이며 혐의나 결과를 단정해서는 안 된다.",
-      "outlook": "6~24개월: 공식 공시·조사 결과와 회계 정책 변화 확인.",
-      "status": "unconfirmed",
-      "sources": [
-        {
-          "name": "Reuters",
-          "url": "https://www.reuters.com/world/us-secs-nvidia-probe-is-examining-potential-accounting-issues-sources-say-2026-11-20/"
-        }
-      ],
-      "card": {
-        "stat": "SEC 조사",
-        "headline": "NVIDIA 회계 조사 보도",
-        "what": "Reuters는 미국 SEC가 NVIDIA의 잠재적 회계 문제를 조사 중이라고 보도했다. 조사 대상 세부 사항은 공개되지 않았다.",
-        "why": "AI 인프라 투자 붐의 재무 신뢰성이 시험대에 올랐다.",
-        "next": "SEC 공식 발표와 NVIDIA 공시 확인.",
-        "hook": "AI 시장의 신뢰 시험"
-      }
-    },
-    {
-      "id": "skyebrowse-realistic-3d",
-      "category": "3D & DRONES",
-      "headline": "드론 영상으로 3D 복원, 처리 최대 3배",
-      "facts": "SkyeBrowse가 Realistic 3D 업데이트를 공개했다. 드론·휴대폰 영상에서 3D 모델을 만들고 원본 촬영 경로에서는 실제 영상 프레임을 결합해 반사광과 그림자를 표현한다. 회사는 처리 속도 최대 3배와 품질 최대 5배 개선을 주장했다. 원본 경로 밖에서는 기존 텍스처 모델로 전환된다.",
-      "whyItMatters": "실제 공간 디지털 트윈과 현장 기록 제작의 진입장벽을 낮출 수 있다.",
-      "analysis": "성능 수치는 업체 주장이고 사진 같은 외관이 기하학적 정확도를 보장하지 않는다.",
-      "outlook": "6~24개월: 독립 측량 정확도 평가와 저가형 드론 지원 확인.",
-      "status": "confirmed",
-      "sources": [
-        {
-          "name": "DroneDJ",
-          "url": "https://dronedj.com/2026/11/20/drone-3d-model-skyebrowse-realistic/"
-        }
-      ],
-      "card": {
-        "stat": "최대 3배",
-        "headline": "드론 영상이 3D 지도로",
-        "what": "SkyeBrowse가 촬영 영상과 3D 모델을 결합하는 Realistic 3D를 공개했다. 처리 속도 3배 개선은 회사 주장이다.",
-        "why": "현장 3D 기록과 디지털 트윈 제작을 더 쉽게 할 수 있다.",
-        "next": "독립적인 복원 정확도와 처리 속도 검증.",
-        "hook": "현실을 빠르게 3D로"
-      }
-    },
-    {
-      "id": "nasdaq-ai-selloff",
-      "category": "AI MARKETS",
-      "headline": "나스닥 하루 5% 넘게 급락",
-      "facts": "11월 20일 미국 기술주가 급락했다. Reuters에 따르면 나스닥은 하루 약 5.3%, 주간 약 10% 하락했다. AI 투자 가치평가와 데이터센터 투자 지속 가능성에 대한 우려가 거론됐다. 주가 하락이 곧 AI 수요의 붕괴를 뜻하지는 않는다.",
-      "whyItMatters": "AI 기업의 자금조달과 인프라 투자가 시장 심리에 민감해졌다.",
-      "analysis": "단기 시장 가격과 장기 기술 수요는 구분해야 한다.",
-      "outlook": "6~24개월: 데이터센터 실제 지출과 AI 서비스 매출 추이 확인.",
-      "status": "confirmed",
-      "sources": [
-        {
-          "name": "Reuters",
-          "url": "https://www.reuters.com/business/view-nasdaq-plunges-5-day-after-anthropic-debut-investors-still-believe-ai-2026-11-20/"
+          "url": "https://arxiv.org/abs/2611.26420"
         }
       ]
     },
     {
-      "id": "us-overseas-datacenter-tax",
-      "category": "AI POLICY",
-      "headline": "미국, 해외 데이터센터에 큰 세금 예고",
-      "facts": "트럼프 대통령이 미국 기업의 해외 데이터센터 건설에 큰 세금을 부과하겠다고 말했다. 구체적인 세율이나 시행 일정은 제시되지 않았다. 데이터센터는 이용자와 가까운 곳에 세워 지연시간과 전송 비용을 줄이기도 한다. 실제 정책 도입 여부는 확정되지 않았다.",
-      "whyItMatters": "클라우드 인프라의 지리적 배치에 영향을 줄 수 있다.",
-      "analysis": "정치적 발언과 확정된 법률은 다르다.",
-      "outlook": "6~24개월: 법안·행정조치 발표와 예외 규정 확인.",
-      "status": "unconfirmed",
-      "sources": [
-        {
-          "name": "Reuters",
-          "url": "https://www.reuters.com/technology/trump-says-us-penalize-firms-building-data-centers-abroad-2026-11-20/"
-        }
-      ]
-    },
-    {
-      "id": "samsung-memory-leadership",
+      "id": "tsmc-china-curbs",
       "category": "CHIPS",
-      "headline": "삼성 메모리 수장 교체, AI 칩 집중",
-      "facts": "삼성전자가 메모리 사업 책임자로 황상준 사장을 임명했다. AI 수요 확대 속에 메모리 경쟁력 강화를 강조했다. 3분기 반도체 부문 이익은 전년 동기 대비 약 15배 증가했다고 Reuters는 보도했다. 모바일 사업 책임자도 새로 선임됐다.",
-      "whyItMatters": "HBM과 메모리 공급 경쟁이 기업 조직 개편으로 이어진다.",
-      "analysis": "인사만으로 기술 경쟁력 개선을 단정할 수 없다.",
-      "outlook": "6~24개월: HBM 고객사 확보와 양산 수율·공급 확대 확인.",
+      "headline": "TSMC, 중국 AI 칩 첨단 공정 접근 제한 강화",
+      "facts": "Reuters에 따르면 TSMC가 새로운 미국 규정에 맞춰 중국 반도체 설계사의 첨단 제조 주문을 제한하고 있다. 영향을 받는 16nm 이하 공정은 미국 승인 없이는 주문을 진행하기 어렵다. 28nm와 40nm 공정에도 HBM·첨단 패키징 관련 조건이 붙는다. TSMC는 적용 법규를 준수하겠다고 밝혔다.",
+      "whyItMatters": "중국 AI 칩 개발에서 제조 공정과 패키징 확보가 더 어려워질 수 있다.",
+      "analysis": "규제 대상과 예외는 복잡하며 모든 중국 반도체 주문이 중단된 것은 아니다.",
+      "outlook": "6~24개월: 중국 자체 파운드리 전환과 규정 집행 결과.",
       "status": "confirmed",
       "sources": [
         {
           "name": "Reuters",
-          "url": "https://www.reuters.com/technology/samsung-elec-names-new-heads-memory-chip-mobile-businesses-2026-11-20/"
+          "url": "https://www.reuters.com/world/china/tsmc-tightens-china-ai-chip-curbs-new-us-rules-close-manufacturing-loophole-2026-11-19/"
         }
       ]
     },
     {
-      "id": "github-desktop-multiaccount",
-      "category": "DEV TOOLS",
-      "headline": "GitHub Desktop, 계정 여러 개 동시 사용",
-      "facts": "GitHub Desktop 3.7.0이 같은 GitHub 호스트에 여러 계정을 등록할 수 있게 됐다. 저장소마다 사용할 계정을 연결한다. 복제·게시·Git 작업 시 적절한 인증 정보를 자동으로 사용한다. 기존 단일 계정 저장소는 자동 이전된다.",
-      "whyItMatters": "개인·학교·업무 계정이 섞이는 개발자의 실수를 줄일 수 있다.",
-      "analysis": "계정 전환 편의성과 저장소 권한 보안은 별도로 관리해야 한다.",
-      "outlook": "6~24개월: 계정별 권한 안내와 기업 인증 정책 통합 확인.",
-      "status": "confirmed",
-      "sources": [
-        {
-          "name": "GitHub",
-          "url": "https://github.blog/changelog/2026-11-19-github-desktop-now-supports-multiple-accounts-per-host/"
-        }
-      ]
-    },
-    {
-      "id": "github-advisory-roles",
+      "id": "ghes-323-security",
       "category": "DEV SECURITY",
-      "headline": "GitHub, 취약점 보고 권한 세분화",
-      "facts": "GitHub가 보안 권고(Security Advisory) 관련 사용자 지정 권한을 정식 제공하기 시작했다. 조직 관리자는 저장소 관리자 권한을 주지 않고도 비공개 취약점 보고서 작업을 맡길 수 있다. 보안 담당자에게 필요한 접근만 부여하는 방식이다.",
-      "whyItMatters": "오픈소스 프로젝트의 비공개 취약점 대응 권한을 더 안전하게 나눌 수 있다.",
-      "analysis": "세분화된 권한은 설정을 잘못하면 오히려 운영 복잡도를 높인다.",
-      "outlook": "6~24개월: 조직별 최소권한 정책 채택과 감사 기능 확인.",
+      "headline": "GitHub 서버, 인터넷 없이 AI로 비밀정보 탐지",
+      "facts": "GitHub Enterprise Server 3.23 릴리스 후보가 11월 20일 공개됐다. 외부 연결이 차단된 환경에서도 CPU에서 실행되는 자체 모델로 비정형 비밀정보를 탐지하는 기능을 프리뷰로 제공한다. 악성 패키지 경고 범위를 PyPI, Rust, Go 등으로 넓혔다. Dependabot 버전 업데이트에 기본 3일 대기 기간도 도입한다.",
+      "whyItMatters": "기업 내부망에서 클라우드 AI 없이 보안 자동화를 운영할 수 있다.",
+      "analysis": "아직 릴리스 후보와 일부 프리뷰 기능이므로 실제 운영 전 검증이 필요하다.",
+      "outlook": "6~24개월: 정식 출시와 오탐률, 패키지 공급망 공격 차단 성과.",
       "status": "confirmed",
       "sources": [
         {
           "name": "GitHub",
-          "url": "https://github.blog/changelog/2026-11-20-security-advisory-permissions-are-now-generally-available/"
+          "url": "https://github.blog/changelog/2026-11-20-github-enterprise-server-3-23-release-candidate/"
         }
       ]
     },
     {
-      "id": "us-chip-license-879k",
-      "category": "CHIPS & POLICY",
-      "headline": "미국 의회, AI 칩 약 87만9천 개 허가 공개",
-      "facts": "미국 하원 외교위원회가 2025년 12월부터 2026년 5월까지 중국 기업 대상 첨단 AI 칩 약 87만9천 개의 수출 허가가 승인됐다고 밝혔다. 신청 물량은 340만 개 이상이었다. 승인 물량이 실제로 모두 배송됐는지는 불분명하다. NVIDIA와 AMD는 수출통제 준수를 강조했다.",
-      "whyItMatters": "AI 반도체 규제의 실제 집행 규모를 보여주는 자료다.",
-      "analysis": "승인·출하·실제 사용은 서로 다른 단계다.",
-      "outlook": "6~24개월: 실제 출하 집계와 규제 변경의 산업 영향 확인.",
+      "id": "marvel-rivals-anniversary",
+      "category": "GAMING",
+      "headline": "Marvel Rivals 2주년 이벤트 시작",
+      "facts": "Marvel Rivals가 11월 19일 패치를 배포했다. 게임 출시 2주년을 기념하는 Rivals' Day 2026 이벤트가 포함됐다. White Fox, Jeff the Land Shark, Rocket Raccoon의 새로운 색상 변형과 시각 효과가 상점에 추가됐다. 패치는 서버 점검 없이 적용된다고 안내됐다.",
+      "whyItMatters": "라이브 서비스 게임이 기념일 이벤트와 꾸미기 콘텐츠로 이용자 참여를 유지하는 사례다.",
+      "analysis": "꾸미기 업데이트 자체가 게임 밸런스나 서버 품질 향상을 뜻하지는 않는다.",
+      "outlook": "6~24개월: 신규 캐릭터와 경쟁전 유지율, 시즌 운영 변화.",
       "status": "confirmed",
       "sources": [
         {
-          "name": "Reuters",
-          "url": "https://www.reuters.com/world/license-information-ai-chips-sent-china-released-by-us-house-committee-2026-11-19/"
+          "name": "Steam 공식 공지",
+          "url": "https://store.steampowered.com/news/app/2767030/view/703285469074424209"
         }
       ]
     },
     {
-      "id": "github-repo-pinning",
-      "category": "DEV TOOLS",
-      "headline": "GitHub 대시보드에 즐겨찾는 저장소 고정",
-      "facts": "GitHub가 새 대시보드에 Favorite repositories 영역을 도입했다. 자주 사용하는 저장소를 직접 고정해 빠르게 접근할 수 있다. 새로운 대시보드를 사용하지 않는 계정에서는 기존 Top repositories 영역이 유지된다.",
-      "whyItMatters": "여러 개인 프로젝트를 오가는 개발자의 탐색 시간이 줄어든다.",
-      "analysis": "개발 생산성을 크게 바꾸는 기능은 아니지만 반복 작업의 마찰을 줄인다.",
-      "outlook": "6~24개월: 프로젝트별 맞춤 대시보드와 에이전트 작업 연동 확인.",
+      "id": "github-pr-overview",
+      "category": "DEVELOPER TOOLS",
+      "headline": "GitHub PR 화면, 병합 방해 요소 더 명확하게",
+      "facts": "GitHub가 11월 19일 새 Pull Request Overview 공개 프리뷰를 개선했다. 선택적 검사가 실패해도 실제 병합 가능한 PR을 막힌 것으로 잘못 표시하지 않도록 수정했다. 해결된 리뷰 스레드는 접히고 강제 푸시 전후 커밋을 비교할 수 있게 됐다. 작은 화면에서도 대상 브랜치 정보가 유지된다.",
+      "whyItMatters": "AI 에이전트가 만든 PR을 검토할 때 병합 상태를 더 정확히 파악할 수 있다.",
+      "analysis": "UI 개선이 코드 품질 자체를 높이는 것은 아니며 자동 검증 설정이 여전히 중요하다.",
+      "outlook": "6~24개월: PR 리뷰 자동화와 에이전트 작업 이력 표시 개선.",
       "status": "confirmed",
       "sources": [
         {
           "name": "GitHub",
-          "url": "https://github.blog/changelog/2026-11-20-pin-your-favorite-repositories-to-your-dashboard/"
+          "url": "https://github.blog/changelog/2026-11-19-improvements-on-the-pull-request-overview-in-public-preview/"
+        }
+      ]
+    },
+    {
+      "id": "gemini-carbon-swarm",
+      "category": "AI AGENTS",
+      "headline": "Gemini 4 Carbon, 여러 코딩 에이전트 협업 예고",
+      "facts": "Google이 Gemini 4 Carbon을 공개 배포하며 Antigravity의 swarm 기능을 예고했다. 복잡한 장기 코딩과 과학 연구를 겨냥한다. 한 번의 지시로 여러 에이전트가 협력하는 구조를 프리뷰한다. 개발자·기업과 일부 유료 이용자에게 제공되며 무료 접근 범위는 불명확하다.",
+      "whyItMatters": "한 명의 AI보다 여러 에이전트가 작업을 나누는 개발 방식이 확장될 수 있다.",
+      "analysis": "회사 발표 벤치마크보다 실제 충돌 해결과 비용 대비 성공률을 확인해야 한다.",
+      "outlook": "6~24개월: 병렬 코딩 작업의 오류율, 비용, 협업 검증 기능.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1030787/google-gemini-4-carbon-public-rollout"
+        }
+      ]
+    },
+    {
+      "id": "github-rhel-runners",
+      "category": "DEVOPS",
+      "headline": "GitHub Actions에 RHEL 9·10 러너 정식 지원",
+      "facts": "GitHub가 11월 19일 RHEL 9 및 RHEL 10 기반의 호스팅 대형 러너 이미지를 정식 제공한다고 발표했다. 기업이 사용하는 Red Hat 환경과 유사한 CI 테스트를 GitHub Actions에서 실행할 수 있다. 기존 프리뷰에서 정식 지원으로 전환됐다.",
+      "whyItMatters": "기업용 Linux 배포판에서 발생하는 호환성 문제를 CI 단계에서 줄일 수 있다.",
+      "analysis": "개인 프로젝트에는 Ubuntu 러너가 여전히 더 경제적일 수 있다.",
+      "outlook": "6~24개월: 기업 CI 비용과 배포판별 테스트 자동화 확대.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-11-19-red-hat-enterprise-linux-runner-images-now-generally-available/"
         }
       ]
     }
