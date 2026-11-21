@@ -1,0 +1,206 @@
+{
+  "date": "2026-11-22",
+  "edition": 68,
+  "brand": "DAILY TECH",
+  "handle": "@daily_tech_magazine",
+  "deckTitle": "노트북 AI부터 440억 달러 GPU 금융까지",
+  "deckSubtitle": "로컬 AI·한국 데이터센터·AI 인프라 최신 뉴스 10선",
+  "top3": [
+    "inkling-mini-local",
+    "ulsan-ai-datacenter",
+    "spacex-gpu-debt"
+  ],
+  "dailyAnalysis": "AI 모델은 개인 장비에서도 실행 가능한 방향으로 소형화되고, 동시에 대규모 AI 연산 인프라는 수십억 달러를 넘어 수백억 달러 규모의 자금 조달을 필요로 한다. 한국 울산 데이터센터와 휴머노이드 학습 연구는 AI 경쟁이 지역 인프라와 물리 세계로 확대되고 있음을 보여준다.",
+  "recap": "AI는 노트북으로 내려오고, 데이터센터 투자는 거대해진다.",
+  "cover": {
+    "stat": "20GB ↔ 440억 달러",
+    "title": "AI는 작아지고\n인프라 투자는 커진다",
+    "subtitle": "로컬 코딩 AI·울산 데이터센터·GPU 금융"
+  },
+  "stories": [
+    {
+      "id": "inkling-mini-local",
+      "category": "LOCAL AI",
+      "headline": "Inkling 2 Mini, 20GB급 로컬 코딩 AI",
+      "facts": "Thinking Machines Lab이 11월 20일 Inkling 2 Mini를 공개했다. 총 264억 매개변수 중 토큰당 34억 개를 활성화하는 MoE 모델이다. 중간 계층을 세 번 반복하는 구조이며 최대 100만 토큰 문맥을 지원한다. 약 20GB 체크포인트를 공개했지만 공식 권장 메모리는 32GB 이상이다.",
+      "whyItMatters": "코딩 에이전트에 사용할 오픈웨이트 모델을 개인 장비에서도 실행할 수 있다.",
+      "analysis": "DeepSWE 48.2% 등 점수는 개발사 발표이며 실제 소비자 GPU 속도는 별도 검증해야 한다.",
+      "outlook": "6~24개월: 32GB급 기기 성능과 독립 코딩 벤치마크 검증.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Thinking Machines Lab",
+          "url": "https://thinkingmachines.ai/news/inkling-2-mini/"
+        }
+      ],
+      "card": {
+        "stat": "20GB 모델",
+        "headline": "노트북용 코딩 AI 공개",
+        "what": "Thinking Machines가 264억 매개변수의 Inkling 2 Mini를 공개했다. 100만 토큰 문맥과 로컬 실행을 지원한다.",
+        "why": "고성능 코딩 모델을 개인 장비에서 직접 활용할 선택지가 늘었다.",
+        "next": "32GB 메모리 기기에서 속도와 실제 코딩 성공률 검증.",
+        "hook": "AI 코딩, 로컬로 내려오다"
+      }
+    },
+    {
+      "id": "ulsan-ai-datacenter",
+      "category": "KOREA AI",
+      "headline": "울산에 7조 원 규모 AI 데이터센터",
+      "facts": "이재명 대통령이 11월 21일 울산의 AI 데이터센터 건설 현장을 방문했다. SK그룹과 AWS가 공동 개발하며 2029년까지 7조 원 투자가 예상된다. 2027년 하반기 가동을 목표로 하고 초기 전력 용량은 103MW다. 장기적으로 약 900MW까지 확장 가능성이 제시됐다.",
+      "whyItMatters": "국내 AI 연산 인프라와 반도체 수요가 수도권 밖으로 확대된다.",
+      "analysis": "전력 확보와 전문 인력 공급이 계획 실현의 핵심 변수다.",
+      "outlook": "6~24개월: 2027년 가동 일정, 전력망과 GPU 도입 계약 확인.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/business/media-telecom/south-koreas-lee-says-speed-is-vital-ai-race-data-centre-visit-2026-11-21/"
+        }
+      ],
+      "card": {
+        "stat": "7조 원",
+        "headline": "울산에 거대 AI 데이터센터",
+        "what": "SK그룹과 AWS가 울산에 AI 데이터센터를 개발한다. 2027년 하반기 가동 목표, 초기 용량 103MW.",
+        "why": "한국 AI 인프라 투자가 수도권 밖으로 확대된다.",
+        "next": "전력망 확보와 2027년 가동 일정 확인.",
+        "hook": "한국 AI 인프라의 새 거점"
+      }
+    },
+    {
+      "id": "spacex-gpu-debt",
+      "category": "AI INFRA",
+      "headline": "SpaceX GPU 확보에 440억 달러 금융 조달",
+      "facts": "Reuters는 Apollo와 Goldman Sachs가 SpaceX의 NVIDIA GPU 및 관련 장비 확보를 위한 약 440억 달러 부채 금융을 마련했다고 보도했다. 수요가 높아 조달 규모가 확대됐다. 차세대 Vera Rubin 장비가 포함되며 2027년 상반기 인도가 예정돼 있다. AI 연산 설비의 대규모 금융 조달 사례다.",
+      "whyItMatters": "AI 인프라가 막대한 장기 자본을 필요로 하는 산업으로 변하고 있다.",
+      "analysis": "부채 규모는 실제 AI 서비스 수익성을 보장하지 않으며 장비 인도와 리스 비용을 살펴야 한다.",
+      "outlook": "6~24개월: GPU 인도, 설비 가동률, 금융 비용 대비 매출 추적.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/business/media-telecom/apollo-goldman-lead-44-billion-spacex-gpu-debt-financing-2026-11-20/"
+        }
+      ],
+      "card": {
+        "stat": "440억 달러",
+        "headline": "SpaceX의 초대형 GPU 금융",
+        "what": "SpaceX가 NVIDIA GPU와 관련 장비 확보를 위해 약 440억 달러의 부채 금융을 마련했다.",
+        "why": "AI 연산 경쟁이 거대한 자본 조달 경쟁으로 확대됐다.",
+        "next": "2027년 장비 인도와 실제 가동률 확인.",
+        "hook": "AI 칩 확보에 수십조 원"
+      }
+    },
+    {
+      "id": "awaken-hi-humanoid",
+      "category": "ROBOTICS",
+      "headline": "사람 동작 5만 시간으로 휴머노이드 훈련",
+      "facts": "EngineAI 연구진이 Awaken-HI와 Awaken-Human 데이터셋을 공개했다. 약 5만 시간의 1인칭 스테레오 영상과 전신 움직임을 연결하고 100개 넘는 기술을 포함했다. 인간 동작과 로봇 행동을 공동 학습하는 방식이다. 연구진은 T800 로봇의 8개 과제에서 평균 성공률 93.75%를 보고했다.",
+      "whyItMatters": "사람의 행동 데이터를 로봇 훈련에 활용하는 규모가 커지고 있다.",
+      "analysis": "93.75%는 제한된 연구 과제 결과이며 가정이나 공장 전반의 범용 성공률은 아니다.",
+      "outlook": "6~24개월: 미학습 환경과 다른 로봇 플랫폼에서 재현성 검증.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "arXiv",
+          "url": "https://arxiv.org/abs/2611.26420"
+        }
+      ]
+    },
+    {
+      "id": "tsmc-china-curbs",
+      "category": "CHIPS",
+      "headline": "TSMC, 중국 AI 칩 첨단 공정 접근 제한 강화",
+      "facts": "Reuters에 따르면 TSMC가 새로운 미국 규정에 맞춰 중국 반도체 설계사의 첨단 제조 주문을 제한하고 있다. 영향을 받는 16nm 이하 공정은 미국 승인 없이는 주문을 진행하기 어렵다. 28nm와 40nm 공정에도 HBM·첨단 패키징 관련 조건이 붙는다. TSMC는 적용 법규를 준수하겠다고 밝혔다.",
+      "whyItMatters": "중국 AI 칩 개발에서 제조 공정과 패키징 확보가 더 어려워질 수 있다.",
+      "analysis": "규제 대상과 예외는 복잡하며 모든 중국 반도체 주문이 중단된 것은 아니다.",
+      "outlook": "6~24개월: 중국 자체 파운드리 전환과 규정 집행 결과.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/world/china/tsmc-tightens-china-ai-chip-curbs-new-us-rules-close-manufacturing-loophole-2026-11-19/"
+        }
+      ]
+    },
+    {
+      "id": "ghes-323-security",
+      "category": "DEV SECURITY",
+      "headline": "GitHub 서버, 인터넷 없이 AI로 비밀정보 탐지",
+      "facts": "GitHub Enterprise Server 3.23 릴리스 후보가 11월 20일 공개됐다. 외부 연결이 차단된 환경에서도 CPU에서 실행되는 자체 모델로 비정형 비밀정보를 탐지하는 기능을 프리뷰로 제공한다. 악성 패키지 경고 범위를 PyPI, Rust, Go 등으로 넓혔다. Dependabot 버전 업데이트에 기본 3일 대기 기간도 도입한다.",
+      "whyItMatters": "기업 내부망에서 클라우드 AI 없이 보안 자동화를 운영할 수 있다.",
+      "analysis": "아직 릴리스 후보와 일부 프리뷰 기능이므로 실제 운영 전 검증이 필요하다.",
+      "outlook": "6~24개월: 정식 출시와 오탐률, 패키지 공급망 공격 차단 성과.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-11-20-github-enterprise-server-3-23-release-candidate/"
+        }
+      ]
+    },
+    {
+      "id": "marvel-rivals-anniversary",
+      "category": "GAMING",
+      "headline": "Marvel Rivals 2주년 이벤트 시작",
+      "facts": "Marvel Rivals가 11월 19일 패치를 배포했다. 게임 출시 2주년을 기념하는 Rivals' Day 2026 이벤트가 포함됐다. White Fox, Jeff the Land Shark, Rocket Raccoon의 새로운 색상 변형과 시각 효과가 상점에 추가됐다. 패치는 서버 점검 없이 적용된다고 안내됐다.",
+      "whyItMatters": "라이브 서비스 게임이 기념일 이벤트와 꾸미기 콘텐츠로 이용자 참여를 유지하는 사례다.",
+      "analysis": "꾸미기 업데이트 자체가 게임 밸런스나 서버 품질 향상을 뜻하지는 않는다.",
+      "outlook": "6~24개월: 신규 캐릭터와 경쟁전 유지율, 시즌 운영 변화.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Steam 공식 공지",
+          "url": "https://store.steampowered.com/news/app/2767030/view/703285469074424209"
+        }
+      ]
+    },
+    {
+      "id": "github-pr-overview",
+      "category": "DEVELOPER TOOLS",
+      "headline": "GitHub PR 화면, 병합 방해 요소 더 명확하게",
+      "facts": "GitHub가 11월 19일 새 Pull Request Overview 공개 프리뷰를 개선했다. 선택적 검사가 실패해도 실제 병합 가능한 PR을 막힌 것으로 잘못 표시하지 않도록 수정했다. 해결된 리뷰 스레드는 접히고 강제 푸시 전후 커밋을 비교할 수 있게 됐다. 작은 화면에서도 대상 브랜치 정보가 유지된다.",
+      "whyItMatters": "AI 에이전트가 만든 PR을 검토할 때 병합 상태를 더 정확히 파악할 수 있다.",
+      "analysis": "UI 개선이 코드 품질 자체를 높이는 것은 아니며 자동 검증 설정이 여전히 중요하다.",
+      "outlook": "6~24개월: PR 리뷰 자동화와 에이전트 작업 이력 표시 개선.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-11-19-improvements-on-the-pull-request-overview-in-public-preview/"
+        }
+      ]
+    },
+    {
+      "id": "gemini-carbon-swarm",
+      "category": "AI AGENTS",
+      "headline": "Gemini 4 Carbon, 여러 코딩 에이전트 협업 예고",
+      "facts": "Google이 Gemini 4 Carbon을 공개 배포하며 Antigravity의 swarm 기능을 예고했다. 복잡한 장기 코딩과 과학 연구를 겨냥한다. 한 번의 지시로 여러 에이전트가 협력하는 구조를 프리뷰한다. 개발자·기업과 일부 유료 이용자에게 제공되며 무료 접근 범위는 불명확하다.",
+      "whyItMatters": "한 명의 AI보다 여러 에이전트가 작업을 나누는 개발 방식이 확장될 수 있다.",
+      "analysis": "회사 발표 벤치마크보다 실제 충돌 해결과 비용 대비 성공률을 확인해야 한다.",
+      "outlook": "6~24개월: 병렬 코딩 작업의 오류율, 비용, 협업 검증 기능.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1030787/google-gemini-4-carbon-public-rollout"
+        }
+      ]
+    },
+    {
+      "id": "github-rhel-runners",
+      "category": "DEVOPS",
+      "headline": "GitHub Actions에 RHEL 9·10 러너 정식 지원",
+      "facts": "GitHub가 11월 19일 RHEL 9 및 RHEL 10 기반의 호스팅 대형 러너 이미지를 정식 제공한다고 발표했다. 기업이 사용하는 Red Hat 환경과 유사한 CI 테스트를 GitHub Actions에서 실행할 수 있다. 기존 프리뷰에서 정식 지원으로 전환됐다.",
+      "whyItMatters": "기업용 Linux 배포판에서 발생하는 호환성 문제를 CI 단계에서 줄일 수 있다.",
+      "analysis": "개인 프로젝트에는 Ubuntu 러너가 여전히 더 경제적일 수 있다.",
+      "outlook": "6~24개월: 기업 CI 비용과 배포판별 테스트 자동화 확대.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-11-19-red-hat-enterprise-linux-runner-images-now-generally-available/"
+        }
+      ]
+    }
+  ]
+}
