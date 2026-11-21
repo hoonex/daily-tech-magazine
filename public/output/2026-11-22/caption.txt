@@ -1,0 +1,32 @@
+[2026-11-22] 오늘 볼 만한 AI·테크 뉴스 TOP 3
+
+1. 노트북용 코딩 AI 공개
+무슨 일? Thinking Machines가 264억 매개변수의 Inkling 2 Mini를 공개했다. 100만 토큰 문맥과 로컬 실행을 지원한다.
+왜 중요? 고성능 코딩 모델을 개인 장비에서 직접 활용할 선택지가 늘었다.
+다음엔? 32GB 메모리 기기에서 속도와 실제 코딩 성공률 검증.
+
+2. 울산에 거대 AI 데이터센터
+무슨 일? SK그룹과 AWS가 울산에 AI 데이터센터를 개발한다. 2027년 하반기 가동 목표, 초기 용량 103MW.
+왜 중요? 한국 AI 인프라 투자가 수도권 밖으로 확대된다.
+다음엔? 전력망 확보와 2027년 가동 일정 확인.
+
+3. SpaceX의 초대형 GPU 금융
+무슨 일? SpaceX가 NVIDIA GPU와 관련 장비 확보를 위해 약 440억 달러의 부채 금융을 마련했다.
+왜 중요? AI 연산 경쟁이 거대한 자본 조달 경쟁으로 확대됐다.
+다음엔? 2027년 장비 인도와 실제 가동률 확인.
+
+오늘 한 줄: AI는 노트북으로 내려오고, 데이터센터 투자는 거대해진다.
+
+출처
+- Thinking Machines Lab: https://thinkingmachines.ai/news/inkling-2-mini/
+- Reuters: https://www.reuters.com/business/media-telecom/south-koreas-lee-says-speed-is-vital-ai-race-data-centre-visit-2026-11-21/
+- Reuters: https://www.reuters.com/business/media-telecom/apollo-goldman-lead-44-billion-spacex-gpu-debt-financing-2026-11-20/
+- arXiv: https://arxiv.org/abs/2611.26420
+- Reuters: https://www.reuters.com/world/china/tsmc-tightens-china-ai-chip-curbs-new-us-rules-close-manufacturing-loophole-2026-11-19/
+- GitHub: https://github.blog/changelog/2026-11-20-github-enterprise-server-3-23-release-candidate/
+- Steam 공식 공지: https://store.steampowered.com/news/app/2767030/view/703285469074424209
+- GitHub: https://github.blog/changelog/2026-11-19-improvements-on-the-pull-request-overview-in-public-preview/
+- The Verge: https://www.theverge.com/ai-artificial-intelligence/1030787/google-gemini-4-carbon-public-rollout
+- GitHub: https://github.blog/changelog/2026-11-19-red-hat-enterprise-linux-runner-images-now-generally-available/
+
+@daily_tech_magazine · 무단 재업로드/재배포 금지
