@@ -1,0 +1,32 @@
+[2026-11-23] 오늘 볼 만한 AI·테크 뉴스 TOP 3
+
+1. 코딩 AI, 모델 그대로 더 똑똑해졌다
+무슨 일? Hugging Face가 11월 20일 모델과 에이전트 실행 환경을 함께 최적화하는 harness adapter 연구를 발표했다. Qwen3.8-27B와 pi 조합의 Terminal-Ben
+왜 중요? 기존 모델을 교체하지 않고 작은 LoRA 어댑터로 코딩 성능과 비용을 개선할 가능성을 보여준다.
+다음엔? 6~24개월: OpenCode·Codex 같은 하네스별 최적화와 독립 벤치마크.
+
+2. AI가 AMD GPU 회로를 고쳤다
+무슨 일? OpenAI가 AMD와의 칩 설계 협력 성과를 공개했다. AI 모델이 SystemVerilog RTL을 개선해 일부 GPU 회로의 전력·성능·면적(PPA) 지표를 최대 14% 향상했다고 설
+왜 중요? AI가 소프트웨어뿐 아니라 실제 반도체 설계 생산성에도 영향을 주기 시작했다.
+다음엔? 6~24개월: 실제 양산 칩 적용과 전력·성능 검증.
+
+3. 신약 후보 고르는 AI 시험 등장
+무슨 일? OpenAI가 11월 20일 의약화학 추론 평가 MedChemBench를 공개했다. 분자 구조와 실험 결과를 연결해 후보 물질의 성질을 비교하고 다음 실험을 선택하는 능력을 평가한다. 논문
+왜 중요? AI가 과학적 판단을 돕는지 단순 지식 암기를 넘어 측정하려는 시도다.
+다음엔? 6~24개월: 외부 연구실 재현과 실험 설계 성과 비교.
+
+오늘 한 줄: AI는 코드를 넘어 칩을 설계하고, 과학 실험까지 평가받는다.
+
+출처
+- Hugging Face: https://huggingface.co/blog/harness-adapters-at-scale
+- OpenAI: https://openai.com/index/advancing-chip-design-with-our-models/
+- OpenAI: https://openai.com/index/introducing-medchembench/
+- Databricks: https://www.databricks.com/blog/genie-zeroops-now-public-beta-autonomous-agent-fixes-data-pipelines-lessons-80000-customer
+- Tom's Hardware: https://www.tomshardware.com/pc-components/air-cooling/laptop-cooled-by-bounce-house-blower-gets-35-degree-drop-in-temperatures-modder-compares-laptop-cooler-with-increasingly-powerful-fan-setups
+- Wall Street Journal: https://www.wsj.com/tech/ai/nestle-teams-up-with-microsoft-boston-dynamics-on-ai-in-factories-and-products-05bfb028
+- Reuters: https://www.reuters.com/world/china/nvidia-stops-shipping-us-approved-ai-chips-china-2026-11-18/
+- TechRadar: https://www.techradar.com/pro/gigabyte-unveils-its-nvidia-spark-powered-ai-workstation-ai-top-aero-combines-blackwell-architecture-gpu-and-up-to-128-gb-memory-if-you-can-get-one
+- TechRadar: https://www.techradar.com/pro/voltage-glitch-unlocks-80gb-on-nvidias-cmp-170hx-but-faster-than-an-a100-rests-on-a-single-benchmark
+- Google DeepMind: https://deepmind.google/models/model-cards/genie-4/
+
+@daily_tech_magazine · 무단 재업로드/재배포 금지
