@@ -1,204 +1,204 @@
 {
-  "date": "2026-11-22",
-  "edition": 68,
+  "date": "2026-11-23",
+  "edition": 69,
   "brand": "DAILY TECH",
   "handle": "@daily_tech_magazine",
-  "deckTitle": "노트북 AI부터 440억 달러 GPU 금융까지",
-  "deckSubtitle": "로컬 AI·한국 데이터센터·AI 인프라 최신 뉴스 10선",
+  "deckTitle": "코딩 AI 성능 39→55%, 칩 설계도 AI가 바꾼다",
+  "deckSubtitle": "에이전트·GPU·신약 연구·로봇 최신 뉴스 10선",
   "top3": [
-    "inkling-mini-local",
-    "ulsan-ai-datacenter",
-    "spacex-gpu-debt"
+    "harness-adapters-rl",
+    "amd-ai-chip-design",
+    "medchembench-drug-ai"
   ],
-  "dailyAnalysis": "AI 모델은 개인 장비에서도 실행 가능한 방향으로 소형화되고, 동시에 대규모 AI 연산 인프라는 수십억 달러를 넘어 수백억 달러 규모의 자금 조달을 필요로 한다. 한국 울산 데이터센터와 휴머노이드 학습 연구는 AI 경쟁이 지역 인프라와 물리 세계로 확대되고 있음을 보여준다.",
-  "recap": "AI는 노트북으로 내려오고, 데이터센터 투자는 거대해진다.",
+  "dailyAnalysis": "AI는 단순한 대화형 도구에서 특정 개발 환경에 맞춰 최적화되는 작업 도구로 바뀌고 있다. 하네스 어댑터는 코딩 에이전트의 효율을, 칩 설계 사례는 실제 하드웨어 개발 생산성을, MedChemBench는 과학적 판단의 검증을 강조한다. 발표 기업의 자체 성능 수치는 독립 검증이 필요하다.",
+  "recap": "AI는 코드를 넘어 칩을 설계하고, 과학 실험까지 평가받는다.",
   "cover": {
-    "stat": "20GB ↔ 440억 달러",
-    "title": "AI는 작아지고\n인프라 투자는 커진다",
-    "subtitle": "로컬 코딩 AI·울산 데이터센터·GPU 금융"
+    "stat": "39% → 55%",
+    "title": "코딩 AI가 더 정확해졌다\n칩 설계도 바꾼다",
+    "subtitle": "하네스 최적화·AMD 회로·신약 AI 평가"
   },
   "stories": [
     {
-      "id": "inkling-mini-local",
-      "category": "LOCAL AI",
-      "headline": "Inkling 2 Mini, 20GB급 로컬 코딩 AI",
-      "facts": "Thinking Machines Lab이 11월 20일 Inkling 2 Mini를 공개했다. 총 264억 매개변수 중 토큰당 34억 개를 활성화하는 MoE 모델이다. 중간 계층을 세 번 반복하는 구조이며 최대 100만 토큰 문맥을 지원한다. 약 20GB 체크포인트를 공개했지만 공식 권장 메모리는 32GB 이상이다.",
-      "whyItMatters": "코딩 에이전트에 사용할 오픈웨이트 모델을 개인 장비에서도 실행할 수 있다.",
-      "analysis": "DeepSWE 48.2% 등 점수는 개발사 발표이며 실제 소비자 GPU 속도는 별도 검증해야 한다.",
-      "outlook": "6~24개월: 32GB급 기기 성능과 독립 코딩 벤치마크 검증.",
-      "status": "confirmed",
-      "sources": [
-        {
-          "name": "Thinking Machines Lab",
-          "url": "https://thinkingmachines.ai/news/inkling-2-mini/"
-        }
-      ],
-      "card": {
-        "stat": "20GB 모델",
-        "headline": "노트북용 코딩 AI 공개",
-        "what": "Thinking Machines가 264억 매개변수의 Inkling 2 Mini를 공개했다. 100만 토큰 문맥과 로컬 실행을 지원한다.",
-        "why": "고성능 코딩 모델을 개인 장비에서 직접 활용할 선택지가 늘었다.",
-        "next": "32GB 메모리 기기에서 속도와 실제 코딩 성공률 검증.",
-        "hook": "AI 코딩, 로컬로 내려오다"
-      }
-    },
-    {
-      "id": "ulsan-ai-datacenter",
-      "category": "KOREA AI",
-      "headline": "울산에 7조 원 규모 AI 데이터센터",
-      "facts": "이재명 대통령이 11월 21일 울산의 AI 데이터센터 건설 현장을 방문했다. SK그룹과 AWS가 공동 개발하며 2029년까지 7조 원 투자가 예상된다. 2027년 하반기 가동을 목표로 하고 초기 전력 용량은 103MW다. 장기적으로 약 900MW까지 확장 가능성이 제시됐다.",
-      "whyItMatters": "국내 AI 연산 인프라와 반도체 수요가 수도권 밖으로 확대된다.",
-      "analysis": "전력 확보와 전문 인력 공급이 계획 실현의 핵심 변수다.",
-      "outlook": "6~24개월: 2027년 가동 일정, 전력망과 GPU 도입 계약 확인.",
-      "status": "confirmed",
-      "sources": [
-        {
-          "name": "Reuters",
-          "url": "https://www.reuters.com/business/media-telecom/south-koreas-lee-says-speed-is-vital-ai-race-data-centre-visit-2026-11-21/"
-        }
-      ],
-      "card": {
-        "stat": "7조 원",
-        "headline": "울산에 거대 AI 데이터센터",
-        "what": "SK그룹과 AWS가 울산에 AI 데이터센터를 개발한다. 2027년 하반기 가동 목표, 초기 용량 103MW.",
-        "why": "한국 AI 인프라 투자가 수도권 밖으로 확대된다.",
-        "next": "전력망 확보와 2027년 가동 일정 확인.",
-        "hook": "한국 AI 인프라의 새 거점"
-      }
-    },
-    {
-      "id": "spacex-gpu-debt",
-      "category": "AI INFRA",
-      "headline": "SpaceX GPU 확보에 440억 달러 금융 조달",
-      "facts": "Reuters는 Apollo와 Goldman Sachs가 SpaceX의 NVIDIA GPU 및 관련 장비 확보를 위한 약 440억 달러 부채 금융을 마련했다고 보도했다. 수요가 높아 조달 규모가 확대됐다. 차세대 Vera Rubin 장비가 포함되며 2027년 상반기 인도가 예정돼 있다. AI 연산 설비의 대규모 금융 조달 사례다.",
-      "whyItMatters": "AI 인프라가 막대한 장기 자본을 필요로 하는 산업으로 변하고 있다.",
-      "analysis": "부채 규모는 실제 AI 서비스 수익성을 보장하지 않으며 장비 인도와 리스 비용을 살펴야 한다.",
-      "outlook": "6~24개월: GPU 인도, 설비 가동률, 금융 비용 대비 매출 추적.",
-      "status": "confirmed",
-      "sources": [
-        {
-          "name": "Reuters",
-          "url": "https://www.reuters.com/business/media-telecom/apollo-goldman-lead-44-billion-spacex-gpu-debt-financing-2026-11-20/"
-        }
-      ],
-      "card": {
-        "stat": "440억 달러",
-        "headline": "SpaceX의 초대형 GPU 금융",
-        "what": "SpaceX가 NVIDIA GPU와 관련 장비 확보를 위해 약 440억 달러의 부채 금융을 마련했다.",
-        "why": "AI 연산 경쟁이 거대한 자본 조달 경쟁으로 확대됐다.",
-        "next": "2027년 장비 인도와 실제 가동률 확인.",
-        "hook": "AI 칩 확보에 수십조 원"
-      }
-    },
-    {
-      "id": "awaken-hi-humanoid",
-      "category": "ROBOTICS",
-      "headline": "사람 동작 5만 시간으로 휴머노이드 훈련",
-      "facts": "EngineAI 연구진이 Awaken-HI와 Awaken-Human 데이터셋을 공개했다. 약 5만 시간의 1인칭 스테레오 영상과 전신 움직임을 연결하고 100개 넘는 기술을 포함했다. 인간 동작과 로봇 행동을 공동 학습하는 방식이다. 연구진은 T800 로봇의 8개 과제에서 평균 성공률 93.75%를 보고했다.",
-      "whyItMatters": "사람의 행동 데이터를 로봇 훈련에 활용하는 규모가 커지고 있다.",
-      "analysis": "93.75%는 제한된 연구 과제 결과이며 가정이나 공장 전반의 범용 성공률은 아니다.",
-      "outlook": "6~24개월: 미학습 환경과 다른 로봇 플랫폼에서 재현성 검증.",
-      "status": "confirmed",
-      "sources": [
-        {
-          "name": "arXiv",
-          "url": "https://arxiv.org/abs/2611.26420"
-        }
-      ]
-    },
-    {
-      "id": "tsmc-china-curbs",
-      "category": "CHIPS",
-      "headline": "TSMC, 중국 AI 칩 첨단 공정 접근 제한 강화",
-      "facts": "Reuters에 따르면 TSMC가 새로운 미국 규정에 맞춰 중국 반도체 설계사의 첨단 제조 주문을 제한하고 있다. 영향을 받는 16nm 이하 공정은 미국 승인 없이는 주문을 진행하기 어렵다. 28nm와 40nm 공정에도 HBM·첨단 패키징 관련 조건이 붙는다. TSMC는 적용 법규를 준수하겠다고 밝혔다.",
-      "whyItMatters": "중국 AI 칩 개발에서 제조 공정과 패키징 확보가 더 어려워질 수 있다.",
-      "analysis": "규제 대상과 예외는 복잡하며 모든 중국 반도체 주문이 중단된 것은 아니다.",
-      "outlook": "6~24개월: 중국 자체 파운드리 전환과 규정 집행 결과.",
-      "status": "confirmed",
-      "sources": [
-        {
-          "name": "Reuters",
-          "url": "https://www.reuters.com/world/china/tsmc-tightens-china-ai-chip-curbs-new-us-rules-close-manufacturing-loophole-2026-11-19/"
-        }
-      ]
-    },
-    {
-      "id": "ghes-323-security",
-      "category": "DEV SECURITY",
-      "headline": "GitHub 서버, 인터넷 없이 AI로 비밀정보 탐지",
-      "facts": "GitHub Enterprise Server 3.23 릴리스 후보가 11월 20일 공개됐다. 외부 연결이 차단된 환경에서도 CPU에서 실행되는 자체 모델로 비정형 비밀정보를 탐지하는 기능을 프리뷰로 제공한다. 악성 패키지 경고 범위를 PyPI, Rust, Go 등으로 넓혔다. Dependabot 버전 업데이트에 기본 3일 대기 기간도 도입한다.",
-      "whyItMatters": "기업 내부망에서 클라우드 AI 없이 보안 자동화를 운영할 수 있다.",
-      "analysis": "아직 릴리스 후보와 일부 프리뷰 기능이므로 실제 운영 전 검증이 필요하다.",
-      "outlook": "6~24개월: 정식 출시와 오탐률, 패키지 공급망 공격 차단 성과.",
-      "status": "confirmed",
-      "sources": [
-        {
-          "name": "GitHub",
-          "url": "https://github.blog/changelog/2026-11-20-github-enterprise-server-3-23-release-candidate/"
-        }
-      ]
-    },
-    {
-      "id": "marvel-rivals-anniversary",
-      "category": "GAMING",
-      "headline": "Marvel Rivals 2주년 이벤트 시작",
-      "facts": "Marvel Rivals가 11월 19일 패치를 배포했다. 게임 출시 2주년을 기념하는 Rivals' Day 2026 이벤트가 포함됐다. White Fox, Jeff the Land Shark, Rocket Raccoon의 새로운 색상 변형과 시각 효과가 상점에 추가됐다. 패치는 서버 점검 없이 적용된다고 안내됐다.",
-      "whyItMatters": "라이브 서비스 게임이 기념일 이벤트와 꾸미기 콘텐츠로 이용자 참여를 유지하는 사례다.",
-      "analysis": "꾸미기 업데이트 자체가 게임 밸런스나 서버 품질 향상을 뜻하지는 않는다.",
-      "outlook": "6~24개월: 신규 캐릭터와 경쟁전 유지율, 시즌 운영 변화.",
-      "status": "confirmed",
-      "sources": [
-        {
-          "name": "Steam 공식 공지",
-          "url": "https://store.steampowered.com/news/app/2767030/view/703285469074424209"
-        }
-      ]
-    },
-    {
-      "id": "github-pr-overview",
-      "category": "DEVELOPER TOOLS",
-      "headline": "GitHub PR 화면, 병합 방해 요소 더 명확하게",
-      "facts": "GitHub가 11월 19일 새 Pull Request Overview 공개 프리뷰를 개선했다. 선택적 검사가 실패해도 실제 병합 가능한 PR을 막힌 것으로 잘못 표시하지 않도록 수정했다. 해결된 리뷰 스레드는 접히고 강제 푸시 전후 커밋을 비교할 수 있게 됐다. 작은 화면에서도 대상 브랜치 정보가 유지된다.",
-      "whyItMatters": "AI 에이전트가 만든 PR을 검토할 때 병합 상태를 더 정확히 파악할 수 있다.",
-      "analysis": "UI 개선이 코드 품질 자체를 높이는 것은 아니며 자동 검증 설정이 여전히 중요하다.",
-      "outlook": "6~24개월: PR 리뷰 자동화와 에이전트 작업 이력 표시 개선.",
-      "status": "confirmed",
-      "sources": [
-        {
-          "name": "GitHub",
-          "url": "https://github.blog/changelog/2026-11-19-improvements-on-the-pull-request-overview-in-public-preview/"
-        }
-      ]
-    },
-    {
-      "id": "gemini-carbon-swarm",
+      "id": "harness-adapters-rl",
       "category": "AI AGENTS",
-      "headline": "Gemini 4 Carbon, 여러 코딩 에이전트 협업 예고",
-      "facts": "Google이 Gemini 4 Carbon을 공개 배포하며 Antigravity의 swarm 기능을 예고했다. 복잡한 장기 코딩과 과학 연구를 겨냥한다. 한 번의 지시로 여러 에이전트가 협력하는 구조를 프리뷰한다. 개발자·기업과 일부 유료 이용자에게 제공되며 무료 접근 범위는 불명확하다.",
-      "whyItMatters": "한 명의 AI보다 여러 에이전트가 작업을 나누는 개발 방식이 확장될 수 있다.",
-      "analysis": "회사 발표 벤치마크보다 실제 충돌 해결과 비용 대비 성공률을 확인해야 한다.",
-      "outlook": "6~24개월: 병렬 코딩 작업의 오류율, 비용, 협업 검증 기능.",
+      "headline": "Hugging Face, 코딩 에이전트 성능 39%→55%",
+      "facts": "Hugging Face가 11월 20일 모델과 에이전트 실행 환경을 함께 최적화하는 harness adapter 연구를 발표했다. Qwen3.8-27B와 pi 조합의 Terminal-Bench 2.1 점수가 39%에서 55%로 상승했다고 보고했다. 평균 작업 토큰은 2,900개에서 1,500개로 줄었다. 모두 연구진의 특정 실험 조건 결과다.",
+      "whyItMatters": "기존 모델을 교체하지 않고 작은 LoRA 어댑터로 코딩 성능과 비용을 개선할 가능성을 보여준다.",
+      "analysis": "다른 저장소·작업에서도 재현되는지, 학습 비용을 포함해 경제적인지 검증해야 한다.",
+      "outlook": "6~24개월: OpenCode·Codex 같은 하네스별 최적화와 독립 벤치마크.",
       "status": "confirmed",
       "sources": [
         {
-          "name": "The Verge",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1030787/google-gemini-4-carbon-public-rollout"
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/blog/harness-adapters-at-scale"
+        }
+      ],
+      "card": {
+        "stat": "39% → 55%",
+        "headline": "코딩 AI, 모델 그대로 더 똑똑해졌다",
+        "what": "Hugging Face가 11월 20일 모델과 에이전트 실행 환경을 함께 최적화하는 harness adapter 연구를 발표했다. Qwen3.8-27B와 pi 조합의 Terminal-Ben",
+        "why": "기존 모델을 교체하지 않고 작은 LoRA 어댑터로 코딩 성능과 비용을 개선할 가능성을 보여준다.",
+        "next": "6~24개월: OpenCode·Codex 같은 하네스별 최적화와 독립 벤치마크.",
+        "hook": "작은 어댑터, 큰 성능 변화"
+      }
+    },
+    {
+      "id": "amd-ai-chip-design",
+      "category": "CHIPS",
+      "headline": "AI가 AMD 차세대 GPU 회로를 최적화",
+      "facts": "OpenAI가 AMD와의 칩 설계 협력 성과를 공개했다. AI 모델이 SystemVerilog RTL을 개선해 일부 GPU 회로의 전력·성능·면적(PPA) 지표를 최대 14% 향상했다고 설명했다. CPU 회로에서도 한 자릿수 개선을 보고했다. 설계 작업 기간 단축 수치는 기업 측 추정이다.",
+      "whyItMatters": "AI가 소프트웨어뿐 아니라 실제 반도체 설계 생산성에도 영향을 주기 시작했다.",
+      "analysis": "최대 개선치가 모든 칩에 적용되는 것은 아니며 물리 설계 검증이 필수다.",
+      "outlook": "6~24개월: 실제 양산 칩 적용과 전력·성능 검증.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/advancing-chip-design-with-our-models/"
+        }
+      ],
+      "card": {
+        "stat": "최대 14%",
+        "headline": "AI가 AMD GPU 회로를 고쳤다",
+        "what": "OpenAI가 AMD와의 칩 설계 협력 성과를 공개했다. AI 모델이 SystemVerilog RTL을 개선해 일부 GPU 회로의 전력·성능·면적(PPA) 지표를 최대 14% 향상했다고 설",
+        "why": "AI가 소프트웨어뿐 아니라 실제 반도체 설계 생산성에도 영향을 주기 시작했다.",
+        "next": "6~24개월: 실제 양산 칩 적용과 전력·성능 검증.",
+        "hook": "반도체 설계도 AI가 한다"
+      }
+    },
+    {
+      "id": "medchembench-drug-ai",
+      "category": "AI SCIENCE",
+      "headline": "신약 후보 판단하는 AI, 새 시험대에",
+      "facts": "OpenAI가 11월 20일 의약화학 추론 평가 MedChemBench를 공개했다. 분자 구조와 실험 결과를 연결해 후보 물질의 성질을 비교하고 다음 실험을 선택하는 능력을 평가한다. 논문과 특허에서 도출한 99개 문제와 761개 분자 구조가 포함됐다. 공개 점수는 개발사 자체 평가다.",
+      "whyItMatters": "AI가 과학적 판단을 돕는지 단순 지식 암기를 넘어 측정하려는 시도다.",
+      "analysis": "벤치마크 점수가 실제 신약 개발 성공이나 임상 효능을 뜻하지 않는다.",
+      "outlook": "6~24개월: 외부 연구실 재현과 실험 설계 성과 비교.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/introducing-medchembench/"
+        }
+      ],
+      "card": {
+        "stat": "99문항",
+        "headline": "신약 후보 고르는 AI 시험 등장",
+        "what": "OpenAI가 11월 20일 의약화학 추론 평가 MedChemBench를 공개했다. 분자 구조와 실험 결과를 연결해 후보 물질의 성질을 비교하고 다음 실험을 선택하는 능력을 평가한다. 논문",
+        "why": "AI가 과학적 판단을 돕는지 단순 지식 암기를 넘어 측정하려는 시도다.",
+        "next": "6~24개월: 외부 연구실 재현과 실험 설계 성과 비교.",
+        "hook": "과학 AI의 실력 검증"
+      }
+    },
+    {
+      "id": "databricks-zeroops-beta",
+      "category": "AI AGENTS",
+      "headline": "데이터 장애를 찾아 PR 만드는 AI 공개 베타",
+      "facts": "Databricks가 11월 19일 Genie ZeroOps 공개 베타를 발표했다. 8만 건 이상 고객 파이프라인 문제를 분석한 경험을 바탕으로 장애를 탐지하고 원인을 추적한다. 공유 받은 편지함과 사용자 지침, 원클릭 PR 기능을 제공한다. 운영 환경 변경에는 담당자 승인이 필요하다.",
+      "whyItMatters": "에이전트가 개발뿐 아니라 서비스 운영 중 발생하는 장애 대응까지 확장된다.",
+      "analysis": "자동 진단은 유용하지만 잘못된 수정 제안과 권한 설정을 관리해야 한다.",
+      "outlook": "6~24개월: 실제 장애 복구 시간과 승인 후 수정 성공률.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Databricks",
+          "url": "https://www.databricks.com/blog/genie-zeroops-now-public-beta-autonomous-agent-fixes-data-pipelines-lessons-80000-customer"
         }
       ]
     },
     {
-      "id": "github-rhel-runners",
-      "category": "DEVOPS",
-      "headline": "GitHub Actions에 RHEL 9·10 러너 정식 지원",
-      "facts": "GitHub가 11월 19일 RHEL 9 및 RHEL 10 기반의 호스팅 대형 러너 이미지를 정식 제공한다고 발표했다. 기업이 사용하는 Red Hat 환경과 유사한 CI 테스트를 GitHub Actions에서 실행할 수 있다. 기존 프리뷰에서 정식 지원으로 전환됐다.",
-      "whyItMatters": "기업용 Linux 배포판에서 발생하는 호환성 문제를 CI 단계에서 줄일 수 있다.",
-      "analysis": "개인 프로젝트에는 Ubuntu 러너가 여전히 더 경제적일 수 있다.",
-      "outlook": "6~24개월: 기업 CI 비용과 배포판별 테스트 자동화 확대.",
+      "id": "laptop-blower-cooling",
+      "category": "PC HARDWARE",
+      "headline": "게임 노트북에 대형 송풍기, GPU 35도 하락",
+      "facts": "한 하드웨어 실험자가 게임 노트북 냉각 방법을 비교했다. 기본 GPU 온도 약 84도에서 공기 주입용 대형 송풍기를 사용하자 약 48.8도로 내려갔다. Cyberpunk 프레임은 47에서 56FPS로 증가했다. 매우 시끄럽고 노트북이 들릴 정도의 풍량이 필요해 실용적인 제품 추천은 아니다.",
+      "whyItMatters": "냉각 개선이 노트북 게임 성능에 어느 정도 영향을 주는지 보여주는 극단적인 실험이다.",
+      "analysis": "온도 개선이 일정 수준을 넘으면 다른 병목 때문에 FPS 상승폭이 작아진다.",
+      "outlook": "6~24개월: 저소음 냉각 받침대의 실측 성능과 노트북 설계 개선.",
       "status": "confirmed",
       "sources": [
         {
-          "name": "GitHub",
-          "url": "https://github.blog/changelog/2026-11-19-red-hat-enterprise-linux-runner-images-now-generally-available/"
+          "name": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/pc-components/air-cooling/laptop-cooled-by-bounce-house-blower-gets-35-degree-drop-in-temperatures-modder-compares-laptop-cooler-with-increasingly-powerful-fan-setups"
+        }
+      ]
+    },
+    {
+      "id": "nestle-autonomous-factory",
+      "category": "ROBOTICS",
+      "headline": "네슬레, 식품 공장 자율 운영에 도전",
+      "facts": "네슬레가 스위스 Orbe의 기술 시설에서 AI·센서·로봇을 결합한 자율 생산 공정을 추진하고 있다. Microsoft와 Boston Dynamics와 협력하며 Google과도 협력을 논의 중이다. 먼저 핵심 제조 공정 10개를 대상으로 단계적으로 자동화할 계획이다. 원재료 품질이 매번 달라지는 식품 생산 특성 때문에 사람의 판단도 유지한다.",
+      "whyItMatters": "AI 로봇이 반복 조립을 넘어 변수가 많은 식품 제조에 도입되는 사례다.",
+      "analysis": "완전 무인 공장 완성 발표가 아니라 단계적 연구·도입 계획이다.",
+      "outlook": "6~24개월: 실제 공정별 생산성·불량률·안전성 결과.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Wall Street Journal",
+          "url": "https://www.wsj.com/tech/ai/nestle-teams-up-with-microsoft-boston-dynamics-on-ai-in-factories-and-products-05bfb028"
+        }
+      ]
+    },
+    {
+      "id": "nvidia-china-hopper-shipment",
+      "category": "AI MARKET",
+      "headline": "NVIDIA, 중국행 허가 GPU 출하 중단",
+      "facts": "Reuters는 NVIDIA가 미국 허가를 받은 Hopper 계열 데이터센터 칩의 중국 출하를 중단했다고 11월 18일 보도했다. 직전 분기에 H200 등을 포함해 24억 달러어치를 판매했다. 회사는 현재 전망에 추가 출하를 반영하지 않았다. 중단이 영구적인지와 정확한 이유는 공개되지 않았다.",
+      "whyItMatters": "AI GPU의 공급은 제품 성능만큼 국가별 정책과 수입 승인에 좌우된다.",
+      "analysis": "중단 원인을 단일 규제로 확정해서는 안 된다.",
+      "outlook": "6~24개월: 양국 허가 정책과 대체 GPU 채택.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/world/china/nvidia-stops-shipping-us-approved-ai-chips-china-2026-11-18/"
+        }
+      ]
+    },
+    {
+      "id": "gigabyte-ai-top-aero",
+      "category": "PC HARDWARE",
+      "headline": "128GB 메모리 초소형 AI PC 등장",
+      "facts": "GIGABYTE가 NVIDIA RTX Spark 기반 AI TOP AERO 소형 워크스테이션을 공개했다. Grace 20코어 CPU와 Blackwell GPU, 최대 128GB 통합 메모리를 결합한다. LM Studio·Ollama 같은 로컬 AI 도구를 겨냥한다. 판매 가격과 실제 구매 가능 시점은 아직 발표되지 않았다.",
+      "whyItMatters": "큰 모델을 로컬에서 실행할 수 있는 소형 PC 선택지가 확대된다.",
+      "analysis": "메모리 용량이 크더라도 실제 추론 속도와 가격 대비 성능은 별도 평가해야 한다.",
+      "outlook": "6~24개월: 판매 가격·냉각·로컬 모델 처리량 검증.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "TechRadar",
+          "url": "https://www.techradar.com/pro/gigabyte-unveils-its-nvidia-spark-powered-ai-workstation-ai-top-aero-combines-blackwell-architecture-gpu-and-up-to-128-gb-memory-if-you-can-get-one"
+        }
+      ]
+    },
+    {
+      "id": "nvidia-cmp-80gb-unlock",
+      "category": "GPU SECURITY",
+      "headline": "채굴 GPU에서 80GB 메모리 잠금 해제",
+      "facts": "연구자가 NVIDIA CMP 170HX의 부팅 중 전압 오류 주입을 이용해 비활성화된 기능을 일부 활성화했다. 최대 80GB HBM2e 메모리 접근을 보고했다. 한 OpenCL 시험에서는 A100보다 높은 FP16 수치가 나왔다. 하지만 텐서 코어와 안정성 등은 검증되지 않았고 물리적 개조 위험이 크다.",
+      "whyItMatters": "GPU 하드웨어 기능 제한과 칩 보안의 취약점을 보여준다.",
+      "analysis": "단일 벤치마크로 A100보다 빠른 범용 AI GPU라고 판단할 수 없다.",
+      "outlook": "6~24개월: 칩 제조사의 결함 대응과 재현성 검증.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "TechRadar",
+          "url": "https://www.techradar.com/pro/voltage-glitch-unlocks-80gb-on-nvidias-cmp-170hx-but-faster-than-an-a100-rests-on-a-single-benchmark"
+        }
+      ]
+    },
+    {
+      "id": "genie4-world-model-card",
+      "category": "GAME DEV",
+      "headline": "Genie 4, 소리까지 만드는 가상 세계 모델",
+      "facts": "Google DeepMind가 11월 18일 Genie 4 모델 카드를 공개했다. 이 시스템은 실시간 상호작용 세계를 생성하면서 환경음·음악·대화 등 오디오를 함께 생성한다. 로봇 및 AI 에이전트의 시뮬레이션 환경으로도 활용을 연구한다. 일반 사용자가 자유롭게 이용하는 공개 모델은 아니다.",
+      "whyItMatters": "게임 개발과 로봇 훈련에서 동적 가상 환경 생성 기술의 잠재력을 보여준다.",
+      "analysis": "영상의 사실감과 물리 법칙의 정확성은 별개다.",
+      "outlook": "6~24개월: 개발자 접근 범위와 시뮬레이션 정확도 검증.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Google DeepMind",
+          "url": "https://deepmind.google/models/model-cards/genie-4/"
         }
       ]
     }
